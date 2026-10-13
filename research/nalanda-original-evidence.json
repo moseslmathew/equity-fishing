@@ -1,0 +1,29 @@
+[
+  {
+    "company": "Havells India Limited",
+    "holder": "NALANDA INDIA EQUITY FUND LIMITED",
+    "date": "2026-09-30",
+    "shares": 25536718,
+    "stake": 4.07,
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734459_08102026053816_WEB.xml",
+    "sha256": "e585a0b753ed5d950caa63dd516a59b602c63bffdbbd81d70cfe97180b35ddf4"
+  },
+  {
+    "company": "Ratnamani Metals & Tubes Limited",
+    "holder": "Nalanda India Fund Limited",
+    "date": "2026-06-30",
+    "shares": 2696804,
+    "stake": 3.85,
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691971_14072026123104_WEB.xml",
+    "sha256": "33640ebdb57a3bbd70051f374c5d183496ddd3668ecc2b8b528c1bdfda24573c"
+  },
+  {
+    "company": "Ratnamani Metals & Tubes Limited",
+    "holder": "Nalanda India Equity Fund Limited",
+    "date": "2026-06-30",
+    "shares": 2082858,
+    "stake": 2.97,
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691971_14072026123104_WEB.xml",
+    "sha256": "33640ebdb57a3bbd70051f374c5d183496ddd3668ecc2b8b528c1bdfda24573c"
+  }
+]

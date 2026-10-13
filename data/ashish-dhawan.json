@@ -1,0 +1,558 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "12 disclosed personal holdings cross-checked across providers: 11 June 30, 2026 snapshots and one August 31 SAST event for Religare. September rows inspected on Trendlyne remain Filing Awaited; no June values are relabelled September. Only registered personal holdings are included; ChrysCapital fund positions are excluded. Percentages refer to company equity, not portfolio allocation. Religare voting stake excludes warrants and differs from diluted ownership. Quantities corroborated against explicitly dated June tables; older Rediff rows are not treated as June evidence. Reporting thresholds, provider lag and missing filings prevent a complete or live portfolio claim. Original exchange documents were not independently inspected; all entries are provider cross-checks.",
+  "sources": {
+    "finology": {
+      "name": "Finology \u2014 personal portfolio, June 2026",
+      "url": "https://ticker.finology.in/investor/ashish-dhawan"
+    },
+    "block": {
+      "name": "Block.deal \u2014 exact named holder and reporting dates",
+      "url": "https://block.deal/entities/ashish-dhawan/"
+    },
+    "solomo": {
+      "name": "Solomo \u2014 individual June 2026 disclosed portfolio",
+      "url": "https://solomo.ai/investor/ashishdhawan/"
+    },
+    "rediff": {
+      "name": "Rediff Moneywiz \u2014 personal holder, row dates vary",
+      "url": "https://money.rediff.com/companies/shareholder/starportfolio/portfolio?id=5718b936-8ec9-4929-8128-7c5965330ffc"
+    },
+    "trendlyne": {
+      "name": "Trendlyne \u2014 September filing availability; June history",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53745/Q3-2026/ashish-dhawan/"
+    },
+    "religare-bs": {
+      "name": "Business Standard / Capital Market \u2014 August 31 SAST acquisition",
+      "url": "https://www.business-standard.com/amp/markets/capital-market-news/religare-enterprises-rises-as-ashish-dhawan-raises-stake-further-126090100615_1.html?isa=yes"
+    },
+    "religare-feed": {
+      "name": "InvestorFeed \u2014 August 31 post-acquisition disclosed holding",
+      "url": "https://investorfeed.in/posts/ashish-dhawan-increases-stake-in-1w7tutb"
+    },
+    "religare-scanx": {
+      "name": "ScanX \u2014 August 31 voting and diluted capital distinction",
+      "url": "https://scanx.trade/stock-market-news/companies/ashish-dhawan-acquires-36-lakh-religare-enterprises-shares/49723682"
+    },
+    "trendlyne-june": {
+      "name": "Trendlyne \u2014 June 30 personal portfolio and quantities",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53745/Q2-2026/ashish-dhawan-portfolio/"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Bluspring Enterprises Limited",
+      "stake": 6.42,
+      "shares": 9594503,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 6.42%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 6.42%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 6.42%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 9,594,503 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 9,594,503 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 9,594,503 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Palred Technologies Limited",
+      "stake": 5.54,
+      "shares": 678189,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 5.54%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 5.54%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 5.54%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 678,189 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 678,189 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 678,189 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "AGI Greenpac Limited",
+      "stake": 4.79,
+      "shares": 3100000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 4.79%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 4.79%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 4.79%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 3,100,000 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 3,100,000 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 3,100,000 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Digitide Solutions Limited",
+      "stake": 4.09,
+      "shares": 6098401,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 4.09%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 4.09%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 4.09%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 6,098,401 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 6,098,401 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 6,098,401 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Greenlam Industries Limited",
+      "stake": 3.77,
+      "shares": 9628420,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 3.77%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 3.77%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 3.77%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 9,628,420 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 9,628,420 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 9,628,420 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "RPSG Ventures Limited",
+      "stake": 3.73,
+      "shares": 1234286,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 3.73%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 3.73%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 3.73%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 1,234,286 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 1,234,286 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 1,234,286 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Quess Corp Limited",
+      "stake": 4.9,
+      "shares": 7312080,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 4.90%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 4.90%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 4.90%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 7,312,080 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 7,312,080 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 7,312,080 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Mahindra & Mahindra Financial Services Limited",
+      "stake": 1.05,
+      "shares": 14600000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 1.05%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 1.05%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 1.05%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 14,600,000 equity shares."
+        },
+        {
+          "source": "rediff",
+          "observation": "June 2026: 14,600,000 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 14,600,000 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Northern Arc Capital Limited",
+      "stake": 2.17,
+      "shares": 3500000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 2.17%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 2.17%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 2.17%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Row carries December 2025, not June 2026; not used for same-date corroboration."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 3,500,000 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Dish TV India Limited",
+      "stake": 1.57,
+      "shares": 28957491,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "rediff",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 1.57%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 1.57%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 1.57%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Row carries December 2025, not June 2026; not used for same-date corroboration."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 28,957,491 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "IIFL Finance Limited",
+      "stake": 1.33,
+      "shares": 5673406,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal registered holder only; excludes ChrysCapital investment vehicles. September disclosure not confirmed.",
+      "sources": [
+        "finology",
+        "block",
+        "solomo",
+        "trendlyne",
+        "trendlyne-june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 1.33%."
+        },
+        {
+          "source": "block",
+          "observation": "June 2026: 1.33%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026: 1.33%."
+        },
+        {
+          "source": "block",
+          "observation": "2026-06-30: 5,673,406 equity shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June 2026: 5,673,406 shares."
+        },
+        {
+          "source": "trendlyne-june",
+          "observation": "June 30, 2026 portfolio table: 5,673,406 shares; percentage is rounded to one decimal here, not used for exact stake."
+        }
+      ]
+    },
+    {
+      "name": "Religare Enterprises Limited",
+      "stake": 7.41,
+      "shares": 25281090,
+      "holder": "direct",
+      "date": "2026-08-31",
+      "basis": "Post-acquisition voting equity ownership \u2014 personal holder, SAST event",
+      "note": "Latest cross-checked acquisition disclosure; not a September quarter-end filing. Equity stake excludes 3,619,148 warrants. The separately reported 7.28% uses diluted capital and includes warrants. June trackers still display the earlier 5.24%; dates explain the difference. Original exchange SAST document not independently inspected.",
+      "sources": [
+        "religare-bs",
+        "religare-feed",
+        "religare-scanx",
+        "finology",
+        "block"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "religare-bs",
+          "observation": "31 August 2026 post-acquisition: 7.41% voting equity, 25,281,090 shares; 7.28% separately diluted including warrants."
+        },
+        {
+          "source": "religare-feed",
+          "observation": "31 August 2026: 25,281,090 voting shares, 7.41%."
+        },
+        {
+          "source": "religare-scanx",
+          "observation": "31 August 2026: 7.41% voting stake; 25,281,090 shares."
+        },
+        {
+          "source": "finology",
+          "observation": "June 2026: 5.24%, earlier snapshot."
+        },
+        {
+          "source": "block",
+          "observation": "30 June 2026: 5.24%, earlier snapshot; later bulk buys do not alone establish final stake."
+        }
+      ]
+    }
+  ]
+}

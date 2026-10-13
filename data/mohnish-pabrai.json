@@ -1,0 +1,142 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "Two Indian-listed investments in the Pabrai Wagons ETF June 2026 audited schedule; these are fund investments, not Mohnish Pabrai\u2019s personal shares or his complete global/private-fund portfolio. Edelweiss company ownership is corroborated at 1.54%; Nuvama ownership percentage is withheld because a matching company-equity denominator was not independently reconciled. The predecessor Fund and successor ETF appear on opposite sides of matching October 1 transactions. That is not evidence of a manager exit or an additional net purchase; no transfer quantity is added to June holdings. Latest cross-checked ownership snapshot remains June 30, not a live October portfolio. Finology\u2019s one-company tracker misses the below-threshold Nuvama fund investment.",
+  "sources": {
+    "finology": {
+      "name": "Finology \u2014 Mohnish Pabrai tracker",
+      "url": "https://ticker.finology.in/investor/mohnish-pabrai"
+    },
+    "nse-june": {
+      "name": "NSE original Edelweiss shareholding XML \u2014 30 June 2026",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696956_20072026044439_WEB.xml"
+    },
+    "sec-june": {
+      "name": "SEC \u2014 Pabrai Wagons ETF audited annual schedule, 30 June 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/811030/000113322826012211/pweft-efp26982_ncsr.htm"
+    },
+    "investing-edel": {
+      "name": "Investing.com \u2014 named Edelweiss owners, 30 June 2026",
+      "url": "https://www.investing.com/equities/edelweiss-financial-services-ownership"
+    },
+    "dividend-nuvama": {
+      "name": "Dividend Seeker \u2014 Nuvama fund holdings, 30 June 2026",
+      "url": "https://dividend-seeker.com/funds-holding/NUVAMA"
+    },
+    "block-fund": {
+      "name": "Block.deal \u2014 Pabrai Wagons Fund registered-holder history",
+      "url": "https://block.deal/entities/pabrai-wagons-fund/"
+    },
+    "block-etf": {
+      "name": "Block.deal \u2014 Pabrai Wagons ETF disclosed transactions",
+      "url": "https://block.deal/entities/pabrai-wagons-etf/"
+    },
+    "trend-edel": {
+      "name": "Trendlyne \u2014 Edelweiss October 2026 transactions",
+      "url": "https://trendlyne.com/equity/bulk-block-deals/EDELWEISS/357/edelweiss-financial-services-ltd/"
+    },
+    "nuvama-deal": {
+      "name": "Nuvama Wealth \u2014 October 2026 named block-deal participants",
+      "url": "https://www.nuvamawealth.com/stocks/NUVAMA-share-price-NSE"
+    },
+    "conversion": {
+      "name": "Pabrai Wagons ETF \u2014 official fund conversion disclosure",
+      "url": "https://www.wagonsetf.com/"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Edelweiss Financial Services Limited",
+      "stake": 1.54,
+      "shares": 14572000,
+      "holder": "Pabrai Wagons ETF",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 managed fund; original Indian register retains predecessor Pabrai Wagons Fund name",
+      "note": "Not personal ownership. Original Indian filing names Pabrai Wagons Fund; SEC and Investing.com identify successor Pabrai Wagons ETF with the same quantity. Official conversion was effective February 2026. Matching Fund sale and ETF purchase on October 1 are retained as context, not counted as two holdings or interpreted as a manager exit. No current-date ownership claim.",
+      "sources": [
+        "nse-june",
+        "sec-june",
+        "investing-edel",
+        "finology",
+        "conversion",
+        "block-fund",
+        "block-etf",
+        "trend-edel"
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "nse-june",
+          "observation": "Original XML: DateOfReport 2026-06-30; Pabrai Wagons Fund; fully paid shares 14,572,000; ShareholdingAsAPercentageOfTotalNumberOfShares 0.0154 (1.54%). Fully diluted percentage is a different 0.0152 and is not substituted."
+        },
+        {
+          "source": "sec-june",
+          "observation": "Audited June 30 schedule identifies Pabrai Wagons ETF holding 14,572,000 Edelweiss shares; report describes predecessor asset acquisition."
+        },
+        {
+          "source": "investing-edel",
+          "observation": "Professionally Managed Portfolios \u2014 Pabrai Wagons ETF: 1.54%, 14,572,000 shares, Jun 30 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June 2026 portfolio headline 1.54%; vehicle identity resolved using original filings."
+        },
+        {
+          "source": "conversion",
+          "observation": "Official website: predecessor Fund converted to ETF February 9, 2026."
+        },
+        {
+          "source": "block-fund",
+          "observation": "October 1 Fund sale 14,572,000 shares. Bulk and block presentations must not be added twice."
+        },
+        {
+          "source": "block-etf",
+          "observation": "October 1 ETF purchase of matching 14,572,000 shares."
+        },
+        {
+          "source": "trend-edel",
+          "observation": "October 1 ETF purchase independently corroborates matching 14,572,000 quantity."
+        }
+      ]
+    },
+    {
+      "name": "Nuvama Wealth Management Limited",
+      "stake": null,
+      "shares": 557092,
+      "holder": "Pabrai Wagons ETF",
+      "date": "2026-06-30",
+      "basis": "Confirmed managed-fund investment; company ownership percentage pending reconciliation",
+      "note": "Audited SEC schedule and a second provider agree on 557,092 shares as of June 30. The reported 5.0\u20135.08% is ETF portfolio allocation, not percentage ownership of Nuvama, so it is not shown as company stake. On October 1 the predecessor Fund sold and ETF bought matching 520,420 shares; trade quantity is not a final holding and is not added to the June quantity. Current ownership percentage is pending.",
+      "sources": [
+        "sec-june",
+        "dividend-nuvama",
+        "block-fund",
+        "block-etf",
+        "nuvama-deal",
+        "conversion"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "sec-june",
+          "observation": "June 30 audited ETF schedule: Nuvama 557,092 shares. Portfolio weight is approximately 5%, not company equity ownership."
+        },
+        {
+          "source": "dividend-nuvama",
+          "observation": "June 30 Pabrai Wagons ETF 557,092 shares; 5.08% provider figure is fund portfolio weight."
+        },
+        {
+          "source": "block-fund",
+          "observation": "October 1 registered Fund seller: 520,420 Nuvama shares."
+        },
+        {
+          "source": "block-etf",
+          "observation": "October 1 registered ETF buyer: matching 520,420 Nuvama shares."
+        },
+        {
+          "source": "nuvama-deal",
+          "observation": "October 1 Fund seller and ETF buyer at 520,420 shares, 0.28% transaction size; not final ownership."
+        }
+      ]
+    }
+  ]
+}

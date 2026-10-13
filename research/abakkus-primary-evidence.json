@@ -1,0 +1,29 @@
+[
+  {
+    "company": "Carysil Limited",
+    "holder": "ABAKKUS EMERGING OPPORTUNITIES FUND-1",
+    "date": "2026-09-30",
+    "shares": 1519981,
+    "stake": 5.34,
+    "source": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734144_08102026123442_WEB.xml",
+    "sha256": "718b1f48612d46cf265d2302e41edc4a7b2e7fd1f43ab9c165bd1a06c33a98aa"
+  },
+  {
+    "company": "J. Kumar Infraprojects Limited",
+    "holder": "ABAKKUS GROWTH FUND-2",
+    "date": "2026-09-30",
+    "shares": 1873547,
+    "stake": 2.48,
+    "source": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733785_07102026032917_WEB.xml",
+    "sha256": "570cc3d009348cb00d2bd306aba544919cf6cf53758bb4ec1b26f485dffd699f"
+  },
+  {
+    "company": "The Anup Engineering Limited",
+    "holder": "Abakkus Emerging Opportunities Fund-1",
+    "date": "2026-06-30",
+    "shares": 715229,
+    "stake": 3.57,
+    "source": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697724_21072026104733_WEB.xml",
+    "sha256": "c5fd59e16bd20cf39385040e67414497a58099739ee73afd0d98d89a31f68e8f"
+  }
+]

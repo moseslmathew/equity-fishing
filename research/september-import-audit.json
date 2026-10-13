@@ -1,0 +1,190 @@
+[
+  {
+    "fundId": "dsp",
+    "currentEquities": 84,
+    "previousEquities": 83,
+    "currentWeightSum": 88.67,
+    "previousProviderQuantityDiscrepancies": [],
+    "top15": [
+      {
+        "key": "INE872H01027",
+        "name": "Lumax Auto Technologies Limited",
+        "weight": 5.16
+      },
+      {
+        "key": "INE146L01010",
+        "name": "Kirloskar Oil Engines Limited",
+        "weight": 3.77
+      },
+      {
+        "key": "INE085J01014",
+        "name": "Thangamayil Jewellery Limited",
+        "weight": 3.37
+      },
+      {
+        "key": "INE191B01025",
+        "name": "Welspun Corp Limited",
+        "weight": 2.94
+      },
+      {
+        "key": "INE953O01021",
+        "name": "Sansera Engineering Limited",
+        "weight": 2.85
+      },
+      {
+        "key": "INE526E01018",
+        "name": "Spr Auto Technologies Limited",
+        "weight": 2.34
+      },
+      {
+        "key": "INE571A01038",
+        "name": "IPCA Laboratories Limited",
+        "weight": 2.14
+      },
+      {
+        "key": "INE738I01010",
+        "name": "eClerx Services Limited",
+        "weight": 2.02
+      },
+      {
+        "key": "INE021O01019",
+        "name": "Dodla Dairy Limited",
+        "weight": 1.96
+      },
+      {
+        "key": "INE0BY001018",
+        "name": "Jubilant Ingrevia Limited",
+        "weight": 1.83
+      },
+      {
+        "key": "INE818H01020",
+        "name": "LT Foods Limited",
+        "weight": 1.82
+      },
+      {
+        "key": "INE068V01023",
+        "name": "Gland Pharma Limited",
+        "weight": 1.78
+      },
+      {
+        "key": "INE00F201020",
+        "name": "Prudent Corporate Advisory Services Limited",
+        "weight": 1.71
+      },
+      {
+        "key": "INE338H01029",
+        "name": "Concord Biotech Limited",
+        "weight": 1.68
+      },
+      {
+        "key": "INE0JUS01029",
+        "name": "Harsha Engineers International Limited",
+        "weight": 1.53
+      }
+    ],
+    "files": [
+      {
+        "filename": "DSP Equity FOF ISIN Portfolio as on 30 Sep 2026.xlsx",
+        "sha256": "7cbbf16bc1a71812f8c2c1e5a9ccf05d2992474d7dd2610924caf3e03bf09c4e"
+      },
+      {
+        "filename": "DSP EquityFOF ISIN Portfolio as on 31 Aug 2026.xlsx",
+        "sha256": "11d4492f5be1798bc6bb583d94a3286c7c990542b3abe1118b7a9c9f3e7c36ce"
+      }
+    ]
+  },
+  {
+    "fundId": "nippon",
+    "currentEquities": 256,
+    "previousEquities": 254,
+    "currentWeightSum": 97.38,
+    "previousProviderQuantityDiscrepancies": [],
+    "top15": [
+      {
+        "key": "INE419M01035",
+        "name": "TD Power Systems Limited",
+        "weight": 1.88
+      },
+      {
+        "key": "INE257A01026",
+        "name": "Bharat Heavy Electricals Limited",
+        "weight": 1.77
+      },
+      {
+        "key": "INE040A01034",
+        "name": "HDFC Bank Limited",
+        "weight": 1.75
+      },
+      {
+        "key": "INE372A01015",
+        "name": "Apar Industries Limited",
+        "weight": 1.74
+      },
+      {
+        "key": "INE622W01025",
+        "name": "Acme Solar Holdings Ltd",
+        "weight": 1.33
+      },
+      {
+        "key": "INE036D01028",
+        "name": "Karur Vysya Bank Limited",
+        "weight": 1.28
+      },
+      {
+        "key": "INE570L01029",
+        "name": "Sai Life Sciences Limited",
+        "weight": 1.24
+      },
+      {
+        "key": "INE387A01021",
+        "name": "Sundram Fasteners Limited",
+        "weight": 1.2
+      },
+      {
+        "key": "INE062A01020",
+        "name": "State Bank of India",
+        "weight": 1.19
+      },
+      {
+        "key": "INE280B01018",
+        "name": "Elantas Beck India Limited",
+        "weight": 1.16
+      },
+      {
+        "key": "INE745G01043",
+        "name": "Multi Commodity Exchange of India Limited",
+        "weight": 1.14
+      },
+      {
+        "key": "INE0LCL01028",
+        "name": "Avalon Technologies Limited",
+        "weight": 1.1
+      },
+      {
+        "key": "INE768C01028",
+        "name": "Zydus Wellness Limited",
+        "weight": 1.09
+      },
+      {
+        "key": "INE030A01027",
+        "name": "Hindustan Unilever Limited",
+        "weight": 1.05
+      },
+      {
+        "key": "INE732A01036",
+        "name": "Kirloskar Brothers Limited",
+        "weight": 0.99
+      }
+    ],
+    "files": [
+      {
+        "filename": "nippon.xls",
+        "sha256": "f8b25cedeecdd9912e0b4b19f74714fc849bae4dae0cb494c4863fde42a178d1"
+      },
+      {
+        "filename": "nippon-aug.xls",
+        "sha256": "46f1f9e9d6ba7b63006f3b59feb9a487c5beb02e198d5df946d381c3754adf45"
+      }
+    ]
+  }
+]

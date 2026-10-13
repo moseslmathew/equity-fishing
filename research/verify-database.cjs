@@ -1,0 +1,28 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const seed=require('../data/seed.json'),full=require('../data/full-portfolio-seed.json');
+const legacy=structuredClone(seed);legacy.checkedAt='2026-10-11T12:00:00Z';legacy.funds[0].notes.push('Legacy evidence retained in migration test');legacy.funds[0].lastCheckedAt=legacy.checkedAt;
+const older=structuredClone(legacy.funds[0]);older.lastCheckedAt='2026-09-01T00:00:00Z';older.notes=['Older record must not overwrite newer data'];
+const fresh=structuredClone(full[0]);fresh.checkedAt='2026-10-11T12:00:00Z';fresh.notes.push('Legacy full-comparison evidence retained');
+let requests=0;
+const archive=new Map([['portfolio/current.json',legacy],['portfolio/months/'+older.portfolioDate.slice(0,7)+'/'+older.id+'.json',older],['portfolio/full/'+fresh.currentDate.slice(0,7)+'/'+fresh.fundId+'.json',fresh]]);
+const bucket={get:async key=>{requests++;return archive.has(key)?{json:async()=>archive.get(key)}:null;},list:async({cursor})=>cursor?{objects:[...archive.keys()].slice(1).map(key=>({key})),truncated:false}:{objects:[],truncated:true,cursor:'next'}};
+const runtime=require('./database-test-runtime.cjs').setup(bucket),store=require('../lib/database-store.ts');
+(async()=>{
+ runtime.failNextBatch();await assert.rejects(store.ensureDatabase());assert.equal(runtime.sqlite.prepare("SELECT count(*) n FROM app_documents WHERE key='migration:legacy-v1'").get().n,0);
+ await Promise.all([store.ensureDatabase(),store.ensureDatabase()]);
+ const current=await store.readCurrentPortfolio();assert.deepEqual(current,legacy);
+ const funds=await store.readDatabaseFunds(older.portfolioDate.slice(0,7));assert.deepEqual(funds.find(f=>f.id===older.id),legacy.funds[0]);
+ const comparisons=await store.readDatabaseComparisons();assert.equal(comparisons.length,22);assert.deepEqual(comparisons.find(c=>c.fundId===fresh.fundId&&c.currentDate===fresh.currentDate),fresh);
+ const cards=await store.readInvestorCards();assert.equal(cards.length,12);
+ for(const profile of require('../lib/investor-registry.ts').investorProfiles)assert.deepEqual(await store.readInvestorPortfolio(profile.id),profile.portfolio);
+ assert.deepEqual(await store.readResearchSnapshot(),require('../data/agent-research.json'));
+ const counts=runtime.sqlite.prepare('SELECT count(*) n FROM fund_snapshots').get().n;
+ const priorRequests=requests;await store.ensureDatabase();assert.equal(requests,priorRequests);assert.equal(runtime.sqlite.prepare('SELECT count(*) n FROM fund_snapshots').get().n,counts);
+ const newer=structuredClone(fresh);newer.checkedAt='2026-10-11T13:00:00Z';newer.notes.push('Saved database update');await store.saveComparison(newer);await store.saveComparison(fresh);assert.deepEqual((await store.readDatabaseComparisons(fresh.currentDate.slice(0,7))).find(c=>c.fundId===fresh.fundId),newer);
+ const p=await store.readInvestorPortfolio('dolly');const updated=structuredClone(p);updated.checkedOn='2026-10-12';updated.coverageNote+=' Database test version';await store.saveInvestorPortfolio('dolly',updated);assert.deepEqual(await store.readInvestorPortfolio('dolly'),updated);assert.equal(runtime.sqlite.prepare("SELECT count(*) n FROM investor_portfolios WHERE investor_id='dolly'").get().n,2);
+ const validator=require('../lib/database-validation.ts');validator.validateReportShape(require('../data/agent-research.json'),require('../data/agent-research.json'));for(const profile of require('../lib/investor-registry.ts').investorProfiles)validator.validateInvestorPortfolio(profile.portfolio);
+ const bad=structuredClone(p);bad.holdings[0].stake=200;assert.throws(()=>validator.validateInvestorPortfolio(bad));
+ const investors=require('../app/api/investors/route.ts');assert.equal((await investors.GET(new Request('https://example.test/api/investors'))).status,401);assert.equal((await investors.POST(new Request('https://example.test/api/investors',{method:'POST'}))).status,401);
+ const authorized=await investors.GET(new Request('https://example.test/api/investors?id=dolly',{headers:{'x-fund-update-key':runtime.env.UPDATE_KEY}}));assert.equal(authorized.status,200);assert.deepEqual(await authorized.json(),updated);
+ console.log('Database verification passed: schema, retry/concurrent migration, complete provenance, all 12 investors, report preservation, newer-data protection, history and API authorization.');
+})().catch(e=>{console.error(e);process.exitCode=1;});

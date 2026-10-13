@@ -1,0 +1,721 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "Publicly disclosed Malabar fund holdings, not Sumeet Nagar’s personal portfolio. 22 company records: 18 June snapshots, Affle and Le Travenues September 30 originals, Neogen September 16 provider snapshot and one unresolved Virtuoso August capital-change record. Individual dates control freshness; June data is not relabelled September. Ownership percentages are of each company, not portfolio weights. Named disclosure thresholds and incomplete filing collection leave holdings unobserved; absence is not a sale. Malabar Select Fund is not combined with Malabar India Fund. Tanfac’s newer below-1% signal is noted against its historical June row. Two September rows have original filings checked; 19 rows are provider cross-checks and one remains unresolved.",
+  "sources": {
+    "block": {
+      "name": "Block.deal — exact named filing rows",
+      "url": "https://block.deal/entities/malabar-india-fund-limited/"
+    },
+    "solomo": {
+      "name": "Solomo — Malabar India Fund June portfolio",
+      "url": "https://solomo.ai/investor/malabarindiafundlimited/"
+    },
+    "june": {
+      "name": "Trendlyne — June holder and share quantities",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53954/Q2-2026/malabar-investments/"
+    },
+    "september": {
+      "name": "Trendlyne — partial September disclosures",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53954/Q3-2026/malabar-investments/"
+    },
+    "raclvr": {
+      "name": "Value Research — RACL June holder",
+      "url": "https://www.valueresearchonline.com/stocks/44020/racl-geartech-ltd/"
+    },
+    "racltip": {
+      "name": "TipHub — RACL named holder and shares",
+      "url": "https://www.tiphub.ai/stocks/RACLGEAR"
+    },
+    "neogentrend": {
+      "name": "Trendlyne — Neogen September 16 shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/141845/NEOGEN/latest/neogen-chemicals-ltd/"
+    },
+    "neogenicici": {
+      "name": "ICICI Direct — Neogen named institutional holder",
+      "url": "https://www.icicidirect.com/stocks/neogen-chemicals-ltd-share-price"
+    },
+    "voetrend": {
+      "name": "Trendlyne — Virtuoso August holder record",
+      "url": "https://trendlyne.com/equity/share-holding/1023084/VOEPL/latest/virtuoso-optoelectronics-ltd/"
+    },
+    "voeinvesting": {
+      "name": "Investing.com — Virtuoso ownership",
+      "url": "https://in.investing.com/equities/virtuoso-optoelectronics-ownership"
+    },
+    "voescan": {
+      "name": "ScanX — August preferential acquisition disclosure",
+      "url": "https://scanx.trade/stock-market-news/companies/malabar-india-fund-raises-virtuoso-optoelectronics-stake-13-32/48243835"
+    },
+    "nse-affle": {
+      "name": "NSE — original September shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733379_06102026031849_WEB.xml"
+    },
+    "nse-travenues": {
+      "name": "NSE — original September shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734736_09102026010319_WEB.xml"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Affle 3i Limited",
+      "stake": 2.16,
+      "shares": 3039164,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-09-30",
+      "basis": "Original September named shareholding checked",
+      "note": "September 30 original NSE XBRL named-holder context independently retrieved and matched against Block.deal. Issued-share ownership is shown; fully diluted ownership is a different denominator. Earlier June observations below are retained as dated history.",
+      "sources": [
+        "nse-affle",
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "nse-affle",
+          "observation": "September 30: MALABAR INDIA FUND LIMITED; 3,039,164 shares; 2.16% issued-share ownership. Named-holder context and date verified."
+        },
+        {
+          "source": "block",
+          "observation": "September 30: 3,039,164 shares; 2.16%; matches original filing."
+        },
+        {
+          "source": "block",
+          "observation": "June 30: 2.16%; 3,039,164 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 2.16%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 3,039,164 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Aptus Value Housing Finance India Limited",
+      "stake": 4.36,
+      "shares": 21835591,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 4.36%; 21,835,591 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 4.36%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 21,835,591 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Aurionpro Solutions Limited",
+      "stake": 4.46,
+      "shares": 2463684,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 4.46%; 2,463,684 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 4.46%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 2,463,684 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Agarwal’s Eye Hospital Limited",
+      "stake": 2.16,
+      "shares": 104177,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund. This is the separately listed eye-hospital company (BSE 526783), not Dr. Agarwal’s Health Care Limited.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 2.16%; 104,177 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 2.16%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 104,177 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "HLE Glascoat Limited",
+      "stake": 1.85,
+      "shares": 1283576,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 1.85%; 1,283,576 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 1.85%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 1,283,576 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Hariom Pipe Industries Limited",
+      "stake": 9.49,
+      "shares": 2940000,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 9.49%; 2,940,000 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 9.49%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 2,940,000 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Hatsun Agro Product Limited",
+      "stake": 1.69,
+      "shares": 3774380,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 1.69%; 3,774,380 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 1.69%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 3,774,380 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "KSH International Limited",
+      "stake": 2.45,
+      "shares": 1658355,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 2.45%; 1,658,355 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 2.45%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 1,658,355 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Le Travenues Technology Limited",
+      "stake": 3.93,
+      "shares": 17314410,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-09-30",
+      "basis": "Original September named shareholding checked",
+      "note": "September 30 original NSE XBRL named-holder context independently retrieved and matched against Block.deal. Issued-share ownership is shown; fully diluted ownership is a different denominator. Earlier June observations below are retained as dated history.",
+      "sources": [
+        "nse-travenues",
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "nse-travenues",
+          "observation": "September 30: Malabar India Fund Limited; 17,314,410 shares; 3.93% issued-share ownership. Named-holder context and date verified."
+        },
+        {
+          "source": "block",
+          "observation": "September 30: 17,314,410 shares; 3.93%; matches original filing."
+        },
+        {
+          "source": "block",
+          "observation": "June 30: 3.95%; 17,314,410 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 3.95%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 17,314,410 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Neogen Chemicals Limited",
+      "stake": 1.3,
+      "shares": 390167,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-09-16",
+      "basis": "Post-capital-change provider shareholding snapshot",
+      "note": "Latest retrieved named shareholding snapshot is September 16, not September 30. Two providers agree on shares and stake. June was 345,476/1.26%; an increased stake alone does not identify transaction dates. Original filing not independently retrieved.",
+      "sources": [
+        "neogentrend",
+        "neogenicici",
+        "block"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "neogentrend",
+          "observation": "September 16 snapshot: 1.30%; 390,167 shares."
+        },
+        {
+          "source": "neogenicici",
+          "observation": "Named Malabar India Fund Limited row: 1.30%; 390,167 shares. Page does not independently identify snapshot date."
+        },
+        {
+          "source": "block",
+          "observation": "Earlier June 30 record: 1.26%; 345,476 shares."
+        }
+      ]
+    },
+    {
+      "name": "Neuland Laboratories Limited",
+      "stake": 5.42,
+      "shares": 695335,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 5.42%; 695,335 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 5.42%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 695,335 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "RACL Geartech Limited",
+      "stake": 5.87,
+      "shares": 691785,
+      "holder": "Malabar India Fund",
+      "date": "2026-06-30",
+      "basis": "Named holder as reported; provider cross-check",
+      "note": "June holder appears as MALABAR INDIA FUND (without LIMITED). Trendlyne carries 691,785 shares and rounded 5.9%; Value Research has 5.87%; TipHub agrees on shares and rounded percentage. The suffix variation is retained, not silently treated as a new investment. Solomo omission is not evidence of an exit. Original filing not independently retrieved.",
+      "sources": [
+        "june",
+        "raclvr",
+        "racltip",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "june",
+          "observation": "June: 691,785 shares; 5.9%;holder MALABAR INDIA FUND."
+        },
+        {
+          "source": "raclvr",
+          "observation": "June: 5.87%;holder MALABAR INDIA FUND."
+        },
+        {
+          "source": "racltip",
+          "observation": "Malabar India Fund: 691,785 shares; 5.9%."
+        },
+        {
+          "source": "solomo",
+          "observation": "June list omits RACL and suggests no longer disclosed; contradicted by the named June records above."
+        }
+      ]
+    },
+    {
+      "name": "SBFC Finance Limited",
+      "stake": 1.82,
+      "shares": 20109635,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 1.82%; 20,109,635 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 1.82%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 20,109,635 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Safari Industries (India) Limited",
+      "stake": 4.76,
+      "shares": 2330479,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 4.76%; 2,330,479 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 4.76%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 2,330,479 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Saregama India Limited",
+      "stake": 2.9,
+      "shares": 5583644,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 2.90%; 5,583,644 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 2.90%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 5,583,644 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Scoda Tubes Limited",
+      "stake": 7.7,
+      "shares": 4611800,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 7.70%; 4,611,800 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 7.70%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 4,611,800 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Tanfac Industries Limited",
+      "stake": 1.07,
+      "shares": 226605,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund. September provider page marks below 1%; exact newer stake is unconfirmed, so this is historical June ownership and should not be treated as current.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 1.07%; 226,605 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 1.07%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 226,605 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Vaibhav Global Limited",
+      "stake": 5.41,
+      "shares": 9060133,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 5.41%; 9,060,133 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 5.41%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 9,060,133 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Vasa Denticity Limited",
+      "stake": 5.62,
+      "shares": 974568,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 5.62%; 974,568 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 5.62%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 974,568 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Virtuoso Optoelectronics Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-08-13",
+      "basis": "August capital change; denominator reconciliation pending",
+      "note": "Latest retrieved August records agree on 4,656,417 shares after preferential allotment but disagree on headline ownership: 13.32% acquisition report versus 13.59% issued-share provider snapshot. Voting/fully diluted capital basis is unresolved without original documents. Withheld both headline stake and shares until reconciliation; details retained in sources. Generic portfolio pages still display older June 7.91% or July 9.99%, so they are not reliable latest records.",
+      "sources": [
+        "voetrend",
+        "voeinvesting",
+        "voescan"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "voetrend",
+          "observation": "August 13 snapshot: 4,656,417 shares; 13.59%."
+        },
+        {
+          "source": "voeinvesting",
+          "observation": "August 12:4,656,417 shares; 13.59%; labels owner Malabar Investments."
+        },
+        {
+          "source": "voescan",
+          "observation": "August 12 acquisition: 1,404,494 additional shares; total 4,656,417;reports 13.32% voting/diluted ownership."
+        }
+      ]
+    },
+    {
+      "name": "Xpro India Limited",
+      "stake": 11.33,
+      "shares": 2660000,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 11.33%; 2,660,000 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 11.33%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 2,660,000 shares; percentage rounded to one decimal."
+        }
+      ]
+    },
+    {
+      "name": "Yasho Industries Limited",
+      "stake": 4.37,
+      "shares": 526316,
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Named fund ownership; provider cross-check",
+      "note": "Dated June disclosure; original exchange document not independently retrieved. Percentage is ownership of this company, not allocation within the fund.",
+      "sources": [
+        "block",
+        "solomo",
+        "june"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "June 30: 4.37%; 526,316 shares."
+        },
+        {
+          "source": "solomo",
+          "observation": "June: 4.37%."
+        },
+        {
+          "source": "june",
+          "observation": "June: 526,316 shares; percentage rounded to one decimal."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "Four corroborated personal-holder disclosures. Three are June 2026; Aurum is a September observation with reporting day unmatched. Equity Intelligence India, EQ India Fund, Litty Thomas and Sunny Veliyath Porinju positions are excluded from this personal portfolio. Many trackers aggregate these holders under Porinju, so their headline company count and portfolio value are unsuitable for personal ownership. No original exchange filing was independently inspected; provider cross-checks are not independent audits. Stakes are ownership of each company, not portfolio allocation. This is a disclosed subset, not a complete or live portfolio.",
+  "sources": {
+    "finology": {
+      "name": "Finology \u2014 portfolio tracker (includes associated holders)",
+      "url": "https://ticker.finology.in/investor/porinju-v-veliyath"
+    },
+    "trend-portfolio": {
+      "name": "Trendlyne \u2014 expanded legal-holder rows",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53777/latest/porinju-v-veliyath-portfolio/"
+    },
+    "aurum-finology": {
+      "name": "Finology \u2014 Aurum named shareholders",
+      "url": "https://ticker.finology.in/company/AURUM"
+    },
+    "aurum-trend": {
+      "name": "Trendlyne \u2014 Aurum personal and PMS disclosure history",
+      "url": "https://trendlyne.com/equity/holding-lookup/1762/53777/aurum-proptech-ltd/porinju-v-veliyath/"
+    },
+    "aeon-trend": {
+      "name": "Trendlyne \u2014 AeonX June 2026 named shareholders",
+      "url": "https://trendlyne.com/equity/share-holding/3050/ASHOKALCO/Q2-2026/aeonx-digital-technology-ltd/"
+    },
+    "aeon-solomo": {
+      "name": "Solomo \u2014 AeonX June 2026 named shareholders",
+      "url": "https://solomo.ai/company/ASHOKALCO/"
+    },
+    "smallcase": {
+      "name": "Smallcase \u2014 June 2026 portfolio (associated holders aggregated)",
+      "url": "https://www.smallcase.com/star-investors/porinju-veliyath-portfolio/"
+    },
+    "kerala-solomo": {
+      "name": "Solomo \u2014 Kerala Ayurveda June 2026 named shareholders",
+      "url": "https://solomo.ai/company/KERALAYUR/"
+    },
+    "duroply-trend": {
+      "name": "Trendlyne \u2014 Duroply June 2026 named shareholders",
+      "url": "https://trendlyne.com/equity/share-holding/2728/SARDAPLY/Q2-2026/duroply-industries-ltd/"
+    },
+    "duroply-finology": {
+      "name": "Finology \u2014 Duroply individual shareholder rows",
+      "url": "https://ticker.finology.in/company/SCRIP-116003"
+    },
+    "duroply-rathi": {
+      "name": "Suresh Rathi \u2014 Duroply shareholder reproduction",
+      "url": "https://www.sureshrathi.com/fundamental/shareholding-pattern/duroply-industries-ltd"
+    },
+    "veegaland-finology": {
+      "name": "Finology \u2014 Veegaland exact EQ India Fund holder",
+      "url": "https://ticker.finology.in/company/VEEGALAND"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Aurum PropTech Limited",
+      "stake": 1.69,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-09",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "September ownership is cross-checked, but the reporting day is not matched: Trendlyne labels 29 September; Finology labels only September. The portfolio headline 5.23% combines personal and PMS ownership. Share count withheld without a second dated quantity.",
+      "sources": [
+        "aurum-finology",
+        "aurum-trend"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "aurum-finology",
+          "observation": "September 2026 individual row: 1.69%; PMS separately 3.54%."
+        },
+        {
+          "source": "aurum-trend",
+          "observation": "29 September 2026: personal 1.69%; PMS 3.54%."
+        }
+      ]
+    },
+    {
+      "name": "AeonX Digital Technology Limited",
+      "stake": 3.76,
+      "shares": 172958,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "June 2026 remains the latest matched personal disclosure. September filing awaits confirmation. Smallcase supplies corroborated quantity; its rounded percentage is not used.",
+      "sources": [
+        "finology",
+        "aeon-trend",
+        "aeon-solomo",
+        "smallcase"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 3.76%."
+        },
+        {
+          "source": "aeon-trend",
+          "observation": "June 2026 Porinju Veliyath: 3.76%, 172,958 shares."
+        },
+        {
+          "source": "aeon-solomo",
+          "observation": "June 2026 named personal holder: 3.76%."
+        },
+        {
+          "source": "smallcase",
+          "observation": "June 2026 quantity 172,958; percentage rounded 3.8%."
+        }
+      ]
+    },
+    {
+      "name": "Kerala Ayurveda Limited",
+      "stake": 3.41,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "June 2026 remains the latest matched personal disclosure. September filing awaits confirmation. Share count withheld because two dated exact quantities were not inspected.",
+      "sources": [
+        "finology",
+        "kerala-solomo",
+        "trend-portfolio"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 3.41%."
+        },
+        {
+          "source": "kerala-solomo",
+          "observation": "June 2026 PORINJU VELIYATH: 3.41%."
+        },
+        {
+          "source": "trend-portfolio",
+          "observation": "June individual row rounds to 3.4%."
+        }
+      ]
+    },
+    {
+      "name": "Duroply Industries Limited",
+      "stake": 3.31,
+      "shares": 359263,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Personal holding excludes Litty Thomas. Tracker headline 4.98% adds her 1.67%; it is not his personal stake. September filing awaits confirmation.",
+      "sources": [
+        "duroply-trend",
+        "duroply-finology",
+        "duroply-rathi"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "duroply-trend",
+          "observation": "June 2026 PORINJU VELIYATH: 3.31%, 359,263 shares."
+        },
+        {
+          "source": "duroply-finology",
+          "observation": "June personal 3.31%; Litty Thomas separately 1.67%."
+        },
+        {
+          "source": "duroply-rathi",
+          "observation": "30 June 2026 personal: 3.31%, 359,263 shares."
+        }
+      ]
+    }
+  ]
+}

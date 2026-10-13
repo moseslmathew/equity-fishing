@@ -1,0 +1,6 @@
+import {sqliteTable,text,index} from "drizzle-orm/sqlite-core";
+export const documents=sqliteTable("app_documents",{key:text("key").primaryKey(),payload:text("payload").notNull(),checkedAt:text("checked_at").notNull()});
+export const funds=sqliteTable("fund_snapshots",{id:text("id").primaryKey(),fundId:text("fund_id").notNull(),month:text("month").notNull(),reportingDate:text("reporting_date").notNull(),checkedAt:text("checked_at").notNull(),payload:text("payload").notNull()},t=>[index("fund_month_idx").on(t.month,t.fundId)]);
+export const comparisons=sqliteTable("fund_comparisons",{id:text("id").primaryKey(),fundId:text("fund_id").notNull(),month:text("month").notNull(),checkedAt:text("checked_at").notNull(),payload:text("payload").notNull()},t=>[index("comparison_month_idx").on(t.month,t.fundId)]);
+export const investors=sqliteTable("investor_portfolios",{id:text("id").primaryKey(),investorId:text("investor_id").notNull(),checkedAt:text("checked_at").notNull(),payload:text("payload").notNull()},t=>[index("investor_date_idx").on(t.investorId,t.checkedAt)]);
+export const reports=sqliteTable("research_reports",{id:text("id").primaryKey(),checkedAt:text("checked_at").notNull(),model:text("model"),fingerprint:text("fingerprint").notNull(),payload:text("payload").notNull()},t=>[index("report_date_idx").on(t.checkedAt)]);

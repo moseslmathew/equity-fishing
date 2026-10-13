@@ -1,0 +1,38 @@
+import assert from 'node:assert/strict';
+import {monthlyPortfolio} from '../lib/monthly';
+import {validatePortfolio,type Portfolio} from '../lib/portfolio';
+import {validateFullComparison} from '../lib/full-portfolio';
+import {combinedAnalysis} from '../lib/combined-analysis';
+import seed from '../data/seed.json';
+import imported from '../data/september-portfolios.json';
+const baseline=seed as Portfolio;
+const bucket={get:async()=>null,list:async()=>({objects:[],truncated:false})} as unknown as R2Bucket;
+const latest=await monthlyPortfolio(bucket,baseline,baseline,'latest');
+assert.equal(latest.requestedMonth,'2026-09');
+assert.deepEqual(latest.funds.map(f=>f.id).sort(),['dsp','nippon']);
+assert.equal(latest.missingFunds.length,18);
+assert.equal(latest.previousFunds.length,20);
+assert.equal(latest.fullComparisons.length,2);
+assert.equal(latest.checkedAt,imported.checkedAt);
+for(const c of latest.fullComparisons){
+ validateFullComparison(c);
+ assert.equal(c.basis,'official_disclosures');
+ assert.equal(c.previousDate,'2026-08-31');
+ assert.equal(c.currentDate,'2026-09-30');
+ const fund=latest.funds.find(f=>f.id===c.fundId)!;
+ assert.equal(fund.verification,'official_only');
+ const ranked=c.rows.filter(r=>r.currentQuantity>0).sort((a,b)=>b.weight!-a.weight!).slice(0,15);
+ assert.deepEqual(fund.holdings.map(h=>[h.key,h.weight]),ranked.map(r=>[r.key,r.weight]));
+}
+validatePortfolio({...baseline,funds:baseline.funds.map(f=>latest.funds.find(n=>n.id===f.id)??f)});
+const combined=combinedAnalysis(latest.fullComparisons,'2026-09');
+assert.equal(combined.coverage,2);
+assert.equal(combined.missingFunds.length,18);
+assert.ok(combined.companies.every(c=>c.funds.length<=2));
+const aug=await monthlyPortfolio(bucket,baseline,baseline,'2026-08');
+assert.equal(aug.funds.length,20);
+assert.equal(aug.fullComparisons.length,20);
+assert.ok(aug.funds.every(f=>f.portfolioDate==='2026-08-31'));
+const oct=await monthlyPortfolio(bucket,baseline,baseline,'2026-10');
+assert.equal(oct.funds.length,0);
+console.log('September import verified: 2 funds, 15 holdings each, full September/August comparisons; August history and missing-month coverage preserved.');

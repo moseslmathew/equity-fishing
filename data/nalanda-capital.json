@@ -1,0 +1,1234 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "25 publicly disclosed listed Indian companies across Nalanda India Equity Fund Limited (21) and Nalanda India Fund Limited (9), with five same-date overlaps combined into vehicle breakdowns. This is not Pulak Prasad’s personal or complete private portfolio, and includes large and mid-cap businesses. Havells is reconciled to 30 September 2026; the remaining records are dated 30 June 2026. September filings remain incomplete in the checked trackers. Every displayed record has agreement from at least two different source domains; two company records also have directly parsed original NSE filings. Checked on 11 October 2026, not live ownership.",
+  "sources": {
+    "trendlyne": {
+      "name": "Trendlyne — June holder portfolio",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53966/Q2-2026/nalanda-india-fund-limited/"
+    },
+    "block-equity": {
+      "name": "Block.deal — Nalanda India Equity Fund disclosed holder records",
+      "url": "https://block.deal/entities/nalanda-india-equity-fund-limited/"
+    },
+    "block-fund": {
+      "name": "Block.deal — Nalanda India Fund disclosed holder records",
+      "url": "https://block.deal/entities/nalanda-india-fund-limited/"
+    },
+    "solomo-equity": {
+      "name": "Solomo — Nalanda India Equity Fund June portfolio",
+      "url": "https://solomo.ai/investor/nalandaindiaequityfundlimited/"
+    },
+    "solomo-fund": {
+      "name": "Solomo — Nalanda India Fund June portfolio",
+      "url": "https://solomo.ai/investor/nalandaindiafundlimited/"
+    },
+    "stocks-sena": {
+      "name": "Stocks Sena — Nalanda India Equity Fund June holdings",
+      "url": "https://www.stockssena.com/investors/holder/nalanda-india-equity-fund-limited"
+    },
+    "trend-ahluwalia": {
+      "name": "Trendlyne — exact Ahluwalia holder history",
+      "url": "https://trendlyne.com/equity/holding-lookup/43/53966/ahluwalia-contracts-india-ltd/nalanda-india-fund-limited/"
+    },
+    "nse-havells": {
+      "name": "NSE original September Havells shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734459_08102026053816_WEB.xml"
+    },
+    "nse-ratnamani": {
+      "name": "NSE original June Ratnamani shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691971_14072026123104_WEB.xml"
+    },
+    "trend-aia": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/46/AIAENG/latest/aia-engineering-ltd/"
+    },
+    "trend-havells": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/525/HAVELLS/latest/havells-india-ltd/"
+    },
+    "trend-thermax": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1387/THERMAX/latest/thermax-ltd/"
+    },
+    "trend-mrf": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/883/MRF/latest/mrf-ltd/"
+    },
+    "trend-info": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/913/NAUKRI/latest/info-edge-india-ltd/"
+    },
+    "trend-sundaram": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1311/SUNDARMFIN/latest/sundaram-finance-ltd/"
+    },
+    "trend-amara": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/68/ARE%26M/latest/amara-raja-energy-mobility-ltd/"
+    },
+    "trend-indiamart": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/149049/INDIAMART/latest/indiamart-intermesh-ltd/"
+    },
+    "trend-triveni": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1418/TRITURBINE/latest/triveni-turbine-ltd/"
+    },
+    "trend-cera": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/254/CERA/latest/cera-sanitaryware-ltd/"
+    },
+    "trend-voltamp": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1499/VOLTAMP/latest/voltamp-transformers-ltd/"
+    },
+    "trend-ratnamani": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1114/RATNAMANI/latest/ratnamani-metals-tubes-ltd/"
+    },
+    "trend-elgi": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/371/ELGIEQUIP/latest/elgi-equipments-ltd/"
+    },
+    "trend-v-guard": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1476/VGUARD/Q2-2026/v-guard-industries-ltd/"
+    },
+    "trend-jyothy": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/706/JYOTHYLAB/latest/jyothy-labs-ltd/"
+    },
+    "trend-nrb": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/956/NRBBEARING/latest/nrb-bearings-ltd/"
+    },
+    "trend-d.": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/308/DBCORP/latest/db-corp-ltd/"
+    },
+    "trend-advanced": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/4635/ADVENZYMES/latest/advanced-enzyme-technologies-ltd/"
+    },
+    "trend-ttk": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1421/TTKPRESTIG/Q2-2026/ttk-prestige-ltd/"
+    },
+    "trend-matrimony.com": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/60598/MATRIMONY/latest/matrimony-com-ltd/"
+    },
+    "trend-page": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/994/PAGEIND/latest/page-industries-ltd/"
+    },
+    "trend-berger": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/178/BERGEPAINT/latest/berger-paints-india-ltd/"
+    },
+    "trend-supreme": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1324/SUPREMEIND/latest/supreme-industries-ltd/"
+    },
+    "trend-vaibhav": {
+      "name": "Trendlyne — named company shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1463/VAIBHAVGBL/latest/vaibhav-global-ltd/"
+    }
+  },
+  "holdings": [
+    {
+      "name": "AIA Engineering Limited",
+      "stake": 9.29,
+      "shares": 8671418,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-aia"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 9.29,
+          "shares": 8671418,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 8,671,418 shares, 9.29% of AIA Engineering Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 9.29% for AIA Engineering Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-aia",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 9.29%, 8,671,418 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Advanced Enzyme Technologies Limited",
+      "stake": 8.45,
+      "shares": 9465501,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-advanced"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 8.45,
+          "shares": 9465501,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 9,465,501 shares, 8.45% of Advanced Enzyme Technologies Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 8.45% for Advanced Enzyme Technologies Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-advanced",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 8.45%, 9,465,501 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Ahluwalia Contracts (India) Limited",
+      "stake": 7.97,
+      "shares": 5339325,
+      "holder": "Nalanda India Equity Fund Limited + Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Combined 7.97% sums two separately named vehicles on the same disclosure date; their individual holdings are shown. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-ahluwalia",
+        "block-fund",
+        "solomo-fund"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 5.49,
+          "shares": 3676597,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        },
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 2.48,
+          "shares": 1662728,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 3,676,597 shares, 5.49% of Ahluwalia Contracts (India) Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 5.49% for Ahluwalia Contracts (India) Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-ahluwalia",
+          "observation": "June 2026 holder history agrees for Nalanda India Equity Fund Limited: 5.49%, 3,676,597 shares."
+        },
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 1,662,728 shares, 2.48% of Ahluwalia Contracts (India) Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 2.48% for Ahluwalia Contracts (India) Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-ahluwalia",
+          "observation": "June 2026 holder history agrees for Nalanda India Fund Limited: 2.48%, 1,662,728 shares."
+        }
+      ]
+    },
+    {
+      "name": "Amara Raja Energy & Mobility Limited",
+      "stake": 8.76,
+      "shares": 16036938,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-amara"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 8.76,
+          "shares": 16036938,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 16,036,938 shares, 8.76% of Amara Raja Energy & Mobility Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 8.76% for Amara Raja Energy & Mobility Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-amara",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 8.76%, 16,036,938 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Berger Paints India Limited",
+      "stake": 2.59,
+      "shares": 30159374,
+      "holder": "Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-fund",
+        "solomo-fund",
+        "trend-berger"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 2.59,
+          "shares": 30159374,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 30,159,374 shares, 2.59% of Berger Paints India Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 2.59% for Berger Paints India Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-berger",
+          "observation": "Named holder Nalanda India Fund Limited, 2026-06-30: 2.59%, 30,159,374 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Cera Sanitaryware Limited",
+      "stake": 9.57,
+      "shares": 1234298,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-cera"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 9.57,
+          "shares": 1234298,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 1,234,298 shares, 9.57% of Cera Sanitaryware Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 9.57% for Cera Sanitaryware Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-cera",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 9.57%, 1,234,298 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "D. B. Corp Limited",
+      "stake": 9.27,
+      "shares": 16516037,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-d."
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 9.27,
+          "shares": 16516037,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 16,516,037 shares, 9.27% of D. B. Corp Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 9.27% for D. B. Corp Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-d.",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 9.27%, 16,516,037 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Elgi Equipments Limited",
+      "stake": 2.66,
+      "shares": 8440531,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-elgi"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 2.66,
+          "shares": 8440531,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 8,440,531 shares, 2.66% of Elgi Equipments Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 2.66% for Elgi Equipments Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-elgi",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 2.66%, 8,440,531 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Havells India Limited",
+      "stake": 4.07,
+      "shares": 25536718,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-09-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Original exchange filing independently checked. September filing replaces the June 4.11% observation; this reflects 283,466 fewer shares, not just percentage rounding.",
+      "sources": [
+        "block-equity",
+        "trend-havells",
+        "nse-havells"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 4.07,
+          "shares": 25536718,
+          "date": "2026-09-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 25,536,718 shares, 4.07% of Havells India Limited, dated 2026-09-30."
+        },
+        {
+          "source": "trend-havells",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-09-30: 4.07%, 25,536,718 shares; exact company table, rather than rounded portfolio overview."
+        },
+        {
+          "source": "nse-havells",
+          "observation": "Original NSE XBRL downloaded and parsed: issuer, named holder context, reporting instant, share quantity and percentage agree with the displayed vehicle record(s). SHA256 and extracted facts retained in research/nalanda-original-evidence.json."
+        }
+      ]
+    },
+    {
+      "name": "IndiaMART InterMESH Limited",
+      "stake": 7.54,
+      "shares": 4537075,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-indiamart"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 7.54,
+          "shares": 4537075,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 4,537,075 shares, 7.54% of IndiaMART InterMESH Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 7.54% for IndiaMART InterMESH Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-indiamart",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 7.54%, 4,537,075 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Info Edge (India) Limited",
+      "stake": 2.83,
+      "shares": 18318465,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-info"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 2.83,
+          "shares": 18318465,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 18,318,465 shares, 2.83% of Info Edge (India) Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 2.83% for Info Edge (India) Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-info",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 2.83%, 18,318,465 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Jyothy Labs Limited",
+      "stake": 5.96,
+      "shares": 21894446,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-jyothy"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 5.96,
+          "shares": 21894446,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 21,894,446 shares, 5.96% of Jyothy Labs Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 5.96% for Jyothy Labs Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-jyothy",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 5.96%, 21,894,446 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "MRF Limited",
+      "stake": 4.13,
+      "shares": 175008,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-mrf"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 4.13,
+          "shares": 175008,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 175,008 shares, 4.13% of MRF Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 4.13% for MRF Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-mrf",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 4.13%, 175,008 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Matrimony.com Limited",
+      "stake": 8.9,
+      "shares": 1839935,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-matrimony.com"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 8.9,
+          "shares": 1839935,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 1,839,935 shares, 8.90% of Matrimony.com Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 8.90% for Matrimony.com Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-matrimony.com",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 8.90%, 1,839,935 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "NRB Bearings Limited",
+      "stake": 9.49,
+      "shares": 9198532,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-nrb"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 9.49,
+          "shares": 9198532,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 9,198,532 shares, 9.49% of NRB Bearings Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 9.49% for NRB Bearings Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-nrb",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 9.49%, 9,198,532 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Page Industries Limited",
+      "stake": 4.81,
+      "shares": 536357,
+      "holder": "Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-fund",
+        "solomo-fund",
+        "trend-page"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 4.81,
+          "shares": 536357,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 536,357 shares, 4.81% of Page Industries Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 4.81% for Page Industries Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-page",
+          "observation": "Named holder Nalanda India Fund Limited, 2026-06-30: 4.81%, 536,357 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Ratnamani Metals & Tubes Limited",
+      "stake": 6.82,
+      "shares": 4779662,
+      "holder": "Nalanda India Equity Fund Limited + Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Combined 6.82% sums two separately named vehicles on the same disclosure date; their individual holdings are shown. Original exchange filing independently checked. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-ratnamani",
+        "block-fund",
+        "solomo-fund",
+        "trendlyne",
+        "nse-ratnamani"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 2.97,
+          "shares": 2082858,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        },
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 3.85,
+          "shares": 2696804,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 2,082,858 shares, 2.97% of Ratnamani Metals & Tubes Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 2.97% for Ratnamani Metals & Tubes Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-ratnamani",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 2.97%, 2,082,858 shares; exact company table, rather than rounded portfolio overview."
+        },
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 2,696,804 shares, 3.85% of Ratnamani Metals & Tubes Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 3.85% for Ratnamani Metals & Tubes Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June 2026 legal-holder breakdown confirms Nalanda India Fund Limited and 2,696,804 shares; portfolio overview percentage is rounded to one decimal. Exact 3.85% separately corroborated by Solomo and Block.deal."
+        },
+        {
+          "source": "nse-ratnamani",
+          "observation": "Original NSE XBRL downloaded and parsed: issuer, named holder context, reporting instant, share quantity and percentage agree with the displayed vehicle record(s). SHA256 and extracted facts retained in research/nalanda-original-evidence.json."
+        }
+      ]
+    },
+    {
+      "name": "Sundaram Finance Limited",
+      "stake": 3.62,
+      "shares": 4023353,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-sundaram"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 3.62,
+          "shares": 4023353,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 4,023,353 shares, 3.62% of Sundaram Finance Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 3.62% for Sundaram Finance Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-sundaram",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 3.62%, 4,023,353 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Supreme Industries Limited",
+      "stake": 2.97,
+      "shares": 3772128,
+      "holder": "Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-fund",
+        "solomo-fund",
+        "trend-supreme"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 2.97,
+          "shares": 3772128,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 3,772,128 shares, 2.97% of Supreme Industries Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 2.97% for Supreme Industries Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-supreme",
+          "observation": "Named holder Nalanda India Fund Limited, 2026-06-30: 2.97%, 3,772,128 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "TTK Prestige Limited",
+      "stake": 3.36,
+      "shares": 4602501,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-ttk"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 3.36,
+          "shares": 4602501,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 4,602,501 shares, 3.36% of TTK Prestige Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 3.36% for TTK Prestige Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-ttk",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 3.36%, 4,602,501 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Thermax Limited",
+      "stake": 5.13,
+      "shares": 6118073,
+      "holder": "Nalanda India Equity Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-thermax"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 5.13,
+          "shares": 6118073,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 6,118,073 shares, 5.13% of Thermax Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 5.13% for Thermax Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-thermax",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 5.13%, 6,118,073 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Triveni Turbine Limited",
+      "stake": 7.37,
+      "shares": 23426525,
+      "holder": "Nalanda India Equity Fund Limited + Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Combined 7.37% sums two separately named vehicles on the same disclosure date; their individual holdings are shown. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-triveni",
+        "block-fund",
+        "solomo-fund",
+        "trendlyne"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 3.87,
+          "shares": 12312090,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        },
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 3.5,
+          "shares": 11114435,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 12,312,090 shares, 3.87% of Triveni Turbine Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 3.87% for Triveni Turbine Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-triveni",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 3.87%, 12,312,090 shares; exact company table, rather than rounded portfolio overview."
+        },
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 11,114,435 shares, 3.50% of Triveni Turbine Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 3.50% for Triveni Turbine Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June 2026 legal-holder breakdown confirms Nalanda India Fund Limited and 11,114,435 shares; portfolio overview percentage is rounded to one decimal. Exact 3.50% separately corroborated by Solomo and Block.deal."
+        }
+      ]
+    },
+    {
+      "name": "V-Guard Industries Limited",
+      "stake": 4.85,
+      "shares": 21196559,
+      "holder": "Nalanda India Equity Fund Limited + Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Combined 4.85% sums two separately named vehicles on the same disclosure date; their individual holdings are shown. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-v-guard",
+        "block-fund",
+        "solomo-fund",
+        "trendlyne"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 3.6,
+          "shares": 15734192,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        },
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 1.25,
+          "shares": 5462367,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 15,734,192 shares, 3.60% of V-Guard Industries Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 3.60% for V-Guard Industries Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-v-guard",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 3.60%, 15,734,192 shares; exact company table, rather than rounded portfolio overview."
+        },
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 5,462,367 shares, 1.25% of V-Guard Industries Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 1.25% for V-Guard Industries Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June 2026 legal-holder breakdown confirms Nalanda India Fund Limited and 5,462,367 shares; portfolio overview percentage is rounded to one decimal. Exact 1.25% separately corroborated by Solomo and Block.deal."
+        }
+      ]
+    },
+    {
+      "name": "Vaibhav Global Limited",
+      "stake": 6.6,
+      "shares": 11038799,
+      "holder": "Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-fund",
+        "solomo-fund",
+        "trend-vaibhav"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 6.6,
+          "shares": 11038799,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 11,038,799 shares, 6.60% of Vaibhav Global Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 6.60% for Vaibhav Global Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-vaibhav",
+          "observation": "Named holder Nalanda India Fund Limited, 2026-06-30: 6.60%, 11,038,799 shares; exact company table, rather than rounded portfolio overview."
+        }
+      ]
+    },
+    {
+      "name": "Voltamp Transformers Limited",
+      "stake": 7.78,
+      "shares": 787443,
+      "holder": "Nalanda India Equity Fund Limited + Nalanda India Fund Limited",
+      "date": "2026-06-30",
+      "basis": "Quarter-end registered fund shareholding",
+      "note": "Registered Nalanda fund ownership of the company, not Pulak Prasad’s personal holding or portfolio allocation. Combined 7.78% sums two separately named vehicles on the same disclosure date; their individual holdings are shown. Agreement across data providers is a cross-check; the original exchange filing was not independently retrieved for this row. June is the latest reconciled observation for this company in the checked holder pages. September ownership is not assumed unchanged.",
+      "sources": [
+        "block-equity",
+        "solomo-equity",
+        "trend-voltamp",
+        "block-fund",
+        "solomo-fund",
+        "trendlyne"
+      ],
+      "parts": [
+        {
+          "name": "Nalanda India Equity Fund Limited",
+          "type": "entity",
+          "stake": 6.08,
+          "shares": 615345,
+          "date": "2026-06-30",
+          "source": "block-equity"
+        },
+        {
+          "name": "Nalanda India Fund Limited",
+          "type": "entity",
+          "stake": 1.7,
+          "shares": 172098,
+          "date": "2026-06-30",
+          "source": "block-fund"
+        }
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block-equity",
+          "observation": "Nalanda India Equity Fund Limited: 615,345 shares, 6.08% of Voltamp Transformers Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-equity",
+          "observation": "June 2026 holder portfolio agrees on 6.08% for Voltamp Transformers Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trend-voltamp",
+          "observation": "Named holder Nalanda India Equity Fund Limited, 2026-06-30: 6.08%, 615,345 shares; exact company table, rather than rounded portfolio overview."
+        },
+        {
+          "source": "block-fund",
+          "observation": "Nalanda India Fund Limited: 172,098 shares, 1.70% of Voltamp Transformers Limited, dated 2026-06-30."
+        },
+        {
+          "source": "solomo-fund",
+          "observation": "June 2026 holder portfolio agrees on 1.70% for Voltamp Transformers Limited; shares are not supplied on this page."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June 2026 legal-holder breakdown confirms Nalanda India Fund Limited and 172,098 shares; portfolio overview percentage is rounded to one decimal. Exact 1.70% separately corroborated by Solomo and Block.deal."
+        }
+      ]
+    }
+  ]
+}

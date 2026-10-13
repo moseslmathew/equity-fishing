@@ -1,0 +1,59 @@
+{
+  "checkedOn": "2026-10-11",
+  "records": [
+    {
+      "source": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733379_06102026031849_WEB.xml",
+      "sha256": "e1d8706003f745012568ad5e3f9db99964ac3aae65dad7cab478004f84a4f7d0",
+      "bytes": 173025,
+      "company": "Affle 3i Limited",
+      "holder": "MALABAR INDIA FUND LIMITED",
+      "date": "2026-09-30",
+      "context": "DetailsOfSharesHeldByForeignCompanies_Context15",
+      "shares": 3039164,
+      "stake": 2.16,
+      "facts": {
+        "NumberOfFullyPaidUpEquityShares": "3039164",
+        "NumberOfShares": "3039164",
+        "ShareholdingAsAPercentageOfTotalNumberOfShares": "0.0216",
+        "NumberOfVotingRightsHeldBySameClassOfSecurities": "3039164",
+        "NumberOfVotingRights": "3039164",
+        "PercentageOfTotalVotingRights": "0.0216",
+        "NumberOfSharesOnFullyDilutedBasisIncludingWarrantsESOPAndConvertibleSecurities": "3039164",
+        "ShareholdingAsAPercentageAssumingFullConversionOfConvertibleSecuritiesWarrantsAndESOP": "0.0204",
+        "NumberOfEquitySharesHeldInDematerializedForm": "3039164",
+        "NumberOfSharesUnderSubCategoryOne": "0",
+        "NumberOfSharesUnderSubCategoryTwo": "0",
+        "NumberOfSharesUnderSubCategoryThree": "0",
+        "NumberOfShareholders": "1"
+      }
+    },
+    {
+      "source": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734736_09102026010319_WEB.xml",
+      "sha256": "2a54fef2ed3b4f9a6be52fcb6a2fd4c357008493dd7893051a0399cae1bb3a73",
+      "bytes": 192078,
+      "company": "LE TRAVENUES TECHNOLOGY LIMITED",
+      "holder": "Malabar India Fund Limited",
+      "date": "2026-09-30",
+      "context": "DetailsOfSharesHeldByForeignDirectInvestment_Context18",
+      "shares": 17314410,
+      "stake": 3.93,
+      "facts": {
+        "NumberOfFullyPaidUpEquityShares": "17314410",
+        "NumberOfShares": "17314410",
+        "ShareholdingAsAPercentageOfTotalNumberOfShares": "0.0393",
+        "NumberOfVotingRightsHeldBySameClassOfSecurities": "17314410",
+        "NumberOfVotingRights": "17314410",
+        "PercentageOfTotalVotingRights": "0.0393",
+        "NumberOfSharesOutstandingESOPGranted": "0",
+        "NumberOfSharesUnderlyingOutstandingConvertibleSecuritiesWarrantsAndESOP": "0",
+        "NumberOfSharesOnFullyDilutedBasisIncludingWarrantsESOPAndConvertibleSecurities": "17314410",
+        "ShareholdingAsAPercentageAssumingFullConversionOfConvertibleSecuritiesWarrantsAndESOP": "0.0378",
+        "NumberOfEquitySharesHeldInDematerializedForm": "17314410",
+        "NumberOfSharesUnderSubCategoryOne": "0",
+        "NumberOfSharesUnderSubCategoryTwo": "0",
+        "NumberOfSharesUnderSubCategoryThree": "0",
+        "NumberOfShareholders": "1"
+      }
+    }
+  ]
+}

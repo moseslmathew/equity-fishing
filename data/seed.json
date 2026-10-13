@@ -1,0 +1,2527 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+  "updatedAt": "2026-10-02T14:29:24.726601+00:00",
+  "schedule": {
+    "enabled": false,
+    "time": "08:00",
+    "timezone": "Asia/Kolkata"
+  },
+  "summary": "Top 15 company holdings for all twenty small-cap funds, ranked from their saved 31 August 2026 full equity disclosures; original top-five checks and additional source coverage are retained separately.",
+  "funds": [
+    {
+      "id": "dsp",
+      "name": "DSP",
+      "monogram": "DS",
+      "color": "#2864c8",
+      "verification": "official_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "Lumax Auto Technologies",
+          "weight": 5.12,
+          "key": "lumax"
+        },
+        {
+          "name": "Thangamayil Jewellery",
+          "weight": 3.57,
+          "key": "thangamayil"
+        },
+        {
+          "name": "Kirloskar Oil Engines",
+          "weight": 3.41,
+          "key": "kirloskar"
+        },
+        {
+          "name": "Sansera Engineering",
+          "weight": 3.28,
+          "key": "sansera"
+        },
+        {
+          "name": "Welspun Corp",
+          "weight": 2.57,
+          "key": "welspun"
+        },
+        {
+          "key": "sprautotechnologieslimited",
+          "name": "SPR Auto Technologies Limited (formerly Shriram Pistons & Rings)",
+          "weight": 2.3
+        },
+        {
+          "key": "dodladairylimited",
+          "name": "Dodla Dairy Limited",
+          "weight": 2.06
+        },
+        {
+          "key": "eclerxserviceslimited",
+          "name": "eClerx Services Limited",
+          "weight": 2.03
+        },
+        {
+          "key": "ipcalaboratorieslimited",
+          "name": "IPCA Laboratories Limited",
+          "weight": 2.02
+        },
+        {
+          "key": "ltfoodslimited",
+          "name": "LT Foods Limited",
+          "weight": 2.01
+        },
+        {
+          "key": "jubilantingrevialimited",
+          "name": "Jubilant Ingrevia Limited",
+          "weight": 1.87
+        },
+        {
+          "key": "concordbiotechlimited",
+          "name": "Concord Biotech Limited",
+          "weight": 1.75
+        },
+        {
+          "key": "glandpharmalimited",
+          "name": "Gland Pharma Limited",
+          "weight": 1.75
+        },
+        {
+          "key": "prudentcorporateadvisoryserviceslimited",
+          "name": "Prudent Corporate Advisory Services Limited",
+          "weight": 1.71
+        },
+        {
+          "key": "cyientlimited",
+          "name": "Cyient Limited",
+          "weight": 1.5
+        }
+      ],
+      "sources": [
+        {
+          "label": "DSP official",
+          "url": "https://www.dspim.com/ifaxpress/mutual-fund-schemes/equity-funds/small-cap-fund/dspmc-regular-growth",
+          "type": "official",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/dsp-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927155+00:00",
+        "sources": [
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/dsp-small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-dsp-dsp-small-cap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nippon",
+      "name": "Nippon India",
+      "monogram": "NI",
+      "color": "#9c3a50",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "BHEL",
+          "weight": 1.85,
+          "key": "bhel"
+        },
+        {
+          "name": "TD Power Systems",
+          "weight": 1.82,
+          "key": "tdpower"
+        },
+        {
+          "name": "Apar Industries",
+          "weight": 1.73,
+          "key": "apar"
+        },
+        {
+          "name": "HDFC Bank",
+          "weight": 1.71,
+          "key": "hdfc"
+        },
+        {
+          "name": "Karur Vysya Bank",
+          "weight": 1.34,
+          "key": "karur"
+        },
+        {
+          "key": "statebankofindia",
+          "name": "State Bank of India",
+          "weight": 1.28
+        },
+        {
+          "key": "sundramfastenerslimited",
+          "name": "Sundram Fasteners Limited",
+          "weight": 1.24
+        },
+        {
+          "key": "acmesolarholdingsltd",
+          "name": "Acme Solar Holdings Ltd",
+          "weight": 1.19
+        },
+        {
+          "key": "sailifescienceslimited",
+          "name": "Sai Life Sciences Limited",
+          "weight": 1.16
+        },
+        {
+          "key": "multicommodityexchangeofindialimited",
+          "name": "Multi Commodity Exchange of India Limited",
+          "weight": 1.15
+        },
+        {
+          "key": "avalontechnologieslimited",
+          "name": "Avalon Technologies Limited",
+          "weight": 1.12
+        },
+        {
+          "key": "zyduswellnesslimited",
+          "name": "Zydus Wellness Limited",
+          "weight": 1.1
+        },
+        {
+          "key": "kirloskarbrotherslimited",
+          "name": "Kirloskar Brothers Limited",
+          "weight": 1.04
+        },
+        {
+          "key": "elantasbeckindialimited",
+          "name": "Elantas Beck India Limited",
+          "weight": 0.95
+        },
+        {
+          "key": "unionbankofindia",
+          "name": "Union Bank of India",
+          "weight": 0.95
+        }
+      ],
+      "sources": [
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/nippon-india-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Anand Rathi",
+          "url": "https://anandrathi.com/mutual-funds/schemes/nippon-india-small-cap-fund-g",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "The fund-house exclusion does not exclude holdings in bank stocks.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927346+00:00",
+        "sources": [
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/nippon-india-small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-nippon-nippon-india-small-cap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "quantum",
+      "name": "Quantum",
+      "monogram": "QM",
+      "color": "#3e827b",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "Supriya Lifescience",
+          "weight": 3.29,
+          "key": "supriya"
+        },
+        {
+          "name": "Karur Vysya Bank",
+          "weight": 2.86,
+          "key": "karur"
+        },
+        {
+          "name": "Uniparts India",
+          "weight": 2.69,
+          "key": "uniparts"
+        },
+        {
+          "name": "Engineers India",
+          "weight": 2.67,
+          "key": "engineers"
+        },
+        {
+          "name": "Alivus Life Sciences",
+          "weight": 2.62,
+          "key": "alivus"
+        },
+        {
+          "key": "lumaxautotechnologiesltd",
+          "name": "Lumax Auto Technologies Ltd",
+          "weight": 2.53
+        },
+        {
+          "key": "starhealthandalliedinsurancecompanyltd",
+          "name": "Star Health And Allied Insurance Company Ltd",
+          "weight": 2.52
+        },
+        {
+          "key": "cclproductsindialtd",
+          "name": "CCL Products (India) Ltd",
+          "weight": 2.51
+        },
+        {
+          "key": "lumaxindustriesltd",
+          "name": "Lumax Industries Ltd",
+          "weight": 2.46
+        },
+        {
+          "key": "gnaaxlesltd",
+          "name": "GNA Axles Ltd",
+          "weight": 2.4
+        },
+        {
+          "key": "carysilltd",
+          "name": "Carysil Ltd",
+          "weight": 2.37
+        },
+        {
+          "key": "afcomholdingsltd",
+          "name": "Afcom Holdings Ltd",
+          "weight": 2.32
+        },
+        {
+          "key": "moldtekpackagingltd",
+          "name": "Mold-Tek Packaging Ltd",
+          "weight": 2.23
+        },
+        {
+          "key": "mayuruniquotersltd",
+          "name": "Mayur Uniquoters Ltd",
+          "weight": 2.19
+        },
+        {
+          "key": "equitassmallfinancebankltd",
+          "name": "Equitas Small Finance Bank Ltd",
+          "weight": 2.03
+        }
+      ],
+      "sources": [
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/quantum-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Anand Rathi",
+          "url": "https://anandrathi.com/mutual-funds/schemes/quantum-small-cap-fund-regular-g",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Quantum is a different fund house from Quant.",
+        "The official page could not be retrieved reliably in the initial check.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927435+00:00",
+        "sources": [
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/quantum-small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-quantum-quantum-small-cap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "edelweiss",
+      "name": "Edelweiss",
+      "monogram": "ED",
+      "color": "#645ab0",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "City Union Bank",
+          "weight": 3.17,
+          "key": "cityunion"
+        },
+        {
+          "name": "Karur Vysya Bank",
+          "weight": 2.64,
+          "key": "karur"
+        },
+        {
+          "name": "MCX",
+          "weight": 2.64,
+          "key": "mcx"
+        },
+        {
+          "name": "PNB Housing Finance",
+          "weight": 2.34,
+          "key": "pnbhousing"
+        },
+        {
+          "name": "Avalon Technologies",
+          "weight": 2.27,
+          "key": "avalon"
+        },
+        {
+          "key": "gabrielindialtd",
+          "name": "Gabriel India Ltd.",
+          "weight": 2.18
+        },
+        {
+          "key": "keiindustriesltd",
+          "name": "KEI Industries Ltd.",
+          "weight": 2.06
+        },
+        {
+          "key": "ajantapharmaltd",
+          "name": "Ajanta Pharma Ltd.",
+          "weight": 1.94
+        },
+        {
+          "key": "fortishealthcareltd",
+          "name": "Fortis Healthcare Ltd.",
+          "weight": 1.92
+        },
+        {
+          "key": "radicokhaitanltd",
+          "name": "Radico Khaitan Ltd.",
+          "weight": 1.84
+        },
+        {
+          "key": "krishnainstofmedicalsciencesltd",
+          "name": "Krishna Institute of Medical Sciences Limited",
+          "weight": 1.83
+        },
+        {
+          "key": "unomindaltd",
+          "name": "UNO Minda Ltd.",
+          "weight": 1.83
+        },
+        {
+          "key": "craftsmanautomationltd",
+          "name": "Craftsman Automation Ltd.",
+          "weight": 1.74
+        },
+        {
+          "key": "torrentpharmaceuticalsltd",
+          "name": "Torrent Pharmaceuticals Ltd.",
+          "weight": 1.68
+        },
+        {
+          "key": "atherenergyltd",
+          "name": "Ather Energy Ltd.",
+          "weight": 1.66
+        }
+      ],
+      "sources": [
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/edelweiss-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "WealthKit",
+          "url": "https://wealthkit.co.in/funds/edelweiss-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Karur Vysya Bank and MCX are tied at the displayed precision.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927482+00:00",
+        "sources": [
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/edelweiss-small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-edelweiss-edelweiss-small-cap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "invesco",
+      "name": "Invesco India",
+      "monogram": "IN",
+      "color": "#246f9b",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "Sai Life Sciences",
+          "weight": 5.04,
+          "key": "sai"
+        },
+        {
+          "name": "Eternal",
+          "weight": 4.6,
+          "key": "eternal"
+        },
+        {
+          "name": "Amber Enterprises India",
+          "weight": 4,
+          "key": "amber"
+        },
+        {
+          "name": "Aditya Infotech",
+          "weight": 3.78,
+          "key": "aditya"
+        },
+        {
+          "name": "Krishna Institute of Medical Sciences",
+          "weight": 3.54,
+          "key": "kims"
+        },
+        {
+          "key": "INE646L01027",
+          "name": "InterGlobe Aviation Limited",
+          "weight": 3.31
+        },
+        {
+          "key": "INE027H01010",
+          "name": "Max Healthcare Institute Limited",
+          "weight": 3.03
+        },
+        {
+          "key": "INE00LO01017",
+          "name": "Craftsman Automation Limited",
+          "weight": 2.58
+        },
+        {
+          "key": "INE088F01024",
+          "name": "Paradeep Phosphates Limited",
+          "weight": 2.55
+        },
+        {
+          "key": "INE943P01029",
+          "name": "Dr Agarwals Health Care Limited",
+          "weight": 2.44
+        },
+        {
+          "key": "INE811K01011",
+          "name": "Prestige Estates Projects Limited",
+          "weight": 2.31
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Limited",
+          "weight": 2.14
+        },
+        {
+          "key": "INE976G01028",
+          "name": "RBL Bank Limited",
+          "weight": 2.13
+        },
+        {
+          "key": "INE474Q01031",
+          "name": "Global Health Limited",
+          "weight": 2.06
+        },
+        {
+          "key": "INE171A01029",
+          "name": "The Federal Bank Limited",
+          "weight": 1.91
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/invesco/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "GMPIPOWatch",
+          "url": "https://www.gmpipowatch.com/mutual-funds/scheme/invesco-india-small-cap-fund-direct-plan-growth-145137",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927535+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/invesco/small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-invesco-invesco-india-smallcap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "motilal",
+      "name": "Motilal Oswal",
+      "monogram": "MO",
+      "color": "#a1672a",
+      "verification": "official_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "Rubicon Research",
+          "weight": 4.52,
+          "key": "rubicon"
+        },
+        {
+          "name": "VA Tech Wabag",
+          "weight": 3.98,
+          "key": "wabag"
+        },
+        {
+          "name": "CCL Products (India)",
+          "weight": 3.37,
+          "key": "ccl"
+        },
+        {
+          "name": "Karur Vysya Bank",
+          "weight": 3.29,
+          "key": "karur"
+        },
+        {
+          "name": "Aditya Infotech",
+          "weight": 3.19,
+          "key": "aditya"
+        },
+        {
+          "key": "INE943P01029",
+          "name": "Dr Agarwals Health Care Limited",
+          "weight": 3.04
+        },
+        {
+          "key": "INE01IU01018",
+          "name": "Sky Gold And Diamonds Limited",
+          "weight": 2.62
+        },
+        {
+          "key": "INE961O01016",
+          "name": "Rainbow Childrens Medicare Limited",
+          "weight": 2.4
+        },
+        {
+          "key": "INE043W01024",
+          "name": "Vijaya Diagnostic Centre Limited",
+          "weight": 2.3
+        },
+        {
+          "key": "INE665J01013",
+          "name": "V-Mart Retail Limited",
+          "weight": 2.29
+        },
+        {
+          "key": "INE726V01018",
+          "name": "Pricol Limited",
+          "weight": 2.26
+        },
+        {
+          "key": "INE278Y01022",
+          "name": "Campus Activewear Limited",
+          "weight": 2.17
+        },
+        {
+          "key": "INE128S01021",
+          "name": "Five Star Business Finance Limited",
+          "weight": 2.16
+        },
+        {
+          "key": "INE0DYJ01015",
+          "name": "Syrma SGS Technology Ltd",
+          "weight": 2.06
+        },
+        {
+          "key": "INE439A01020",
+          "name": "Asahi India Glass Limited",
+          "weight": 2.06
+        }
+      ],
+      "sources": [
+        {
+          "label": "Motilal Oswal official",
+          "url": "https://www.motilaloswalmf.com/mutual-funds/motilal-oswal-small-cap-fund",
+          "type": "official",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/motilal-oswal/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927573+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/motilal-oswal/small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-motilal-motilal-oswal-small-cap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "trustmf",
+      "name": "TRUSTMF",
+      "monogram": "TR",
+      "color": "#447149",
+      "verification": "official_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "Welspun Corp",
+          "weight": 2.38,
+          "key": "welspun"
+        },
+        {
+          "name": "Karur Vysya Bank",
+          "weight": 2.38,
+          "key": "karur"
+        },
+        {
+          "name": "Ather Energy",
+          "weight": 2.27,
+          "key": "ather"
+        },
+        {
+          "name": "Sansera Engineering",
+          "weight": 2.22,
+          "key": "sansera"
+        },
+        {
+          "name": "Sky Gold and Diamonds",
+          "weight": 2.07,
+          "key": "skygold"
+        },
+        {
+          "key": "INE745G01043",
+          "name": "Multi Commodity Exchange of India Limited",
+          "weight": 2.01
+        },
+        {
+          "key": "INE12UN01015",
+          "name": "Shadowfax Technologies Limited",
+          "weight": 2.01
+        },
+        {
+          "key": "INE956O01016",
+          "name": "Lenskart Solutions Limited",
+          "weight": 2
+        },
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Limited",
+          "weight": 1.84
+        },
+        {
+          "key": "INE591G01025",
+          "name": "Coforge Limited",
+          "weight": 1.79
+        },
+        {
+          "key": "INE073K01018",
+          "name": "Sona BLW Precision Forgings Limited",
+          "weight": 1.78
+        },
+        {
+          "key": "INE935N01020",
+          "name": "Dixon Technologies (India) Limited",
+          "weight": 1.73
+        },
+        {
+          "key": "INE419M01035",
+          "name": "TD Power Systems Limited",
+          "weight": 1.72
+        },
+        {
+          "key": "INE956G01038",
+          "name": "VA Tech Wabag Limited",
+          "weight": 1.71
+        },
+        {
+          "key": "INE982J01020",
+          "name": "One 97 Communications Limited",
+          "weight": 1.69
+        }
+      ],
+      "sources": [
+        {
+          "label": "TRUSTMF official factsheet",
+          "url": "https://www.trustmf.com/Content/2026/9/TRUSTMF%20Fact_20260911150616.pdf",
+          "type": "official",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Multibagg",
+          "url": "https://www.multibagg.ai/mutual-funds/trustmf-small-cap-fund-direct-g-MBSCH7144",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Welspun Corp and Karur Vysya Bank are tied at the displayed precision.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927616+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/trust/small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-trust-trustmf-small-cap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/trustmf-small-cap-fund",
+            "scope": "All 83 current-or-exited company rows match reported current and previous share quantities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "groww",
+      "name": "Groww",
+      "monogram": "GR",
+      "color": "#267c68",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T08:05:00Z",
+      "holdings": [
+        {
+          "name": "TD Power Systems",
+          "weight": 4.43,
+          "key": "tdpower"
+        },
+        {
+          "name": "Ather Energy",
+          "weight": 3.51,
+          "key": "ather"
+        },
+        {
+          "name": "Ujjivan Small Finance Bank",
+          "weight": 2.87,
+          "key": "ujjivan"
+        },
+        {
+          "name": "Tenneco Clean Air India",
+          "weight": 2.72,
+          "key": "tenneco"
+        },
+        {
+          "name": "OnEMI Technology Solutions",
+          "weight": 2.66,
+          "key": "onemi"
+        },
+        {
+          "key": "tamilnadmercantilebankltd",
+          "name": "Tamilnad Mercantile Bank Ltd.",
+          "weight": 2.54
+        },
+        {
+          "key": "indegenelimited",
+          "name": "Indegene Limited",
+          "weight": 2.48
+        },
+        {
+          "key": "yatharthhospitaltraumacareservltd",
+          "name": "Yatharth Hospital & Trauma Care Serv Ltd",
+          "weight": 2.31
+        },
+        {
+          "key": "bluejethealthcareltd",
+          "name": "Blue Jet Healthcare Ltd",
+          "weight": 2.29
+        },
+        {
+          "key": "sagilityindialimited",
+          "name": "SAGILITY INDIA LIMITED",
+          "weight": 2.28
+        },
+        {
+          "key": "aparindustriesltd",
+          "name": "APAR INDUSTRIES LTD",
+          "weight": 2.23
+        },
+        {
+          "key": "craftsmanautomationlimited",
+          "name": "CRAFTSMAN AUTOMATION LIMITED",
+          "weight": 2.16
+        },
+        {
+          "key": "azadengineeringlimited",
+          "name": "Azad Engineering Limited",
+          "weight": 2.07
+        },
+        {
+          "key": "homefirstfinancecompanyindialimited",
+          "name": "Home First Finance Company India Limited",
+          "weight": 2.06
+        },
+        {
+          "key": "multicommodityexchangeofindialtd",
+          "name": "Multi Commodity Exchange of India Ltd.",
+          "weight": 2
+        }
+      ],
+      "sources": [
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/groww-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Quest Securities",
+          "url": "https://www.questgroup.in/MutualFund/Scheme-Profile/46214/Groww-Small-Cap-Fund---Direct-%28IDCW%29",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "The official partner page showed an older-looking snapshot without a clear portfolio date; it was excluded from the August-end match.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:00:14.927658+00:00",
+        "sources": [
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/groww-small-cap-fund",
+            "scope": "Full company list, current quantities and reported changes vs July"
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-groww-groww-small-cap-fund/",
+            "scope": "Portfolio totals and available position-change rows cross-checked; not every quantity independently checked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "absl",
+      "name": "Aditya Birla Sun Life Small Cap Fund",
+      "monogram": "AB",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "tdpowersystems",
+          "name": "TD Power Systems Ltd.",
+          "weight": 3.29
+        },
+        {
+          "key": "INE570L01029",
+          "name": "Sai Life Sciences Ltd.",
+          "weight": 2.96
+        },
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Ltd.",
+          "weight": 2.93
+        },
+        {
+          "key": "INE551W01018",
+          "name": "Ujjivan Small Finance Bank Ltd.",
+          "weight": 2.43
+        },
+        {
+          "key": "INE151G01028",
+          "name": "Shaily Engineering Plastics Ltd.",
+          "weight": 2.19
+        },
+        {
+          "key": "INE944F01028",
+          "name": "Radico Khaitan Ltd.",
+          "weight": 2.18
+        },
+        {
+          "key": "INE0LEZ01016",
+          "name": "Ather Energy Ltd.",
+          "weight": 2.15
+        },
+        {
+          "key": "INE00LO01017",
+          "name": "Craftsman Automation Ltd.",
+          "weight": 2.1
+        },
+        {
+          "key": "INE034A01011",
+          "name": "Arvind Ltd.",
+          "weight": 2.08
+        },
+        {
+          "key": "INE745G01043",
+          "name": "Multi Commodity Exchange of India Ltd.",
+          "weight": 2.08
+        },
+        {
+          "key": "INE0VDM01015",
+          "name": "Meesho Ltd.",
+          "weight": 2.08
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Ltd.",
+          "weight": 2.04
+        },
+        {
+          "key": "INE572E01012",
+          "name": "PNB Housing Finance Ltd.",
+          "weight": 1.99
+        },
+        {
+          "key": "INE600L01024",
+          "name": "Dr. Lal Path labs Ltd.",
+          "weight": 1.94
+        },
+        {
+          "key": "INE976G01028",
+          "name": "RBL Bank Ltd.",
+          "weight": 1.92
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/aditya-birla-sun-life/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-absl-aditya-birla-sun-life-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/aditya-birla-sun-life/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-absl-aditya-birla-sun-life-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/aditya-birla-sun-life-small-cap-fund",
+            "scope": "Company quantity rows cross-checked where accessible; identifier disagreements are marked for review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "uti",
+      "name": "UTI Small Cap Fund",
+      "monogram": "UT",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Limited",
+          "weight": 2.52
+        },
+        {
+          "key": "INE036D01028",
+          "name": "KARUR VYSYA BANK LTD.",
+          "weight": 2.48
+        },
+        {
+          "key": "INE00FF01025",
+          "name": "ACUTAAS CHEMICALS LIMITED",
+          "weight": 2.33
+        },
+        {
+          "key": "INE551W01018",
+          "name": "UJJIVAN SMALL FINANCE BANK LTD",
+          "weight": 2.21
+        },
+        {
+          "key": "tdpowersystems",
+          "name": "TD POWER SYSTEMS LTD.",
+          "weight": 1.86
+        },
+        {
+          "key": "INE491A01021",
+          "name": "CITY UNION BANK",
+          "weight": 1.84
+        },
+        {
+          "key": "INE914M01019",
+          "name": "ASTER DM QUALITY CARE LIMITED",
+          "weight": 1.78
+        },
+        {
+          "key": "INE750C01026",
+          "name": "MARKSANS PHARMA LTD.",
+          "weight": 1.75
+        },
+        {
+          "key": "INE00WC01027",
+          "name": "AFFLE 3I LIMITED",
+          "weight": 1.69
+        },
+        {
+          "key": "INE475E01026",
+          "name": "CAPLIN POINT LABORATORIES LTD",
+          "weight": 1.67
+        },
+        {
+          "key": "INE572E01012",
+          "name": "PNB HOUSING FINANCE LTD.",
+          "weight": 1.58
+        },
+        {
+          "key": "INE616N01034",
+          "name": "INOX INDIA LTD",
+          "weight": 1.5
+        },
+        {
+          "key": "INE674K01013",
+          "name": "ADITYA BIRLA CAPITAL LTD",
+          "weight": 1.5
+        },
+        {
+          "key": "INE138Y01010",
+          "name": "KFIN TECHNOLOGIES LTD",
+          "weight": 1.47
+        },
+        {
+          "key": "INE017A01032",
+          "name": "GREAT EASTERN SHIPPING CO. LTD",
+          "weight": 1.45
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/uti/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-uti-uti-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/uti/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-uti-uti-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/uti-small-cap-fund",
+            "scope": "Company quantity rows cross-checked where accessible; identifier disagreements are marked for review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sundaram",
+      "name": "Sundaram Small Cap Fund",
+      "monogram": "SU",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE864I01014",
+          "name": "MTAR Technologies Ltd",
+          "weight": 4.49
+        },
+        {
+          "key": "INE0CLI01024",
+          "name": "Rate Gain Travel Technologies Ltd",
+          "weight": 3.46
+        },
+        {
+          "key": "INE284S01014",
+          "name": "S.J.S. Enterprises Ltd",
+          "weight": 3.46
+        },
+        {
+          "key": "INE758T01015",
+          "name": "Eternal Ltd (Previously Zomato Ltd)",
+          "weight": 3.2
+        },
+        {
+          "key": "INE914M01019",
+          "name": "Aster DM Healthcare Ltd",
+          "weight": 3.04
+        },
+        {
+          "key": "INE00WC01027",
+          "name": "Affle (India) Ltd",
+          "weight": 2.74
+        },
+        {
+          "key": "INE572E01012",
+          "name": "PNB Housing Finance Ltd",
+          "weight": 2.65
+        },
+        {
+          "key": "INE00LO01017",
+          "name": "Craftsman Automation Ltd",
+          "weight": 2.63
+        },
+        {
+          "key": "INE429E01023",
+          "name": "Safari Industries (India) Ltd",
+          "weight": 2.34
+        },
+        {
+          "key": "INE503A01015",
+          "name": "DCB Bank Ltd",
+          "weight": 2.33
+        },
+        {
+          "key": "INE126A01031",
+          "name": "EID Parry India Ltd",
+          "weight": 2.21
+        },
+        {
+          "key": "INE149A01033",
+          "name": "Cholamandalam Financial Holdings Ltd",
+          "weight": 2.04
+        },
+        {
+          "key": "INE238A01034",
+          "name": "Axis Bank Ltd",
+          "weight": 1.95
+        },
+        {
+          "key": "INE646L01027",
+          "name": "Interglobe Aviation Ltd",
+          "weight": 1.84
+        },
+        {
+          "key": "INE791I01019",
+          "name": "Brigade Enterprises Ltd",
+          "weight": 1.73
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/sundaram/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-sundaram-sundaram-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/sundaram/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-sundaram-sundaram-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/sundaram-small-cap-fund",
+            "scope": "Company quantity rows cross-checked where accessible; identifier disagreements are marked for review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pgim",
+      "name": "PGIM India Small Cap Fund",
+      "monogram": "PG",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE673O01025",
+          "name": "TBO Tek Ltd.",
+          "weight": 3.13
+        },
+        {
+          "key": "INE953O01021",
+          "name": "Sansera Engineering Ltd.",
+          "weight": 2.94
+        },
+        {
+          "key": "INE967H01025",
+          "name": "Krishna Institute of Medical Sciences Limited",
+          "weight": 2.85
+        },
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Ltd.",
+          "weight": 2.81
+        },
+        {
+          "key": "INE00XB01019",
+          "name": "Sedemac Mechatronics Ltd.",
+          "weight": 2.59
+        },
+        {
+          "key": "INE570L01029",
+          "name": "Sai Life Sciences Ltd",
+          "weight": 2.46
+        },
+        {
+          "key": "INE00WC01027",
+          "name": "Affle 3i Ltd.",
+          "weight": 2.4
+        },
+        {
+          "key": "INE491A01021",
+          "name": "City Union Bank Ltd.",
+          "weight": 2.38
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Ltd.",
+          "weight": 2.29
+        },
+        {
+          "key": "INE330T01021",
+          "name": "Happy Forgings Ltd.",
+          "weight": 2.26
+        },
+        {
+          "key": "INE685A01028",
+          "name": "Torrent Pharmaceuticals Ltd.",
+          "weight": 2.15
+        },
+        {
+          "key": "INE121R01077",
+          "name": "Amagi Media Labs Ltd.",
+          "weight": 2.09
+        },
+        {
+          "key": "INE745G01043",
+          "name": "Multi Commodity Exchange Of India Ltd.",
+          "weight": 1.94
+        },
+        {
+          "key": "INE04TZ01018",
+          "name": "Ethos Ltd.",
+          "weight": 1.93
+        },
+        {
+          "key": "INE466L01038",
+          "name": "360 One Wam Ltd.",
+          "weight": 1.63
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/pgim-india/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-pgimindia-pgim-india-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/pgim-india/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-pgimindia-pgim-india-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/pgim-india-small-cap-fund",
+            "scope": "Company quantity rows cross-checked where accessible; identifier disagreements are marked for review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iti",
+      "name": "ITI Small Cap Fund",
+      "monogram": "IT",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE00FF01025",
+          "name": "Acutaas Chemicals Limited",
+          "weight": 3.48
+        },
+        {
+          "key": "INE191B01025",
+          "name": "Welspun Corp Limited",
+          "weight": 2.59
+        },
+        {
+          "key": "INE947Q01028",
+          "name": "Laurus Labs Limited",
+          "weight": 2.41
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Limited",
+          "weight": 2.1
+        },
+        {
+          "key": "INE956G01038",
+          "name": "VA Tech Wabag Limited",
+          "weight": 1.93
+        },
+        {
+          "key": "INE290S01011",
+          "name": "Cartrade Tech Limited",
+          "weight": 1.88
+        },
+        {
+          "key": "INE745G01043",
+          "name": "Multi Commodity Exchange of India Limited",
+          "weight": 1.87
+        },
+        {
+          "key": "INE944F01028",
+          "name": "Radico Khaitan Limited",
+          "weight": 1.81
+        },
+        {
+          "key": "INE794A01010",
+          "name": "Neuland Laboratories Limited",
+          "weight": 1.72
+        },
+        {
+          "key": "INE372A01015",
+          "name": "Apar Industries Limited",
+          "weight": 1.71
+        },
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Limited",
+          "weight": 1.64
+        },
+        {
+          "key": "INE18JU01028",
+          "name": "GNG Electronics Ltd",
+          "weight": 1.61
+        },
+        {
+          "key": "INE049B01025",
+          "name": "Wockhardt Limited",
+          "weight": 1.6
+        },
+        {
+          "key": "INE034A01011",
+          "name": "Arvind Limited",
+          "weight": 1.57
+        },
+        {
+          "key": "INE146L01010",
+          "name": "Kirloskar Oil Engines Limited",
+          "weight": 1.57
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/iti/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/iti-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/iti/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/iti-small-cap-fund",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lic",
+      "name": "LIC MF Small Cap Fund",
+      "monogram": "LI",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE291A01017",
+          "name": "Garware Hi-Tech Films Ltd.",
+          "weight": 4.86
+        },
+        {
+          "key": "INE0LCL01028",
+          "name": "Avalon Technologies Ltd.",
+          "weight": 4.14
+        },
+        {
+          "key": "INE00VM01036",
+          "name": "Manorama Industries Ltd.",
+          "weight": 3.24
+        },
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Ltd.",
+          "weight": 3.06
+        },
+        {
+          "key": "INE552Z01027",
+          "name": "Allied Blenders And Distillers Ltd.",
+          "weight": 2.52
+        },
+        {
+          "key": "INE791I01019",
+          "name": "Brigade Enterprises Ltd.",
+          "weight": 2.46
+        },
+        {
+          "key": "INE0LEZ01016",
+          "name": "Ather Energy Ltd.",
+          "weight": 2.37
+        },
+        {
+          "key": "INE726V01018",
+          "name": "Pricol Ltd.",
+          "weight": 2.29
+        },
+        {
+          "key": "INE881D01027",
+          "name": "Oracle Financial Services Software Ltd.",
+          "weight": 2.24
+        },
+        {
+          "key": "INE717A01029",
+          "name": "Kennametal India Ltd.",
+          "weight": 2.19
+        },
+        {
+          "key": "INE872H01027",
+          "name": "Lumax Auto Technologies Ltd.",
+          "weight": 2.14
+        },
+        {
+          "key": "INE955V01021",
+          "name": "Arvind Fashions Ltd.",
+          "weight": 2.04
+        },
+        {
+          "key": "INE794A01010",
+          "name": "Neuland Laboratories Ltd.",
+          "weight": 2.01
+        },
+        {
+          "key": "INE146L01010",
+          "name": "Kirloskar Oil Engines Ltd.",
+          "weight": 1.99
+        },
+        {
+          "key": "INE034A01011",
+          "name": "Arvind Ltd.",
+          "weight": 1.91
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/lic/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-lic-lic-mf-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/lic/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-lic-lic-mf-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/lic-mf-small-cap-fund",
+            "scope": "Company quantity rows cross-checked where accessible; identifier disagreements are marked for review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mirae",
+      "name": "Mirae Asset Small Cap Fund",
+      "monogram": "MI",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE191B01025",
+          "name": "Welspun Corp Ltd.",
+          "weight": 2.77
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Ltd.",
+          "weight": 2.33
+        },
+        {
+          "key": "INE146L01010",
+          "name": "Kirloskar Oil Engines Ltd.",
+          "weight": 2.24
+        },
+        {
+          "key": "INE600L01024",
+          "name": "Dr. Lal Path labs Ltd.",
+          "weight": 2.18
+        },
+        {
+          "key": "INE930H01031",
+          "name": "K.P.R. Mill Ltd.",
+          "weight": 2.04
+        },
+        {
+          "key": "INE794A01010",
+          "name": "Neuland Laboratories Ltd.",
+          "weight": 1.95
+        },
+        {
+          "key": "INE540H01012",
+          "name": "Voltamp Transformers Ltd.",
+          "weight": 1.95
+        },
+        {
+          "key": "INE0CZ201020",
+          "name": "Anthem Biosciences Ltd.",
+          "weight": 1.94
+        },
+        {
+          "key": "INE18JU01028",
+          "name": "GNG Electronics Ltd.",
+          "weight": 1.89
+        },
+        {
+          "key": "INE0ISX01025",
+          "name": "Kusumgar Ltd.",
+          "weight": 1.85
+        },
+        {
+          "key": "INE149A01033",
+          "name": "Cholamandalam Financial Holdings Ltd.",
+          "weight": 1.85
+        },
+        {
+          "key": "INE177H01039",
+          "name": "Godawari Power & Ispat Ltd.",
+          "weight": 1.82
+        },
+        {
+          "key": "INE321T01012",
+          "name": "Doms Industries Ltd.",
+          "weight": 1.79
+        },
+        {
+          "key": "INE589A01014",
+          "name": "NLC India Ltd.",
+          "weight": 1.78
+        },
+        {
+          "key": "INE068V01023",
+          "name": "Gland Pharma Ltd.",
+          "weight": 1.77
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/mirae-asset/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-mirae-mirae-asset-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/mirae-asset/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-mirae-mirae-asset-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/mirae-asset-small-cap-fund",
+            "scope": "Company quantity rows cross-checked where accessible; identifier disagreements are marked for review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jm",
+      "name": "JM Small Cap Fund",
+      "monogram": "JM",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "garwarehitechfilms",
+          "name": "Garware Hi-Tech Films Ltd",
+          "weight": 4.64
+        },
+        {
+          "key": "navinfluorineinternational",
+          "name": "Navin Fluorine International Limited",
+          "weight": 3.19
+        },
+        {
+          "key": "acutaaschemicals",
+          "name": "Acutaas Chemicals Limited",
+          "weight": 2.91
+        },
+        {
+          "key": "fivestarbusinessfinance",
+          "name": "FIVE-STAR BUSINESS FINANCE LIMITED",
+          "weight": 2.76
+        },
+        {
+          "key": "fusionfinance",
+          "name": "Fusion Finance Limited",
+          "weight": 2.67
+        },
+        {
+          "key": "shailyengineeringplastics",
+          "name": "Shaily Engineering Plastics Limited",
+          "weight": 2.65
+        },
+        {
+          "key": "janasmallfinancebank",
+          "name": "Jana Small Finance Bank Ltd",
+          "weight": 2.37
+        },
+        {
+          "key": "avalontechnologies",
+          "name": "AVALON TECHNOLOGIES LIMITED",
+          "weight": 2.3
+        },
+        {
+          "key": "tdpowersystems",
+          "name": "TD Power Systems Limited",
+          "weight": 2.17
+        },
+        {
+          "key": "gokaldasexports",
+          "name": "Gokaldas Exports Limited",
+          "weight": 2.15
+        },
+        {
+          "key": "thangamayiljewellery",
+          "name": "Thangamayil Jewellery Limited",
+          "weight": 2.13
+        },
+        {
+          "key": "atherenergy",
+          "name": "Ather Energy Limited",
+          "weight": 2.04
+        },
+        {
+          "key": "godfreyphillipsindia",
+          "name": "Godfrey Phillips India Limited",
+          "weight": 1.94
+        },
+        {
+          "key": "onesourcespecialtypharma",
+          "name": "One Source Specialty Pharma Ltd",
+          "weight": 1.93
+        },
+        {
+          "key": "fineotexchemical",
+          "name": "FINEOTEX CHEMICAL LTD",
+          "weight": 1.89
+        }
+      ],
+      "sources": [
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/jm-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-jmfinancial-jm-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/jm-small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-jmfinancial-jm-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "helios",
+      "name": "Helios Small Cap Fund",
+      "monogram": "HE",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE0LEZ01016",
+          "name": "Ather Energy Ltd.",
+          "weight": 2.32
+        },
+        {
+          "key": "INE12UN01015",
+          "name": "Shadowfax Technologies Ltd.",
+          "weight": 2.23
+        },
+        {
+          "key": "INE290S01011",
+          "name": "CarTrade Tech Ltd.",
+          "weight": 1.93
+        },
+        {
+          "key": "INE0IX101010",
+          "name": "Data Patterns (India) Ltd.",
+          "weight": 1.77
+        },
+        {
+          "key": "INE615P01015",
+          "name": "Quess Corp Ltd.",
+          "weight": 1.7
+        },
+        {
+          "key": "INE982J01020",
+          "name": "One 97 Communications Ltd.",
+          "weight": 1.63
+        },
+        {
+          "key": "INE600L01024",
+          "name": "Dr. Lal Path labs Ltd.",
+          "weight": 1.58
+        },
+        {
+          "key": "INE0DK501011",
+          "name": "Piramal Pharma Ltd.",
+          "weight": 1.56
+        },
+        {
+          "key": "INE891D01026",
+          "name": "Redington Ltd.",
+          "weight": 1.56
+        },
+        {
+          "key": "INE121R01077",
+          "name": "Amagi Media Labs Ltd.",
+          "weight": 1.56
+        },
+        {
+          "key": "tdpowersystems",
+          "name": "TD Power Systems Ltd.",
+          "weight": 1.56
+        },
+        {
+          "key": "INE211B01039",
+          "name": "The Phoenix Mills Ltd.",
+          "weight": 1.54
+        },
+        {
+          "key": "INE159A01016",
+          "name": "Glaxosmithkline Pharmaceuticals Ltd.",
+          "weight": 1.45
+        },
+        {
+          "key": "INE716B01029",
+          "name": "Tips Music Ltd.",
+          "weight": 1.44
+        },
+        {
+          "key": "INE00F201020",
+          "name": "Prudent Corporate Advisory Services Ltd.",
+          "weight": 1.44
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/helios/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-helios-helios-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/helios/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-helios-helios-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/helios-small-cap-fund",
+            "scope": "Company quantity rows cross-checked where accessible; identifier disagreements are marked for review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "abakkus",
+      "name": "Abakkus Small Cap Fund",
+      "monogram": "AB",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE191B01025",
+          "name": "Welspun Corp Limited",
+          "weight": 2.21
+        },
+        {
+          "key": "INE596I01020",
+          "name": "Computer Age Management Services Limited",
+          "weight": 1.96
+        },
+        {
+          "key": "INE825V01034",
+          "name": "Vedant Fashions Limited",
+          "weight": 1.95
+        },
+        {
+          "key": "INE0AQ201015",
+          "name": "Leela Palaces Hotels & Resorts Limited",
+          "weight": 1.89
+        },
+        {
+          "key": "INE342J01019",
+          "name": "ZF Commercial Vehicle Control Systems India Limited",
+          "weight": 1.84
+        },
+        {
+          "key": "INE616N01034",
+          "name": "Inox India Limited",
+          "weight": 1.83
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Limited",
+          "weight": 1.8
+        },
+        {
+          "key": "INE953O01021",
+          "name": "Sansera Engineering Limited",
+          "weight": 1.74
+        },
+        {
+          "key": "INE524A01029",
+          "name": "Gabriel India Limited",
+          "weight": 1.73
+        },
+        {
+          "key": "INE146L01010",
+          "name": "Kirloskar Oil Engines Limited",
+          "weight": 1.73
+        },
+        {
+          "key": "INE600L01024",
+          "name": "Dr. Lal Path Labs Limited",
+          "weight": 1.68
+        },
+        {
+          "key": "INE0BWX01014",
+          "name": "Aether Industries Limited",
+          "weight": 1.67
+        },
+        {
+          "key": "INE0CLI01024",
+          "name": "Rategain Travel Technologies Limited",
+          "weight": 1.66
+        },
+        {
+          "key": "INE736A01011",
+          "name": "Central Depository Services (India) Limited",
+          "weight": 1.66
+        },
+        {
+          "key": "INE530B01024",
+          "name": "IIFL Finance Limited",
+          "weight": 1.62
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/abakkus/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-abakkus-abakkus-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/abakkus/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-abakkus-abakkus-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mahindra",
+      "name": "Mahindra Manulife Small Cap Fund",
+      "monogram": "MA",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE745G01043",
+          "name": "Multi Commodity Exchange of India Limited",
+          "weight": 5.75
+        },
+        {
+          "key": "INE794A01010",
+          "name": "Neuland Laboratories Limited",
+          "weight": 4.35
+        },
+        {
+          "key": "INE361B01024",
+          "name": "Divi's Laboratories Limited",
+          "weight": 3.71
+        },
+        {
+          "key": "INE324A01032",
+          "name": "Jindal Saw Ltd",
+          "weight": 3.48
+        },
+        {
+          "key": "INE291A01017",
+          "name": "Garware Hi-Tech Films Limited",
+          "weight": 2.91
+        },
+        {
+          "key": "INE274J01014",
+          "name": "Oil India Limited",
+          "weight": 2.57
+        },
+        {
+          "key": "INE540H01012",
+          "name": "Voltamp Transformers Limited",
+          "weight": 2.51
+        },
+        {
+          "key": "INE034A01011",
+          "name": "Arvind Limited",
+          "weight": 2.39
+        },
+        {
+          "key": "INE228A01035",
+          "name": "Usha Martin Limited",
+          "weight": 2.05
+        },
+        {
+          "key": "INE669E01016",
+          "name": "Vodafone Idea Limited",
+          "weight": 1.94
+        },
+        {
+          "key": "INE663A01033",
+          "name": "Supreme Petrochem Limited",
+          "weight": 1.93
+        },
+        {
+          "key": "INE0LEZ01016",
+          "name": "Ather Energy Limited",
+          "weight": 1.89
+        },
+        {
+          "key": "INE423A01024",
+          "name": "Adani Enterprises Limited",
+          "weight": 1.83
+        },
+        {
+          "key": "INE591G01025",
+          "name": "Coforge Limited",
+          "weight": 1.74
+        },
+        {
+          "key": "INE0CZ201020",
+          "name": "Anthem Biosciences Limited",
+          "weight": 1.63
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/mahindra-manulife/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "Scripbook",
+          "url": "https://scripbook.com/scheme/sch-mahindramanulife-mahindra-manulife-small-cap-fund/",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/mahindra-manulife/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "Scripbook",
+            "url": "https://scripbook.com/scheme/sch-mahindramanulife-mahindra-manulife-small-cap-fund/",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bajaj",
+      "name": "Bajaj Finserv Small Cap Fund",
+      "monogram": "BA",
+      "color": "#3568e8",
+      "verification": "provider_match",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-08-31",
+      "lastCheckedAt": "2026-10-02T14:29:24.726601+00:00",
+      "holdings": [
+        {
+          "key": "INE506V01022",
+          "name": "Rubicon Research Limited",
+          "weight": 3.98
+        },
+        {
+          "key": "INE191B01025",
+          "name": "Welspun Corp Limited",
+          "weight": 3.91
+        },
+        {
+          "key": "tdpowersystems",
+          "name": "TD Power Systems Limited",
+          "weight": 2.78
+        },
+        {
+          "key": "INE007A01025",
+          "name": "CRISIL Limited",
+          "weight": 2.72
+        },
+        {
+          "key": "INE284S01014",
+          "name": "S.J.S. Enterprises Limited",
+          "weight": 2.7
+        },
+        {
+          "key": "INE513A01022",
+          "name": "Schaeffler India Limited",
+          "weight": 2.66
+        },
+        {
+          "key": "INE768C01028",
+          "name": "Zydus Wellness Limited",
+          "weight": 2.57
+        },
+        {
+          "key": "INE325A01013",
+          "name": "Timken India Limited",
+          "weight": 2.49
+        },
+        {
+          "key": "INE171A01029",
+          "name": "The Federal Bank Limited",
+          "weight": 2.22
+        },
+        {
+          "key": "INE732I01021",
+          "name": "Angel One Limited",
+          "weight": 2.07
+        },
+        {
+          "key": "INE545A01024",
+          "name": "HEG Limited",
+          "weight": 2.02
+        },
+        {
+          "key": "INE0DK501011",
+          "name": "Piramal Pharma Limited",
+          "weight": 2.01
+        },
+        {
+          "key": "INE794A01010",
+          "name": "Neuland Laboratories Limited",
+          "weight": 1.87
+        },
+        {
+          "key": "INE073K01018",
+          "name": "Sona BLW Precision Forgings Limited",
+          "weight": 1.87
+        },
+        {
+          "key": "INE220B01022",
+          "name": "Kalpataru Projects International Limited",
+          "weight": 1.85
+        }
+      ],
+      "sources": [
+        {
+          "label": "DecryptMutualFunds",
+          "url": "https://decryptmutualfunds.com/fund-houses/bajaj-finserv/small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        },
+        {
+          "label": "MFScanner",
+          "url": "https://mfscanner.com/fund/bajaj-finserv-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": true
+        }
+      ],
+      "notes": [
+        "Top-five company allocations match the two linked providers for the August disclosure. Full portfolio quantity verification is shown separately in Analysis.",
+        "The top 15 are ranked from the saved full equity disclosure for this same date. Existing top-five figures were retained; additional positions carry the full-portfolio source coverage shown below, not an independent verification of every allocation."
+      ],
+      "holdingsEvidence": {
+        "basis": "saved_full_portfolio",
+        "checkedAt": "2026-10-02T14:29:24.726601+00:00",
+        "sources": [
+          {
+            "label": "DecryptMutualFunds",
+            "url": "https://decryptmutualfunds.com/fund-houses/bajaj-finserv/small-cap-fund",
+            "scope": "Full company positions, current share quantities and reported net changes versus July 2026."
+          },
+          {
+            "label": "MFScanner",
+            "url": "https://mfscanner.com/fund/bajaj-finserv-small-cap-fund",
+            "scope": "Available holdings, top-five allocations and movement summaries cross-checked; not every prior quantity independently confirmed."
+          }
+        ]
+      }
+    }
+  ],
+  "runs": [
+    {
+      "at": "2026-10-02T14:29:24.726601+00:00",
+      "summary": "Expanded to twenty active small-cap schemes; August holdings and full share-count comparisons versus July are available, with disputed rows marked for review.",
+      "changes": [
+        "Added twelve small-cap schemes while retaining the original eight and their dates."
+      ],
+      "status": "initial"
+    },
+    {
+      "at": "2026-10-02T08:05:00Z",
+      "summary": "Initial comparison loaded from August-end disclosures.",
+      "changes": [],
+      "status": "initial"
+    }
+  ]
+}

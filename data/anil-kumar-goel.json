@@ -1,0 +1,1083 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "36 public personal-holder records: 35 dated provider cross-checks and one unresolved TNA record. June 2026 remains the matched date for 28 companies; five matched September observations and two explicitly dated March observations are retained. TNA providers label their projected post-IPO snapshot Sep-26, without an independently checked final allotment or exact reporting day, so its headline percentage and quantity are withheld. Percentages are ownership of each company, not portfolio allocation. Seema Goel and family/associate positions are excluded. No original NSE XML was independently inspected in this run. Uncorroborated share counts are withheld. GK Consultants is excluded because its promoter record is identified elsewhere as Late Anil Kumar Goel, an unresolved namesake identity. Public thresholds and missing filings prevent a complete or live portfolio claim.",
+  "sources": {
+    "block": {
+      "name": "Block.deal \u2014 exact registered shareholder disclosures",
+      "url": "https://block.deal/entities/anil-kumar-goel/"
+    },
+    "solomo": {
+      "name": "Solomo \u2014 individual disclosed portfolio, June 2026",
+      "url": "https://solomo.ai/investor/anilkumargoel/"
+    },
+    "rediff": {
+      "name": "Rediff Moneywiz \u2014 personal shareholder portfolio",
+      "url": "https://money.rediff.com/companies/shareholder/portfolio?id=2f0dfb0e-113e-4609-b317-e86a4a522f5d"
+    },
+    "finology": {
+      "name": "Finology \u2014 portfolio tracker (some family aggregation)",
+      "url": "https://ticker.finology.in/investor/anil-kumar-goel"
+    },
+    "sarla-trend": {
+      "name": "Trendlyne \u2014 Sarla individual named shareholders",
+      "url": "https://trendlyne.com/equity/share-holding/1186/SARLAPOLY/latest/sarla-performance-fibers-ltd/"
+    },
+    "oriana-trend": {
+      "name": "Trendlyne \u2014 Oriana personal disclosure history",
+      "url": "https://trendlyne.com/equity/holding-lookup/1574263/53743/oriana-power-ltd/anil-kumar-goel-and-associates/"
+    },
+    "rocking-trend": {
+      "name": "Trendlyne \u2014 Rockingdeals March shareholding",
+      "url": "https://trendlyne.com/equity/share-holding/1796107/ROCKINGDCE/latest/rockingdeals-circular-economy-ltd/"
+    },
+    "tna-value": {
+      "name": "Value Research \u2014 TNA named shareholders, Sep-26",
+      "url": "https://www.valueresearchonline.com/stocks/387381/tna-solutions-ltd/shareholding/"
+    },
+    "tna-newboard": {
+      "name": "Newboard \u2014 TNA offer-document holder and dilution analysis",
+      "url": "https://newboard.in/sme-ipo/tna-solutions"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Triveni Engineering & Industries Limited",
+      "stake": 3.54,
+      "shares": 7803000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 4.59% at portfolio level; exact named personal percentage 3.54% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 3.54% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 3.54%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 7,803,000 shares and 3.54% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 4.59%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "KRBL Limited",
+      "stake": 3.18,
+      "shares": 7290000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 4.80% at portfolio level; exact named personal percentage 3.18% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 3.18% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 3.18%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 7,290,000 shares and 3.18% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 4.80%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "TCPL Packaging Limited",
+      "stake": 7.69,
+      "shares": 700000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 9.05% at portfolio level; exact named personal percentage 7.69% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 7.69% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 7.69%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 700,000 shares and 7.69% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 9.05%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "The Karnataka Bank Limited",
+      "stake": 1.51,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.51% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 1.51%."
+        }
+      ]
+    },
+    {
+      "name": "Dalmia Bharat Sugar and Industries Limited",
+      "stake": 5.23,
+      "shares": 4230000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 6.73% at portfolio level; exact named personal percentage 5.23% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 5.23% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 5.23%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 4,230,000 shares and 5.23% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 6.73%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Sportking India Limited",
+      "stake": 3.34,
+      "shares": 4243000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 5.17% at portfolio level; exact named personal percentage 3.34% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 3.34% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 3.34%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 4,243,000 shares and 3.34% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 5.17%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Dhampur Bio Organics Limited",
+      "stake": 9.04,
+      "shares": 6000000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 12.74% at portfolio level; exact named personal percentage 9.04% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 9.04% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 9.04%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 6,000,000 shares and 9.04% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 12.74%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "LG Balakrishnan & Bros Limited",
+      "stake": 1.3,
+      "shares": 416000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.30% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 1.30%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 416,000 shares and 1.30% for June 2026."
+        }
+      ]
+    },
+    {
+      "name": "Avadh Sugar & Energy Limited",
+      "stake": 5.44,
+      "shares": 1089000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 6.79% at portfolio level; exact named personal percentage 5.44% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 5.44% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 5.44%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 1,089,000 shares and 5.44% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 6.79%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Vardhman Holdings Limited",
+      "stake": 4.79,
+      "shares": 153000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 6.76% at portfolio level; exact named personal percentage 4.79% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 4.79% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 4.79%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 153,000 shares and 4.79% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 6.76%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Nahar Spinning Mills Limited",
+      "stake": 5.14,
+      "shares": 1854000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 7.04% at portfolio level; exact named personal percentage 5.14% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 5.14% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 5.14%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 1,854,000 shares and 5.14% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 7.04%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Sanghvi Movers Limited",
+      "stake": 1.01,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Rediff quarter label remains March 2026; shares are withheld despite matching quantity because a second June quantity was not inspected. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.01% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 1.01%."
+        }
+      ]
+    },
+    {
+      "name": "Uttam Sugar Mills Limited",
+      "stake": 3.67,
+      "shares": 1400000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 5.37% at portfolio level; exact named personal percentage 3.67% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 3.67% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 3.67%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 1,400,000 shares and 3.67% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 5.37%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Precot Limited",
+      "stake": 3.53,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 3.53% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 3.53%."
+        }
+      ]
+    },
+    {
+      "name": "Magadh Sugar & Energy Limited",
+      "stake": 4.44,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 4.44% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 4.44%."
+        }
+      ]
+    },
+    {
+      "name": "Ganesh Benzoplast Limited",
+      "stake": 3.75,
+      "shares": 2700000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 5.31% at portfolio level; exact named personal percentage 3.75% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 3.75% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 3.75%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 2,700,000 shares and 3.75% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 5.31%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Panama Petrochem Limited",
+      "stake": 1.07,
+      "shares": 650000,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded.",
+      "sources": [
+        "block",
+        "finology",
+        "rediff"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.07% at 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "September 2026 column: 1.07%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 650,000 shares and 1.07% for September 2026."
+        }
+      ]
+    },
+    {
+      "name": "Sarla Performance Fibers Limited",
+      "stake": 2.73,
+      "shares": 2169787,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 3.82% at portfolio level; exact named personal percentage 2.73% is corroborated separately. Rediff still displays December 2025 at 2.99%; this older observation is not treated as June 2026.",
+      "sources": [
+        "block",
+        "solomo",
+        "sarla-trend",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 2.73% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 2.73%."
+        },
+        {
+          "source": "sarla-trend",
+          "observation": "Personal row corroborates 2,169,787 shares and 2.73% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 3.82%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Kamat Hotels (India) Limited",
+      "stake": 2.44,
+      "shares": 720000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 3.51% at portfolio level; exact named personal percentage 2.44% is corroborated separately.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 2.44% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 2.44%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 720,000 shares and 2.44% for June 2026."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 3.51%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "South India Paper Mills Limited",
+      "stake": 5.33,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 9.07% at portfolio level; exact named personal percentage 5.33% is corroborated separately. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 5.33% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 5.33%."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 9.07%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Nahar Capital and Financial Services Limited",
+      "stake": 2.5,
+      "shares": 419000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 2.50% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 2.50%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 419,000 shares and 2.50% for June 2026."
+        }
+      ]
+    },
+    {
+      "name": "Amarjothi Spinning Mills Limited",
+      "stake": 8.61,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 8.61% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 8.61%."
+        }
+      ]
+    },
+    {
+      "name": "Nahar Poly Films Limited",
+      "stake": 1.17,
+      "shares": 288000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.17% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 1.17%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 288,000 shares and 1.17% for June 2026."
+        }
+      ]
+    },
+    {
+      "name": "DCM Nouvelle Limited",
+      "stake": 2.38,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 2.38% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 2.38%."
+        }
+      ]
+    },
+    {
+      "name": "Dhunseri Tea & Industries Limited",
+      "stake": 2.79,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 2.79% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 2.79%."
+        }
+      ]
+    },
+    {
+      "name": "DCM Limited",
+      "stake": 2.2,
+      "shares": 410000,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded.",
+      "sources": [
+        "block",
+        "finology",
+        "rediff"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 2.20% at 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "September 2026 column: 2.20%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 410,000 shares and 2.20% for September 2026."
+        }
+      ]
+    },
+    {
+      "name": "Ecoplast Limited",
+      "stake": 1.35,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.35% at 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "September 2026 column: 1.35%."
+        }
+      ]
+    },
+    {
+      "name": "Indsil Hydro Power and Manganese Limited",
+      "stake": 2.59,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Finology shows 4.21% at portfolio level; exact named personal percentage 2.59% is corroborated separately. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 2.59% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 2.59%."
+        },
+        {
+          "source": "finology",
+          "observation": "June portfolio headline is 4.21%; differs from exact personal-holder rows. Not used as personal ownership."
+        }
+      ]
+    },
+    {
+      "name": "Star Paper Mills Limited",
+      "stake": 1.15,
+      "shares": 180000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded.",
+      "sources": [
+        "block",
+        "solomo",
+        "rediff"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.15% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 1.15%."
+        },
+        {
+          "source": "rediff",
+          "observation": "Personal row corroborates 180,000 shares and 1.15% for June 2026."
+        }
+      ]
+    },
+    {
+      "name": "KG Denim Limited",
+      "stake": 1.91,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 1.91% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 1.91%."
+        }
+      ]
+    },
+    {
+      "name": "Sri Lakshmi Saraswathi Textiles (Arni) Limited",
+      "stake": 5.52,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 5.52% at 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "September 2026 column: 5.52%."
+        }
+      ]
+    },
+    {
+      "name": "Samtex Fashions Limited",
+      "stake": 4.3,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Registered personal holding only. Separate family or associate positions are excluded. Share count withheld because it was not independently corroborated for this reporting date.",
+      "sources": [
+        "block",
+        "solomo"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Named Anil Kumar Goel row: 4.30% at 2026-06-30."
+        },
+        {
+          "source": "solomo",
+          "observation": "June 2026 individual portfolio: 4.30%."
+        }
+      ]
+    },
+    {
+      "name": "Crayons Advertising Limited",
+      "stake": 1.11,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "September provider disclosure, cross-checked by two separate domains; share count uncorroborated and withheld.",
+      "sources": [
+        "block",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Exact Anil Kumar Goel row 1.11% at 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "2026-09-30 personal-holder observation 1.11%."
+        }
+      ]
+    },
+    {
+      "name": "Oriana Power Limited",
+      "stake": 1.99,
+      "shares": 403600,
+      "holder": "direct",
+      "date": "2026-03-31",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Last individually corroborated observation is March 2026. June blank on portfolio trackers is not evidence of a sale or zero stake; current position after this date is unknown.",
+      "sources": [
+        "block",
+        "oriana-trend"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Exact Anil Kumar Goel row 1.99% at 2026-03-31."
+        },
+        {
+          "source": "oriana-trend",
+          "observation": "2026-03-31 personal-holder observation 1.99%, 403,600 shares."
+        }
+      ]
+    },
+    {
+      "name": "Rockingdeals Circular Economy Limited",
+      "stake": 3.04,
+      "shares": 252000,
+      "holder": "direct",
+      "date": "2026-03-31",
+      "basis": "Company equity ownership \u2014 registered personal holder",
+      "note": "Last individually corroborated observation is March 2026. June blank on portfolio trackers is not evidence of a sale or zero stake; current position after this date is unknown.",
+      "sources": [
+        "block",
+        "rocking-trend"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "block",
+          "observation": "Exact Anil Kumar Goel row 3.04% at 2026-03-31."
+        },
+        {
+          "source": "rocking-trend",
+          "observation": "2026-03-31 personal-holder observation 3.04%, 252,000 shares."
+        }
+      ]
+    },
+    {
+      "name": "TNA Solutions Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-09",
+      "basis": "Provider-labelled Sep-26 / projected post-IPO ownership; final percentage unresolved",
+      "note": "Value Research and Finology display 10.41% in a Sep-26 column, without proving an exact reporting day. Newboard describes 14.17% before the offer and projected post-issue 10.41% for 2,125,000 shares. Final allotment and issued capital were not independently inspected; headline percentage and share count are withheld pending reconciliation.",
+      "sources": [
+        "tna-value",
+        "finology",
+        "tna-newboard"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "tna-value",
+          "observation": "Anil Kumar Goel, public shareholder, Sep-26 column: 10.41%."
+        },
+        {
+          "source": "finology",
+          "observation": "TNA Solutions, Sep-26 column: 10.41%."
+        },
+        {
+          "source": "tna-newboard",
+          "observation": "Offer-document analysis: 2,125,000 shares, 14.17% before offer; 10.41% projected after issue. Not a checked final allotment filing."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1014 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "Publicly disclosed Abakkus AIF/investment-vehicle records only; these are not Sunil Singhania’s personal shares or a complete Abakkus client portfolio. Company ownership percentages are not portfolio weights. Each confirmed row has at least two independent publishing domains; three original NSE files were independently retrieved; most others have provider-only evidence, and each row shows its evidence level. Dates differ by company; September disclosures remain incomplete. June holdings are retained with their original dates. Same-date named vehicles are summed only with an explicit breakdown. Abakkus Mutual Fund schemes are excluded and belong in the mutual-fund section. Historical holdings below the 1% disclosure threshold, unlisted investments, and uncorroborated single-domain records cannot be fully observed. Missing names do not prove sales. Review rows withhold percentages and quantities rather than inventing a current holding. Older Growth Fund-1 and Diversified Alpha Fund-2 entries are not carried forward as current holdings without corroborated dates; recent anchor and bulk-deal purchases alone do not establish a current portfolio. SRIT India, Adroit Industries, Bai-Kakaji Polymers and Anawil Wire were found in ownership/deal searches but not added as confirmed current holdings because a matched legal-holder/date/percentage basis was not independently corroborated.",
+  "sources": {
+    "trendlyne": {
+      "name": "Trendlyne — dated fund/vehicle breakdown",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/584233/Q3-2026/abakkus-fund/"
+    },
+    "emerging": {
+      "name": "Block.deal — Emerging Opportunities Fund-1 filing rows",
+      "url": "https://block.deal/entities/abakkus-emerging-opportunities-fund-1/"
+    },
+    "inve": {
+      "name": "Inve — Emerging Opportunities Fund-1, June 2026",
+      "url": "https://inve.money/investors/24528"
+    },
+    "growth": {
+      "name": "Block.deal — Growth Fund-2 filing rows",
+      "url": "https://block.deal/entities/abakkus-growth-fund-2/"
+    },
+    "alpha": {
+      "name": "Block.deal — Diversified Alpha Fund filing rows",
+      "url": "https://block.deal/entities/abakkus-diversified-alpha-fund/"
+    },
+    "hindware": {
+      "name": "Solomo — Hindware June 2026 named holders",
+      "url": "https://solomo.ai/company/HINDWAREAP/"
+    },
+    "alltime": {
+      "name": "Canara Bank Securities — All Time Plastics June 2026",
+      "url": "https://www.canmoney.in/fundamental/shareholdingpattern/all-time-plastics-ltd"
+    },
+    "alltimeblock": {
+      "name": "Block.deal — All Time Plastics filing rows",
+      "url": "https://block.deal/companies/all-time-plastics/"
+    },
+    "aye": {
+      "name": "Bigul — Aye Finance June 2026 shareholder table",
+      "url": "https://bigul.co/profile-stock/aye-finance-ltd/AYE"
+    },
+    "sena": {
+      "name": "Stocks Sena — Four2Eight disclosed basket",
+      "url": "https://www.stockssena.com/investors/holder/abakkus-four2eight-opportunities-fund"
+    },
+    "caliber": {
+      "name": "Value Research — Caliber Mining named shareholder",
+      "url": "https://www.valueresearchonline.com/stocks/385794/caliber-mining-and-logistics-ltd/shareholding/"
+    },
+    "caliberinvest": {
+      "name": "Investing.com — Caliber July 2026 ownership",
+      "url": "https://www.investing.com/equities/caliber-mining-and-logistics"
+    },
+    "dhabriya": {
+      "name": "BazaarWatch — transcribed July 24 disclosure",
+      "url": "https://bazaarwatch.com/announcement/23302/dhabriya-polywood-ltd-the-exchange-has-received-the-disclosure-under-regulation-29-1-of-sebi-substan"
+    },
+    "dhabriyamc": {
+      "name": "Moneycontrol — Dhabriya July 23 purchase",
+      "url": "https://www.moneycontrol.com/news/business/markets/ashish-kacholia-exits-this-wall-and-ceiling-panels-maker-but-sunil-singhania-s-abakkus-acquires-5-55-stake-13982075.html"
+    },
+    "credentet": {
+      "name": "Economic Times — Credent pre-IPO ownership and anchor allocation",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/credent-connect-n-care-raises-rs-26-53-crore-from-10-anchor-investors-sunil-singhanias-abakkus-asset-among-top-investors/articleshow/133199212.cms"
+    },
+    "credentmc": {
+      "name": "Moneycontrol — Credent ownership including anchor investment",
+      "url": "https://www.moneycontrol.com/news/business/ipo/ashish-kacholia-and-sunil-singhania-backed-credent-connect-n-care-ipo-fully-subscribed-on-day-1-14004746.html"
+    },
+    "primarycarysil": {
+      "name": "NSE — original dated shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734144_08102026123442_WEB.xml"
+    },
+    "primaryjk": {
+      "name": "NSE — original dated shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733785_07102026032917_WEB.xml"
+    },
+    "dated-15": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/684/JKIL/latest/j-kumar-infraprojects-ltd/"
+    },
+    "dated-16": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/3196800/MBEL/Q2-2026/m-b-engineering-ltd/"
+    },
+    "dated-17": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/3226/STYLAMIND/Q2-2026/stylam-industries-ltd/"
+    },
+    "dated-18": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/1205/SEJALLTD/Q2-2026/sejal-glass-ltd/"
+    },
+    "dated-20": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/3267081/JARO/Q2-2026/jaro-institute-of-technology-management-and-research-ltd/"
+    },
+    "dated-21": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/3152009/IGCL/Q2-2026/indogulf-cropsciences-ltd/"
+    },
+    "dated-22": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/3222182/MEIL/Q2-2026/mangal-electrical-industries-ltd/"
+    },
+    "dated-23": {
+      "name": "Trendlyne — company dated shareholder table",
+      "url": "https://trendlyne.com/equity/share-holding/1420/TTKHLTCARE/Q2-2026/ttk-healthcare-ltd/"
+    },
+    "primaryanup": {
+      "name": "NSE — original dated shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697724_21072026104733_WEB.xml"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Carysil Limited",
+      "stake": 5.34,
+      "shares": 1519981,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-09-30",
+      "basis": "Original NSE XBRL checked; independent provider cross-check",
+      "note": "Original NSE registered shareholder, report date, shares and issued-share percentage matched against provider records. Percentage is company ownership, not portfolio allocation.",
+      "sources": [
+        "emerging",
+        "trendlyne",
+        "primarycarysil"
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-09-30: Abakkus Emerging Opportunities Fund-1, 5.34% and 1,519,981 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 1,519,981 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "primarycarysil",
+          "observation": "Original report 2026-09-30: ABAKKUS EMERGING OPPORTUNITIES FUND-1, 1,519,981 shares, 5.34% issued-share ownership; independently parsed XBRL."
+        }
+      ]
+    },
+    {
+      "name": "Siyaram Silk Mills Limited",
+      "stake": 1.59,
+      "shares": 722654,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.59% and 722,654 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 722,654 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.59%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "DCM Shriram Fine Chemicals Limited",
+      "stake": 2.86,
+      "shares": 2490000,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 2.86% and 2,490,000 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 2,490,000 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 2.86%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "DCM Shriram International Limited",
+      "stake": 2.86,
+      "shares": 2490000,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 2.86% and 2,490,000 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 2,490,000 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 2.86%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "Afcom Holdings Limited",
+      "stake": 1.97,
+      "shares": 566040,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.97% and 566,040 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 566,040 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.97%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "Dynamatic Technologies Limited",
+      "stake": 2.94,
+      "shares": 199728,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 2.94% and 199,728 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 199,728 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 2.94%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "The Anup Engineering Limited",
+      "stake": 3.57,
+      "shares": 715229,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Original NSE XBRL checked; independent provider cross-check",
+      "note": "Original NSE registered shareholder, report date, shares and issued-share percentage matched against provider records. Percentage is company ownership, not portfolio allocation.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne",
+        "primaryanup"
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 3.57% and 715,229 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 715,229 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 3.57%; independently confirms precise percentage."
+        },
+        {
+          "source": "primaryanup",
+          "observation": "Original report 2026-06-30: Abakkus Emerging Opportunities Fund-1, 715,229 shares, 3.57% issued-share ownership; independently parsed XBRL."
+        }
+      ]
+    },
+    {
+      "name": "IIFL Capital Services Limited",
+      "stake": 1.24,
+      "shares": 3894795,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.24% and 3,894,795 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 3,894,795 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.24%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "Technocraft Industries (India) Limited",
+      "stake": 2.28,
+      "shares": 517049,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 2.28% and 517,049 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 517,049 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 2.28%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "Ion Exchange (India) Limited",
+      "stake": 1.85,
+      "shares": 2712799,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.85% and 2,712,799 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 2,712,799 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.85%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "Jubilant Pharmova Limited",
+      "stake": 1.15,
+      "shares": 1835028,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.15% and 1,835,028 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 1,835,028 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.15%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "Mastek Limited",
+      "stake": 1.27,
+      "shares": 393170,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.27% and 393,170 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 393,170 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.27%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "DCM Shriram Industries Limited",
+      "stake": 2.81,
+      "shares": 2444435,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 2.81% and 2,444,435 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 2,444,435 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 2.81%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "Rupa & Company Limited",
+      "stake": 3.42,
+      "shares": 2725091,
+      "holder": "Abakkus Emerging Opportunities Fund-1 + Abakkus Growth Fund-2",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne",
+        "growth"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.64% and 1,306,744 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 1,306,744 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.64%; independently confirms precise percentage."
+        },
+        {
+          "source": "growth",
+          "observation": "June 30: Growth Fund-2 1.78% / 1,418,347 shares; same count in Trendlyne. Total 3.42% is arithmetic sum of two same-date vehicle percentages."
+        }
+      ],
+      "parts": [
+        {
+          "name": "Abakkus Emerging Opportunities Fund-1",
+          "type": "Abakkus Emerging Opportunities Fund-1",
+          "stake": 1.64,
+          "shares": 1306744
+        },
+        {
+          "name": "Abakkus Growth Fund-2",
+          "type": "Abakkus Growth Fund-2",
+          "stake": 1.78,
+          "shares": 1418347
+        }
+      ]
+    },
+    {
+      "name": "H.G. Infra Engineering Limited",
+      "stake": 1.36,
+      "shares": 885591,
+      "holder": "Abakkus Emerging Opportunities Fund-1",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "emerging",
+        "inve",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "emerging",
+          "observation": "2026-06-30: Abakkus Emerging Opportunities Fund-1, 1.36% and 885,591 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Abakkus Emerging Opportunities Fund-1 row: same 885,591 shares; displayed percentage rounded to one decimal; September is filing-awaited for June records."
+        },
+        {
+          "source": "inve",
+          "observation": "June 2026: named fund ownership 1.36%; independently confirms precise percentage."
+        }
+      ]
+    },
+    {
+      "name": "J. Kumar Infraprojects Limited",
+      "stake": 2.48,
+      "shares": 1873547,
+      "holder": "Abakkus Growth Fund-2",
+      "date": "2026-09-30",
+      "basis": "Original NSE XBRL checked; independent provider cross-check",
+      "note": "Original NSE registered shareholder, report date, shares and issued-share percentage matched against provider records. Percentage is company ownership, not portfolio allocation.",
+      "sources": [
+        "growth",
+        "trendlyne",
+        "primaryjk",
+        "dated-15"
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "growth",
+          "observation": "2026-09-30: Abakkus Growth Fund-2, 2.48% / 1,873,547 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Same named vehicle and 1,873,547 shares; percentage displayed rounded to one decimal."
+        },
+        {
+          "source": "dated-15",
+          "observation": "2026-09-30: exact named fund row 2.48%, 1,873,547 shares, corroborating the Block.deal count and percentage."
+        },
+        {
+          "source": "primaryjk",
+          "observation": "Original report 2026-09-30: ABAKKUS GROWTH FUND-2, 1,873,547 shares, 2.48% issued-share ownership; independently parsed XBRL."
+        }
+      ]
+    },
+    {
+      "name": "M & B Engineering Limited",
+      "stake": 2.03,
+      "shares": 1157626,
+      "holder": "Abakkus Growth Fund-2",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "growth",
+        "trendlyne",
+        "dated-16"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "growth",
+          "observation": "2026-06-30: Abakkus Growth Fund-2, 2.03% / 1,157,626 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Same named vehicle and 1,157,626 shares; percentage displayed rounded to one decimal."
+        },
+        {
+          "source": "dated-16",
+          "observation": "2026-06-30: exact named fund row 2.03%, 1,157,626 shares, corroborating the Block.deal count and percentage."
+        }
+      ]
+    },
+    {
+      "name": "Stylam Industries Limited",
+      "stake": 2.09,
+      "shares": 353506,
+      "holder": "Abakkus Growth Fund-2",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "growth",
+        "trendlyne",
+        "dated-17"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "growth",
+          "observation": "2026-06-30: Abakkus Growth Fund-2, 2.09% / 353,506 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Same named vehicle and 353,506 shares; percentage displayed rounded to one decimal."
+        },
+        {
+          "source": "dated-17",
+          "observation": "2026-06-30: exact named fund row 2.09%, 353,506 shares, corroborating the Block.deal count and percentage."
+        }
+      ]
+    },
+    {
+      "name": "Sejal Glass Limited",
+      "stake": 4.39,
+      "shares": 500000,
+      "holder": "Abakkus Growth Fund-2",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "growth",
+        "trendlyne",
+        "dated-18"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "growth",
+          "observation": "2026-06-30: Abakkus Growth Fund-2, 4.39% / 500,000 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Same named vehicle and 500,000 shares; percentage displayed rounded to one decimal."
+        },
+        {
+          "source": "dated-18",
+          "observation": "2026-06-30: exact named fund row 4.39%, 500,000 shares, corroborating the Block.deal count and percentage."
+        }
+      ]
+    },
+    {
+      "name": "Hindware Home Innovation Limited",
+      "stake": 2.46,
+      "shares": 2063319,
+      "holder": "Abakkus Growth Fund-2 + Abakkus Growth Fund-Open Ended",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "2.46% sums the two same-date vehicle percentages; excludes older Growth Fund-1 stake.",
+      "sources": [
+        "growth",
+        "trendlyne",
+        "hindware"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "growth",
+          "observation": "June 30: Growth Fund-2 1.46%, 1,223,319 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June 30: Growth Fund-2 1,223,319 shares and Open Ended 840,000 shares. Rounded headline is 2.5%."
+        },
+        {
+          "source": "hindware",
+          "observation": "June 2026: names both Growth Fund-2 at 1.46% and Growth Fund-Open Ended at 1.00%."
+        }
+      ],
+      "parts": [
+        {
+          "name": "Abakkus Growth Fund-2",
+          "type": "Abakkus Growth Fund-2",
+          "stake": 1.46,
+          "shares": 1223319
+        },
+        {
+          "name": "Abakkus Growth Fund-Open Ended",
+          "type": "Abakkus Growth Fund-Open Ended",
+          "stake": 1,
+          "shares": 840000
+        }
+      ]
+    },
+    {
+      "name": "Jaro Institute of Technology Management and Research Limited",
+      "stake": 2.27,
+      "shares": 505610,
+      "holder": "Abakkus Diversified Alpha Fund",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "alpha",
+        "trendlyne",
+        "dated-20"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "alpha",
+          "observation": "June 30: Abakkus Diversified Alpha Fund, 2.27% / 505,610 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June named vehicle row corroborates 505,610 shares and percentage rounded to one decimal."
+        },
+        {
+          "source": "dated-20",
+          "observation": "2026-06-30: exact named fund row 2.27%, 505,610 shares, corroborating the Block.deal count and percentage."
+        }
+      ]
+    },
+    {
+      "name": "Indogulf Cropsciences Limited",
+      "stake": 4.02,
+      "shares": 2540538,
+      "holder": "Abakkus Diversified Alpha Fund",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "alpha",
+        "trendlyne",
+        "dated-21"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "alpha",
+          "observation": "June 30: Abakkus Diversified Alpha Fund, 4.02% / 2,540,538 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June named vehicle row corroborates 2,540,538 shares and percentage rounded to one decimal."
+        },
+        {
+          "source": "dated-21",
+          "observation": "2026-06-30: exact named fund row 4.02%, 2,540,538 shares, corroborating the Block.deal count and percentage."
+        }
+      ]
+    },
+    {
+      "name": "Mangal Electrical Industries Limited",
+      "stake": 2.89,
+      "shares": 798213,
+      "holder": "Abakkus Diversified Alpha Fund",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "alpha",
+        "trendlyne",
+        "dated-22"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "alpha",
+          "observation": "June 30: Abakkus Diversified Alpha Fund, 2.89% / 798,213 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June named vehicle row corroborates 798,213 shares and percentage rounded to one decimal."
+        },
+        {
+          "source": "dated-22",
+          "observation": "2026-06-30: exact named fund row 2.89%, 798,213 shares, corroborating the Block.deal count and percentage."
+        }
+      ]
+    },
+    {
+      "name": "TTK Healthcare Limited",
+      "stake": 2.07,
+      "shares": 293030,
+      "holder": "Abakkus Diversified Alpha Fund",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Disclosed company ownership, not portfolio allocation. Original exchange filing was not independently retrieved in this pass.",
+      "sources": [
+        "alpha",
+        "trendlyne",
+        "dated-23"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "alpha",
+          "observation": "June 30: Abakkus Diversified Alpha Fund, 2.07% / 293,030 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June named vehicle row corroborates 293,030 shares and percentage rounded to one decimal."
+        },
+        {
+          "source": "dated-23",
+          "observation": "2026-06-30: exact named fund row 2.07%, 293,030 shares, corroborating the Block.deal count and percentage."
+        }
+      ]
+    },
+    {
+      "name": "All Time Plastics Limited",
+      "stake": 6.16,
+      "shares": 4032258,
+      "holder": "Abakkus Four2Eight Opportunities Fund",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "June is the latest same-date precise two-domain corroboration in this pass. Trendlyne separately reports unchanged September shares; June is not relabelled as September.",
+      "sources": [
+        "alltime",
+        "alltimeblock",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "alltime",
+          "observation": "Shareholding as on June 30 2026: Four2Eight Opportunities Fund 6.16%, 4,032,258 shares."
+        },
+        {
+          "source": "alltimeblock",
+          "observation": "June 30: same named holder, 6.16%, 4,032,258 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "September page shows same 4,032,258 shares and rounded 6.2%; September original not retrieved."
+        }
+      ]
+    },
+    {
+      "name": "Aye Finance Limited",
+      "stake": 1.1,
+      "shares": null,
+      "holder": "Abakkus Four2Eight Opportunities Fund",
+      "date": "2026-06-30",
+      "basis": "Public named shareholder disclosure; provider cross-check",
+      "note": "Percentage corroborated for June; shares withheld because a second exact same-date quantity was not retrieved.",
+      "sources": [
+        "aye",
+        "trendlyne",
+        "sena"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "aye",
+          "observation": "June 2026: Four2Eight 1.10%."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June named Four2Eight row 1.1%, 2,713,240 shares; exact share count not independently corroborated."
+        },
+        {
+          "source": "sena",
+          "observation": "June history reports 1.10% for the same vehicle."
+        }
+      ]
+    },
+    {
+      "name": "Suven Life Sciences Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "Abakkus Diversified Alpha Fund",
+      "date": "2026-07-08",
+      "basis": "Needs reconciliation — headline stake and shares withheld",
+      "note": "July non-quarter filing has a different count and denominator. No second same-date corroboration; June numbers must not be presented as July or current.",
+      "sources": [
+        "alpha",
+        "trendlyne"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "alpha",
+          "observation": "July 8 dated filing row: 1.00%, 2,816,364 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Latest corroborated quarter June: 2,833,864 shares, rounded 1.1%; no July 8 matched row."
+        }
+      ]
+    },
+    {
+      "name": "Caliber Mining and Logistics Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "Abakkus Four2Eight Opportunities Fund",
+      "date": "2026-09-30",
+      "basis": "Needs reconciliation — headline stake and shares withheld",
+      "note": "Provider dates and share-capital bases do not reconcile. Headline withheld until dated original filing can be inspected; manager-level entry must not be added to fund ownership.",
+      "sources": [
+        "sena",
+        "caliber",
+        "caliberinvest"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "sena",
+          "observation": "History assigns 3.55% to September 2026, but page overall as-of label says July 23."
+        },
+        {
+          "source": "caliber",
+          "observation": "Named Four2Eight row shows 3.55%; reporting date not established in retrieved excerpt."
+        },
+        {
+          "source": "caliberinvest",
+          "observation": "July 24 ownership: manager-level 3.19%, 2,083,333 shares; not the same date or holder basis."
+        }
+      ]
+    },
+    {
+      "name": "Dhabriya Polywood Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "India – Ahead Venture Trust — Abakkus Venture Opportunities Fund",
+      "date": "2026-07-23",
+      "basis": "Needs reconciliation — headline stake and shares withheld",
+      "note": "Two sources agree on legal scheme and purchased count but differ on exact percentage. Direct BSE PDF returned 403; percentage withheld pending original verification. Acquisition disclosure is historical, not proof of current position.",
+      "sources": [
+        "dhabriya",
+        "dhabriyamc"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "dhabriya",
+          "observation": "Transcribed July 24 SAST disclosure: July 23 acquisition 601,341 shares, 5.56%."
+        },
+        {
+          "source": "dhabriyamc",
+          "observation": "July 23 news reports same 601,341 shares but 5.55%."
+        }
+      ]
+    },
+    {
+      "name": "Credent Connect N Care Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "India – Ahead Venture Trust — Abakkus Venture Opportunities Fund",
+      "date": "2026-08-12",
+      "basis": "Needs reconciliation — headline stake and shares withheld",
+      "note": "Pre-IPO and anchor-inclusive figures use different bases; anchor-book allocation is not company ownership. Final dated post-allotment holding was not corroborated.",
+      "sources": [
+        "credentet",
+        "credentmc"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "credentet",
+          "observation": "RHP/pre-IPO position 1.21%; reports separate anchor allocation."
+        },
+        {
+          "source": "credentmc",
+          "observation": "August 13 reports 2.26% including anchor investment; no reconciled final post-IPO share denominator."
+        }
+      ]
+    }
+  ]
+}

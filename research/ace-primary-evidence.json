@@ -1,0 +1,784 @@
+{
+  "checkedOn": "2026-10-11",
+  "records": [
+    {
+      "company": "Carysil Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734144_08102026123442_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-09-30"
+          ],
+          "shares": "773111",
+          "stake": "0.0272"
+        }
+      ],
+      "sha256": "718b1f48612d46cf265d2302e41edc4a7b2e7fd1f43ab9c165bd1a06c33a98aa"
+    },
+    {
+      "company": "Z-TECH (INDIA) LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726462_22092026052541_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-09-13"
+          ],
+          "shares": "535700",
+          "stake": "0.0331"
+        }
+      ],
+      "sha256": "5268d83859393a7af75abf22954088001923c756772cfc2483383b8485f6cceb"
+    },
+    {
+      "company": "Knowledge Marine & Engineering Works Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1710904_10082026025110_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-08-04"
+          ],
+          "shares": "594721",
+          "stake": "0.0236"
+        }
+      ],
+      "sha256": "b06be9b5d5a0182db0d03cd0c16238fe8d4ed308c16073341e17a60985562453"
+    },
+    {
+      "company": "V-MARC INDIA LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689813_09072026042053_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-07-08"
+          ],
+          "shares": "3966000",
+          "stake": "0.0271"
+        }
+      ],
+      "sha256": "5d5cb7d864e38b4e1a12916c175195d70065be143d1410d1d398643004a57504"
+    },
+    {
+      "company": "STOVE KRAFT LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691962_14072026121916_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "576916",
+          "stake": "0.0174"
+        }
+      ],
+      "sha256": "afcca45e020718bed4b43cc70d0c3ab4ce79479e9e8ffcda1b92611d96801ecf"
+    },
+    {
+      "company": "BALU FORGE INDUSTRIES LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693615_15072026071503_WEB.xml",
+      "holdings": [
+        {
+          "holder": "BENGAL FINANCE AND INVESTMENT PVT LTD",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "1400000",
+          "stake": "0.0117"
+        },
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "1890933",
+          "stake": "0.0158"
+        }
+      ],
+      "sha256": "4b57f62d37b0160c267987e213cc679face6bd201d5257cd5cbd4022c44d17d3"
+    },
+    {
+      "company": "VIKRAN ENGINEERING LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698522_21072026054509_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "3930060",
+          "stake": "0.0152"
+        }
+      ],
+      "sha256": "9b3b68f4c18d3b5ce72b5200f7db6f6011a8c178d9c9cc8fa58fb2d7e9ffb30e"
+    },
+    {
+      "company": "Aeroflex Industries Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694495_16072026062122_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Bengal Finance And Investment Private Limited",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "2726444",
+          "stake": "0.0206"
+        },
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "3008589",
+          "stake": "0.0227"
+        }
+      ],
+      "sha256": "dc111765cc7f3492e5212cc18e7f896fce6132785233e10a80b285c322e95a7c"
+    },
+    {
+      "company": "Shree OSFM E-Mobility Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693388_15072026052412_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "554700",
+          "stake": "0.036"
+        }
+      ],
+      "sha256": "d412b1c5840ea3daf80a7da3a8cdd21584ec07c0dd8b1a89f40707502b5982f3"
+    },
+    {
+      "company": "FINEOTEX CHEMICAL LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691460_13072026042551_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "23989323",
+          "stake": "0.0206"
+        }
+      ],
+      "sha256": "e8911121775b04579528e26ed3dfade420a10a9ea3be52d3b91ddcbc1e301674"
+    },
+    {
+      "company": "ZAGGLE PREPAID OCEAN SERVICES LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698974_21072026105926_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "2903356",
+          "stake": "0.0216"
+        },
+        {
+          "holder": "BENGAL FINANCE AND INVESTMENT PVT LTD",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "2317159",
+          "stake": "0.0172"
+        }
+      ],
+      "sha256": "f9d7d97f18b16f5262ebcc4d49afa99ace1f96cb1c65f94e3e01b35d140775fd"
+    },
+    {
+      "company": "TECHERA ENGINEERING (INDIA) LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697538_20072026080838_WEB.xml",
+      "holdings": [
+        {
+          "holder": "BENGAL FINANCE AND INVESTMENT PVT LTD",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "711200",
+          "stake": "0.043"
+        },
+        {
+          "holder": "SURYAVANSHI COMMOTRADE PRIVATE LIMITED",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "449600",
+          "stake": "0.0272"
+        },
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "589600",
+          "stake": "0.0357"
+        }
+      ],
+      "sha256": "c05d3841730abe681517f5090a2529a4f279e6550ffe5e27362c38a2ef917c11"
+    },
+    {
+      "company": "VASA DENTICITY LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696664_20072026023645_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "222500",
+          "stake": "0.0128"
+        }
+      ],
+      "sha256": "dec8e523f8a7e08eac0e936fa09cf21800fdc74902b276a5b6c66fa1d54fd001"
+    },
+    {
+      "company": "Shaily Engineering Plastics Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697545_20072026081804_WEB.xml",
+      "holdings": [
+        {
+          "holder": "SURYAVANSHI COMMOTRADE PRIVATE LIMITED",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "914700",
+          "stake": "0.0199"
+        },
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "1478980",
+          "stake": "0.0322"
+        }
+      ],
+      "sha256": "cba019552567a93a9024fe3aaf816ef04173623806e2594a5f665c9a6d6ce79f"
+    },
+    {
+      "company": "Agarwal Industrial Corporation Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690942_11072026021602_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "647977",
+          "stake": "0.0433"
+        }
+      ],
+      "sha256": "82240b1e6ef34078e33d1dd10e1d9720e61f2b3f3c64f97f92208d09bc07cf2d"
+    },
+    {
+      "company": "BETA DRUGS LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694796_17072026105957_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Suryavanshi Commotrade Private Limited",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "680026",
+          "stake": "0.0613"
+        },
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "543800",
+          "stake": "0.0491"
+        }
+      ],
+      "sha256": "46b19f99a78c86acbd0cabf9f5bf06057352b1dcb80aba2b7e9653b6d6e03702"
+    },
+    {
+      "company": "SAFARI INDUSTRIES (INDIA) LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698219_21072026034851_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "900000",
+          "stake": "0.0184"
+        }
+      ],
+      "sha256": "75838cc77a8f7b552380f2ffad1aca3a436ee90b635096f28a4b7342c5eab1d0"
+    },
+    {
+      "company": "XPRO INDIA LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693190_15072026040017_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "918550",
+          "stake": "0.0391"
+        }
+      ],
+      "sha256": "c751e3aaec5c908e6cd7a3c828d0cb8dc6bec640e06302ce32976439681dd05b"
+    },
+    {
+      "company": "YASHO INDUSTRIES LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1707719_04082026054312_WEB.xml",
+      "holdings": [
+        {
+          "holder": "BENGAL FINANCE AND INVESTMENT PVT LTD",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "240000",
+          "stake": "0.0199"
+        },
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "250242",
+          "stake": "0.0208"
+        }
+      ],
+      "sha256": "43d12874ff56e103764cf1d27e75bc4026922e79478cbaf9e45444623d23e8e2"
+    },
+    {
+      "company": "GUJARAT APOLLO INDUSTRIES LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692423_14072026052620_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "297056",
+          "stake": "0.0229"
+        }
+      ],
+      "sha256": "3aac81d08d674eca553a5fb9ff0afd94a794d06c3aafd2352b30be9e65f25b64"
+    },
+    {
+      "company": "DUDIGITAL GLOBAL LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654205_18042026043852_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "6130000",
+          "stake": "0.0853"
+        }
+      ],
+      "sha256": "3150ff5e15781cd551dce5a8f23c735891846cbf0185ad4573698ed1b2573f67"
+    },
+    {
+      "company": "INFINIUM PHARMACHEM LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652939_17042026125712_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "720000",
+          "stake": "0.0462"
+        }
+      ],
+      "sha256": "d151b503f010844c5e29ae0f9065717efa79385bce61d6a9000ce64228a24858"
+    },
+    {
+      "company": "TBI CORN LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650875_14042026064200_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "766666",
+          "stake": "0.0422"
+        }
+      ],
+      "sha256": "dd42dc410ae3a6c571941c07653b1a4db80b37649a17a923a9f5f494a78f09b8"
+    },
+    {
+      "company": "PRATHAM EPC PROJECTS LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1648094_09042026045027_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "226245",
+          "stake": "0.0124"
+        }
+      ],
+      "sha256": "663e4018ad6d142b74da00761afbb2fd474fd42f29040e480a7ee521f369e8de"
+    },
+    {
+      "company": "C2C ADVANCED SYSTEMS LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656661_21042026070314_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Bengal Finance And Investment Pvt Ltd",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "216000",
+          "stake": "0.0127"
+        },
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "647552",
+          "stake": "0.0382"
+        }
+      ],
+      "sha256": "4f3f77af62b5dcfac9503f2f64e9dccecc85f02554ce1489018284df5be2c133"
+    },
+    {
+      "company": "MEGATHERM INDUCTION LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649714_13042026025245_WEB.xml",
+      "holdings": [
+        {
+          "holder": "BENGAL FINANCE AND INVESTMENT PVT LTD",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "278400",
+          "stake": "0.0148"
+        },
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "316800",
+          "stake": "0.0168"
+        }
+      ],
+      "sha256": "7c369dffff49bf3e46b5fc7083926d99bfeae11ed0a07e18a3899c7fc80d8173"
+    },
+    {
+      "company": "Elecon Engineering Company Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734852_09102026032017_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Vijay Kishanlal Kedia",
+          "date": [
+            "2026-09-30"
+          ],
+          "shares": "2250000",
+          "stake": "0.01"
+        }
+      ],
+      "sha256": "7eec39405733cdc006cc8db6c7a2080e1120c068efc67fdf58bf977250dc9ed2"
+    },
+    {
+      "company": "WEBSOL ENERGY SYSTEM LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733574_06102026082812_WEB.xml",
+      "holdings": [
+        {
+          "holder": "VIJAY KISHANLAL KEDIA",
+          "date": [
+            "2026-09-30"
+          ],
+          "shares": "5155555",
+          "stake": "0.0119"
+        }
+      ],
+      "sha256": "21fcc7e7696c76db90faf16bcf023f2b71e906b685d462b35eb7e1d20a626cb8"
+    },
+    {
+      "company": "SIYARAM SILK MILLS LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692824_15072026113143_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Vijay Kishanlal Kedia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "455000",
+          "stake": "0.01"
+        }
+      ],
+      "sha256": "e9f72722c401638bce17d83e84e6f1f2ad17cd03e204fa47806739e5d9fdb32c"
+    },
+    {
+      "company": "TECHD CYBERSECURITY LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693904_16072026124405_WEB.xml",
+      "holdings": [
+        {
+          "holder": "VIJAY KISHANLAL KEDIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "393100",
+          "stake": "0.0526"
+        }
+      ],
+      "sha256": "567fa65259dd23c4a260c61cea56766cc8cca3be4ce26c2781954f90acea00f2"
+    },
+    {
+      "company": "REPRO INDIA LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697852_21072026122122_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Vijay Kishanlal Kedia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "906491",
+          "stake": "0.0632"
+        }
+      ],
+      "sha256": "cd826fa0aed69559d94a248811b9b3cc432396ba59fd746996812ae184acae5a"
+    },
+    {
+      "company": "SUDARSHAN CHEMICAL INDUSTRIES LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697035_20072026050814_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Vijay Kishanlal Kedia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "1000000",
+          "stake": "0.0127"
+        }
+      ],
+      "sha256": "0fcd7e21a47a8abae6952765efd22675bb9e148b178e5f4e349e6b0f2d1ec9d3"
+    },
+    {
+      "company": "AFFORDABLE ROBOTIC & AUTOMATION LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706698_01082026081510_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Vijay Kishanlal Kedia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "831043",
+          "stake": "0.0701"
+        }
+      ],
+      "sha256": "cfbe69e2d9a88273080a0bb69dd7c09188425ed91c25986963cb99cb3fc0cbd7"
+    },
+    {
+      "company": "Global Vectra Helicorp Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691426_13072026040456_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Vijay Kishanlal Kedia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "419436",
+          "stake": "0.03"
+        },
+        {
+          "holder": "Kedia Securities Private Limited",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "259782",
+          "stake": "0.0186"
+        }
+      ],
+      "sha256": "e956e148a589726ef7623ba74dc3ff57778cc82af250ee3f13f464057456587d"
+    },
+    {
+      "company": "MAHINDRA HOLIDAYS & RESORTS INDIA LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695975_18072026010428_WEB.xml",
+      "holdings": [
+        {
+          "holder": "VIJAY KISHANLAL KEDIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "2025000",
+          "stake": "0.01"
+        }
+      ],
+      "sha256": "b9d2445826184fdca0be7b6eb6755f2976202351d19abf66b03525b0a96926c3"
+    },
+    {
+      "company": "OM INFRA LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733512_06102026060243_WEB.xml",
+      "holdings": [
+        {
+          "holder": "KEDIA SECURITIES PRIVATE LIMITED",
+          "date": [
+            "2026-09-30"
+          ],
+          "shares": "2400000",
+          "stake": "0.0249"
+        }
+      ],
+      "sha256": "e5aca841f5151a799b5df5d2a7f61ce887b202eb75a464c6ce07974f4ced1b07"
+    },
+    {
+      "company": "EIMCO ELECON (INDIA) LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690616_10072026055719_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Kedia Securities Private Limited",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "83930",
+          "stake": "0.0145"
+        }
+      ],
+      "sha256": "22ec06314ab075c59090b15e9ff9baa610d96bb7c0eae23208f681ac5fce28cd"
+    },
+    {
+      "company": "PATEL ENGINEERING LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694821_17072026112459_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Kedia Securities Private Limited",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "10025099",
+          "stake": "0.0101"
+        }
+      ],
+      "sha256": "21421ec98938edba96239c89c023c09ed28792d6424f170263dfd5b25f7f0c8f"
+    },
+    {
+      "company": "Precision Camshafts Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697706_21072026102247_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Kedia Securities Private Limited",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "1000000",
+          "stake": "0.0105"
+        }
+      ],
+      "sha256": "44d646561768eef3e11edbdfdc289c5a823a00d036c81d6b75a26996a4fbd0ba"
+    },
+    {
+      "company": "NEULAND LABORATORIES LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696377_20072026085555_WEB.xml",
+      "holdings": [
+        {
+          "holder": "KEDIA SECURITIES PRIVATE LIMITED",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "130000",
+          "stake": "0.0101"
+        }
+      ],
+      "sha256": "6aa558f79a4c27f4be66c5f3edf618ffa8eb79d848ecdc64c9fe480cd12aeaf1"
+    },
+    {
+      "company": "ATUL AUTO LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696100_18072026034757_WEB.xml",
+      "holdings": [
+        {
+          "holder": "KEDIA SECURITIES PRIVATE LIMITED",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "751512",
+          "stake": "0.0271"
+        },
+        {
+          "holder": "VIJAY KEDIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "5050505",
+          "stake": "0.182"
+        }
+      ],
+      "sha256": "cf8e851e53c35661f62e9ef83f02a0ca2aa9874444a52c2e1fc85549dab1dfb7"
+    },
+    {
+      "company": "ASIAN ENERGY SERVICES LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698699_21072026064752_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "574000",
+          "stake": "0.0118"
+        }
+      ],
+      "sha256": "3daf1fbc6abee93284cc08d094929def265e73666374afb7a7bb5899b3d150b5"
+    },
+    {
+      "company": "FAZE THREE LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698232_21072026035611_WEB.xml",
+      "holdings": [
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "1317554",
+          "stake": "0.0542"
+        }
+      ],
+      "sha256": "a7c3d41c3890fd604797c6f464c1ba2528bba81dc50f4a0153830717a8cc0e6b"
+    },
+    {
+      "company": "Man Industries (India) Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696722_20072026030652_WEB.xml",
+      "holdings": [
+        {
+          "holder": "Ashish Kacholia",
+          "date": [
+            "2026-06-30"
+          ],
+          "shares": "2277029",
+          "stake": "0.0304"
+        }
+      ],
+      "sha256": "93d282a3371b8bcf53cd8f6b874a34e5e98b4ab01bd5cbf8e846f5c82586269a"
+    },
+    {
+      "company": "Finbud Financial Services Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1651110_15042026124012_WEB.xml",
+      "holdings": [
+        {
+          "holder": "BENGAL FINANCE AND INVESTMENT PVT LTD",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "652000",
+          "stake": "0.0342"
+        },
+        {
+          "holder": "ASHISH KACHOLIA",
+          "date": [
+            "2026-03-31"
+          ],
+          "shares": "1021523",
+          "stake": "0.0536"
+        }
+      ],
+      "sha256": "5de0ecb4113fa72f8226182b6878cb7d6db07ad72eedc3dd29b2dcc41607eed6"
+    }
+  ]
+}

@@ -1,0 +1,1678 @@
+{
+  "checkedOn": "2026-10-11",
+  "solomoJuneFacts": [
+    {
+      "c": "NEULANDLAB",
+      "n": "Neuland Laboratories Ltd",
+      "lastP": "2026-06-30",
+      "pct": 3.12
+    },
+    {
+      "c": "ASMTEC",
+      "n": "ASM Technologies Ltd",
+      "lastP": "2026-06-30",
+      "pct": 10.28
+    },
+    {
+      "c": "NUVAMA",
+      "n": "Nuvama Wealth Management Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.37
+    },
+    {
+      "c": "PTCIL",
+      "n": "PTC Industries Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.07
+    },
+    {
+      "c": "J&KBANK",
+      "n": "Jammu and Kashmir Bank Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.5
+    },
+    {
+      "c": "DEEPAKFERT",
+      "n": "Deepak Fertilisers & Petrochemicals Corp Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.19
+    },
+    {
+      "c": "SARDAEN",
+      "n": "Sarda Energy & Minerals Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.14
+    },
+    {
+      "c": "DCAL",
+      "n": "Dishman Carbogen Amcis Ltd",
+      "lastP": "2026-06-30",
+      "pct": 5.5
+    },
+    {
+      "c": "KINGFA",
+      "n": "Kingfa Science & Technology (India) Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.21
+    },
+    {
+      "c": "LTFOODS",
+      "n": "L T Foods Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.12
+    },
+    {
+      "c": "MPSLTD",
+      "n": "MPS Ltd",
+      "lastP": "2026-06-30",
+      "pct": 4.46
+    },
+    {
+      "c": "INTELLECT",
+      "n": "Intellect Design Arena Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.28
+    },
+    {
+      "c": "CAPACITE",
+      "n": "Capacite Infraprojects Ltd",
+      "lastP": "2026-06-30",
+      "pct": 6.62
+    },
+    {
+      "c": "SUDEEPPHRM",
+      "n": "Sudeep Pharma Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.33
+    },
+    {
+      "c": "ICIL",
+      "n": "Indo Count Industries Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.51
+    },
+    {
+      "c": "HCC",
+      "n": "Hindustan Construction Company Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.91
+    },
+    {
+      "c": "PDSL",
+      "n": "PDS Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.38
+    },
+    {
+      "c": "KRN",
+      "n": "KRN Heat Exchanger and Refrigeration Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.53
+    },
+    {
+      "c": "STAR",
+      "n": "Strides Pharma Science Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.12
+    },
+    {
+      "c": "TAALTECH",
+      "n": "TAAL Tech Ltd",
+      "lastP": "2026-06-30",
+      "pct": 8.92
+    },
+    {
+      "c": "ZOTA",
+      "n": "Zota Health Care Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.13
+    },
+    {
+      "c": "DBREALTY",
+      "n": "Valor Estate Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.57
+    },
+    {
+      "c": "JKIL",
+      "n": "J Kumar Infraprojects Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.55
+    },
+    {
+      "c": "YATHARTH",
+      "n": "Yatharth Hospital & Trauma Care Services Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.14
+    },
+    {
+      "c": "KIRLFER",
+      "n": "Kirloskar Ferrous Industries Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.21
+    },
+    {
+      "c": "IMFA",
+      "n": "Indian Metals & Ferro Alloys Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.07
+    },
+    {
+      "c": "APOLLOPIPE",
+      "n": "Apollo Pipes Ltd",
+      "lastP": "2026-06-30",
+      "pct": 3.41
+    },
+    {
+      "c": "WPIL",
+      "n": "WPIL Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.54
+    },
+    {
+      "c": "ARMANFIN",
+      "n": "Arman Financial Services Ltd",
+      "lastP": "2026-06-30",
+      "pct": 3.8
+    },
+    {
+      "c": "OSELDEVICE",
+      "n": "OSEL Devices Ltd",
+      "lastP": "2026-06-30",
+      "pct": 7.52
+    },
+    {
+      "c": "IFBIND",
+      "n": "IFB Industries Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.23
+    },
+    {
+      "c": "TATVA",
+      "n": "Tatva Chintan Pharma Chem Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.14
+    },
+    {
+      "c": "AYMSYNTEX",
+      "n": "AYM Syntex Ltd",
+      "lastP": "2026-06-30",
+      "pct": 3.92
+    },
+    {
+      "c": "LUXIND",
+      "n": "Lux Industries Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.55
+    },
+    {
+      "c": "HIRECT",
+      "n": "Hind Rectifiers Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.45
+    },
+    {
+      "c": "SURYODAY",
+      "n": "Suryoday Small Finance Bank Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.82
+    },
+    {
+      "c": "RAYMONDLSL",
+      "n": "Raymond Lifestyle Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.15
+    },
+    {
+      "c": "AJMERA",
+      "n": "Ajmera Realty & Infra India Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.93
+    },
+    {
+      "c": "WSTCSTPAPR",
+      "n": "West Coast Paper Mills Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.44
+    },
+    {
+      "c": "INFOBEAN",
+      "n": "InfoBeans Technologies Ltd",
+      "lastP": "2026-06-30",
+      "pct": 3.09
+    },
+    {
+      "c": "MONOLITH",
+      "n": "Monolithisch India Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.76
+    },
+    {
+      "c": "ORIRAIL",
+      "n": "Oriental Rail Infrastructure Ltd",
+      "lastP": "2026-06-30",
+      "pct": 5.07
+    },
+    {
+      "c": "PRAKASH",
+      "n": "Prakash Industries Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.72
+    },
+    {
+      "c": "RELTD",
+      "n": "Ravindra Energy Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.22
+    },
+    {
+      "c": "WENDT",
+      "n": "Wendt India Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.5
+    },
+    {
+      "c": "ALLCARGO",
+      "n": "Allcargo Logistics Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.94
+    },
+    {
+      "c": "PROTEAN",
+      "n": "Protean eGov Technologies Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.48
+    },
+    {
+      "c": "THEJO",
+      "n": "Thejo Engineering Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.66
+    },
+    {
+      "c": "GAUDIUMIVF",
+      "n": "Gaudium IVF and Women Health Ltd",
+      "lastP": "2026-06-30",
+      "pct": 3.43
+    },
+    {
+      "c": "LAXMIINDIA",
+      "n": "Laxmi India Finance Ltd",
+      "lastP": "2026-06-30",
+      "pct": 4.58
+    },
+    {
+      "c": "BELLACASA",
+      "n": "Bella Casa Fashion & Retail Ltd",
+      "lastP": "2026-06-30",
+      "pct": 6.85
+    },
+    {
+      "c": "VIDHIING",
+      "n": "Vidhi Specialty Food Ingredients Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.38
+    },
+    {
+      "c": "PPL",
+      "n": "Prakash Pipes Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.36
+    },
+    {
+      "c": "DENTALKART",
+      "n": "Vasa Denticity Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.36
+    },
+    {
+      "c": "NRAIL",
+      "n": "N R Agarwal Industries Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.06
+    },
+    {
+      "c": "BRANDMAN",
+      "n": "Brandman Retail Ltd",
+      "lastP": "2026-06-30",
+      "pct": 4.04
+    },
+    {
+      "c": "ARIS",
+      "n": "Arisinfra Solutions Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.59
+    },
+    {
+      "c": "TRANSPEK",
+      "n": "Transpek Industry Ltd",
+      "lastP": "2026-06-30",
+      "pct": 2.12
+    },
+    {
+      "c": "AUTOINT",
+      "n": "Autoriders International Ltd",
+      "lastP": "2026-06-30",
+      "pct": 9.48
+    },
+    {
+      "c": "KILITCH",
+      "n": "Kilitch Drugs (India) Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.34
+    },
+    {
+      "c": "TRACXN",
+      "n": "Tracxn Technologies Ltd",
+      "lastP": "2026-06-30",
+      "pct": 1.87
+    }
+  ],
+  "finologyPeriodRows": [
+    {
+      "name": "Ajmera Realty & Infra India Ltd.",
+      "periodCells": [
+        "-",
+        "1.93",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Allcargo Logistics Ltd.",
+      "periodCells": [
+        "-",
+        "2.94",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Apollo Pipes Ltd.",
+      "periodCells": [
+        "-",
+        "3.41",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Arman Financial Services Ltd.",
+      "periodCells": [
+        "-",
+        "3.80",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "ASM Technologies Ltd.",
+      "periodCells": [
+        "-",
+        "10.28",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Autoriders International Ltd.",
+      "periodCells": [
+        "-",
+        "9.48",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "AYM Syntex Ltd.",
+      "periodCells": [
+        "-",
+        "3.92",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Bella Casa Fashion & Retail Ltd.",
+      "periodCells": [
+        "-",
+        "6.85",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Capacit''e Infraprojects Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Deepak Fertilisers And Petrochemicals Corporation Ltd.",
+      "periodCells": [
+        "-",
+        "1.19",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Dishman Carbogen Amcis Ltd.",
+      "periodCells": [
+        "-",
+        "5.50",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Enviro Infra Engineers Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Hirect Ltd.",
+      "periodCells": [
+        "-",
+        "1.45",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Indian Metals & Ferro Alloys Ltd.",
+      "periodCells": [
+        "-",
+        "1.07",
+        "-",
+        "-",
+        "1.07",
+        "67.96"
+      ]
+    },
+    {
+      "name": "Indo Count Industries Ltd.",
+      "periodCells": [
+        "-",
+        "1.51",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Infobeans Technologies Ltd.",
+      "periodCells": [
+        "-",
+        "3.09",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Intellect Design Arena Ltd.",
+      "periodCells": [
+        "-",
+        "1.28",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "J Kumar Infraprojects Ltd.",
+      "periodCells": [
+        "-",
+        "2.55",
+        "-",
+        "-",
+        "2.55",
+        "83.31"
+      ]
+    },
+    {
+      "name": "KDDL Ltd.",
+      "periodCells": [
+        "-",
+        "3.44",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Kingfa Science & Technology (India) Ltd.",
+      "periodCells": [
+        "-",
+        "2.21",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Kirloskar Ferrous Industries Ltd.",
+      "periodCells": [
+        "-",
+        "1.21",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "KRN Heat Exchanger And Refrigeration Ltd.",
+      "periodCells": [
+        "-",
+        "1.53",
+        "-",
+        "-",
+        "1.37",
+        "124.75"
+      ]
+    },
+    {
+      "name": "LT Foods Ltd.",
+      "periodCells": [
+        "-",
+        "1.12",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Lux Industries Ltd.",
+      "periodCells": [
+        "-",
+        "1.55",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "MPS Ltd.",
+      "periodCells": [
+        "-",
+        "4.46",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Neuland Laboratories Ltd.",
+      "periodCells": [
+        "-",
+        "3.12",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Nuvama Wealth Management Ltd.",
+      "periodCells": [
+        "-",
+        "1.37",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Oriental Rail Infrastructure Ltd.",
+      "periodCells": [
+        "-",
+        "5.07",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "PDS Ltd.",
+      "periodCells": [
+        "-",
+        "2.38",
+        "-",
+        "-",
+        "2.38",
+        "112.98"
+      ]
+    },
+    {
+      "name": "Pix Transmissions Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Prakash Pipes Ltd.",
+      "periodCells": [
+        "-",
+        "2.36",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "PTC Industries Ltd.",
+      "periodCells": [
+        "-",
+        "1.07",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Radico Khaitan Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Ravindra Energy Ltd.",
+      "periodCells": [
+        "-",
+        "1.22",
+        "-",
+        "-",
+        "1.22",
+        "34.34"
+      ]
+    },
+    {
+      "name": "Raymond Lifestyle Ltd.",
+      "periodCells": [
+        "-",
+        "1.15",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Sarda Energy & Minerals Ltd.",
+      "periodCells": [
+        "-",
+        "1.14",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "SIRCA Paints India Ltd.",
+      "periodCells": [
+        "-",
+        "2.52",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Stanley Lifestyles Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Strides Pharma Science Ltd.",
+      "periodCells": [
+        "-",
+        "1.12",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Surya Roshni Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Suryoday Small Finance Bank Ltd.",
+      "periodCells": [
+        "-",
+        "2.82",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "TAAL Tech Ltd.",
+      "periodCells": [
+        "-",
+        "8.92",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Thejo Engineering Ltd.",
+      "periodCells": [
+        "-",
+        "1.66",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Tracxn Technologies Ltd.",
+      "periodCells": [
+        "-",
+        "1.87",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Transpek Industry Ltd.",
+      "periodCells": [
+        "-",
+        "2.12",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Vasa Denticity Ltd.",
+      "periodCells": [
+        "-",
+        "2.36",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Vidhi Specialty Food Ingredients Ltd.",
+      "periodCells": [
+        "-",
+        "1.38",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "West Coast Paper Mills Ltd.",
+      "periodCells": [
+        "-",
+        "1.44",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Zota Health Care Ltd.",
+      "periodCells": [
+        "-",
+        "7.27",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Concord Control Systems Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "5.56",
+        "135.64"
+      ]
+    },
+    {
+      "name": "Sahasra Electronic Solutions Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Monolithisch India Ltd.",
+      "periodCells": [
+        "-",
+        "2.76",
+        "-",
+        "-",
+        "2.76",
+        "75.08"
+      ]
+    },
+    {
+      "name": "Tatva Chintan Pharma Chem Ltd.",
+      "periodCells": [
+        "-",
+        "2.14",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "The Jammu & Kashmir Bank Ltd.",
+      "periodCells": [
+        "-",
+        "1.50",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Valor Estate Ltd.",
+      "periodCells": [
+        "-",
+        "1.57",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Wendt (India) Ltd.",
+      "periodCells": [
+        "-",
+        "2.50",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Yatharth Hospital & Trauma Care Services Ltd.",
+      "periodCells": [
+        "-",
+        "1.14",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "IFB Industries Ltd.",
+      "periodCells": [
+        "-",
+        "1.23",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Laxmi India Finance Ltd.",
+      "periodCells": [
+        "-",
+        "4.58",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "NR Agarwal Industries Ltd.",
+      "periodCells": [
+        "-",
+        "2.06",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Osel Devices Ltd.",
+      "periodCells": [
+        "-",
+        "7.52",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Protean e-Gov Technologies Ltd.",
+      "periodCells": [
+        "-",
+        "1.48",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Unified Data- Tech Solutions Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Zelio E-Mobility Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Hindustan Construction Company Ltd.",
+      "periodCells": [
+        "-",
+        "1.91",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Kilitch Drugs (India) Ltd.",
+      "periodCells": [
+        "-",
+        "1.34",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Sudeep Pharma Ltd.",
+      "periodCells": [
+        "-",
+        "1.33",
+        "-",
+        "-",
+        "1.33",
+        "157.56"
+      ]
+    },
+    {
+      "name": "Brandman Retail Ltd.",
+      "periodCells": [
+        "-",
+        "4.04",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Gaudium IVF and Women Health Ltd.",
+      "periodCells": [
+        "-",
+        "3.43",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Yaap Digital Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Safety Controls & Devices Ltd.",
+      "periodCells": [
+        "2.70",
+        "-",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Arisinfra Solutions Ltd.",
+      "periodCells": [
+        "-",
+        "1.59",
+        "-",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Poojaa Precision Engg Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "5.12",
+        "-",
+        "Filing Due",
+        "0.00"
+      ]
+    },
+    {
+      "name": "Anawil Wire And Engineering Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "2.72",
+        "Filing Due",
+        "28.57"
+      ]
+    },
+    {
+      "name": "ESDS Software Solution Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "6.00",
+        "1053.68"
+      ]
+    },
+    {
+      "name": "Manipal Payment And Identity Solutions Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "2.52",
+        "211.09"
+      ]
+    },
+    {
+      "name": "Purple Style Labs Ltd.",
+      "periodCells": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "1.25",
+        "52.17"
+      ]
+    }
+  ],
+  "sharpelyLatestFacts": [
+    {
+      "Symbol": "ESDS",
+      "ProperName": "ESDS Software Solution Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 6,
+      "NumberOfShares": 7032960,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "ASMTEC",
+      "ProperName": "ASM Technologies Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 10.28,
+      "NumberOfShares": 1500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "INTELLECT",
+      "ProperName": "Intellect Design Arena Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.28,
+      "NumberOfShares": 1790000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "INFOBEAN",
+      "ProperName": "Infobeans Technologies Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 3.09,
+      "NumberOfShares": 3000000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "PROTEAN",
+      "ProperName": "Protean e-Gov Technologies Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.48,
+      "NumberOfShares": 600000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "NEULANDLAB",
+      "ProperName": "Neuland Laboratories Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 3.12,
+      "NumberOfShares": 400000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "ZOTA",
+      "ProperName": "Zota Health Care Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 7.27,
+      "NumberOfShares": 2518489,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "DCAL",
+      "ProperName": "Dishman Carbogen Amcis Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 5.5,
+      "NumberOfShares": 8617000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "YATHARTH",
+      "ProperName": "Yatharth Hospital & Trauma Care Services Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.14,
+      "NumberOfShares": 1100000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "STAR",
+      "ProperName": "Strides Pharma Science Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.12,
+      "NumberOfShares": 1028750,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "OSELDEVICE",
+      "ProperName": "Osel Devices Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 7.52,
+      "NumberOfShares": 1338400,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "GAUDIUMIVF",
+      "ProperName": "Gaudium IVF and Women Health Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 3.43,
+      "NumberOfShares": 2500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "DENTALKART",
+      "ProperName": "Vasa Denticity Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.36,
+      "NumberOfShares": 410000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "KILITCH",
+      "ProperName": "Kilitch Drugs (India) Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.34,
+      "NumberOfShares": 470000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "KINGFA",
+      "ProperName": "Kingfa Science & Technology (India) Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.21,
+      "NumberOfShares": 300000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "CNCRD",
+      "ProperName": "Concord Control Systems Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 5.56,
+      "NumberOfShares": 577667,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "KRN",
+      "ProperName": "KRN Heat Exchanger And Refrigeration Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.37,
+      "NumberOfShares": 900000,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "HIRECT",
+      "ProperName": "Hirect Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.9,
+      "NumberOfShares": 1000000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "APOLLOPIPE",
+      "ProperName": "Apollo Pipes Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 3.41,
+      "NumberOfShares": 1500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "MONOLITH",
+      "ProperName": "Monolithisch India Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.76,
+      "NumberOfShares": 600000,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "ORIRAIL",
+      "ProperName": "Oriental Rail Infrastructure Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 5.07,
+      "NumberOfShares": 3400000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "THEJO",
+      "ProperName": "Thejo Engineering Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.66,
+      "NumberOfShares": 180000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "RELTD",
+      "ProperName": "Ravindra Energy Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.22,
+      "NumberOfShares": 2427162,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "PPL",
+      "ProperName": "Prakash Pipes Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.36,
+      "NumberOfShares": 564500,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "NUVAMA",
+      "ProperName": "Nuvama Wealth Management Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.37,
+      "NumberOfShares": 2500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "J&KBANK",
+      "ProperName": "The Jammu & Kashmir Bank Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.5,
+      "NumberOfShares": 16500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "MPIMANIPAL",
+      "ProperName": "Manipal Payment And Identity Solutions Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.52,
+      "NumberOfShares": 5831220,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "ARMANFIN",
+      "ProperName": "Arman Financial Services Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 3.8,
+      "NumberOfShares": 400000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "LAXMIINDIA",
+      "ProperName": "Laxmi India Finance Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 4.58,
+      "NumberOfShares": 2400000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "ICIL",
+      "ProperName": "Indo Count Industries Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.51,
+      "NumberOfShares": 3000000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "PDSL",
+      "ProperName": "PDS Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.38,
+      "NumberOfShares": 3362589,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "AYMSYNTEX",
+      "ProperName": "AYM Syntex Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 3.92,
+      "NumberOfShares": 2301369,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "LUXIND",
+      "ProperName": "Lux Industries Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.55,
+      "NumberOfShares": 465246,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "RAYMONDLSL",
+      "ProperName": "Raymond Lifestyle Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.15,
+      "NumberOfShares": 700000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "BELLACASA",
+      "ProperName": "Bella Casa Fashion & Retail Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 6.85,
+      "NumberOfShares": 917500,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "KIRLFER",
+      "ProperName": "Kirloskar Ferrous Industries Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.21,
+      "NumberOfShares": 2000000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "IMFA",
+      "ProperName": "Indian Metals & Ferro Alloys Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.07,
+      "NumberOfShares": 574679,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "DEEPAKFERT",
+      "ProperName": "Deepak Fertilisers And Petrochemicals Corporation Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.19,
+      "NumberOfShares": 1500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "TATVA",
+      "ProperName": "Tatva Chintan Pharma Chem Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.14,
+      "NumberOfShares": 500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "VIDHIING",
+      "ProperName": "Vidhi Specialty Food Ingredients Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.38,
+      "NumberOfShares": 690924,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "TRANSPEK",
+      "ProperName": "Transpek Industry Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.12,
+      "NumberOfShares": 118578,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "KDDL",
+      "ProperName": "KDDL Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 3.44,
+      "NumberOfShares": 423180,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "SIRCA",
+      "ProperName": "SIRCA Paints India Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.52,
+      "NumberOfShares": 1433421,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "BRANDMAN",
+      "ProperName": "Brandman Retail Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 4.04,
+      "NumberOfShares": 744990,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "CAPACITE",
+      "ProperName": "Capacite Infraprojects Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 6.62,
+      "NumberOfShares": 5600000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "HCC",
+      "ProperName": "Hindustan Construction Company Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.91,
+      "NumberOfShares": 50000000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "JKIL",
+      "ProperName": "J Kumar Infraprojects Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.55,
+      "NumberOfShares": 1930920,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "MPSLTD",
+      "ProperName": "MPS Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 4.46,
+      "NumberOfShares": 762457,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "PERNIASPOP",
+      "ProperName": "Purple Style Labs Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.25,
+      "NumberOfShares": 1000000,
+      "Status": "filed"
+    },
+    {
+      "Symbol": "DBREALTY",
+      "ProperName": "Valor Estate Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.57,
+      "NumberOfShares": 8500000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "AJMERA",
+      "ProperName": "Ajmera Realty & Infra India Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.93,
+      "NumberOfShares": 3797465,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "WSTCSTPAPR",
+      "ProperName": "West Coast Paper Mills Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.44,
+      "NumberOfShares": 950000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "NRAIL",
+      "ProperName": "NR Agarwal Industries Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.06,
+      "NumberOfShares": 350000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "ALLCARGO",
+      "ProperName": "Allcargo Logistics Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 2.94,
+      "NumberOfShares": 44100000,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "539956-BOM",
+      "ProperName": "TAAL Tech Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 8.92,
+      "NumberOfShares": 277931,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "AUTOINT",
+      "ProperName": "Autoriders International Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 9.48,
+      "NumberOfShares": 329839,
+      "Status": "awaited_filing"
+    },
+    {
+      "Symbol": "ARISINFRA",
+      "ProperName": "Arisinfra Solutions Ltd.",
+      "DateEnd": "202609",
+      "Percentage": 1.59,
+      "NumberOfShares": 1300000,
+      "Status": "awaited_filing"
+    }
+  ]
+}

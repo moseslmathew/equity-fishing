@@ -1,0 +1,988 @@
+{
+  "checkedOn": "2026-10-11",
+  "sources": {
+    "finology": {
+      "name": "Finology \u2014 investor portfolio",
+      "url": "https://ticker.finology.in/investor/vijay-kedia"
+    },
+    "trendlyne": {
+      "name": "Trendlyne \u2014 disclosed portfolio",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53805/Q3-2026/vijay-kishanlal-kedia/"
+    },
+    "direct": {
+      "name": "Block.deal \u2014 Vijay Kedia disclosures",
+      "url": "https://block.deal/entities/vijay-kishanlal-kedia/"
+    },
+    "entity": {
+      "name": "Block.deal \u2014 Kedia Securities disclosures",
+      "url": "https://block.deal/entities/kedia-securities-private-limited/"
+    },
+    "eimco": {
+      "name": "Eimco Elecon \u2014 official June shareholding",
+      "url": "https://eimcoelecon.in/wp-content/uploads/2026/07/SHP_30062026.pdf"
+    },
+    "september": {
+      "name": "Business Today \u2014 September disclosures",
+      "url": "https://www.businesstoday.in/markets/stocks/story/dolly-khanna-jhujhunwala-cut-stakes-in-these-companies-kedia-increases-position-in-this-stock-560430-2026-10-08"
+    },
+    "robokidz": {
+      "name": "Financial Express \u2014 Robokidz investment",
+      "url": "https://www.financialexpress.com/market/stock-insights/rs-235-cr-missile-bet-rs-4-3-cr-robot-bet-singhania-and-kedias-new-picks-revealed/4351684/"
+    },
+    "everest": {
+      "name": "EverestIMS \u2014 official prospectus",
+      "url": "https://everestims.com/assets/docs/EverestIMS_Technologies/rhp/EverestIMS_RHP_21092026.pdf"
+    },
+    "nse-32": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706698_01082026081510_WEB.xml"
+    },
+    "nse-40": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696100_18072026034757_WEB.xml"
+    },
+    "nse-36": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690616_10072026055719_WEB.xml"
+    },
+    "nse-26": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734852_09102026032017_WEB.xml"
+    },
+    "nse-33": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691426_13072026040456_WEB.xml"
+    },
+    "nse-34": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695975_18072026010428_WEB.xml"
+    },
+    "nse-39": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696377_20072026085555_WEB.xml"
+    },
+    "nse-35": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733512_06102026060243_WEB.xml"
+    },
+    "nse-37": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694821_17072026112459_WEB.xml"
+    },
+    "nse-38": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697706_21072026102247_WEB.xml"
+    },
+    "nse-30": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697852_21072026122122_WEB.xml"
+    },
+    "nse-28": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692824_15072026113143_WEB.xml"
+    },
+    "nse-31": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697035_20072026050814_WEB.xml"
+    },
+    "nse-29": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693904_16072026124405_WEB.xml"
+    },
+    "nse-27": {
+      "name": "NSE original shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733574_06102026082812_WEB.xml"
+    },
+    "eimco-sep": {
+      "name": "Trendlyne \u00b7 Eimco September holders",
+      "url": "https://trendlyne.com/equity/share-holding/364/EIMCOELECO/latest/eimco-elecon-india-ltd/"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Advait Energy Transitions Limited",
+      "stake": 1.14,
+      "shares": 125000,
+      "holder": "entity",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "finology",
+        "trendlyne",
+        "entity"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled. Original filing was not independently retrieved for this record; provider agreement is a cross-check, not an audit.",
+      "status": "providers",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1.14,
+          "shares": 125000,
+          "date": "2026-06-30",
+          "source": "trendlyne"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "Reports 1.14% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        },
+        {
+          "source": "entity",
+          "observation": "Displays 125,000 shares and 1.14% on 2026-06-30."
+        }
+      ]
+    },
+    {
+      "name": "Affordable Robotic & Automation Limited",
+      "stake": 7.01,
+      "shares": 831043,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-32",
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 7.01,
+          "shares": 831043,
+          "date": "2026-06-30",
+          "source": "nse-32"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-32",
+          "observation": "Issuer, registered holder, 831,043 shares and 7.01% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 7.01% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Atul Auto Limited",
+      "stake": 20.91,
+      "shares": 5802017,
+      "holder": "both",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-40",
+        "finology",
+        "trendlyne"
+      ],
+      "note": "The headline is the combined stake of Vijay Kedia and Kedia Securities. Each registered holder is shown separately. The holder filter changes both the percentage and share quantity.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 2.71,
+          "shares": 751512,
+          "date": "2026-06-30",
+          "source": "nse-40"
+        },
+        {
+          "name": "Vijay Kedia",
+          "type": "direct",
+          "stake": 18.2,
+          "shares": 5050505,
+          "date": "2026-06-30",
+          "source": "nse-40"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-40",
+          "observation": "Issuer, registered holder, 5,802,017 shares and 20.91% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 20.91% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Eimco Elecon (India) Limited",
+      "stake": 1.45,
+      "shares": 83930,
+      "holder": "entity",
+      "date": "2026-09-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-36",
+        "finology",
+        "trendlyne",
+        "entity",
+        "eimco",
+        "eimco-sep"
+      ],
+      "note": "September percentage and quantity agree across providers. The original filing retrieved is for June, so it does not independently verify September.",
+      "status": "providers",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1.45,
+          "shares": 83930,
+          "date": "2026-09-30",
+          "source": "trendlyne"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-36",
+          "observation": "Issuer, registered holder, 83,930 shares and 1.45% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "September 2026: 1.45%."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "September 2026: 83,930 shares; detailed shareholding page reports 1.45%."
+        },
+        {
+          "source": "eimco-sep",
+          "observation": "September 2026: Kedia Securities, 83,930 shares, 1.45%."
+        }
+      ]
+    },
+    {
+      "name": "Elecon Engineering Company Limited",
+      "stake": 1.0,
+      "shares": 2250000,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-26",
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. ",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 1.0,
+          "shares": 2250000,
+          "date": "2026-09-30",
+          "source": "nse-26"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-26",
+          "observation": "Issuer, registered holder, 2,250,000 shares and 1.00% matched in the filing for 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.00% for 2026-09; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "EverestIMS Technologies Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "entity",
+      "date": "2026-09-21",
+      "basis": "Post-IPO verification pending",
+      "sources": [
+        "everest",
+        "finology"
+      ],
+      "note": "Removed 4.99% from the headline: it is pre-IPO ownership. The original 21 September RHP confirms 850,010 shares and 4.99% before the offer. Finology shows 3.93% under September, although listing was in October. The proposed fresh issue would dilute the unchanged shares to about 3.93%, but a final post-allotment filing has not been independently checked.",
+      "status": "review",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 4.99,
+          "shares": 850010,
+          "date": "2026-09-21",
+          "source": "everest"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "everest",
+          "observation": "RHP: 850,010 shares, 4.99% pre-offer; post-offer percentage is left blank. Pre-offer capital 17,044,578 shares; proposed fresh issue 4,593,600."
+        },
+        {
+          "source": "finology",
+          "observation": "Displays 3.93%; this is not the RHP\u2019s pre-IPO percentage. Final holding date requires confirmation."
+        }
+      ]
+    },
+    {
+      "name": "Global Vectra Helicorp Limited",
+      "stake": 4.86,
+      "shares": 679218,
+      "holder": "both",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-33",
+        "finology",
+        "trendlyne"
+      ],
+      "note": "The headline is the combined stake of Vijay Kedia and Kedia Securities. Each registered holder is shown separately. The holder filter changes both the percentage and share quantity.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 3.0,
+          "shares": 419436,
+          "date": "2026-06-30",
+          "source": "nse-33"
+        },
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1.86,
+          "shares": 259782,
+          "date": "2026-06-30",
+          "source": "nse-33"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-33",
+          "observation": "Issuer, registered holder, 679,218 shares and 4.86% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 4.86% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Innovators Facade Systems Limited",
+      "stake": 8.71,
+      "shares": 1644232,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled. Original filing was not independently retrieved for this record; provider agreement is a cross-check, not an audit.",
+      "status": "providers",
+      "parts": [
+        {
+          "name": "Vijay Kedia",
+          "type": "direct",
+          "stake": 8.71,
+          "shares": 1644232,
+          "date": "2026-06-30",
+          "source": "trendlyne"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "Reports 8.71% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        },
+        {
+          "source": "direct",
+          "observation": "Displays 1,644,232 shares and 8.71% on 2026-06-30."
+        }
+      ]
+    },
+    {
+      "name": "Mahindra Holidays & Resorts India Limited",
+      "stake": 1.0,
+      "shares": 2025000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-34",
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 1.0,
+          "shares": 2025000,
+          "date": "2026-06-30",
+          "source": "nse-34"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-34",
+          "observation": "Issuer, registered holder, 2,025,000 shares and 1.00% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.00% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Neuland Laboratories Limited",
+      "stake": 1.01,
+      "shares": 130000,
+      "holder": "entity",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-39",
+        "finology",
+        "trendlyne",
+        "entity"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1.01,
+          "shares": 130000,
+          "date": "2026-06-30",
+          "source": "nse-39"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-39",
+          "observation": "Issuer, registered holder, 130,000 shares and 1.01% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.01% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Om Infra Limited",
+      "stake": 2.49,
+      "shares": 2400000,
+      "holder": "entity",
+      "date": "2026-09-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-35",
+        "finology",
+        "trendlyne",
+        "entity",
+        "september"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. ",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 2.49,
+          "shares": 2400000,
+          "date": "2026-09-30",
+          "source": "nse-35"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-35",
+          "observation": "Issuer, registered holder, 2,400,000 shares and 2.49% matched in the filing for 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 2.49% for 2026-09; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Patel Engineering Limited",
+      "stake": 1.01,
+      "shares": 10025099,
+      "holder": "entity",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-37",
+        "finology",
+        "trendlyne",
+        "entity"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1.01,
+          "shares": 10025099,
+          "date": "2026-06-30",
+          "source": "nse-37"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-37",
+          "observation": "Issuer, registered holder, 10,025,099 shares and 1.01% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.01% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Precision Camshafts Limited",
+      "stake": 1.05,
+      "shares": 1000000,
+      "holder": "entity",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-38",
+        "finology",
+        "trendlyne",
+        "entity"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1.05,
+          "shares": 1000000,
+          "date": "2026-06-30",
+          "source": "nse-38"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-38",
+          "observation": "Issuer, registered holder, 1,000,000 shares and 1.05% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.05% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Repro India Limited",
+      "stake": 6.32,
+      "shares": 906491,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-30",
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 6.32,
+          "shares": 906491,
+          "date": "2026-06-30",
+          "source": "nse-30"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-30",
+          "observation": "Issuer, registered holder, 906,491 shares and 6.32% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 6.32% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Robokidz Eduventures Limited",
+      "stake": 5.13,
+      "shares": 556800,
+      "holder": "entity",
+      "date": "2026-09-28",
+      "basis": "Post-IPO snapshot",
+      "sources": [
+        "finology",
+        "robokidz"
+      ],
+      "note": "Finology and Financial Express agree on the post-issue 5.13% stake. The article identifies 556,800 shares under Kedia Securities. 28 September is the listing-date reference, not a quarter-end filing. No original post-allotment filing was independently verified.",
+      "status": "providers",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 5.13,
+          "shares": 556800,
+          "date": "2026-09-28",
+          "source": "trendlyne"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "Post-issue stake shown as 5.13%."
+        },
+        {
+          "source": "robokidz",
+          "observation": "2 October article: 556,800 shares; approximately 5.13% after IPO; listed 28 September."
+        }
+      ]
+    },
+    {
+      "name": "Siyaram Silk Mills Limited",
+      "stake": 1.0,
+      "shares": 455000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-28",
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 1.0,
+          "shares": 455000,
+          "date": "2026-06-30",
+          "source": "nse-28"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-28",
+          "observation": "Issuer, registered holder, 455,000 shares and 1.00% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.00% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "SPML Infra Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "entity",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "finology",
+        "trendlyne",
+        "entity"
+      ],
+      "note": "June providers show 1.78%, but block.deal lists 1.77% for 18 July with the same 1,498,107 shares. The later denominator has not been independently reconciled. No current headline stake is asserted.",
+      "status": "review",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1.78,
+          "shares": 1498107,
+          "date": "2026-06-30",
+          "source": "trendlyne"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 1.78%."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June summary: approximately 1.8%."
+        },
+        {
+          "source": "entity",
+          "observation": "18 July 2026: 1.77%, 1,498,107 shares. Different reporting basis requires reconciliation."
+        }
+      ]
+    },
+    {
+      "name": "Sudarshan Chemical Industries Limited",
+      "stake": 1.27,
+      "shares": 1000000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-31",
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 1.27,
+          "shares": 1000000,
+          "date": "2026-06-30",
+          "source": "nse-31"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-31",
+          "observation": "Issuer, registered holder, 1,000,000 shares and 1.27% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.27% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "TechD Cybersecurity Limited",
+      "stake": 5.26,
+      "shares": 393100,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-29",
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled.",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 5.26,
+          "shares": 393100,
+          "date": "2026-06-30",
+          "source": "nse-29"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-29",
+          "observation": "Issuer, registered holder, 393,100 shares and 5.26% matched in the filing for 2026-06-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 5.26% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Vaibhav Global Limited",
+      "stake": 2.05,
+      "shares": 3425000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "finology",
+        "trendlyne",
+        "direct"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled. Original filing was not independently retrieved for this record; provider agreement is a cross-check, not an audit.",
+      "status": "providers",
+      "parts": [
+        {
+          "name": "Vijay Kedia",
+          "type": "direct",
+          "stake": 2.05,
+          "shares": 3425000,
+          "date": "2026-06-30",
+          "source": "trendlyne"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "Reports 2.05% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        },
+        {
+          "source": "direct",
+          "observation": "Displays 3,425,000 shares and 2.05% on 2026-06-30."
+        }
+      ]
+    },
+    {
+      "name": "Websol Energy System Limited",
+      "stake": 1.19,
+      "shares": 5155555,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "nse-27",
+        "finology",
+        "trendlyne",
+        "direct",
+        "september"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. ",
+      "status": "primary",
+      "parts": [
+        {
+          "name": "Vijay Kishanlal Kedia",
+          "type": "direct",
+          "stake": 1.19,
+          "shares": 5155555,
+          "date": "2026-09-30",
+          "source": "nse-27"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "nse-27",
+          "observation": "Issuer, registered holder, 5,155,555 shares and 1.19% matched in the filing for 2026-09-30."
+        },
+        {
+          "source": "finology",
+          "observation": "Reports 1.19% for 2026-09; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        }
+      ]
+    },
+    {
+      "name": "Yatharth Hospital & Trauma Care Services Limited",
+      "stake": 1,
+      "shares": 965000,
+      "holder": "entity",
+      "date": "2026-06-30",
+      "basis": "Quarter-end disclosure",
+      "sources": [
+        "finology",
+        "trendlyne",
+        "entity"
+      ],
+      "note": "The percentage is ownership of this company on the stated disclosure date. It is not portfolio allocation or a live position. No later holding has been reconciled. Original filing was not independently retrieved for this record; provider agreement is a cross-check, not an audit.",
+      "status": "providers",
+      "parts": [
+        {
+          "name": "Kedia Securities Private Limited",
+          "type": "entity",
+          "stake": 1,
+          "shares": 965000,
+          "date": "2026-06-30",
+          "source": "trendlyne"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "Reports 1.00% for 2026-06; percentage cross-check only."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Dated holder breakdown and share quantity agree; portfolio overview rounds percentages to one decimal place."
+        },
+        {
+          "source": "entity",
+          "observation": "Displays 965,000 shares and 1.00% on 2026-06-30."
+        }
+      ]
+    }
+  ]
+}

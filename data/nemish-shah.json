@@ -1,0 +1,253 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "Five public company records: four personal June 2026 holdings cross-checked across providers and one Asahi legal-holder reconciliation pending. September filings were awaited on the checked portfolio tracker; June observations are dated snapshots, not live ownership. LMW HUF and family/ENAM holdings are excluded. Finology Investment & Precision Castings 10% and Vascon 3.79% are named to Rekha N Shah on company-level sources, so they are not included as Nemish personal holdings. No original June exchange filing was independently inspected; provider agreement can share underlying feeds. Public thresholds mean this is not a complete wealth statement.",
+  "sources": {
+    "finology": {
+      "name": "Finology \u2014 portfolio tracker (broader holder coverage)",
+      "url": "https://ticker.finology.in/investor/nemish-s-shah"
+    },
+    "sena": {
+      "name": "Stocks Sena \u2014 personal portfolio, 30 June 2026",
+      "url": "https://www.stockssena.com/investors/nemish-shah"
+    },
+    "lmw-block": {
+      "name": "Block.deal \u2014 LMW named shareholders",
+      "url": "https://block.deal/companies/lmw/"
+    },
+    "lmw-rediff": {
+      "name": "Rediff \u2014 LMW individual and other-holder rows",
+      "url": "https://money.rediff.com/companies/lmw-ltd-/13640004/share-holding"
+    },
+    "lmw-trend": {
+      "name": "Trendlyne \u2014 LMW named-holder history including HUF",
+      "url": "https://trendlyne.com/equity/holding-lookup/785/53776/lmw-ltd/nemish-s-shah/"
+    },
+    "asahi-block": {
+      "name": "Block.deal \u2014 Asahi two same-name disclosures",
+      "url": "https://block.deal/companies/asahi-india-glass/"
+    },
+    "asahi-rediff": {
+      "name": "Rediff \u2014 Asahi separately categorized rows",
+      "url": "https://money.rediff.com/companies/Asahi-India-Glass-Ltd/14580002/share-holding"
+    },
+    "asahi-trend": {
+      "name": "Trendlyne \u2014 Asahi personal-holder history",
+      "url": "https://trendlyne.com/equity/holding-lookup/107/53776/asahi-india-glass-ltd/nemish-s-shah/"
+    },
+    "asahi-bfsl": {
+      "name": "BFSL \u2014 indexed June 2026 HUF category; full page unavailable",
+      "url": "https://www.bfsl.co.in/fundamental/livequotes/asahi-india-glass-ltd"
+    },
+    "bannari-block": {
+      "name": "Block.deal \u2014 Bannari named personal and concert-party rows",
+      "url": "https://block.deal/companies/bannari-amman-sugars/"
+    },
+    "bannari-rediff": {
+      "name": "Rediff \u2014 Bannari named personal row",
+      "url": "https://money.rediff.com/companies/bannari-amman-sugars-ltd-/11080003/share-holding"
+    },
+    "elgi-star": {
+      "name": "Star Finvest \u2014 Elgi June 2026 named shareholder",
+      "url": "https://starfinvest.in/company-profile/share-holding.php?fincode=122074"
+    },
+    "zodiac-star": {
+      "name": "Star Finvest \u2014 Zodiac June 2026 named shareholder",
+      "url": "https://starfinvest.in/company-profile/share-holding.php?fincode=121163"
+    },
+    "zodiac-trend": {
+      "name": "Trendlyne \u2014 Zodiac June 2026 exact shareholder",
+      "url": "https://trendlyne.com/equity/share-holding/1546/ZODIACLOTH/Q2-2026/zodiac-clothing-company-ltd/"
+    },
+    "trend-portfolio": {
+      "name": "Trendlyne \u2014 portfolio and named-holder details; September awaited",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53776/latest/nemish-s-shah/"
+    }
+  },
+  "holdings": [
+    {
+      "name": "LMW Limited",
+      "stake": 5.24,
+      "shares": 559673,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 personal disclosed holder; other legal holders excluded",
+      "note": "Resident individual row only. The separate 354,200-share / 3.32% record is explicitly named Nemish S Shah Huf in historical filings tracked by Trendlyne; it is not added to this personal stake. Finology 10.03% also includes broader coverage and is not used as personal ownership.",
+      "sources": [
+        "lmw-block",
+        "lmw-rediff",
+        "lmw-trend",
+        "sena",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "lmw-block",
+          "observation": "30 June 2026 named row: 559,673 shares, 5.24%; a second row has 354,200 shares, 3.32%."
+        },
+        {
+          "source": "lmw-rediff",
+          "observation": "June 2026 resident individual: 559,673 shares, 5.24%; separately categorized 354,200 / 3.32 record."
+        },
+        {
+          "source": "lmw-trend",
+          "observation": "June 2026 559,673 / 5.24; the 354,200 / 3.32 record is explicitly Huf in December 2023 history."
+        },
+        {
+          "source": "sena",
+          "observation": "30 June 2026 personal portfolio: 5.24%."
+        },
+        {
+          "source": "finology",
+          "observation": "June 2026 portfolio headline 10.03%; scope differs."
+        }
+      ]
+    },
+    {
+      "name": "Bannari Amman Sugars Limited",
+      "stake": 2.59,
+      "shares": 325000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 personal disclosed holder; other legal holders excluded",
+      "note": "Named personal row only; persons-acting-in-concert disclosures and separate Rekha/Shamyak positions are not summed.",
+      "sources": [
+        "bannari-block",
+        "bannari-rediff",
+        "sena",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "bannari-block",
+          "observation": "30 June 2026 NEMISH S SHAH: 325,000 shares, 2.59%; concert-party records separately listed."
+        },
+        {
+          "source": "bannari-rediff",
+          "observation": "June 2026 named individual: 325,000 shares, 2.59%."
+        },
+        {
+          "source": "sena",
+          "observation": "30 June 2026 portfolio 2.59%."
+        },
+        {
+          "source": "finology",
+          "observation": "June 2026 portfolio 2.59%."
+        }
+      ]
+    },
+    {
+      "name": "Elgi Equipments Limited",
+      "stake": 1.69,
+      "shares": 5360000,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 personal disclosed holder; other legal holders excluded",
+      "note": "Personal named holding only. Source agreement is provider corroboration, not independent inspection of an original June 2026 exchange filing.",
+      "sources": [
+        "elgi-star",
+        "sena",
+        "finology",
+        "trend-portfolio"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "elgi-star",
+          "observation": "June 2026 Nemish S Shah: 5,360,000 shares, 1.69%."
+        },
+        {
+          "source": "sena",
+          "observation": "30 June 2026 personal portfolio 1.69%."
+        },
+        {
+          "source": "finology",
+          "observation": "June 2026 portfolio 1.69%."
+        },
+        {
+          "source": "trend-portfolio",
+          "observation": "June 2026 Nemish S Shah named-holder detail 5,360,000 shares; percent rounded to 1.7%. September Filing Awaited."
+        }
+      ]
+    },
+    {
+      "name": "Zodiac Clothing Company Limited",
+      "stake": 1.48,
+      "shares": 405124,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 personal disclosed holder; other legal holders excluded",
+      "note": "Named resident individual only. ENAM Investments Private Limited is a distinct legal holder and is excluded.",
+      "sources": [
+        "zodiac-star",
+        "zodiac-trend",
+        "sena",
+        "finology"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "zodiac-star",
+          "observation": "June 2026 NEMISH S SHAH: 405,124 shares, 1.48%."
+        },
+        {
+          "source": "zodiac-trend",
+          "observation": "June 2026 resident individual Nemish s shah: 405,124 shares, 1.48%; ENAM Investments 2.42% separately disclosed."
+        },
+        {
+          "source": "sena",
+          "observation": "30 June 2026 personal portfolio 1.48%."
+        },
+        {
+          "source": "finology",
+          "observation": "June 2026 portfolio 1.48%."
+        }
+      ]
+    },
+    {
+      "name": "Asahi India Glass Limited",
+      "stake": null,
+      "shares": null,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership \u2014 personal disclosed holder; other legal holders excluded",
+      "note": "Personal percentage withheld pending legal-holder reconciliation. Resident individual row is 3,363,183 shares / 1.32%; another same-name row is 11,119,635 / 4.36%. BFSL indexed text places the latter under HUF, but its full page and original filing could not be inspected. Neither the 5.68% combined headline nor one component is presented as conclusively established personal ownership.",
+      "sources": [
+        "asahi-block",
+        "asahi-rediff",
+        "asahi-trend",
+        "asahi-bfsl",
+        "sena",
+        "finology"
+      ],
+      "status": "review",
+      "evidence": [
+        {
+          "source": "asahi-block",
+          "observation": "30 June 2026 two identical-name rows: 3,363,183 / 1.32 and 11,119,635 / 4.36."
+        },
+        {
+          "source": "asahi-rediff",
+          "observation": "June 2026 resident individual 1.32%, other non-institutions 4.36%, both Nemish S Shah."
+        },
+        {
+          "source": "asahi-trend",
+          "observation": "June 2026 personal lookup 3,363,183 shares / 1.32%."
+        },
+        {
+          "source": "asahi-bfsl",
+          "observation": "Search-indexed 30/06/2026 text places 11,119,635 / 4.36 under HUF; full-page fetch timed out, so legal separation remains unconfirmed."
+        },
+        {
+          "source": "sena",
+          "observation": "30 June 2026 personal portfolio 1.32%."
+        },
+        {
+          "source": "finology",
+          "observation": "June 2026 combined portfolio headline 5.68%."
+        }
+      ]
+    }
+  ]
+}

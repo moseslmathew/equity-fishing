@@ -1,0 +1,22 @@
+[
+  {
+    "company": "Rain Industries Limited",
+    "registeredHolder": "Dolly Khanna",
+    "date": "2026-09-30",
+    "shares": 5798355,
+    "stake": 1.72,
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734227_08102026023909_WEB.xml",
+    "sha256": "6106fed858e0076368233012aa145855e375262009f45ed229b0596a2dcd7955",
+    "context": "D_DetailsOfSharesHeldByResidentIndividualShareholdersHoldingNominalShareCapitalInExcessOfRsTwoLakh_Context15"
+  },
+  {
+    "company": "Edelweiss Financial Services Limited",
+    "registeredHolder": "Pabrai Wagons Fund",
+    "date": "2026-06-30",
+    "shares": 14572000,
+    "stake": 1.54,
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696956_20072026044439_WEB.xml",
+    "sha256": "ada660af80d9930b2c9e0dc549b84e239d83ce06af288d319069ae0cfb3bceed",
+    "context": "D_DetailsOfSharesHeldByInstitutionsForeignPortfolioInvestorOne_Context16"
+  }
+]

@@ -1,0 +1,3347 @@
+{
+  "checkedAt": "2026-10-10T02:43:34.573506+00:00",
+  "funds": [
+    {
+      "id": "dsp",
+      "name": "DSP",
+      "monogram": "DS",
+      "color": "#2864c8",
+      "verification": "official_only",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-09-30",
+      "lastCheckedAt": "2026-10-10T02:43:34.573506+00:00",
+      "holdings": [
+        {
+          "key": "INE872H01027",
+          "name": "Lumax Auto Technologies Limited",
+          "weight": 5.16
+        },
+        {
+          "key": "INE146L01010",
+          "name": "Kirloskar Oil Engines Limited",
+          "weight": 3.77
+        },
+        {
+          "key": "INE085J01014",
+          "name": "Thangamayil Jewellery Limited",
+          "weight": 3.37
+        },
+        {
+          "key": "INE191B01025",
+          "name": "Welspun Corp Limited",
+          "weight": 2.94
+        },
+        {
+          "key": "INE953O01021",
+          "name": "Sansera Engineering Limited",
+          "weight": 2.85
+        },
+        {
+          "key": "INE526E01018",
+          "name": "Spr Auto Technologies Limited",
+          "weight": 2.34
+        },
+        {
+          "key": "INE571A01038",
+          "name": "IPCA Laboratories Limited",
+          "weight": 2.14
+        },
+        {
+          "key": "INE738I01010",
+          "name": "eClerx Services Limited",
+          "weight": 2.02
+        },
+        {
+          "key": "INE021O01019",
+          "name": "Dodla Dairy Limited",
+          "weight": 1.96
+        },
+        {
+          "key": "INE0BY001018",
+          "name": "Jubilant Ingrevia Limited",
+          "weight": 1.83
+        },
+        {
+          "key": "INE818H01020",
+          "name": "LT Foods Limited",
+          "weight": 1.82
+        },
+        {
+          "key": "INE068V01023",
+          "name": "Gland Pharma Limited",
+          "weight": 1.78
+        },
+        {
+          "key": "INE00F201020",
+          "name": "Prudent Corporate Advisory Services Limited",
+          "weight": 1.71
+        },
+        {
+          "key": "INE338H01029",
+          "name": "Concord Biotech Limited",
+          "weight": 1.68
+        },
+        {
+          "key": "INE0JUS01029",
+          "name": "Harsha Engineers International Limited",
+          "weight": 1.53
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official September portfolio",
+          "url": "https://www.dspim.com/media/pages/mandatory-disclosures/portfolio-disclosures/7737577fda-1791551248/dsp-monthend-portfolio-as-on-30-september-2026.zip",
+          "type": "official",
+          "portfolioDate": "2026-09-30",
+          "matched": true
+        },
+        {
+          "label": "MFScanner — August only",
+          "url": "https://mfscanner.com/fund/dsp-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": false
+        }
+      ],
+      "notes": [
+        "Parsed original AMC spreadsheets for both adjacent month ends; matched securities by exact ISIN. Cash, debt and TREPS are excluded.",
+        "September independent-provider corroboration is pending: comparison websites checked still displayed August. Do not interpret the official-source status as a multi-provider match.",
+        "Changes are net month-end share quantities, not confirmed trades. Corporate actions, security changes and corrections may affect quantities."
+      ]
+    },
+    {
+      "id": "nippon",
+      "name": "Nippon India",
+      "monogram": "NI",
+      "color": "#9c3a50",
+      "verification": "official_only",
+      "checkStatus": "checked",
+      "portfolioDate": "2026-09-30",
+      "lastCheckedAt": "2026-10-10T02:43:34.573506+00:00",
+      "holdings": [
+        {
+          "key": "INE419M01035",
+          "name": "TD Power Systems Limited",
+          "weight": 1.88
+        },
+        {
+          "key": "INE257A01026",
+          "name": "Bharat Heavy Electricals Limited",
+          "weight": 1.77
+        },
+        {
+          "key": "INE040A01034",
+          "name": "HDFC Bank Limited",
+          "weight": 1.75
+        },
+        {
+          "key": "INE372A01015",
+          "name": "Apar Industries Limited",
+          "weight": 1.74
+        },
+        {
+          "key": "INE622W01025",
+          "name": "Acme Solar Holdings Ltd",
+          "weight": 1.33
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Limited",
+          "weight": 1.28
+        },
+        {
+          "key": "INE570L01029",
+          "name": "Sai Life Sciences Limited",
+          "weight": 1.24
+        },
+        {
+          "key": "INE387A01021",
+          "name": "Sundram Fasteners Limited",
+          "weight": 1.2
+        },
+        {
+          "key": "INE062A01020",
+          "name": "State Bank of India",
+          "weight": 1.19
+        },
+        {
+          "key": "INE280B01018",
+          "name": "Elantas Beck India Limited",
+          "weight": 1.16
+        },
+        {
+          "key": "INE745G01043",
+          "name": "Multi Commodity Exchange of India Limited",
+          "weight": 1.14
+        },
+        {
+          "key": "INE0LCL01028",
+          "name": "Avalon Technologies Limited",
+          "weight": 1.1
+        },
+        {
+          "key": "INE768C01028",
+          "name": "Zydus Wellness Limited",
+          "weight": 1.09
+        },
+        {
+          "key": "INE030A01027",
+          "name": "Hindustan Unilever Limited",
+          "weight": 1.05
+        },
+        {
+          "key": "INE732A01036",
+          "name": "Kirloskar Brothers Limited",
+          "weight": 0.99
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official September portfolio",
+          "url": "https://mf.nipponindiaim.com/InvestorServices/FactsheetsDocuments/NIMF-MONTHLY-PORTFOLIO-30-Sep-26.xls",
+          "type": "official",
+          "portfolioDate": "2026-09-30",
+          "matched": true
+        },
+        {
+          "label": "MFScanner — August only",
+          "url": "https://mfscanner.com/fund/nippon-india-small-cap-fund",
+          "type": "third_party",
+          "portfolioDate": "2026-08-31",
+          "matched": false
+        }
+      ],
+      "notes": [
+        "Parsed original AMC spreadsheets for both adjacent month ends; matched securities by exact ISIN. Cash, debt and TREPS are excluded.",
+        "September independent-provider corroboration is pending: comparison websites checked still displayed August. Do not interpret the official-source status as a multi-provider match.",
+        "Changes are net month-end share quantities, not confirmed trades. Corporate actions, security changes and corrections may affect quantities."
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "fundId": "dsp",
+      "currentDate": "2026-09-30",
+      "previousDate": "2026-08-31",
+      "checkedAt": "2026-10-10T02:43:34.573506+00:00",
+      "scope": "full_equity",
+      "basis": "official_disclosures",
+      "rows": [
+        {
+          "key": "INE872H01027",
+          "name": "Lumax Auto Technologies Limited",
+          "previousQuantity": 5333347,
+          "currentQuantity": 5333347,
+          "weight": 5.16,
+          "previousWeight": 5.12,
+          "note": null
+        },
+        {
+          "key": "INE146L01010",
+          "name": "Kirloskar Oil Engines Limited",
+          "previousQuantity": 3516559,
+          "currentQuantity": 3516559,
+          "weight": 3.77,
+          "previousWeight": 3.41,
+          "note": null
+        },
+        {
+          "key": "INE085J01014",
+          "name": "Thangamayil Jewellery Limited",
+          "previousQuantity": 1429947,
+          "currentQuantity": 1429947,
+          "weight": 3.37,
+          "previousWeight": 3.57,
+          "note": null
+        },
+        {
+          "key": "INE191B01025",
+          "name": "Welspun Corp Limited",
+          "previousQuantity": 2324047,
+          "currentQuantity": 2324047,
+          "weight": 2.94,
+          "previousWeight": 2.57,
+          "note": null
+        },
+        {
+          "key": "INE953O01021",
+          "name": "Sansera Engineering Limited",
+          "previousQuantity": 1770029,
+          "currentQuantity": 1350088,
+          "weight": 2.85,
+          "previousWeight": 3.28,
+          "note": null
+        },
+        {
+          "key": "INE526E01018",
+          "name": "Spr Auto Technologies Limited",
+          "previousQuantity": 1081165,
+          "currentQuantity": 1081165,
+          "weight": 2.34,
+          "previousWeight": 2.3,
+          "note": null
+        },
+        {
+          "key": "INE571A01038",
+          "name": "IPCA Laboratories Limited",
+          "previousQuantity": 2215167,
+          "currentQuantity": 2381239,
+          "weight": 2.14,
+          "previousWeight": 2.02,
+          "note": null
+        },
+        {
+          "key": "INE738I01010",
+          "name": "eClerx Services Limited",
+          "previousQuantity": 2224801,
+          "currentQuantity": 2378590,
+          "weight": 2.02,
+          "previousWeight": 2.03,
+          "note": null
+        },
+        {
+          "key": "INE021O01019",
+          "name": "Dodla Dairy Limited",
+          "previousQuantity": 4136902,
+          "currentQuantity": 4136902,
+          "weight": 1.96,
+          "previousWeight": 2.06,
+          "note": null
+        },
+        {
+          "key": "INE0BY001018",
+          "name": "Jubilant Ingrevia Limited",
+          "previousQuantity": 6002947,
+          "currentQuantity": 6002947,
+          "weight": 1.83,
+          "previousWeight": 1.87,
+          "note": null
+        },
+        {
+          "key": "INE818H01020",
+          "name": "LT Foods Limited",
+          "previousQuantity": 9738927,
+          "currentQuantity": 9738927,
+          "weight": 1.82,
+          "previousWeight": 2.01,
+          "note": null
+        },
+        {
+          "key": "INE068V01023",
+          "name": "Gland Pharma Limited",
+          "previousQuantity": 1315806,
+          "currentQuantity": 1315806,
+          "weight": 1.78,
+          "previousWeight": 1.75,
+          "note": null
+        },
+        {
+          "key": "INE00F201020",
+          "name": "Prudent Corporate Advisory Services Limited",
+          "previousQuantity": 1008140,
+          "currentQuantity": 1175307,
+          "weight": 1.71,
+          "previousWeight": 1.71,
+          "note": null
+        },
+        {
+          "key": "INE338H01029",
+          "name": "Concord Biotech Limited",
+          "previousQuantity": 2619839,
+          "currentQuantity": 2619839,
+          "weight": 1.68,
+          "previousWeight": 1.75,
+          "note": null
+        },
+        {
+          "key": "INE0JUS01029",
+          "name": "Harsha Engineers International Limited",
+          "previousQuantity": 6991662,
+          "currentQuantity": 6991662,
+          "weight": 1.53,
+          "previousWeight": 1.47,
+          "note": null
+        },
+        {
+          "key": "INE136B01020",
+          "name": "Cyient Limited",
+          "previousQuantity": 2761508,
+          "currentQuantity": 2761508,
+          "weight": 1.42,
+          "previousWeight": 1.5,
+          "note": null
+        },
+        {
+          "key": "INE399C01030",
+          "name": "Suprajit Engineering Limited",
+          "previousQuantity": 6000000,
+          "currentQuantity": 6000000,
+          "weight": 1.34,
+          "previousWeight": 1.39,
+          "note": null
+        },
+        {
+          "key": "INE572E01012",
+          "name": "PNB Housing Finance Limited",
+          "previousQuantity": 2547873,
+          "currentQuantity": 2547873,
+          "weight": 1.33,
+          "previousWeight": 1.35,
+          "note": null
+        },
+        {
+          "key": "INE540H01012",
+          "name": "Voltamp Transformers Limited",
+          "previousQuantity": 269287,
+          "currentQuantity": 269287,
+          "weight": 1.32,
+          "previousWeight": 1.36,
+          "note": null
+        },
+        {
+          "key": "INE180A01020",
+          "name": "Max Financial Services Limited",
+          "previousQuantity": 1789985,
+          "currentQuantity": 2020483,
+          "weight": 1.29,
+          "previousWeight": 1.3,
+          "note": null
+        },
+        {
+          "key": "INE767A01016",
+          "name": "Aarti Drugs Limited",
+          "previousQuantity": 6387722,
+          "currentQuantity": 6387722,
+          "weight": 1.28,
+          "previousWeight": 1.21,
+          "note": null
+        },
+        {
+          "key": "INE822C01015",
+          "name": "TCPL Packaging Limited",
+          "previousQuantity": 642415,
+          "currentQuantity": 642415,
+          "weight": 1.23,
+          "previousWeight": 1.16,
+          "note": null
+        },
+        {
+          "key": "INE277A01016",
+          "name": "Swaraj Engines Limited",
+          "previousQuantity": 731746,
+          "currentQuantity": 731746,
+          "weight": 1.21,
+          "previousWeight": 1.21,
+          "note": null
+        },
+        {
+          "key": "INE285K01026",
+          "name": "Techno Electric & Engineering Co Limited",
+          "previousQuantity": 2500000,
+          "currentQuantity": 2500000,
+          "weight": 1.17,
+          "previousWeight": 1.13,
+          "note": null
+        },
+        {
+          "key": "INE372A01015",
+          "name": "Apar Industries Limited",
+          "previousQuantity": 137523,
+          "currentQuantity": 137523,
+          "weight": 1.11,
+          "previousWeight": 1.12,
+          "note": null
+        },
+        {
+          "key": "INE100A01010",
+          "name": "Atul Limited",
+          "previousQuantity": 403746,
+          "currentQuantity": 403746,
+          "weight": 1.11,
+          "previousWeight": 1.19,
+          "note": null
+        },
+        {
+          "key": "INE435G01025",
+          "name": "Dhanuka Agritech Limited",
+          "previousQuantity": 2445187,
+          "currentQuantity": 2445187,
+          "weight": 1.06,
+          "previousWeight": 1.1,
+          "note": null
+        },
+        {
+          "key": "INE310A01015",
+          "name": "Nilkamal Limited",
+          "previousQuantity": 1178358,
+          "currentQuantity": 1178358,
+          "weight": 1.04,
+          "previousWeight": 1.09,
+          "note": null
+        },
+        {
+          "key": "INE544R01021",
+          "name": "Greenlam Industries Limited",
+          "previousQuantity": 10184213,
+          "currentQuantity": 10184213,
+          "weight": 1.01,
+          "previousWeight": 1.17,
+          "note": null
+        },
+        {
+          "key": "INE256C01024",
+          "name": "Triveni Engineering & Industries Limited",
+          "previousQuantity": 8810488,
+          "currentQuantity": 9183633,
+          "weight": 1.01,
+          "previousWeight": 1.2,
+          "note": null
+        },
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Limited",
+          "previousQuantity": 261357,
+          "currentQuantity": 261357,
+          "weight": 1.0,
+          "previousWeight": 1.05,
+          "note": null
+        },
+        {
+          "key": "INE410P01011",
+          "name": "Narayana Hrudayalaya Limited",
+          "previousQuantity": 1018174,
+          "currentQuantity": 1184362,
+          "weight": 0.99,
+          "previousWeight": 0.9,
+          "note": null
+        },
+        {
+          "key": "INE462A01022",
+          "name": "Bayer Cropscience Limited",
+          "previousQuantity": 577814,
+          "currentQuantity": 577814,
+          "weight": 0.98,
+          "previousWeight": 1.06,
+          "note": null
+        },
+        {
+          "key": "INE559A01017",
+          "name": "IFB Industries Limited",
+          "previousQuantity": 1750000,
+          "currentQuantity": 1750000,
+          "weight": 0.98,
+          "previousWeight": 1.08,
+          "note": null
+        },
+        {
+          "key": "INE825A01020",
+          "name": "Vardhman Textiles Limited",
+          "previousQuantity": 3815786,
+          "currentQuantity": 3815786,
+          "weight": 0.95,
+          "previousWeight": 1.01,
+          "note": null
+        },
+        {
+          "key": "INE961O01016",
+          "name": "Rainbow Childrens Medicare Limited",
+          "previousQuantity": 1536915,
+          "currentQuantity": 1536915,
+          "weight": 0.94,
+          "previousWeight": 1.0,
+          "note": null
+        },
+        {
+          "key": "INE893J01029",
+          "name": "Mold Tek Packaging Limited",
+          "previousQuantity": 2987367,
+          "currentQuantity": 2987367,
+          "weight": 0.92,
+          "previousWeight": 0.98,
+          "note": null
+        },
+        {
+          "key": "INE073K01018",
+          "name": "Sona Blw Precision Forgings Limited",
+          "previousQuantity": 2322429,
+          "currentQuantity": 2322429,
+          "weight": 0.9,
+          "previousWeight": 0.87,
+          "note": null
+        },
+        {
+          "key": "INE777K01022",
+          "name": "R R Kabel Limited",
+          "previousQuantity": 763736,
+          "currentQuantity": 763736,
+          "weight": 0.9,
+          "previousWeight": 1.03,
+          "note": null
+        },
+        {
+          "key": "INE429E01023",
+          "name": "Safari Industries (India) Limited",
+          "previousQuantity": 1300000,
+          "currentQuantity": 1300000,
+          "weight": 0.87,
+          "previousWeight": 0.91,
+          "note": null
+        },
+        {
+          "key": "INE212I01016",
+          "name": "S P Apparels Limited",
+          "previousQuantity": 1931892,
+          "currentQuantity": 1931892,
+          "weight": 0.87,
+          "previousWeight": 0.94,
+          "note": null
+        },
+        {
+          "key": "INE039C01032",
+          "name": "Jamna Auto Industries Limited",
+          "previousQuantity": 5908876,
+          "currentQuantity": 13721376,
+          "weight": 0.87,
+          "previousWeight": 0.33,
+          "note": null
+        },
+        {
+          "key": "INE04I401011",
+          "name": "KPIT Technologies Limited",
+          "previousQuantity": 2087073,
+          "currentQuantity": 3630987,
+          "weight": 0.84,
+          "previousWeight": 0.56,
+          "note": null
+        },
+        {
+          "key": "INE463V01026",
+          "name": "Anand Rathi Wealth Limited",
+          "previousQuantity": 810432,
+          "currentQuantity": 810432,
+          "weight": 0.8,
+          "previousWeight": 0.82,
+          "note": null
+        },
+        {
+          "key": "INE976A01021",
+          "name": "West Coast Paper Mills Limited",
+          "previousQuantity": 2300000,
+          "currentQuantity": 2300000,
+          "weight": 0.79,
+          "previousWeight": 0.65,
+          "note": null
+        },
+        {
+          "key": "INE220B01022",
+          "name": "Kalpataru Projects International Limited",
+          "previousQuantity": 896709,
+          "currentQuantity": 1209838,
+          "weight": 0.78,
+          "previousWeight": 0.58,
+          "note": null
+        },
+        {
+          "key": "INE907A01026",
+          "name": "Kalyani Steels Limited",
+          "previousQuantity": 1700000,
+          "currentQuantity": 1700000,
+          "weight": 0.76,
+          "previousWeight": 0.71,
+          "note": null
+        },
+        {
+          "key": "INE703B01027",
+          "name": "Ratnamani Metals & Tubes Limited",
+          "previousQuantity": 600000,
+          "currentQuantity": 600000,
+          "weight": 0.76,
+          "previousWeight": 0.73,
+          "note": null
+        },
+        {
+          "key": "INE2WKE01011",
+          "name": "Triveni Power Transmission Limited",
+          "previousQuantity": 2936829,
+          "currentQuantity": 2936829,
+          "weight": 0.75,
+          "previousWeight": 0.74,
+          "note": null
+        },
+        {
+          "key": "INE274F01020",
+          "name": "Westlife Foodworld Limited",
+          "previousQuantity": 2726563,
+          "currentQuantity": 2726563,
+          "weight": 0.75,
+          "previousWeight": 0.72,
+          "note": null
+        },
+        {
+          "key": "INE371P01015",
+          "name": "Amber Enterprises India Limited",
+          "previousQuantity": 230000,
+          "currentQuantity": 230000,
+          "weight": 0.71,
+          "previousWeight": 0.81,
+          "note": null
+        },
+        {
+          "key": "INE645S01024",
+          "name": "Rolex Rings Limited",
+          "previousQuantity": 7855081,
+          "currentQuantity": 7855081,
+          "weight": 0.7,
+          "previousWeight": 0.65,
+          "note": null
+        },
+        {
+          "key": "INE278Y01022",
+          "name": "Campus Activewear Limited",
+          "previousQuantity": 7100000,
+          "currentQuantity": 7100000,
+          "weight": 0.69,
+          "previousWeight": 0.74,
+          "note": null
+        },
+        {
+          "key": "INE406M01024",
+          "name": "Eris Lifesciences Limited",
+          "previousQuantity": 1230000,
+          "currentQuantity": 1230000,
+          "weight": 0.68,
+          "previousWeight": 0.74,
+          "note": null
+        },
+        {
+          "key": "INE239C01020",
+          "name": "Stylam Industries Limited",
+          "previousQuantity": 436235,
+          "currentQuantity": 436235,
+          "weight": 0.67,
+          "previousWeight": 0.7,
+          "note": null
+        },
+        {
+          "key": "INE128X01021",
+          "name": "Archean Chemical Industries Limited",
+          "previousQuantity": 2906331,
+          "currentQuantity": 2906331,
+          "weight": 0.66,
+          "previousWeight": 0.65,
+          "note": null
+        },
+        {
+          "key": "INE647A01010",
+          "name": "SRF Limited",
+          "previousQuantity": 444615,
+          "currentQuantity": 544615,
+          "weight": 0.63,
+          "previousWeight": 0.53,
+          "note": null
+        },
+        {
+          "key": "INE995S01015",
+          "name": "Niva Bupa Health Insurance Co Limited",
+          "previousQuantity": 17525050,
+          "currentQuantity": 17525050,
+          "weight": 0.61,
+          "previousWeight": 0.66,
+          "note": null
+        },
+        {
+          "key": "INE883F01010",
+          "name": "Aadhar Housing Finance Limited",
+          "previousQuantity": 2724811,
+          "currentQuantity": 2900492,
+          "weight": 0.59,
+          "previousWeight": 0.59,
+          "note": null
+        },
+        {
+          "key": "INE901L01018",
+          "name": "Alembic Pharmaceuticals Limited",
+          "previousQuantity": 1500000,
+          "currentQuantity": 1500000,
+          "weight": 0.58,
+          "previousWeight": 0.58,
+          "note": null
+        },
+        {
+          "key": "INE085A01013",
+          "name": "Chambal Fertilizers & Chemicals Limited",
+          "previousQuantity": 0,
+          "currentQuantity": 2970140,
+          "weight": 0.57,
+          "previousWeight": 0,
+          "note": null
+        },
+        {
+          "key": "INE551W01018",
+          "name": "Ujjivan Small Finance Bank Limited",
+          "previousQuantity": 15296631,
+          "currentQuantity": 17898010,
+          "weight": 0.56,
+          "previousWeight": 0.49,
+          "note": null
+        },
+        {
+          "key": "INE330T01021",
+          "name": "Happy Forgings Limited",
+          "previousQuantity": 711692,
+          "currentQuantity": 583267,
+          "weight": 0.56,
+          "previousWeight": 0.79,
+          "note": null
+        },
+        {
+          "key": "INE02PY01013",
+          "name": "Borosil Limited",
+          "previousQuantity": 4100000,
+          "currentQuantity": 4100000,
+          "weight": 0.56,
+          "previousWeight": 0.47,
+          "note": null
+        },
+        {
+          "key": "INE689W01016",
+          "name": "Prince Pipes and Fittings Limited",
+          "previousQuantity": 4618486,
+          "currentQuantity": 4618486,
+          "weight": 0.55,
+          "previousWeight": 0.63,
+          "note": null
+        },
+        {
+          "key": "INE482D01024",
+          "name": "Carysil Limited",
+          "previousQuantity": 1033191,
+          "currentQuantity": 1033191,
+          "weight": 0.5,
+          "previousWeight": 0.54,
+          "note": null
+        },
+        {
+          "key": "INE278H01035",
+          "name": "Sandhar Technologies Limited",
+          "previousQuantity": 1836360,
+          "currentQuantity": 1836360,
+          "weight": 0.5,
+          "previousWeight": 0.55,
+          "note": null
+        },
+        {
+          "key": "INE522D01027",
+          "name": "Manappuram Finance Limited",
+          "previousQuantity": 3331650,
+          "currentQuantity": 3331650,
+          "weight": 0.49,
+          "previousWeight": 0.52,
+          "note": null
+        },
+        {
+          "key": "INE599M01018",
+          "name": "JustDial Limited",
+          "previousQuantity": 1543718,
+          "currentQuantity": 1543718,
+          "weight": 0.48,
+          "previousWeight": 0.51,
+          "note": null
+        },
+        {
+          "key": "INE059D01020",
+          "name": "La Opala RG Limited",
+          "previousQuantity": 6577549,
+          "currentQuantity": 6577549,
+          "weight": 0.48,
+          "previousWeight": 0.53,
+          "note": null
+        },
+        {
+          "key": "INE916U01025",
+          "name": "Sheela Foam Limited",
+          "previousQuantity": 1545101,
+          "currentQuantity": 1545101,
+          "weight": 0.46,
+          "previousWeight": 0.46,
+          "note": null
+        },
+        {
+          "key": "INE221J01015",
+          "name": "Sharda Cropchem Limited",
+          "previousQuantity": 1334425,
+          "currentQuantity": 1334425,
+          "weight": 0.45,
+          "previousWeight": 0.47,
+          "note": null
+        },
+        {
+          "key": "INE01TY01017",
+          "name": "Canara HSBC Life Insurance Co Limited",
+          "previousQuantity": 6446731,
+          "currentQuantity": 6446731,
+          "weight": 0.45,
+          "previousWeight": 0.46,
+          "note": null
+        },
+        {
+          "key": "INE539A01019",
+          "name": "GHCL Limited",
+          "previousQuantity": 2273226,
+          "currentQuantity": 2273226,
+          "weight": 0.43,
+          "previousWeight": 0.46,
+          "note": null
+        },
+        {
+          "key": "INE510A01028",
+          "name": "Engineers India Limited",
+          "previousQuantity": 3000000,
+          "currentQuantity": 3000000,
+          "weight": 0.43,
+          "previousWeight": 0.36,
+          "note": null
+        },
+        {
+          "key": "INE461D01028",
+          "name": "HLE Glascoat Limited",
+          "previousQuantity": 1985919,
+          "currentQuantity": 1985919,
+          "weight": 0.41,
+          "previousWeight": 0.29,
+          "note": null
+        },
+        {
+          "key": "INE371A01025",
+          "name": "Graphite India Limited",
+          "previousQuantity": 1120944,
+          "currentQuantity": 1120944,
+          "weight": 0.4,
+          "previousWeight": 0.36,
+          "note": null
+        },
+        {
+          "key": "INE659A01023",
+          "name": "Sudarshan Chemical Industries Limited",
+          "previousQuantity": 640000,
+          "currentQuantity": 640000,
+          "weight": 0.36,
+          "previousWeight": 0.37,
+          "note": null
+        },
+        {
+          "key": "INE732I01021",
+          "name": "Angel One Limited",
+          "previousQuantity": 2580046,
+          "currentQuantity": 2580046,
+          "weight": 0.33,
+          "previousWeight": 0.34,
+          "note": null
+        },
+        {
+          "key": "INE0OAF01028",
+          "name": "JNK India Limited",
+          "previousQuantity": 1494918,
+          "currentQuantity": 1494918,
+          "weight": 0.31,
+          "previousWeight": 0.3,
+          "note": null
+        },
+        {
+          "key": "INE411H01032",
+          "name": "R Systems International Limited",
+          "previousQuantity": 2054827,
+          "currentQuantity": 2054827,
+          "weight": 0.27,
+          "previousWeight": 0.23,
+          "note": null
+        },
+        {
+          "key": "INE679A01013",
+          "name": "CSB Bank Limited",
+          "previousQuantity": 1506430,
+          "currentQuantity": 1506430,
+          "weight": 0.22,
+          "previousWeight": 0.24,
+          "note": null
+        },
+        {
+          "key": "INE063P01018",
+          "name": "Equitas Small Finance Bank Limited",
+          "previousQuantity": 5921758,
+          "currentQuantity": 4397552,
+          "weight": 0.14,
+          "previousWeight": 0.2,
+          "note": null
+        },
+        {
+          "key": "INE098F01031",
+          "name": "Amrutanjan Health Care Limited",
+          "previousQuantity": 35314,
+          "currentQuantity": 35314,
+          "weight": 0.01,
+          "previousWeight": 0.01,
+          "note": null
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official September portfolio",
+          "url": "https://www.dspim.com/media/pages/mandatory-disclosures/portfolio-disclosures/7737577fda-1791551248/dsp-monthend-portfolio-as-on-30-september-2026.zip",
+          "scope": "Full equity share quantities and allocations as at 30 September 2026; original AMC spreadsheet."
+        },
+        {
+          "label": "Official August portfolio",
+          "url": "https://www.dspim.com/media/pages/mandatory-disclosures/portfolio-disclosures/8a6dbe504f-1791453357/dsp-monthend-portfolio-as-on-31-aug-2026.zip",
+          "scope": "Full equity share quantities and allocations as at 31 August 2026; original AMC spreadsheet."
+        },
+        {
+          "label": "MFScanner — August only",
+          "url": "https://mfscanner.com/fund/dsp-small-cap-fund",
+          "scope": "Still reports August; checked as historical corroboration, not a September cross-check."
+        }
+      ],
+      "notes": [
+        "Parsed original AMC spreadsheets for both adjacent month ends; matched securities by exact ISIN. Cash, debt and TREPS are excluded.",
+        "September independent-provider corroboration is pending: comparison websites checked still displayed August. Do not interpret the official-source status as a multi-provider match.",
+        "Changes are net month-end share quantities, not confirmed trades. Corporate actions, security changes and corrections may affect quantities."
+      ]
+    },
+    {
+      "fundId": "nippon",
+      "currentDate": "2026-09-30",
+      "previousDate": "2026-08-31",
+      "checkedAt": "2026-10-10T02:43:34.573506+00:00",
+      "scope": "full_equity",
+      "basis": "official_disclosures",
+      "rows": [
+        {
+          "key": "INE419M01035",
+          "name": "TD Power Systems Limited",
+          "previousQuantity": 19307704,
+          "currentQuantity": 19307704,
+          "weight": 1.88,
+          "previousWeight": 1.82,
+          "note": null
+        },
+        {
+          "key": "INE257A01026",
+          "name": "Bharat Heavy Electricals Limited",
+          "previousQuantity": 34508595,
+          "currentQuantity": 34508595,
+          "weight": 1.77,
+          "previousWeight": 1.85,
+          "note": null
+        },
+        {
+          "key": "INE040A01034",
+          "name": "HDFC Bank Limited",
+          "previousQuantity": 19954929,
+          "currentQuantity": 19954929,
+          "weight": 1.75,
+          "previousWeight": 1.71,
+          "note": null
+        },
+        {
+          "key": "INE372A01015",
+          "name": "Apar Industries Limited",
+          "previousQuantity": 808204,
+          "currentQuantity": 808204,
+          "weight": 1.74,
+          "previousWeight": 1.73,
+          "note": null
+        },
+        {
+          "key": "INE622W01025",
+          "name": "Acme Solar Holdings Ltd",
+          "previousQuantity": 24487415,
+          "currentQuantity": 24487415,
+          "weight": 1.33,
+          "previousWeight": 1.19,
+          "note": null
+        },
+        {
+          "key": "INE036D01028",
+          "name": "Karur Vysya Bank Limited",
+          "previousQuantity": 31907252,
+          "currentQuantity": 31907252,
+          "weight": 1.28,
+          "previousWeight": 1.34,
+          "note": null
+        },
+        {
+          "key": "INE570L01029",
+          "name": "Sai Life Sciences Limited",
+          "previousQuantity": 6563832,
+          "currentQuantity": 6563832,
+          "weight": 1.24,
+          "previousWeight": 1.16,
+          "note": null
+        },
+        {
+          "key": "INE387A01021",
+          "name": "Sundram Fasteners Limited",
+          "previousQuantity": 8522020,
+          "currentQuantity": 8522020,
+          "weight": 1.2,
+          "previousWeight": 1.24,
+          "note": null
+        },
+        {
+          "key": "INE062A01020",
+          "name": "State Bank of India",
+          "previousQuantity": 10000000,
+          "currentQuantity": 10000000,
+          "weight": 1.19,
+          "previousWeight": 1.28,
+          "note": null
+        },
+        {
+          "key": "INE280B01018",
+          "name": "Elantas Beck India Limited",
+          "previousQuantity": 677636,
+          "currentQuantity": 677636,
+          "weight": 1.16,
+          "previousWeight": 0.95,
+          "note": null
+        },
+        {
+          "key": "INE745G01043",
+          "name": "Multi Commodity Exchange of India Limited",
+          "previousQuantity": 2800000,
+          "currentQuantity": 2800000,
+          "weight": 1.14,
+          "previousWeight": 1.15,
+          "note": null
+        },
+        {
+          "key": "INE0LCL01028",
+          "name": "Avalon Technologies Limited",
+          "previousQuantity": 3879742,
+          "currentQuantity": 3879742,
+          "weight": 1.1,
+          "previousWeight": 1.12,
+          "note": null
+        },
+        {
+          "key": "INE768C01028",
+          "name": "Zydus Wellness Limited",
+          "previousQuantity": 17132587,
+          "currentQuantity": 17132587,
+          "weight": 1.09,
+          "previousWeight": 1.1,
+          "note": null
+        },
+        {
+          "key": "INE030A01027",
+          "name": "Hindustan Unilever Limited",
+          "previousQuantity": 2895540,
+          "currentQuantity": 4526597,
+          "weight": 1.05,
+          "previousWeight": 0.69,
+          "note": null
+        },
+        {
+          "key": "INE732A01036",
+          "name": "Kirloskar Brothers Limited",
+          "previousQuantity": 4525148,
+          "currentQuantity": 4525148,
+          "weight": 0.99,
+          "previousWeight": 1.04,
+          "note": null
+        },
+        {
+          "key": "INE146L01010",
+          "name": "Kirloskar Oil Engines Limited",
+          "previousQuantity": 3400001,
+          "currentQuantity": 3400001,
+          "weight": 0.97,
+          "previousWeight": 0.86,
+          "note": null
+        },
+        {
+          "key": "INE864I01014",
+          "name": "MTAR Technologies Limited",
+          "previousQuantity": 954732,
+          "currentQuantity": 954732,
+          "weight": 0.92,
+          "previousWeight": 0.81,
+          "note": null
+        },
+        {
+          "key": "INE119A01028",
+          "name": "Balrampur Chini Mills Limited",
+          "previousQuantity": 11131698,
+          "currentQuantity": 11131698,
+          "weight": 0.91,
+          "previousWeight": 0.93,
+          "note": null
+        },
+        {
+          "key": "INE238A01034",
+          "name": "Axis Bank Limited",
+          "previousQuantity": 5977976,
+          "currentQuantity": 5977976,
+          "weight": 0.91,
+          "previousWeight": 0.94,
+          "note": null
+        },
+        {
+          "key": "INE589A01014",
+          "name": "NLC India Limited",
+          "previousQuantity": 27587015,
+          "currentQuantity": 27587015,
+          "weight": 0.89,
+          "previousWeight": 0.89,
+          "note": null
+        },
+        {
+          "key": "INE716A01013",
+          "name": "Whirlpool of India Limited",
+          "previousQuantity": 8009151,
+          "currentQuantity": 8009151,
+          "weight": 0.88,
+          "previousWeight": 0.78,
+          "note": null
+        },
+        {
+          "key": "INE692A01016",
+          "name": "Union Bank of India",
+          "previousQuantity": 41391115,
+          "currentQuantity": 41391115,
+          "weight": 0.87,
+          "previousWeight": 0.95,
+          "note": null
+        },
+        {
+          "key": "INE540H01012",
+          "name": "Voltamp Transformers Limited",
+          "previousQuantity": 642476,
+          "currentQuantity": 642476,
+          "weight": 0.83,
+          "previousWeight": 0.85,
+          "note": null
+        },
+        {
+          "key": "INE548C01032",
+          "name": "Emami Limited",
+          "previousQuantity": 16844801,
+          "currentQuantity": 16844801,
+          "weight": 0.79,
+          "previousWeight": 0.74,
+          "note": null
+        },
+        {
+          "key": "INE738I01010",
+          "name": "eClerx Services Limited",
+          "previousQuantity": 3450588,
+          "currentQuantity": 3450588,
+          "weight": 0.78,
+          "previousWeight": 0.83,
+          "note": null
+        },
+        {
+          "key": "INE00LO01017",
+          "name": "Craftsman Automation Limited",
+          "previousQuantity": 597209,
+          "currentQuantity": 597209,
+          "weight": 0.77,
+          "previousWeight": 0.81,
+          "note": null
+        },
+        {
+          "key": "INE914M01019",
+          "name": "Aster DM Quality Care Limited",
+          "previousQuantity": 8772707,
+          "currentQuantity": 8772707,
+          "weight": 0.76,
+          "previousWeight": 0.8,
+          "note": null
+        },
+        {
+          "key": "INE031B01049",
+          "name": "Ajanta Pharma Limited",
+          "previousQuantity": 1674471,
+          "currentQuantity": 1674471,
+          "weight": 0.75,
+          "previousWeight": 0.73,
+          "note": null
+        },
+        {
+          "key": "INE088F01024",
+          "name": "Paradeep Phosphates Limited",
+          "previousQuantity": 39089109,
+          "currentQuantity": 39089109,
+          "weight": 0.75,
+          "previousWeight": 0.76,
+          "note": null
+        },
+        {
+          "key": "INE974X01010",
+          "name": "Tube Investments of India Limited",
+          "previousQuantity": 2499222,
+          "currentQuantity": 2499222,
+          "weight": 0.73,
+          "previousWeight": 0.84,
+          "note": null
+        },
+        {
+          "key": "INE673O01025",
+          "name": "TBO Tek Limited",
+          "previousQuantity": 3427297,
+          "currentQuantity": 3427297,
+          "weight": 0.71,
+          "previousWeight": 0.72,
+          "note": null
+        },
+        {
+          "key": "INE944F01028",
+          "name": "Radico Khaitan Limited",
+          "previousQuantity": 1427333,
+          "currentQuantity": 1277384,
+          "weight": 0.69,
+          "previousWeight": 0.78,
+          "note": null
+        },
+        {
+          "key": "INE811A01038",
+          "name": "Kirloskar Pneumatic Company Limited",
+          "previousQuantity": 8218880,
+          "currentQuantity": 8218880,
+          "weight": 0.69,
+          "previousWeight": 0.71,
+          "note": null
+        },
+        {
+          "key": "INE237A01036",
+          "name": "Kotak Mahindra Bank Limited",
+          "previousQuantity": 8500000,
+          "currentQuantity": 12969988,
+          "weight": 0.67,
+          "previousWeight": 0.43,
+          "note": null
+        },
+        {
+          "key": "INE572E01012",
+          "name": "PNB Housing Finance Limited",
+          "previousQuantity": 4748659,
+          "currentQuantity": 4748659,
+          "weight": 0.66,
+          "previousWeight": 0.66,
+          "note": null
+        },
+        {
+          "key": "INE068V01023",
+          "name": "Gland Pharma Limited",
+          "previousQuantity": 1832424,
+          "currentQuantity": 1832424,
+          "weight": 0.66,
+          "previousWeight": 0.64,
+          "note": null
+        },
+        {
+          "key": "INE05HV01027",
+          "name": "Central Mine Planning & Design Institute Limited",
+          "previousQuantity": 24749675,
+          "currentQuantity": 25206461,
+          "weight": 0.65,
+          "previousWeight": 0.69,
+          "note": null
+        },
+        {
+          "key": "INE872H01027",
+          "name": "Lumax Auto Technologies Limited",
+          "previousQuantity": 2480000,
+          "currentQuantity": 2480000,
+          "weight": 0.64,
+          "previousWeight": 0.62,
+          "note": null
+        },
+        {
+          "key": "INE120A01034",
+          "name": "Carborundum Universal Limited",
+          "previousQuantity": 4073740,
+          "currentQuantity": 4073740,
+          "weight": 0.63,
+          "previousWeight": 0.55,
+          "note": null
+        },
+        {
+          "key": "INE220B01022",
+          "name": "Kalpataru Projects International Limited",
+          "previousQuantity": 3622814,
+          "currentQuantity": 3622814,
+          "weight": 0.62,
+          "previousWeight": 0.61,
+          "note": null
+        },
+        {
+          "key": "INE935N01020",
+          "name": "Dixon Technologies (India) Limited",
+          "previousQuantity": 370644,
+          "currentQuantity": 370644,
+          "weight": 0.6,
+          "previousWeight": 0.67,
+          "note": null
+        },
+        {
+          "key": "INE439A01020",
+          "name": "Asahi India Glass Limited",
+          "previousQuantity": 5102823,
+          "currentQuantity": 5102823,
+          "weight": 0.6,
+          "previousWeight": 0.59,
+          "note": null
+        },
+        {
+          "key": "INE0UH301010",
+          "name": "Omnitech Engineering Limited",
+          "previousQuantity": 8573332,
+          "currentQuantity": 8573332,
+          "weight": 0.6,
+          "previousWeight": 0.56,
+          "note": null
+        },
+        {
+          "key": "INE398R01022",
+          "name": "Syngene International Limited",
+          "previousQuantity": 13322540,
+          "currentQuantity": 13322540,
+          "weight": 0.6,
+          "previousWeight": 0.65,
+          "note": null
+        },
+        {
+          "key": "INE042A01014",
+          "name": "Escorts Kubota Limited",
+          "previousQuantity": 394076,
+          "currentQuantity": 1762465,
+          "weight": 0.59,
+          "previousWeight": 0.14,
+          "note": null
+        },
+        {
+          "key": "INE522F01014",
+          "name": "Coal India Limited",
+          "previousQuantity": 13000000,
+          "currentQuantity": 10973782,
+          "weight": 0.58,
+          "previousWeight": 0.63,
+          "note": null
+        },
+        {
+          "key": "INE182A01018",
+          "name": "Pfizer Limited",
+          "previousQuantity": 1206103,
+          "currentQuantity": 1206103,
+          "weight": 0.58,
+          "previousWeight": 0.68,
+          "note": null
+        },
+        {
+          "key": "INE048G01026",
+          "name": "Navin Fluorine International Limited",
+          "previousQuantity": 567368,
+          "currentQuantity": 567368,
+          "weight": 0.58,
+          "previousWeight": 0.6,
+          "note": null
+        },
+        {
+          "key": "INE284A01012",
+          "name": "Esab India Limited",
+          "previousQuantity": 853782,
+          "currentQuantity": 853782,
+          "weight": 0.58,
+          "previousWeight": 0.63,
+          "note": null
+        },
+        {
+          "key": "INE699H01024",
+          "name": "AWL Agri Business Limited",
+          "previousQuantity": 26233343,
+          "currentQuantity": 26233343,
+          "weight": 0.58,
+          "previousWeight": 0.61,
+          "note": null
+        },
+        {
+          "key": "INE304W01038",
+          "name": "Bluestone Jewellery and Lifestyle Limited",
+          "previousQuantity": 5830504,
+          "currentQuantity": 5830504,
+          "weight": 0.57,
+          "previousWeight": 0.58,
+          "note": null
+        },
+        {
+          "key": "INE825A01020",
+          "name": "Vardhman Textiles Limited",
+          "previousQuantity": 8465828,
+          "currentQuantity": 8465828,
+          "weight": 0.56,
+          "previousWeight": 0.59,
+          "note": null
+        },
+        {
+          "key": "INE0CLI01024",
+          "name": "Rategain Travel Technologies Limited",
+          "previousQuantity": 5314611,
+          "currentQuantity": 5314611,
+          "weight": 0.56,
+          "previousWeight": 0.6,
+          "note": null
+        },
+        {
+          "key": "INE967H01025",
+          "name": "Krishna Institute Of Medical Sciences Limited",
+          "previousQuantity": 6118377,
+          "currentQuantity": 6118377,
+          "weight": 0.56,
+          "previousWeight": 0.56,
+          "note": null
+        },
+        {
+          "key": "INE795G01014",
+          "name": "HDFC Life Insurance Company Limited",
+          "previousQuantity": 8549571,
+          "currentQuantity": 8549571,
+          "weight": 0.55,
+          "previousWeight": 0.56,
+          "note": null
+        },
+        {
+          "key": "INE235A01022",
+          "name": "Finolex Cables Limited",
+          "previousQuantity": 3040235,
+          "currentQuantity": 3040235,
+          "weight": 0.54,
+          "previousWeight": 0.46,
+          "note": null
+        },
+        {
+          "key": "INE325A01013",
+          "name": "Timken India Limited",
+          "previousQuantity": 1382500,
+          "currentQuantity": 1382500,
+          "weight": 0.54,
+          "previousWeight": 0.53,
+          "note": null
+        },
+        {
+          "key": "INE16NZ01023",
+          "name": "Orkla India Limited",
+          "previousQuantity": 8091739,
+          "currentQuantity": 8091739,
+          "weight": 0.54,
+          "previousWeight": 0.58,
+          "note": null
+        },
+        {
+          "key": "INE331A01037",
+          "name": "The Ramco Cements Limited",
+          "previousQuantity": 5076860,
+          "currentQuantity": 5076860,
+          "weight": 0.53,
+          "previousWeight": 0.54,
+          "note": null
+        },
+        {
+          "key": "INE348L01012",
+          "name": "Mas Financial Services Limited",
+          "previousQuantity": 15087423,
+          "currentQuantity": 15087423,
+          "weight": 0.53,
+          "previousWeight": 0.56,
+          "note": null
+        },
+        {
+          "key": "INE148O01028",
+          "name": "Delhivery Limited",
+          "previousQuantity": 10517117,
+          "currentQuantity": 10517117,
+          "weight": 0.53,
+          "previousWeight": 0.58,
+          "note": null
+        },
+        {
+          "key": "INE404A01024",
+          "name": "Aditya Birla Sun Life AMC Limited",
+          "previousQuantity": 4249792,
+          "currentQuantity": 4249792,
+          "weight": 0.52,
+          "previousWeight": 0.54,
+          "note": null
+        },
+        {
+          "key": "INE203A01020",
+          "name": "AstraZeneca Pharma India Limited",
+          "previousQuantity": 661875,
+          "currentQuantity": 661875,
+          "weight": 0.51,
+          "previousWeight": 0.56,
+          "note": null
+        },
+        {
+          "key": "INE686Y01026",
+          "name": "Fine Organic Industries Limited",
+          "previousQuantity": 785023,
+          "currentQuantity": 785023,
+          "weight": 0.5,
+          "previousWeight": 0.5,
+          "note": null
+        },
+        {
+          "key": "INE191H01014",
+          "name": "PVR INOX Limited",
+          "previousQuantity": 3333342,
+          "currentQuantity": 3243199,
+          "weight": 0.5,
+          "previousWeight": 0.49,
+          "note": null
+        },
+        {
+          "key": "INE066F01020",
+          "name": "Hindustan Aeronautics Limited",
+          "previousQuantity": 862972,
+          "currentQuantity": 862972,
+          "weight": 0.5,
+          "previousWeight": 0.5,
+          "note": null
+        },
+        {
+          "key": "INE0LP301011",
+          "name": "PhysicsWallah Limited",
+          "previousQuantity": 33086819,
+          "currentQuantity": 33086819,
+          "weight": 0.5,
+          "previousWeight": 0.47,
+          "note": null
+        },
+        {
+          "key": "INE073K01018",
+          "name": "Sona BLW Precision Forgings Limited",
+          "previousQuantity": 4785079,
+          "currentQuantity": 4785079,
+          "weight": 0.49,
+          "previousWeight": 0.47,
+          "note": null
+        },
+        {
+          "key": "INE858B01029",
+          "name": "ISGEC Heavy Engineering Limited",
+          "previousQuantity": 4498108,
+          "currentQuantity": 4498108,
+          "weight": 0.49,
+          "previousWeight": 0.43,
+          "note": null
+        },
+        {
+          "key": "INE199A01012",
+          "name": "Procter & Gamble Health Limited",
+          "previousQuantity": 694659,
+          "currentQuantity": 694659,
+          "weight": 0.48,
+          "previousWeight": 0.49,
+          "note": null
+        },
+        {
+          "key": "INE00WC01027",
+          "name": "Affle 3i Limited",
+          "previousQuantity": 2587622,
+          "currentQuantity": 2587622,
+          "weight": 0.48,
+          "previousWeight": 0.5,
+          "note": null
+        },
+        {
+          "key": "INE930H01031",
+          "name": "K.P.R. Mill Limited",
+          "previousQuantity": 3448243,
+          "currentQuantity": 3448243,
+          "weight": 0.47,
+          "previousWeight": 0.49,
+          "note": null
+        },
+        {
+          "key": "INE953O01021",
+          "name": "Sansera Engineering Limited",
+          "previousQuantity": 840207,
+          "currentQuantity": 840207,
+          "weight": 0.47,
+          "previousWeight": 0.41,
+          "note": null
+        },
+        {
+          "key": "INE12UN01015",
+          "name": "Shadowfax Technologies Limited",
+          "previousQuantity": 13437356,
+          "currentQuantity": 13437356,
+          "weight": 0.47,
+          "previousWeight": 0.42,
+          "note": null
+        },
+        {
+          "key": "INE887G01027",
+          "name": "Gokaldas Exports Limited",
+          "previousQuantity": 5394102,
+          "currentQuantity": 5394102,
+          "weight": 0.46,
+          "previousWeight": 0.51,
+          "note": null
+        },
+        {
+          "key": "INE933K01021",
+          "name": "Bajaj Consumer Care Limited",
+          "previousQuantity": 7292317,
+          "currentQuantity": 7292317,
+          "weight": 0.45,
+          "previousWeight": 0.42,
+          "note": null
+        },
+        {
+          "key": "INE600K01018",
+          "name": "Galaxy Surfactants Limited",
+          "previousQuantity": 1558820,
+          "currentQuantity": 1558820,
+          "weight": 0.45,
+          "previousWeight": 0.43,
+          "note": null
+        },
+        {
+          "key": "INE976G01028",
+          "name": "RBL Bank Limited",
+          "previousQuantity": 8932844,
+          "currentQuantity": 8932844,
+          "weight": 0.45,
+          "previousWeight": 0.41,
+          "note": null
+        },
+        {
+          "key": "INE536A01023",
+          "name": "Grindwell Norton Limited",
+          "previousQuantity": 1817531,
+          "currentQuantity": 1817531,
+          "weight": 0.45,
+          "previousWeight": 0.45,
+          "note": null
+        },
+        {
+          "key": "INE386C01029",
+          "name": "Astra Microwave Products Limited",
+          "previousQuantity": 2200000,
+          "currentQuantity": 2200000,
+          "weight": 0.45,
+          "previousWeight": 0.44,
+          "note": null
+        },
+        {
+          "key": "INE854D01024",
+          "name": "United Spirits Limited",
+          "previousQuantity": 2617659,
+          "currentQuantity": 2617659,
+          "weight": 0.44,
+          "previousWeight": 0.47,
+          "note": null
+        },
+        {
+          "key": "INE511C01022",
+          "name": "Poonawalla Fincorp Limited",
+          "previousQuantity": 8091706,
+          "currentQuantity": 8091706,
+          "weight": 0.44,
+          "previousWeight": 0.45,
+          "note": null
+        },
+        {
+          "key": "INE797F01020",
+          "name": "Jubilant Foodworks Limited",
+          "previousQuantity": 7755917,
+          "currentQuantity": 7755917,
+          "weight": 0.44,
+          "previousWeight": 0.47,
+          "note": null
+        },
+        {
+          "key": "INE348B01021",
+          "name": "Century Plyboards (India) Limited",
+          "previousQuantity": 5074464,
+          "currentQuantity": 5074464,
+          "weight": 0.43,
+          "previousWeight": 0.47,
+          "note": null
+        },
+        {
+          "key": "INE020B01018",
+          "name": "REC Limited",
+          "previousQuantity": 11511370,
+          "currentQuantity": 11511370,
+          "weight": 0.43,
+          "previousWeight": 0.45,
+          "note": null
+        },
+        {
+          "key": "INE192A01025",
+          "name": "Tata Consumer Products Limited",
+          "previousQuantity": 3608686,
+          "currentQuantity": 3668406,
+          "weight": 0.43,
+          "previousWeight": 0.45,
+          "note": null
+        },
+        {
+          "key": "INE725G01011",
+          "name": "ICRA Limited",
+          "previousQuantity": 809283,
+          "currentQuantity": 809283,
+          "weight": 0.42,
+          "previousWeight": 0.48,
+          "note": null
+        },
+        {
+          "key": "INE202Z01029",
+          "name": "TSF Investments  Limited",
+          "previousQuantity": 8201672,
+          "currentQuantity": 8201672,
+          "weight": 0.42,
+          "previousWeight": 0.4,
+          "note": null
+        },
+        {
+          "key": "INE138Y01010",
+          "name": "KFin Technologies Limited",
+          "previousQuantity": 3937532,
+          "currentQuantity": 3937532,
+          "weight": 0.41,
+          "previousWeight": 0.46,
+          "note": null
+        },
+        {
+          "key": "INE736A01011",
+          "name": "Central Depository Services (India) Limited",
+          "previousQuantity": 2539226,
+          "currentQuantity": 2539226,
+          "weight": 0.4,
+          "previousWeight": 0.43,
+          "note": null
+        },
+        {
+          "key": "INE299U01018",
+          "name": "Crompton Greaves Consumer Electricals Limited",
+          "previousQuantity": 15310436,
+          "currentQuantity": 15310436,
+          "weight": 0.39,
+          "previousWeight": 0.44,
+          "note": null
+        },
+        {
+          "key": "INE472A01039",
+          "name": "Blue Star Limited",
+          "previousQuantity": 2002468,
+          "currentQuantity": 2002468,
+          "weight": 0.38,
+          "previousWeight": 0.35,
+          "note": null
+        },
+        {
+          "key": "INE0HOQ01053",
+          "name": "Billionbrains Garage Ventures Ltd",
+          "previousQuantity": 16523048,
+          "currentQuantity": 16523048,
+          "weight": 0.38,
+          "previousWeight": 0.38,
+          "note": null
+        },
+        {
+          "key": "INE01QM01018",
+          "name": "eMudhra Limited",
+          "previousQuantity": 5114115,
+          "currentQuantity": 5114115,
+          "weight": 0.38,
+          "previousWeight": 0.34,
+          "note": null
+        },
+        {
+          "key": "INE659A01023",
+          "name": "Sudarshan Chemical Industries Limited",
+          "previousQuantity": 2565754,
+          "currentQuantity": 2565754,
+          "weight": 0.38,
+          "previousWeight": 0.39,
+          "note": null
+        },
+        {
+          "key": "INE075I01017",
+          "name": "Healthcare Global Enterprises Limited",
+          "previousQuantity": 4658823,
+          "currentQuantity": 4658823,
+          "weight": 0.38,
+          "previousWeight": 0.41,
+          "note": null
+        },
+        {
+          "key": "INE491A01021",
+          "name": "City Union Bank Limited",
+          "previousQuantity": 13667560,
+          "currentQuantity": 13667560,
+          "weight": 0.38,
+          "previousWeight": 0.38,
+          "note": null
+        },
+        {
+          "key": "INE136B01020",
+          "name": "Cyient Limited",
+          "previousQuantity": 2791867,
+          "currentQuantity": 2791867,
+          "weight": 0.38,
+          "previousWeight": 0.4,
+          "note": null
+        },
+        {
+          "key": "INE552Z01027",
+          "name": "Allied Blenders And Distillers Limited",
+          "previousQuantity": 4178025,
+          "currentQuantity": 4178025,
+          "weight": 0.37,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE142Z01019",
+          "name": "Orient Electric Limited",
+          "previousQuantity": 19057091,
+          "currentQuantity": 19057091,
+          "weight": 0.37,
+          "previousWeight": 0.41,
+          "note": null
+        },
+        {
+          "key": "INE1CDF01017",
+          "name": "Vedanta Aluminium Metal Limited",
+          "previousQuantity": 7019640,
+          "currentQuantity": 7019640,
+          "weight": 0.36,
+          "previousWeight": 0.37,
+          "note": null
+        },
+        {
+          "key": "INE262H01021",
+          "name": "Persistent Systems Limited",
+          "previousQuantity": 550028,
+          "currentQuantity": 550028,
+          "weight": 0.36,
+          "previousWeight": 0.37,
+          "note": null
+        },
+        {
+          "key": "INE570A01022",
+          "name": "ION Exchange (India) Limited",
+          "previousQuantity": 7161360,
+          "currentQuantity": 7161360,
+          "weight": 0.36,
+          "previousWeight": 0.32,
+          "note": null
+        },
+        {
+          "key": "INE053A01029",
+          "name": "The Indian Hotels Company Limited",
+          "previousQuantity": 3975828,
+          "currentQuantity": 3975828,
+          "weight": 0.36,
+          "previousWeight": 0.36,
+          "note": null
+        },
+        {
+          "key": "INE0ONG01011",
+          "name": "NTPC Green Energy Limited",
+          "previousQuantity": 31207243,
+          "currentQuantity": 31207243,
+          "weight": 0.36,
+          "previousWeight": 0.34,
+          "note": null
+        },
+        {
+          "key": "INE288B01029",
+          "name": "Deepak Nitrite Limited",
+          "previousQuantity": 1857622,
+          "currentQuantity": 1857622,
+          "weight": 0.35,
+          "previousWeight": 0.39,
+          "note": null
+        },
+        {
+          "key": "INE742F01042",
+          "name": "Adani Ports and Special Economic Zone Limited",
+          "previousQuantity": 1593769,
+          "currentQuantity": 1593769,
+          "weight": 0.35,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE594H01019",
+          "name": "Thyrocare Technologies Limited",
+          "previousQuantity": 5167803,
+          "currentQuantity": 5167803,
+          "weight": 0.34,
+          "previousWeight": 0.38,
+          "note": null
+        },
+        {
+          "key": "INE15B701018",
+          "name": "Pine Labs Limited",
+          "previousQuantity": 16237157,
+          "currentQuantity": 16237157,
+          "weight": 0.34,
+          "previousWeight": 0.32,
+          "note": null
+        },
+        {
+          "key": "INE245A01021",
+          "name": "Tata Power Company Limited",
+          "previousQuantity": 7707138,
+          "currentQuantity": 7707138,
+          "weight": 0.34,
+          "previousWeight": 0.32,
+          "note": null
+        },
+        {
+          "key": "INE775A01035",
+          "name": "Samvardhana Motherson International Limited",
+          "previousQuantity": 17000000,
+          "currentQuantity": 17000000,
+          "weight": 0.34,
+          "previousWeight": 0.35,
+          "note": null
+        },
+        {
+          "key": "INE769A01020",
+          "name": "Aarti Industries Limited",
+          "previousQuantity": 5663408,
+          "currentQuantity": 5663408,
+          "weight": 0.33,
+          "previousWeight": 0.36,
+          "note": null
+        },
+        {
+          "key": "INE226A01021",
+          "name": "Voltas Limited",
+          "previousQuantity": 2493009,
+          "currentQuantity": 2493009,
+          "weight": 0.33,
+          "previousWeight": 0.36,
+          "note": null
+        },
+        {
+          "key": "INE05C901015",
+          "name": "Juniper Green Energy Limited",
+          "previousQuantity": 9797902,
+          "currentQuantity": 9797902,
+          "weight": 0.33,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE707A01012",
+          "name": "Vindhya Telelinks Limited",
+          "previousQuantity": 974673,
+          "currentQuantity": 974673,
+          "weight": 0.32,
+          "previousWeight": 0.3,
+          "note": null
+        },
+        {
+          "key": "INE600L01024",
+          "name": "Dr. Lal Path Labs Limited",
+          "previousQuantity": 1290970,
+          "currentQuantity": 1290970,
+          "weight": 0.32,
+          "previousWeight": 0.3,
+          "note": null
+        },
+        {
+          "key": "INE473A01011",
+          "name": "Linde India Limited",
+          "previousQuantity": 400000,
+          "currentQuantity": 400000,
+          "weight": 0.31,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE342G01023",
+          "name": "NIIT Learning Systems Limited",
+          "previousQuantity": 12207638,
+          "currentQuantity": 12207638,
+          "weight": 0.31,
+          "previousWeight": 0.34,
+          "note": null
+        },
+        {
+          "key": "INE976A01021",
+          "name": "West Coast Paper Mills Limited",
+          "previousQuantity": 3459187,
+          "currentQuantity": 3459187,
+          "weight": 0.31,
+          "previousWeight": 0.26,
+          "note": null
+        },
+        {
+          "key": "INE850D01014",
+          "name": "Godrej Agrovet Limited",
+          "previousQuantity": 4021039,
+          "currentQuantity": 4021039,
+          "weight": 0.31,
+          "previousWeight": 0.3,
+          "note": null
+        },
+        {
+          "key": "INE112L01020",
+          "name": "Metropolis Healthcare Limited",
+          "previousQuantity": 4581344,
+          "currentQuantity": 4581344,
+          "weight": 0.31,
+          "previousWeight": 0.32,
+          "note": null
+        },
+        {
+          "key": "INE079A01024",
+          "name": "Ambuja Cements Limited",
+          "previousQuantity": 6615810,
+          "currentQuantity": 6615810,
+          "weight": 0.31,
+          "previousWeight": 0.32,
+          "note": null
+        },
+        {
+          "key": "INE643A01035",
+          "name": "Jtekt India Limited",
+          "previousQuantity": 21133584,
+          "currentQuantity": 21133584,
+          "weight": 0.3,
+          "previousWeight": 0.32,
+          "note": null
+        },
+        {
+          "key": "INE227W01023",
+          "name": "Clean Science and Technology Limited",
+          "previousQuantity": 3091186,
+          "currentQuantity": 3091186,
+          "weight": 0.3,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE263A01024",
+          "name": "Bharat Electronics Limited",
+          "previousQuantity": 6211691,
+          "currentQuantity": 6211691,
+          "weight": 0.3,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE134E01011",
+          "name": "Power Finance Corporation Limited",
+          "previousQuantity": 7393176,
+          "currentQuantity": 7393176,
+          "weight": 0.3,
+          "previousWeight": 0.3,
+          "note": null
+        },
+        {
+          "key": "INE685A01028",
+          "name": "Torrent Pharmaceuticals Limited",
+          "previousQuantity": 505464,
+          "currentQuantity": 505464,
+          "weight": 0.3,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE010J01012",
+          "name": "Tejas Networks Limited",
+          "previousQuantity": 5007516,
+          "currentQuantity": 5007516,
+          "weight": 0.3,
+          "previousWeight": 0.34,
+          "note": null
+        },
+        {
+          "key": "INE752H01013",
+          "name": "CARE Ratings Limited",
+          "previousQuantity": 1476822,
+          "currentQuantity": 1476822,
+          "weight": 0.3,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE302A01020",
+          "name": "Exide Industries Limited",
+          "previousQuantity": 5659350,
+          "currentQuantity": 5659350,
+          "weight": 0.29,
+          "previousWeight": 0.3,
+          "note": null
+        },
+        {
+          "key": "INE217B01036",
+          "name": "Kajaria Ceramics Limited",
+          "previousQuantity": 1895015,
+          "currentQuantity": 1895015,
+          "weight": 0.29,
+          "previousWeight": 0.29,
+          "note": null
+        },
+        {
+          "key": "INE894V01022",
+          "name": "Belrise Industries Ltd.",
+          "previousQuantity": 9728130,
+          "currentQuantity": 9728130,
+          "weight": 0.29,
+          "previousWeight": 0.27,
+          "note": null
+        },
+        {
+          "key": "INE806T01020",
+          "name": "Sapphire Foods India Limited",
+          "previousQuantity": 10793786,
+          "currentQuantity": 10793786,
+          "weight": 0.28,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE189B01011",
+          "name": "Styrenix Performance Materials Limited",
+          "previousQuantity": 1109890,
+          "currentQuantity": 1109890,
+          "weight": 0.28,
+          "previousWeight": 0.27,
+          "note": null
+        },
+        {
+          "key": "INE0IX101010",
+          "name": "Data Patterns (India) Limited",
+          "previousQuantity": 524363,
+          "currentQuantity": 524363,
+          "weight": 0.28,
+          "previousWeight": 0.29,
+          "note": null
+        },
+        {
+          "key": "INE340A01012",
+          "name": "Birla Corporation Limited",
+          "previousQuantity": 2697453,
+          "currentQuantity": 2697453,
+          "weight": 0.28,
+          "previousWeight": 0.29,
+          "note": null
+        },
+        {
+          "key": "INE718I01012",
+          "name": "JSW Cement Limited",
+          "previousQuantity": 20260819,
+          "currentQuantity": 20260819,
+          "weight": 0.28,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE690A01028",
+          "name": "TTK Prestige Limited",
+          "previousQuantity": 4413794,
+          "currentQuantity": 4413794,
+          "weight": 0.28,
+          "previousWeight": 0.31,
+          "note": null
+        },
+        {
+          "key": "INE764D01017",
+          "name": "V.S.T Tillers Tractors Limited",
+          "previousQuantity": 501622,
+          "currentQuantity": 501622,
+          "weight": 0.27,
+          "previousWeight": 0.26,
+          "note": null
+        },
+        {
+          "key": "INE115A01026",
+          "name": "LIC Housing Finance Limited",
+          "previousQuantity": 4017748,
+          "currentQuantity": 4017748,
+          "weight": 0.26,
+          "previousWeight": 0.26,
+          "note": null
+        },
+        {
+          "key": "INE324A01032",
+          "name": "Jindal Saw Limited",
+          "previousQuantity": 7567590,
+          "currentQuantity": 7567590,
+          "weight": 0.26,
+          "previousWeight": 0.28,
+          "note": null
+        },
+        {
+          "key": "INE0AQ201015",
+          "name": "Leela Palaces Hotels & Resorts Limited",
+          "previousQuantity": 3688067,
+          "currentQuantity": 3688067,
+          "weight": 0.26,
+          "previousWeight": 0.25,
+          "note": null
+        },
+        {
+          "key": "INE462A01022",
+          "name": "Bayer Cropscience Limited",
+          "previousQuantity": 566144,
+          "currentQuantity": 566144,
+          "weight": 0.25,
+          "previousWeight": 0.27,
+          "note": null
+        },
+        {
+          "key": "INE970X01018",
+          "name": "Lemon Tree Hotels Limited",
+          "previousQuantity": 19133536,
+          "currentQuantity": 19133536,
+          "weight": 0.25,
+          "previousWeight": 0.25,
+          "note": null
+        },
+        {
+          "key": "INE955D01029",
+          "name": "Genus Power Infrastructures Limited",
+          "previousQuantity": 7000000,
+          "currentQuantity": 7000000,
+          "weight": 0.25,
+          "previousWeight": 0.28,
+          "note": null
+        },
+        {
+          "key": "INE172A01027",
+          "name": "Castrol India Limited",
+          "previousQuantity": 10072811,
+          "currentQuantity": 10072811,
+          "weight": 0.25,
+          "previousWeight": 0.23,
+          "note": null
+        },
+        {
+          "key": "INE668F01031",
+          "name": "Jyothy Labs Limited",
+          "previousQuantity": 10691520,
+          "currentQuantity": 10691520,
+          "weight": 0.25,
+          "previousWeight": 0.26,
+          "note": null
+        },
+        {
+          "key": "INE0JUS01029",
+          "name": "Harsha Engineers International Limited",
+          "previousQuantity": 4136864,
+          "currentQuantity": 4136864,
+          "weight": 0.24,
+          "previousWeight": 0.23,
+          "note": null
+        },
+        {
+          "key": "INE320J01015",
+          "name": "RITES Limited",
+          "previousQuantity": 9200000,
+          "currentQuantity": 9200000,
+          "weight": 0.24,
+          "previousWeight": 0.24,
+          "note": null
+        },
+        {
+          "key": "INE536H01010",
+          "name": "CIE Automotive India Limited",
+          "previousQuantity": 4966784,
+          "currentQuantity": 4966784,
+          "weight": 0.24,
+          "previousWeight": 0.24,
+          "note": null
+        },
+        {
+          "key": "INE055A01016",
+          "name": "Aditya Birla Real Estate Limited",
+          "previousQuantity": 1721623,
+          "currentQuantity": 1721623,
+          "weight": 0.24,
+          "previousWeight": 0.28,
+          "note": null
+        },
+        {
+          "key": "INE513A01022",
+          "name": "Schaeffler India Limited",
+          "previousQuantity": 484271,
+          "currentQuantity": 484271,
+          "weight": 0.23,
+          "previousWeight": 0.24,
+          "note": null
+        },
+        {
+          "key": "INE044A01036",
+          "name": "Sun Pharmaceutical Industries Limited",
+          "previousQuantity": 1000000,
+          "currentQuantity": 1000000,
+          "weight": 0.22,
+          "previousWeight": 0.24,
+          "note": null
+        },
+        {
+          "key": "INE0BS701011",
+          "name": "Premier Energies Limited",
+          "previousQuantity": 2053186,
+          "currentQuantity": 2053186,
+          "weight": 0.22,
+          "previousWeight": 0.26,
+          "note": null
+        },
+        {
+          "key": "INE205A01025",
+          "name": "Vedanta Limited",
+          "previousQuantity": 6944141,
+          "currentQuantity": 6944141,
+          "weight": 0.22,
+          "previousWeight": 0.23,
+          "note": null
+        },
+        {
+          "key": "INE101I01011",
+          "name": "Afcons Infrastructure Limited",
+          "previousQuantity": 6695997,
+          "currentQuantity": 6695997,
+          "weight": 0.21,
+          "previousWeight": 0.23,
+          "note": null
+        },
+        {
+          "key": "INE410P01011",
+          "name": "Narayana Hrudayalaya Limited",
+          "previousQuantity": 944173,
+          "currentQuantity": 944173,
+          "weight": 0.21,
+          "previousWeight": 0.22,
+          "note": null
+        },
+        {
+          "key": "INE14LE01019",
+          "name": "Aditya Birla Lifestyle Brands Limited",
+          "previousQuantity": 22375020,
+          "currentQuantity": 22375020,
+          "weight": 0.21,
+          "previousWeight": 0.23,
+          "note": null
+        },
+        {
+          "key": "INE743M01012",
+          "name": "RHI Magnesita India Limited",
+          "previousQuantity": 1984176,
+          "currentQuantity": 4480956,
+          "weight": 0.21,
+          "previousWeight": 0.09,
+          "note": null
+        },
+        {
+          "key": "INE918Z01012",
+          "name": "Kaynes Technology India Limited",
+          "previousQuantity": 479269,
+          "currentQuantity": 479269,
+          "weight": 0.21,
+          "previousWeight": 0.21,
+          "note": null
+        },
+        {
+          "key": "INE634A01018",
+          "name": "Honda India Power Products Limited",
+          "previousQuantity": 898730,
+          "currentQuantity": 898730,
+          "weight": 0.21,
+          "previousWeight": 0.22,
+          "note": null
+        },
+        {
+          "key": "INE085A01013",
+          "name": "Chambal Fertilizers & Chemicals Limited",
+          "previousQuantity": 4057980,
+          "currentQuantity": 4057980,
+          "weight": 0.21,
+          "previousWeight": 0.2,
+          "note": null
+        },
+        {
+          "key": "INE457L01029",
+          "name": "PG Electroplast Limited",
+          "previousQuantity": 3451480,
+          "currentQuantity": 3451480,
+          "weight": 0.21,
+          "previousWeight": 0.24,
+          "note": null
+        },
+        {
+          "key": "INE202B01038",
+          "name": "Piramal Finance Limited",
+          "previousQuantity": 806058,
+          "currentQuantity": 806058,
+          "weight": 0.2,
+          "previousWeight": 0.22,
+          "note": null
+        },
+        {
+          "key": "INE758E01017",
+          "name": "Jio Financial Services Limited",
+          "previousQuantity": 14450010,
+          "currentQuantity": 6975955,
+          "weight": 0.19,
+          "previousWeight": 0.42,
+          "note": null
+        },
+        {
+          "key": "INE258G01013",
+          "name": "Sumitomo Chemical India Limited",
+          "previousQuantity": 3554584,
+          "currentQuantity": 3554584,
+          "weight": 0.19,
+          "previousWeight": 0.22,
+          "note": null
+        },
+        {
+          "key": "INE621L01012",
+          "name": "Texmaco Rail & Engineering Limited",
+          "previousQuantity": 11408783,
+          "currentQuantity": 11408783,
+          "weight": 0.19,
+          "previousWeight": 0.15,
+          "note": null
+        },
+        {
+          "key": "INE00IT01020",
+          "name": "Milky Mist Dairy Food Limited",
+          "previousQuantity": 4817119,
+          "currentQuantity": 4817119,
+          "weight": 0.19,
+          "previousWeight": 0.12,
+          "note": null
+        },
+        {
+          "key": "INE074A01025",
+          "name": "Praj Industries Limited",
+          "previousQuantity": 5051724,
+          "currentQuantity": 5051724,
+          "weight": 0.19,
+          "previousWeight": 0.21,
+          "note": null
+        },
+        {
+          "key": "INE486A01021",
+          "name": "CESC Limited",
+          "previousQuantity": 11188202,
+          "currentQuantity": 11188202,
+          "weight": 0.19,
+          "previousWeight": 0.2,
+          "note": null
+        },
+        {
+          "key": "INE337A01034",
+          "name": "LG Balakrishnan & Bros Limited",
+          "previousQuantity": 890918,
+          "currentQuantity": 890918,
+          "weight": 0.19,
+          "previousWeight": 0.18,
+          "note": null
+        },
+        {
+          "key": "INE301A01014",
+          "name": "Raymond Limited",
+          "previousQuantity": 1238343,
+          "currentQuantity": 1238343,
+          "weight": 0.19,
+          "previousWeight": 0.09,
+          "note": null
+        },
+        {
+          "key": "INE342J01019",
+          "name": "ZF Commercial Vehicle Control Systems India Limited",
+          "previousQuantity": 669600,
+          "currentQuantity": 669600,
+          "weight": 0.19,
+          "previousWeight": 0.21,
+          "note": null
+        },
+        {
+          "key": "INE216P01012",
+          "name": "Aavas Financiers Limited",
+          "previousQuantity": 1268993,
+          "currentQuantity": 1268993,
+          "weight": 0.19,
+          "previousWeight": 0.19,
+          "note": null
+        },
+        {
+          "key": "INE559R01029",
+          "name": "Landmark Cars Limited",
+          "previousQuantity": 3111032,
+          "currentQuantity": 3111032,
+          "weight": 0.18,
+          "previousWeight": 0.19,
+          "note": null
+        },
+        {
+          "key": "INE410B01037",
+          "name": "Vinati Organics Limited",
+          "previousQuantity": 519708,
+          "currentQuantity": 1244101,
+          "weight": 0.18,
+          "previousWeight": 0.08,
+          "note": null
+        },
+        {
+          "key": "INE058A01010",
+          "name": "Sanofi India Limited",
+          "previousQuantity": 479885,
+          "currentQuantity": 479885,
+          "weight": 0.18,
+          "previousWeight": 0.18,
+          "note": null
+        },
+        {
+          "key": "INE497B01018",
+          "name": "Seamec Limited",
+          "previousQuantity": 911479,
+          "currentQuantity": 911479,
+          "weight": 0.18,
+          "previousWeight": 0.18,
+          "note": null
+        },
+        {
+          "key": "INE09VQ01012",
+          "name": "Indigo Paints Limited",
+          "previousQuantity": 1323874,
+          "currentQuantity": 1323874,
+          "weight": 0.18,
+          "previousWeight": 0.18,
+          "note": null
+        },
+        {
+          "key": "INE03EI01018",
+          "name": "Max Estates Limited",
+          "previousQuantity": 2510461,
+          "currentQuantity": 2510461,
+          "weight": 0.18,
+          "previousWeight": 0.16,
+          "note": null
+        },
+        {
+          "key": "INE271C01023",
+          "name": "DLF Limited",
+          "previousQuantity": 2211533,
+          "currentQuantity": 2211533,
+          "weight": 0.18,
+          "previousWeight": 0.19,
+          "note": null
+        },
+        {
+          "key": "INE269B01029",
+          "name": "LMW Limited",
+          "previousQuantity": 84041,
+          "currentQuantity": 84041,
+          "weight": 0.18,
+          "previousWeight": 0.19,
+          "note": null
+        },
+        {
+          "key": "INE258B01022",
+          "name": "FDC Limited",
+          "previousQuantity": 4275331,
+          "currentQuantity": 4275331,
+          "weight": 0.18,
+          "previousWeight": 0.17,
+          "note": null
+        },
+        {
+          "key": "INE278H01035",
+          "name": "Sandhar Technologies Limited",
+          "previousQuantity": 2482877,
+          "currentQuantity": 2482877,
+          "weight": 0.18,
+          "previousWeight": 0.2,
+          "note": null
+        },
+        {
+          "key": "INE04I401011",
+          "name": "KPIT Technologies Limited",
+          "previousQuantity": 2401213,
+          "currentQuantity": 2779709,
+          "weight": 0.17,
+          "previousWeight": 0.17,
+          "note": null
+        },
+        {
+          "key": "INE753U01022",
+          "name": "Divgi Torqtransfer Systems Limited",
+          "previousQuantity": 1152910,
+          "currentQuantity": 1152910,
+          "weight": 0.17,
+          "previousWeight": 0.17,
+          "note": null
+        },
+        {
+          "key": "INE597I01028",
+          "name": "Sharda Motor Industries Ltd.",
+          "previousQuantity": 1433082,
+          "currentQuantity": 1433082,
+          "weight": 0.17,
+          "previousWeight": 0.15,
+          "note": null
+        },
+        {
+          "key": "INE791I01019",
+          "name": "Brigade Enterprises Limited",
+          "previousQuantity": 2443732,
+          "currentQuantity": 2443732,
+          "weight": 0.17,
+          "previousWeight": 0.19,
+          "note": null
+        },
+        {
+          "key": "INE321T01012",
+          "name": "Doms Industries Limited",
+          "previousQuantity": 650911,
+          "currentQuantity": 650911,
+          "weight": 0.17,
+          "previousWeight": 0.18,
+          "note": null
+        },
+        {
+          "key": "INE285A01027",
+          "name": "Elgi Equipments Limited",
+          "previousQuantity": 2193888,
+          "currentQuantity": 2193888,
+          "weight": 0.17,
+          "previousWeight": 0.17,
+          "note": null
+        },
+        {
+          "key": "INE171Z01026",
+          "name": "Bharat Dynamics Limited",
+          "previousQuantity": 1197856,
+          "currentQuantity": 1197856,
+          "weight": 0.16,
+          "previousWeight": 0.18,
+          "note": null
+        },
+        {
+          "key": "INE596I01020",
+          "name": "Computer Age Management Services Limited",
+          "previousQuantity": 1888055,
+          "currentQuantity": 1888055,
+          "weight": 0.16,
+          "previousWeight": 0.18,
+          "note": null
+        },
+        {
+          "key": "INE449A01011",
+          "name": "Automotive Axles Limited",
+          "previousQuantity": 759930,
+          "currentQuantity": 759930,
+          "weight": 0.16,
+          "previousWeight": 0.16,
+          "note": null
+        },
+        {
+          "key": "INE081A01020",
+          "name": "Tata Steel Limited",
+          "previousQuantity": 0,
+          "currentQuantity": 7221174,
+          "weight": 0.16,
+          "previousWeight": 0,
+          "note": null
+        },
+        {
+          "key": "INE0JA001018",
+          "name": "Venus Pipes And Tubes Limited",
+          "previousQuantity": 600000,
+          "currentQuantity": 600000,
+          "weight": 0.16,
+          "previousWeight": 0.12,
+          "note": null
+        },
+        {
+          "key": "INE094J01016",
+          "name": "UTI Asset Management Company Limited",
+          "previousQuantity": 1509207,
+          "currentQuantity": 1509207,
+          "weight": 0.16,
+          "previousWeight": 0.16,
+          "note": null
+        },
+        {
+          "key": "INE12UR01024",
+          "name": "Fujiyama Power Systems Limited",
+          "previousQuantity": 3321083,
+          "currentQuantity": 3321083,
+          "weight": 0.16,
+          "previousWeight": 0.19,
+          "note": null
+        },
+        {
+          "key": "INE741K01010",
+          "name": "CreditAccess Grameen Limited",
+          "previousQuantity": 1038984,
+          "currentQuantity": 1038984,
+          "weight": 0.16,
+          "previousWeight": 0.17,
+          "note": null
+        },
+        {
+          "key": "INE477A01020",
+          "name": "Can Fin Homes Limited",
+          "previousQuantity": 1644260,
+          "currentQuantity": 1644260,
+          "weight": 0.15,
+          "previousWeight": 0.16,
+          "note": null
+        },
+        {
+          "key": "INE386A01023",
+          "name": "Vesuvius India Limited",
+          "previousQuantity": 2880000,
+          "currentQuantity": 2880000,
+          "weight": 0.15,
+          "previousWeight": 0.14,
+          "note": null
+        },
+        {
+          "key": "INE055S01018",
+          "name": "Cyient Dlm Ltd",
+          "previousQuantity": 1256139,
+          "currentQuantity": 1256139,
+          "weight": 0.14,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE099Z01011",
+          "name": "Mishra Dhatu Nigam Limited",
+          "previousQuantity": 2589175,
+          "currentQuantity": 2589175,
+          "weight": 0.14,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE599M01018",
+          "name": "Just Dial Limited",
+          "previousQuantity": 1690305,
+          "currentQuantity": 1690305,
+          "weight": 0.14,
+          "previousWeight": 0.15,
+          "note": null
+        },
+        {
+          "key": "INE218I01013",
+          "name": "Canara Robeco Asset Management Company Ltd",
+          "previousQuantity": 5123624,
+          "currentQuantity": 5123624,
+          "weight": 0.14,
+          "previousWeight": 0.16,
+          "note": null
+        },
+        {
+          "key": "INE00H001014",
+          "name": "Swiggy Limited",
+          "previousQuantity": 4472620,
+          "currentQuantity": 4472620,
+          "weight": 0.14,
+          "previousWeight": 0.15,
+          "note": null
+        },
+        {
+          "key": "INE520A01027",
+          "name": "Zensar Technologies Limited",
+          "previousQuantity": 2496604,
+          "currentQuantity": 2496604,
+          "weight": 0.13,
+          "previousWeight": 0.14,
+          "note": null
+        },
+        {
+          "key": "INE0KQN01018",
+          "name": "Bajel Projects Limited",
+          "previousQuantity": 6150393,
+          "currentQuantity": 6150393,
+          "weight": 0.13,
+          "previousWeight": 0.14,
+          "note": null
+        },
+        {
+          "key": "INE961O01016",
+          "name": "Rainbow Childrens Medicare Limited",
+          "previousQuantity": 785051,
+          "currentQuantity": 785051,
+          "weight": 0.13,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE0DK501011",
+          "name": "Piramal Pharma Limited",
+          "previousQuantity": 4990259,
+          "currentQuantity": 4990259,
+          "weight": 0.13,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE0UOS01011",
+          "name": "Sanofi Consumer Healthcare India Limited",
+          "previousQuantity": 272552,
+          "currentQuantity": 272552,
+          "weight": 0.13,
+          "previousWeight": 0.14,
+          "note": null
+        },
+        {
+          "key": "INE152M01016",
+          "name": "Triveni Turbine Limited",
+          "previousQuantity": 1842606,
+          "currentQuantity": 1842606,
+          "weight": 0.12,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE193E01025",
+          "name": "Bajaj Electricals Limited",
+          "previousQuantity": 3092715,
+          "currentQuantity": 3092715,
+          "weight": 0.12,
+          "previousWeight": 0.12,
+          "note": null
+        },
+        {
+          "key": "INE544R01021",
+          "name": "Greenlam Industries Limited",
+          "previousQuantity": 4422876,
+          "currentQuantity": 4422876,
+          "weight": 0.12,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE161A01038",
+          "name": "NIIT Limited",
+          "previousQuantity": 11111066,
+          "currentQuantity": 11111066,
+          "weight": 0.12,
+          "previousWeight": 0.14,
+          "note": null
+        },
+        {
+          "key": "INE201P01022",
+          "name": "G R Infraprojects Limited",
+          "previousQuantity": 1191114,
+          "currentQuantity": 1191114,
+          "weight": 0.12,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE063P01018",
+          "name": "Equitas Small Finance Bank Limited",
+          "previousQuantity": 13733036,
+          "currentQuantity": 13733036,
+          "weight": 0.12,
+          "previousWeight": 0.12,
+          "note": null
+        },
+        {
+          "key": "INE926X01010",
+          "name": "H.G. Infra Engineering Limited",
+          "previousQuantity": 2214923,
+          "currentQuantity": 2214923,
+          "weight": 0.12,
+          "previousWeight": 0.13,
+          "note": null
+        },
+        {
+          "key": "INE0N2P01017",
+          "name": "Rishabh Instruments Ltd",
+          "previousQuantity": 1346725,
+          "currentQuantity": 1346725,
+          "weight": 0.12,
+          "previousWeight": 0.12,
+          "note": null
+        },
+        {
+          "key": "INE066P01011",
+          "name": "Inox Wind Limited",
+          "previousQuantity": 12720455,
+          "currentQuantity": 12720455,
+          "weight": 0.11,
+          "previousWeight": 0.11,
+          "note": null
+        },
+        {
+          "key": "INE13B501022",
+          "name": "Saatvik Green Energy Limited",
+          "previousQuantity": 2112376,
+          "currentQuantity": 2112376,
+          "weight": 0.11,
+          "previousWeight": 0.11,
+          "note": null
+        },
+        {
+          "key": "INE726G01019",
+          "name": "ICICI Prudential Life Insurance Company Limited",
+          "previousQuantity": 1896344,
+          "currentQuantity": 1896344,
+          "weight": 0.1,
+          "previousWeight": 0.12,
+          "note": null
+        },
+        {
+          "key": "INE836A01035",
+          "name": "Birlasoft Limited",
+          "previousQuantity": 2901558,
+          "currentQuantity": 2901558,
+          "weight": 0.1,
+          "previousWeight": 0.1,
+          "note": null
+        },
+        {
+          "key": "INE269A01021",
+          "name": "Sonata Software Limited",
+          "previousQuantity": 3158666,
+          "currentQuantity": 3158666,
+          "weight": 0.1,
+          "previousWeight": 0.11,
+          "note": null
+        },
+        {
+          "key": "INE034A01011",
+          "name": "Arvind Limited",
+          "previousQuantity": 1485148,
+          "currentQuantity": 1485148,
+          "weight": 0.1,
+          "previousWeight": 0.1,
+          "note": null
+        },
+        {
+          "key": "INE278Y01022",
+          "name": "Campus Activewear Limited",
+          "previousQuantity": 4066385,
+          "currentQuantity": 4066385,
+          "weight": 0.1,
+          "previousWeight": 0.11,
+          "note": null
+        },
+        {
+          "key": "INE922K01024",
+          "name": "India Shelter Finance Corporation Limited",
+          "previousQuantity": 1330048,
+          "currentQuantity": 1330048,
+          "weight": 0.1,
+          "previousWeight": 0.1,
+          "note": null
+        },
+        {
+          "key": "INE633B01018",
+          "name": "Polyplex Corporation Limited",
+          "previousQuantity": 657517,
+          "currentQuantity": 657517,
+          "weight": 0.09,
+          "previousWeight": 0.09,
+          "note": null
+        },
+        {
+          "key": "INE0FOO01011",
+          "name": "Shiprocket Limited",
+          "previousQuantity": 5885152,
+          "currentQuantity": 5885152,
+          "weight": 0.09,
+          "previousWeight": 0.1,
+          "note": null
+        },
+        {
+          "key": "INE0CAZ01013",
+          "name": "Urban Company Ltd.",
+          "previousQuantity": 4600506,
+          "currentQuantity": 4540487,
+          "weight": 0.09,
+          "previousWeight": 0.09,
+          "note": null
+        },
+        {
+          "key": "INE884B01025",
+          "name": "Kirloskar Ferrous Industries Limited",
+          "previousQuantity": 1532554,
+          "currentQuantity": 1532554,
+          "weight": 0.09,
+          "previousWeight": 0.08,
+          "note": null
+        },
+        {
+          "key": "INE021A01026",
+          "name": "Asian Paints Limited",
+          "previousQuantity": 442652,
+          "currentQuantity": 310445,
+          "weight": 0.09,
+          "previousWeight": 0.14,
+          "note": null
+        },
+        {
+          "key": "INE825V01034",
+          "name": "Vedant Fashions Limited",
+          "previousQuantity": 1234652,
+          "currentQuantity": 1234652,
+          "weight": 0.08,
+          "previousWeight": 0.08,
+          "note": null
+        },
+        {
+          "key": "INE045J01034",
+          "name": "Fineotex Chemical Limited",
+          "previousQuantity": 14829218,
+          "currentQuantity": 10746218,
+          "weight": 0.08,
+          "previousWeight": 0.09,
+          "note": null
+        },
+        {
+          "key": "INE128X01021",
+          "name": "Archean Chemical Industries Limited",
+          "previousQuantity": 1373373,
+          "currentQuantity": 1373373,
+          "weight": 0.08,
+          "previousWeight": 0.08,
+          "note": null
+        },
+        {
+          "key": "INE0JPD01013",
+          "name": "Sanathan Textiles Limited",
+          "previousQuantity": 1243351,
+          "currentQuantity": 1243351,
+          "weight": 0.08,
+          "previousWeight": 0.07,
+          "note": null
+        },
+        {
+          "key": "INE287B01021",
+          "name": "Subros Ltd",
+          "previousQuantity": 968256,
+          "currentQuantity": 968256,
+          "weight": 0.08,
+          "previousWeight": 0.08,
+          "note": null
+        },
+        {
+          "key": "INE473B01035",
+          "name": "Hatsun Agro Product Limited",
+          "previousQuantity": 564524,
+          "currentQuantity": 564524,
+          "weight": 0.08,
+          "previousWeight": 0.08,
+          "note": null
+        },
+        {
+          "key": "INE873D01024",
+          "name": "Indoco Remedies Limited",
+          "previousQuantity": 2594559,
+          "currentQuantity": 2594559,
+          "weight": 0.08,
+          "previousWeight": 0.08,
+          "note": null
+        },
+        {
+          "key": "INE389H01022",
+          "name": "KEC International Limited",
+          "previousQuantity": 1480930,
+          "currentQuantity": 1480930,
+          "weight": 0.07,
+          "previousWeight": 0.07,
+          "note": null
+        },
+        {
+          "key": "INE004A01022",
+          "name": "Protean eGov Technologies Limited",
+          "previousQuantity": 902883,
+          "currentQuantity": 902883,
+          "weight": 0.07,
+          "previousWeight": 0.06,
+          "note": null
+        },
+        {
+          "key": "INE637C01025",
+          "name": "Pokarna Limited",
+          "previousQuantity": 660727,
+          "currentQuantity": 660727,
+          "weight": 0.06,
+          "previousWeight": 0.07,
+          "note": null
+        },
+        {
+          "key": "INE17IR01028",
+          "name": "Laser Power And Infra Limited",
+          "previousQuantity": 1784029,
+          "currentQuantity": 1784029,
+          "weight": 0.06,
+          "previousWeight": 0.07,
+          "note": null
+        },
+        {
+          "key": "INE786A01032",
+          "name": "JK Lakshmi Cement Limited",
+          "previousQuantity": 1063054,
+          "currentQuantity": 1063054,
+          "weight": 0.06,
+          "previousWeight": 0.07,
+          "note": null
+        },
+        {
+          "key": "INE0BJS01011",
+          "name": "Go Fashion (India) Limited",
+          "previousQuantity": 1675335,
+          "currentQuantity": 1675335,
+          "weight": 0.06,
+          "previousWeight": 0.07,
+          "note": null
+        },
+        {
+          "key": "INE16W401027",
+          "name": "Augmont Enterprises Limited",
+          "previousQuantity": 458093,
+          "currentQuantity": 412412,
+          "weight": 0.06,
+          "previousWeight": 0.05,
+          "note": null
+        },
+        {
+          "key": "INE590T01012",
+          "name": "Karamtara Engineering Limited",
+          "previousQuantity": 0,
+          "currentQuantity": 1228214,
+          "weight": 0.06,
+          "previousWeight": 0,
+          "note": null
+        },
+        {
+          "key": "INE563J01010",
+          "name": "Astec LifeSciences Limited",
+          "previousQuantity": 526867,
+          "currentQuantity": 526867,
+          "weight": 0.05,
+          "previousWeight": 0.04,
+          "note": null
+        },
+        {
+          "key": "INE195J01029",
+          "name": "PNC Infratech Limited",
+          "previousQuantity": 3282291,
+          "currentQuantity": 3282291,
+          "weight": 0.05,
+          "previousWeight": 0.07,
+          "note": null
+        },
+        {
+          "key": "INE1KZI01025",
+          "name": "Tempsens Instruments (India) Limited",
+          "previousQuantity": 601433,
+          "currentQuantity": 601433,
+          "weight": 0.04,
+          "previousWeight": 0.04,
+          "note": null
+        },
+        {
+          "key": "INE01A001028",
+          "name": "Stanley Lifestyles Limited",
+          "previousQuantity": 2526912,
+          "currentQuantity": 2526912,
+          "weight": 0.04,
+          "previousWeight": 0.04,
+          "note": null
+        },
+        {
+          "key": "INE02ID01020",
+          "name": "Raymond Lifestyle Limited",
+          "previousQuantity": 607753,
+          "currentQuantity": 389855,
+          "weight": 0.03,
+          "previousWeight": 0.05,
+          "note": null
+        },
+        {
+          "key": "INE0QJW01029",
+          "name": "Lohia Corp Limited",
+          "previousQuantity": 894955,
+          "currentQuantity": 491515,
+          "weight": 0.03,
+          "previousWeight": 0.06,
+          "note": null
+        },
+        {
+          "key": "INE00Q601028",
+          "name": "Studds Accessories Ltd",
+          "previousQuantity": 556582,
+          "currentQuantity": 556582,
+          "weight": 0.03,
+          "previousWeight": 0.03,
+          "note": null
+        },
+        {
+          "key": "INE00WV01027",
+          "name": "CMR Green Technologies Limited",
+          "previousQuantity": 1154393,
+          "currentQuantity": 1154393,
+          "weight": 0.03,
+          "previousWeight": 0.03,
+          "note": null
+        },
+        {
+          "key": "INE0ISX01025",
+          "name": "Kusumgar Limited",
+          "previousQuantity": 246052,
+          "currentQuantity": 246052,
+          "weight": 0.02,
+          "previousWeight": 0.02,
+          "note": null
+        },
+        {
+          "key": "INE256D01014",
+          "name": "Genus Prime Infra Limited",
+          "previousQuantity": 1458388,
+          "currentQuantity": 1458388,
+          "weight": 0.01,
+          "previousWeight": 0.01,
+          "note": null
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official September portfolio",
+          "url": "https://mf.nipponindiaim.com/InvestorServices/FactsheetsDocuments/NIMF-MONTHLY-PORTFOLIO-30-Sep-26.xls",
+          "scope": "Full equity share quantities and allocations as at 30 September 2026; original AMC spreadsheet."
+        },
+        {
+          "label": "Official August portfolio",
+          "url": "https://mf.nipponindiaim.com/InvestorServices/FactsheetsDocuments/NIMF-MONTHLY-PORTFOLIO-31-Aug-26.xls",
+          "scope": "Full equity share quantities and allocations as at 31 August 2026; original AMC spreadsheet."
+        },
+        {
+          "label": "MFScanner — August only",
+          "url": "https://mfscanner.com/fund/nippon-india-small-cap-fund",
+          "scope": "Still reports August; checked as historical corroboration, not a September cross-check."
+        }
+      ],
+      "notes": [
+        "Parsed original AMC spreadsheets for both adjacent month ends; matched securities by exact ISIN. Cash, debt and TREPS are excluded.",
+        "September independent-provider corroboration is pending: comparison websites checked still displayed August. Do not interpret the official-source status as a multi-provider match.",
+        "Changes are net month-end share quantities, not confirmed trades. Corporate actions, security changes and corrections may affect quantities."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "checkedOn": "2026-10-11",
+  "coverageNote": "Four currently reported personal-holder records: two September 2026 and two June 2026 snapshots. All percentages and share counts are corroborated across providers for the same reporting quarter and registered Dolly Khanna holder. Historical rows are excluded when newer trackers show absence or a holding below the public reporting threshold; absence is not proof of a complete sale. June positions are retained only where September filings remain awaited. Rajiv Khanna reportedly manages the portfolio, but no separate Rajiv or family stake is aggregated. Public reporting thresholds prevent a complete or live portfolio claim. Percentages are ownership of each company, not portfolio allocation. Rain Industries was also checked against the original NSE XBRL; the other three records are provider crosschecks, which can share an underlying data feed.",
+  "sources": {
+    "finology": {
+      "name": "Finology — dated investor holdings",
+      "url": "https://ticker.finology.in/investor/dolly-khanna"
+    },
+    "trendlyne": {
+      "name": "Trendlyne — named-holder portfolio history",
+      "url": "https://trendlyne.com/portfolio/superstar-shareholders/53757/latest/dolly-khanna/"
+    },
+    "rediff": {
+      "name": "Rediff Moneywiz — individual dated shareholder rows",
+      "url": "https://money.rediff.com/companies/shareholder/portfolio?id=fc7f0323-7326-4b0c-81c6-7f93aa99e2a8"
+    },
+    "savera-trend": {
+      "name": "Trendlyne — Savera June 2026 named shareholder pattern",
+      "url": "https://trendlyne.com/equity/share-holding/1190/SAVERA/Q2-2026/savera-industries-ltd/"
+    },
+    "savera-bigul": {
+      "name": "Bigul — Savera quarterly named shareholders",
+      "url": "https://www.bigul.co/profile-stock/savera-industries-ltd/SAVERA"
+    },
+    "rain-block": {
+      "name": "Block.deal — Rain September 2026 named filing row",
+      "url": "https://block.deal/companies/rain-industries/"
+    },
+    "smallcase": {
+      "name": "Smallcase — June 2026 snapshot and corroborating quantities",
+      "url": "https://www.smallcase.com/star-investors/dolly-khanna-stocks-portfolio/"
+    },
+    "rain-nse": {
+      "name": "NSE original Rain September 2026 XBRL shareholding filing",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734227_08102026023909_WEB.xml"
+    }
+  },
+  "holdings": [
+    {
+      "name": "Rain Industries Limited",
+      "stake": 1.72,
+      "shares": 5798355,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Company equity ownership — registered Dolly Khanna personal holder",
+      "note": "September 2026 named personal-holder disclosure. This is not a live position. Rajiv Khanna is the reported portfolio manager, not an additional legal stake aggregated into this row.",
+      "sources": [
+        "finology",
+        "rediff",
+        "trendlyne",
+        "rain-block",
+        "rain-nse"
+      ],
+      "status": "primary",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "September 2026: 1.72%; June below public disclosure threshold."
+        },
+        {
+          "source": "rediff",
+          "observation": "DOLLY KHANNA individual row: September 2026, 1.72%, 5,798,355 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named Dolly Khanna September row: 5,798,355 shares; percentage rounded to 1.7%."
+        },
+        {
+          "source": "rain-block",
+          "observation": "30 September 2026 named Dolly Khanna row: 1.72%, 5,798,355 shares; linked original NSE XML also independently parsed."
+        },
+        {
+          "source": "rain-nse",
+          "observation": "Independently parsed original NSE XBRL: Dolly Khanna, linked instant context ending 2026-09-30; NumberOfShares 5798355; ShareholdingAsAPercentageOfTotalNumberOfShares 0.0172 = 1.72%."
+        }
+      ]
+    },
+    {
+      "name": "Chennai Petroleum Corporation Limited",
+      "stake": 1.02,
+      "shares": 1513689,
+      "holder": "direct",
+      "date": "2026-09-30",
+      "basis": "Company equity ownership — registered Dolly Khanna personal holder",
+      "note": "September 2026 named personal-holder disclosure. This is not a live position. Rajiv Khanna is the reported portfolio manager, not an additional legal stake aggregated into this row.",
+      "sources": [
+        "finology",
+        "rediff",
+        "trendlyne"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "September 2026: 1.02%, compared with June 1.28%."
+        },
+        {
+          "source": "rediff",
+          "observation": "DOLLY KHANNA individual row: September 2026, 1.02%, 1,513,689 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "Named DOLLY KHANNA September row: 1,513,689 shares; percentage rounded to 1.0%."
+        }
+      ]
+    },
+    {
+      "name": "Prakash Industries Limited",
+      "stake": 2.12,
+      "shares": 3794120,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership — registered Dolly Khanna personal holder",
+      "note": "June is the latest matched publicly disclosed observation; September filing was awaited. This is not a live position. Rajiv Khanna is the reported portfolio manager, not an additional legal stake aggregated into this row.",
+      "sources": [
+        "finology",
+        "rediff",
+        "trendlyne",
+        "smallcase"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 2.12%; September marked Filing Due, not a zero holding."
+        },
+        {
+          "source": "rediff",
+          "observation": "DOLLY KHANNA individual row: June 2026, 2.12%, 3,794,120 shares."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June 2026 named DOLLY KHANNA: 3,794,120 shares, rounded 2.1%; September filing awaited."
+        },
+        {
+          "source": "smallcase",
+          "observation": "June 2026 snapshot independently corroborates 3,794,120 shares; headline percentage column is March, not June."
+        }
+      ]
+    },
+    {
+      "name": "Savera Industries Limited",
+      "stake": 1.7,
+      "shares": 203108,
+      "holder": "direct",
+      "date": "2026-06-30",
+      "basis": "Company equity ownership — registered Dolly Khanna personal holder",
+      "note": "June is the latest matched publicly disclosed observation; September filing was awaited. This is not a live position. Rajiv Khanna is the reported portfolio manager, not an additional legal stake aggregated into this row.",
+      "sources": [
+        "finology",
+        "savera-trend",
+        "savera-bigul",
+        "trendlyne",
+        "smallcase"
+      ],
+      "status": "providers",
+      "evidence": [
+        {
+          "source": "finology",
+          "observation": "June 2026: 1.70%; September marked Filing Due."
+        },
+        {
+          "source": "savera-trend",
+          "observation": "June 2026 named Dolly khanna shareholder: 1.70%, 203,108 shares."
+        },
+        {
+          "source": "savera-bigul",
+          "observation": "Public shareholder table: DOLLY KHANNA June 2026 1.70%; quantities rounded in crores, not used."
+        },
+        {
+          "source": "trendlyne",
+          "observation": "June named DOLLY KHANNA: 203,108 shares, rounded 1.7%; September awaited."
+        },
+        {
+          "source": "smallcase",
+          "observation": "June 2026 snapshot corroborates 203,108 shares and narrative approximately 1.7%; March column not used as June."
+        }
+      ]
+    }
+  ]
+}
