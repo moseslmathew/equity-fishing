@@ -1,22 +1,3 @@
-# Equity Fishing — project source copy
-
-Copied from Smallcap Observatory source commit `a8604f0e3093da15a059082c592cde95987d0020` (published version 50), on 13 October 2026.
-
-This copy contains the React/TypeScript application, backend APIs, database code, bundled portfolio snapshots, AI research reports, source links and verification scripts. Generated builds, dependencies, credentials and local runtime state are excluded.
-
-The original live Site has not been changed. Its project identifier is deliberately removed from `.openai/hosting.json` so this copy is not accidentally deployed over the existing Site.
-
-## Runtime requirements
-
-- Node.js 22.13 or newer; package manager and exact dependency versions are recorded in `package.json` and `pnpm-lock.yaml`.
-- Vinext/Vite application targeting Cloudflare Workers, with D1 binding `DB` and R2 binding `BUCKET`.
-- Configure `LOGIN_PASSWORD`, `SESSION_SECRET` and `UPDATE_KEY` as runtime secrets. No real secret values are included.
-- The source contains seed data, not an export of the live D1 database or R2 bucket. A separate deployment needs its own storage and secrets.
-- AI reports are saved research documents. Opening a report does not invoke a live AI service. No active refresh schedule is included.
-- Installation/build entry points: `pnpm install`, `pnpm dev`, `pnpm build`. Hosting requires the appropriate Workers/Sites configuration; this is not a static-only React application.
-
-## Original project documentation
-
 # Smallcap Observatory
 
 Password-protected dashboard for twenty small-cap mutual funds. The initial verified
@@ -108,3 +89,19 @@ The common analysis section uses complete adjacent-month equity comparisons for 
 ### Ace investors
 The header navigation opens a separate Ace investors workspace. Vijay Kedia's portfolio is a searchable modal with direct/entity attribution, company ownership percentages, share quantities, individual reporting dates and source links. `data/ace-investors.json` is a manually checked public-disclosure snapshot, not a complete investor book or a live trading feed. Refresh records only after reconciling the reporting period and pre/post-IPO basis; missing values must not be interpreted as exits.
 Ashish Kacholia uses `data/ashish-kacholia.json`: named direct holdings are shown separately from associated-company stakes, and older March records are explicitly marked as unconfirmed current ownership. Reconciliation exclusions are visible inside his portfolio modal. Opening another investor resets search and holder filters.
+
+## September refresh — 14 October 2026
+
+`data/september-portfolios.json` contains the currently verified September records, with per-fund source status and comparison scope. The database applies this versioned import to already-migrated deployments using an idempotent marker; checked-at guards preserve later saved records. August history is retained. Full comparisons based on providers are labeled separately from original AMC disclosures. Source-access failures and unresolved corroboration are retained in audit notes. Fund cards and table rows are sorted alphabetically by full scheme name. Saved research reports retain their own research date and show a change warning when the portfolio evidence changes.
+
+## Helios equity group — 15 October 2026
+
+The catalog now contains 24 schemes: the original twenty small-cap funds plus Helios Financial Services, Flexi Cap, Large & Mid Cap and Mid Cap funds. Alphabetical names keep all five Helios schemes consecutive in cards and table. Category labels identify the broader mandates. September holdings and adjacent-month full comparisons are in the September import; August top15 snapshots are appended to the baseline. Versioned database backfill also imports baseline monthly records, preserving newer checked-at records. Current holdings are provider-confirmed where original AMC retrieval failed; August snapshots for all four additions remain provider_only: the secondary publisher is dated September and supplies only a prior-month arithmetic cross-check; Financial Services additionally has one exited holding unavailable there. Source scopes and audit data are in research/helios-equity-import.json.
+
+### Foreign investors research
+
+`/foreign-investors` adds Blackstone alongside the existing research workspaces. The authenticated page reads a versioned snapshot from D1 `app_documents` under `foreign-investor:blackstone`; `/api/foreign-investors` exposes the same data to authenticated readers. `data/foreign-investors.json` supplies the reviewed 15 October 2026 seed. Initialization is idempotent and retains any newer database snapshot.
+
+The research covers 15 October 2025–15 October 2026, with older holdings retained separately. Company coverage includes listed equity, REITs, private platforms, indirect acquisition targets, exits and explicitly unconfirmed interest. The activity timeline differentiates warrants, market sales, mergers, intra-group transfers, platform acquisitions, capex and ownership snapshots. Counts are coverage counts rather than current portfolio totals; stages of a deal must not be added as independent investments. All card details and research sections link to a dated source register. Acquisition percentages are never substituted for Blackstone look-through ownership. Primary retrieval gaps, conflicting reports, approximate dates and unknown exact stakes are disclosed in context. No automatic research refresh was enabled.
+
+Audit inputs: `research/blackstone-*-research.json`. Validation: `node research/verify-foreign-investors.cjs` covers provenance references, important ownership distinctions, filters, authentication, D1 storage, newer-record protection and server-rendered collapsed cards. Browser visual verification is unavailable in the managed environment.
