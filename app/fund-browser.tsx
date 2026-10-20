@@ -4,7 +4,7 @@ import "./fund-workspace.css";
 import {ArrowUpRight,X} from "lucide-react";
 import type {Fund} from "../lib/portfolio";
 import type {MonthlyPortfolio} from "../lib/monthly";
-import {fundCatalog,schemeCategories} from "../lib/fund-catalog";
+import {fundCatalog,schemeCategories,schemeAliases} from "../lib/fund-catalog";
 import FundAnalysis from "./fund-analysis";
 import SearchField from "./search-field";
 import {matchesSearch} from "../lib/search";
@@ -24,7 +24,7 @@ export default function FundBrowser({data,view,search="",onSearchChange}:{onSear
   const [selectedId,setSelectedId]=useState("");
   const [searchBy,setSearchBy]=useState<"funds"|"companies">("funds");
   const exactFund=fundCatalog.find(item=>item.name.toLocaleLowerCase()===search.trim().toLocaleLowerCase());
-  const entries=[...fundCatalog].filter(entry=>exactFund?entry.id===exactFund.id:matchesSearch(search,[entry.name])).sort((a,b)=>a.name.localeCompare(b.name,"en-IN"));
+  const entries=[...fundCatalog].filter(entry=>exactFund?entry.id===exactFund.id:matchesSearch(search,[entry.name,...(schemeAliases[entry.id]??[])])).sort((a,b)=>a.name.localeCompare(b.name,"en-IN"));
   const actions=(f:Fund)=> <div className="fund-actions"><Dialog><DialogTrigger asChild><button className="analysis-toggle" aria-haspopup="dialog" aria-label={"Open analysis for "+f.name}>Analysis<ArrowUpRight size={15} aria-hidden="true"/></button></DialogTrigger><DialogContent className="research-popup fund-analysis-popup" showCloseButton={false}><div className="research-popup-header"><DialogTitle className="research-popup-title">{f.name}</DialogTitle><DialogClose asChild><button className="research-popup-close" aria-label={"Close analysis for "+f.name}><X size={19} aria-hidden="true"/>Close</button></DialogClose></div><DialogDescription className="sr-only">Full portfolio comparison for {f.name}.</DialogDescription><div className="research-content research-popup-scroll"><FundAnalysis key={f.id+f.portfolioDate} name={f.name} comparison={data.fullComparisons?.find(c=>c.fundId===f.id&&c.currentDate===f.portfolioDate)}/><div className="research-case-bottom"><DialogClose asChild><button className="minimize-button"><X size={15}/>Close analysis</button></DialogClose></div></div></DialogContent></Dialog><Dialog><DialogTrigger asChild><button className="source-toggle" aria-haspopup="dialog" aria-label={"Open sources for "+f.name}>Sources<ArrowUpRight size={15} aria-hidden="true"/></button></DialogTrigger><DialogContent className="research-popup fund-sources-popup" showCloseButton={false}><header className="research-popup-header"><div><DialogTitle className="research-popup-title">{f.name} · Sources</DialogTitle><DialogDescription>Disclosure dates, verification and portfolio evidence.</DialogDescription></div><DialogClose asChild><button className="research-popup-close" aria-label={"Close sources for "+f.name}><X size={19} aria-hidden="true"/>Close</button></DialogClose></header><div className="research-content research-popup-scroll"><Sources fund={f}/></div></DialogContent></Dialog></div>;
   const holdings=(f:Fund,compact=false)=>{
     const before=data.previousFunds.find(x=>x.id===f.id);
