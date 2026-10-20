@@ -31,8 +31,7 @@ export default function Dashboard(){
     {error&&<p className="error-notice" role="alert">{error} Showing the last loaded comparison.</p>}
     <CombinedAnalysis key={data.requestedMonth} comparisons={data.fullComparisons??[]} month={data.requestedMonth}/>
 
-    <details className="portfolio-section" open><summary className="portfolio-summary"><span>Fund portfolios</span><span className="section-toggle" aria-hidden="true"/></summary><div className="portfolio-content"><FundBrowser key={data.requestedMonth} data={data} view="table" search={fundSearch} onSearchChange={setFundSearch}/><div className="check-line"><span>Last saved check {time(data.checkedAt)}</span><span>{data.schedule.enabled?"Daily checks at 8 AM IST":"Daily updates not enabled"}</span></div>
-    <p className="footnote">Monthly disclosure snapshots. Matching providers may share a data feed; holdings alone do not establish fund research quality.</p>
+    <details className="portfolio-section" open><summary className="portfolio-summary"><span>Fund portfolios</span><span className="section-toggle" aria-hidden="true"/></summary><div className="portfolio-content"><FundBrowser key={data.requestedMonth} data={data} view="table" search={fundSearch} onSearchChange={setFundSearch}/>
 </div></details>
     <SharedHoldings companies={shared.companies} month={monthLabel(data.requestedMonth)} pending={data.funds.length===0} fullFunds={shared.fullFunds} topOnlyFunds={shared.topOnlyFunds} totalFunds={shared.totalFunds} missingFunds={data.missingFunds.length}/>
     </div></div></>}</main></div>;
