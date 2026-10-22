@@ -12,7 +12,7 @@ type SortKey="name"|"funds"|"allocation";
 const range=(company:SharedCompany)=>{const weights=company.funds.map(f=>f.weight).filter((weight):weight is number=>weight!==null);return {min:weights.length?Math.min(...weights):null,max:weights.length?Math.max(...weights):null,incomplete:weights.length<company.funds.length};};
 const pct=(value:number|null)=>value===null?"Unavailable":value.toFixed(2)+"%";
 
-export default function SharedHoldings({companies,month,pending,fullFunds,topOnlyFunds,totalFunds,missingFunds}:{companies:SharedCompany[];month:string;pending:boolean;fullFunds:number;topOnlyFunds:number;totalFunds:number;missingFunds:number}){
+export default function SharedHoldings({companies,month,pending,fullFunds,topOnlyFunds,totalFunds,missingFunds,open,onOpenChange}:{open?:boolean;onOpenChange?:(open:boolean)=>void;companies:SharedCompany[];month:string;pending:boolean;fullFunds:number;topOnlyFunds:number;totalFunds:number;missingFunds:number}){
   const [search,setSearch]=useState("");
   const [sort,setSort]=useState<{key:SortKey;direction:1|-1}>({key:"funds",direction:-1});
   const rows=companies.filter(company=>matchesSearch(search,[company.name,...company.funds.map(fund=>fund.name)])).sort((a,b)=>{
@@ -21,7 +21,7 @@ export default function SharedHoldings({companies,month,pending,fullFunds,topOnl
   });
   const changeSort=(key:SortKey)=>setSort(previous=>({key,direction:previous.key===key?(previous.direction===1?-1:1):key==="name"?1:-1}));
   const sortHeader=(key:SortKey,label:string)=><th scope="col" aria-sort={sort.key===key?(sort.direction===1?"ascending":"descending"):"none"}><button onClick={()=>changeSort(key)}>{label}<ArrowUpDown size={13} aria-hidden="true"/></button></th>;
-  return <details className="shared-section shared-table-section">
+  return <details id="portfolio-panel-shared" className="shared-section shared-table-section" open={open} onToggle={e=>onOpenChange?.(e.currentTarget.open)}>
     <summary className="shared-summary"><span className="shared-title">Shared holdings</span><span className="section-toggle" aria-hidden="true"/></summary>
     <div className="shared-content">
       <div className="shared-table-toolbar"><SearchField id="shared-holdings-search" label="Search shared companies or funds" placeholder="Search companies or funds…" value={search} onChange={setSearch}/><span role="status">{rows.length}{search.trim()?" of "+companies.length:""} companies · {month}</span></div>
