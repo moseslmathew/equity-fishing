@@ -97,7 +97,7 @@ The catalogue contains 34 schemes: 24 small-cap funds, seven mid-cap funds and t
 
 The dashboard uses two fund cards per row on desktop and one on mobile. Each card shows up to 15 company allocations, with full portfolio analysis and sources expanded on demand. Versioned imports expand older database snapshots while preserving newer saved holdings and monthly archives. Debt, derivatives and cash are excluded, and ambiguous security entries or exits are consolidated into explicit review rows.
 
-## Top 15 holdings
+## Original top 15 seed (superseded display limit)
 
 The August seed has fifteen company holdings per fund, ranked by disclosed percentage of net assets from the existing complete equity datasets. Existing top-five figures are preserved. `holdingsEvidence` records additional source scope separately, so original top-five verification is not presented as verification of every added allocation. The reader expands legacy five-position records only using a complete, same-date comparison with matching original figures. Historical months with only five saved ranks remain explicitly partial; unmatched positions are not labeled new to the top 15. The writer requires fifteen positions per fund. No share quantities or dates are changed by this expansion.
 
@@ -110,3 +110,9 @@ The common analysis section uses complete adjacent-month equity comparisons for 
 ### Ace investors
 The header navigation opens a separate Ace investors workspace. Vijay Kedia's portfolio is a searchable modal with direct/entity attribution, company ownership percentages, share quantities, individual reporting dates and source links. `data/ace-investors.json` is a manually checked public-disclosure snapshot, not a complete investor book or a live trading feed. Refresh records only after reconciling the reporting period and pre/post-IPO basis; missing values must not be interpreted as exits.
 Ashish Kacholia uses `data/ashish-kacholia.json`: named direct holdings are shown separately from associated-company stakes, and older March records are explicitly marked as unconfirmed current ownership. Reconciliation exclusions are visible inside his portfolio modal. Opening another investor resets search and holder filters.
+
+## Compact analysis and top 30 holdings (22 October 2026)
+
+The mutual-fund workspace shows the top 30 company allocations ranked from same-date saved full equity portfolios, preserving saved figures. September has 30 rows for all 34 funds; Quantum’s additional allocations are separately sourced in `data/quantum-top30-supplement.json` and do not fabricate missing quantities. Source evidence distinguishes published allocations from complete quantity comparisons. Historical snapshots expand only when same-date allocations can be reconciled, including explicitly reported prior-month weights from the following comparison; incomplete histories remain labelled. Original stored snapshots are not overwritten. The update contract accepts both legacy 15 and new 30-position snapshots. Increasing display coverage is not recorded as a trade or a new portfolio entry.
+
+Allocation totals, cards/tables, prior allocation comparisons, company search and shared holdings use the expanded data. Combined analysis continues to use full equity portfolios, with compact summary metrics, segmented filters and a company search that initially searches all companies, then respects movement filters.
