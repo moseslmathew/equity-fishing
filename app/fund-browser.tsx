@@ -13,6 +13,8 @@ import {allCompanyHoldings,searchCompanyHoldings} from "../lib/fund-search";
 import {Dialog,DialogTrigger,DialogContent,DialogTitle,DialogDescription,DialogClose} from "../components/ui/dialog";
 import {companyKey,holdingLimit} from "../lib/top-holdings";
 
+// Fund combination is driven from each portfolio row so the list and table stay in one flow.
+
 const pct=(n:number)=>n.toFixed(2)+"%";
 const date=(s:string)=>new Date(s+"T00:00:00Z").toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric",timeZone:"Asia/Kolkata"});
 const time=(s:string)=>new Date(s).toLocaleString("en-IN",{day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit",timeZone:"Asia/Kolkata"})+" IST";
