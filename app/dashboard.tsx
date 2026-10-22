@@ -5,7 +5,7 @@ import type {MonthlyPortfolio} from "../lib/monthly";
 import {schemeNames,fundUniverseDescription} from "../lib/fund-catalog";
 import FundBrowser from "./fund-browser";
 import SharedHoldings from "./shared-holdings";
-import {allCompanyHoldings,sharedCompanyHoldings} from "../lib/fund-search";
+import {sharedCompanyHoldings} from "../lib/fund-search";
 import CombinedAnalysis from "./combined-analysis";
 import AgentResearch from "./agent-research";
 import AceInvestors from "./ace-investors";
@@ -24,7 +24,7 @@ export default function Dashboard(){
   useEffect(()=>{if(window.location.hash==="#investors")setSection("investors");void load();},[]);
   if(!data)return <main className="state"><h1>Equity funds</h1>{loading?<p className="loading-status" role="status"><span className="loading-spinner" aria-hidden="true"/>Loading your funds…</p>:<><p role="alert">{error}</p><button className="button" onClick={()=>void load()}>Try again</button></>}</main>;
   const months=[...new Set([data.calendarMonth,previousMonth(data.calendarMonth),...data.availableMonths])].sort().reverse();
-  const shared=sharedCompanyHoldings(data),allHoldings=allCompanyHoldings(data);
+  const shared=sharedCompanyHoldings(data);
   return <div className="dashboard"><WorkspaceHeader section={section} onNavigate={setSection}/><main className="fund-main">{section==="investors"?<AceInvestors/>:<>
     <div className="heading overview-heading"><div className="overview-copy"><h1>Equity funds</h1><p>{fundUniverseDescription}</p></div><div className="fund-actionbar"><label className="month-control"><span>Reporting month</span><span className="month-select-shell"><select aria-label="Reporting month" value={requestedMonth} disabled={loading} onChange={e=>void load(e.target.value)}>{months.map(m=><option key={m} value={m}>{monthLabel(m)}</option>)}</select><ChevronDown size={18} aria-hidden="true"/></span></label><AgentResearch/><button className="reload-button" aria-label="Refresh fund holdings" title="Refresh fund holdings" disabled={loading} onClick={()=>void load()}><RotateCw size={18} className={loading?"refresh-spinning":undefined} aria-hidden="true"/><span>Refresh</span></button></div></div>
     <div className="results-region" aria-busy={loading}>{loading&&<div className="results-loader" role="status"><span className="loading-spinner" aria-hidden="true"/><span>Loading {monthLabel(requestedMonth)} holdings…</span></div>}<div className={loading?"results-content is-loading":"results-content"}>
@@ -33,6 +33,6 @@ export default function Dashboard(){
 
     <details className="portfolio-section" open><summary className="portfolio-summary"><span>Fund portfolios</span><span className="section-toggle" aria-hidden="true"/></summary><div className="portfolio-content"><FundBrowser key={data.requestedMonth} data={data} view="table" search={fundSearch} onSearchChange={setFundSearch}/>
 </div></details>
-    <SharedHoldings companies={shared.companies} holdings={allHoldings} funds={data.funds.map(fund=>({id:fund.id,name:fund.name}))} month={monthLabel(data.requestedMonth)} pending={data.funds.length===0} fullFunds={shared.fullFunds} topOnlyFunds={shared.topOnlyFunds} totalFunds={shared.totalFunds} missingFunds={data.missingFunds.length}/>
+    <SharedHoldings companies={shared.companies} month={monthLabel(data.requestedMonth)} pending={data.funds.length===0} fullFunds={shared.fullFunds} topOnlyFunds={shared.topOnlyFunds} totalFunds={shared.totalFunds} missingFunds={data.missingFunds.length}/>
     </div></div></>}</main></div>;
 }
