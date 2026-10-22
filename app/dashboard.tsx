@@ -43,6 +43,6 @@ export default function Dashboard(){
 
     <details id="portfolio-panel-funds" className="portfolio-section" open={activePanel==="funds"} onToggle={e=>panelToggle("funds",e.currentTarget.open)}><summary className="portfolio-summary"><span>Fund portfolios</span><span className="section-toggle" aria-hidden="true"/></summary><div className="portfolio-content"><FundBrowser key={data.requestedMonth} data={data} view="table" search={fundSearch} onSearchChange={setFundSearch}/>
 </div></details>
-    <SharedHoldings open={activePanel==="shared"} onOpenChange={open=>panelToggle("shared",open)} companies={shared.companies} month={monthLabel(data.requestedMonth)} pending={data.funds.length===0} fullFunds={shared.fullFunds} topOnlyFunds={shared.topOnlyFunds} totalFunds={shared.totalFunds} missingFunds={data.missingFunds.length}/>
+    <SharedHoldings open={activePanel==="shared"} onOpenChange={open=>panelToggle("shared",open)} companies={shared.companies} reportingMonth={data.requestedMonth} month={monthLabel(data.requestedMonth)} pending={data.funds.length===0} fullFunds={shared.fullFunds} topOnlyFunds={shared.topOnlyFunds} totalFunds={shared.totalFunds} missingFunds={data.missingFunds.length}/>
     </div></div></div></>}</main></div>;
 }
