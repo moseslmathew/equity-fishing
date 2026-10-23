@@ -39,7 +39,15 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  assert.equal(adia.companies.find(c=>c.id==='idfc-first').stakePercent,null);
  assert.equal(kkr.companies.find(c=>c.id==='cisternina').stance,'proposed');
  assert.equal(kkr.companies.find(c=>c.id==='hcg').stakePercent,null,'Agreement percentage must not be promoted to a current holding');
+ const gs=datasets.find(d=>d.id==='goldman-sachs');
+ assert.equal(gs.companies.length,8);assert.equal(gs.companies.filter(c=>c.listing.startsWith('Listed')).length,6);
+ for(const c of gs.companies.filter(c=>c.listing.startsWith('Listed'))){assert(c.relationship.includes('client')||c.relationship.includes('Managed-fund'));assert(c.ownership.includes('reported'));assert(c.ownershipDate.includes('original filing not retrieved'));assert(c.sourceIds.some(id=>gs.sources[id].kind==='reporting'));}
+ assert.equal(gs.companies.find(c=>c.id==='moengage').stakePercent,null);assert.equal(gs.companies.find(c=>c.id==='aragen').stakePercent,null);
+ assert(gs.companies.find(c=>c.id==='medi-assist').ownershipDate.startsWith('30 Jun 2026'));
+ assert.equal(logic.selectForeignCompanies(gs,{...base,query:'Pricol'}).length,1);
+ assert.equal(logic.selectForeignCompanies(gs,{...base,listing:'private'}).length,2);
  const aggregate=logic.aggregateForeignResearch(datasets);logic.validateForeignResearch(aggregate);
+ assert(logic.selectForeignCompanies(aggregate,{...base,query:'MoEngage'}).some(c=>c.investorName==='Goldman Sachs'));
  assert.equal(aggregate.companies.length,datasets.reduce((sum,d)=>sum+d.companies.length,0));
  assert.equal(new Set(aggregate.companies.map(c=>c.id)).size,aggregate.companies.length,'Investor-specific company records cannot collide');
  assert.equal(new Set(aggregate.events.map(e=>e.id)).size,aggregate.events.length);
@@ -51,11 +59,11 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  const cookie=auth.sessionCookie+'='+await auth.createSession();
  Module._load=function(id,...args){return id==='next/headers'?{headers:async()=>new Headers({cookie})}:originalLoad.call(this,id,...args);};
  const page=await require('../app/foreign-investors/page.tsx').default();
- assert.equal(page.props.datasets.length,8);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments'])assert(renderToStaticMarkup(page).includes(name));
+ assert.equal(page.props.datasets.length,9);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments','Goldman Sachs'])assert(renderToStaticMarkup(page).includes(name));
  const blackrock=datasets.find(item=>item.id==='blackrock');assert.equal(blackrock.companies.length,11);assert(blackrock.companies.every(item=>item.stakePercent===null));assert(blackrock.companies.some(item=>item.id==='ather-energy'));assert.equal(blackrock.events[0].date,'2026-08-31');
  Module._load=originalLoad;
  assert(html.includes('Foreign investor portfolios'));assert(html.includes('holdings table'));assert(html.includes('foreign-sidebar'));assert(!html.includes('foreign-investor-overview'));assert(!html.includes('foreign-company-grid')); // Sidebar navigation with table coverage by default.
  assert(html.indexOf('Aadhar Housing Finance')<html.indexOf('The Federal Bank'));
  const invalid=structuredClone(data);invalid.events[0].sourceIds=['missing'];assert.throws(()=>logic.validateForeignResearch(invalid));
- console.log('Foreign investors verified: eight registered investors; 23 new company/platform records; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
+ console.log('Foreign investors verified: nine registered investors; Goldman Sachs included; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
