@@ -1,16 +1,16 @@
 {
-  "id": "research-2026-10-13-strategic-quality",
-  "asOf": "2026-10-13",
+  "id": "research-2026-10-23-newsletter",
+  "asOf": "2026-10-23",
   "marketDate": "2026-10-12",
   "fundMonth": "2026-09",
   "previousFundMonth": "2026-08",
-  "checkedAt": "2026-10-13T01:10:50.440637Z",
+  "checkedAt": "2026-10-23T06:00:00.000Z",
   "horizon": "1–3 years",
-  "createdBy": "AI research assistant",
-  "refreshedLabel": "Research reviewed 13 October 2026",
-  "portfolioFingerprint": "fae4facb",
-  "title": "Where business quality meets the next investment cycle",
-  "method": "Recompute company identities and share-quantity changes from all saved comparisons, withholding flagged corporate-action records. Review persistent and mixed signals, then assess current company filings, operating economics, management delivery and external views. The PDF supplied for styling contributed no holdings, numbers, themes or conclusions. Selection prioritises quality and evidence rather than the largest share-count change.",
+  "createdBy": "Codex",
+  "refreshedLabel": "Newsletter updated 23 October 2026",
+  "portfolioFingerprint": "8ae951ec",
+  "title": "The conviction question: what changed, and what still needs proof",
+  "method": "Prepared by Codex from the saved full-equity archive, recomputing fund coverage, company identities and share movements. Disputed corporate-action records remain unclassified. Selected official publications were checked on 23 October 2026. Company deep dives retain their original verification dates unless a dated update is explicitly stated. No live price-based ranking or market-wide flow estimate is inferred from this portfolio sample.",
   "limitations": "Research uses all saved portfolio records and selected accessible public sources, not every disclosure or news item in existence. Issuer filings anchor operating facts; independent reporting and analyst views provide context and challenge. Exchange-filing mirrors are identified as secondary access to the same primary material. Forecasts and management guidance are not treated as achieved results. Current prices and valuation multiples were not independently reconciled, so the shortlist does not establish undervaluation or suitable entry prices. Ownership and holdings retain their reporting dates; missing observations are not treated as sales.",
   "overview": [],
   "exclusions": [],
@@ -743,11 +743,11 @@
       "checkedOn": "2026-10-12"
     },
     {
-      "label": "Official release index (11 Aug, 24 and 28 Sep 2026)",
+      "label": "Kalpataru official release index — 13 October order announcement",
       "url": "https://www.kalpataruprojects.com/news-media",
       "kind": "Issuer / exchange document",
-      "period": "2026; date stated at source",
-      "checkedOn": "2026-10-12"
+      "period": "13 October 2026",
+      "checkedOn": "2026-10-23"
     },
     {
       "label": "Official Investor Day with leadership presentation/video library, 2 Sep 2026",
@@ -818,12 +818,19 @@
       "kind": "Independent reporting; search-retrieved article",
       "period": "12 October 2026",
       "checkedOn": "2026-10-13"
+    },
+    {
+      "label": "AMFI official monthly report — September 2026",
+      "url": "https://portal.amfiindia.com/spages/amsep2026repo.pdf",
+      "kind": "Official industry statistics",
+      "period": "September 2026; INR crore",
+      "checkedOn": "2026-10-23"
     }
   ],
   "modelName": "Exact runtime model unavailable",
   "modelDisclosure": "The exact model identifier is not exposed in this session; no model version is inferred.",
-  "summary": "The strongest opportunities in this portfolio universe sit where demand meets a difficult operating problem: reliable power, specialised manufacturing, affordable clinical capacity and complex customer workflows. The central question is who can convert that demand into durable cash earnings. A fashionable end market, a fund purchase or an ambitious expansion plan is only the beginning of that answer.",
-  "coverageNote": "Portfolio foundation: 20 small-cap funds, 682 distinct companies and 42 saved snapshots. July and August cover all 20 funds; September covers only DSP Small Cap Fund and Nippon India Small Cap Fund. The review uses all available comparisons, with fresh company and market research checked through 13 October 2026. It cannot establish a September-wide industry rotation.",
+  "summary": "September’s wider portfolio archive reveals selective accumulation alongside meaningful disagreement. This edition follows the money without confusing fund activity with business quality: where managers agree, where they differ, and which operating milestones could turn a promising story into durable cash earnings.",
+  "coverageNote": "September versus August: 33 funds and 765 company records, including exited positions. Quantum Small Cap Fund has no September comparison. August versus July covers 20 funds; changes in coverage prevent a like-for-like market-wide trend claim. Company deep dives retain their individual source dates; this edition refreshes portfolio evidence and selected developments, not every financial statement or valuation.",
   "intelligence": {
     "takeaways": [
       {
@@ -837,7 +844,7 @@
       },
       {
         "title": "Fund conviction is selective, not unanimous",
-        "text": "The archive shows repeat DSP additions to Narayana Hrudayalaya, IPCA Laboratories and KPIT Technologies across the two comparisons. eClerx is more contested: two distinct funds added and two reduced across the available periods. We treat that disagreement as a reason to test the thesis, not conceal it. Share quantities, rather than changing portfolio weights, underpin these signals.",
+        "text": "September now covers 33 comparable portfolios. Manager activity is selective: MCX has ten additions and three reductions; INOX India has four and one. These are share-count classifications, not allocation changes or proof of undervaluation. The newsletter sets out the limits of these signals.",
         "refs": []
       },
       {
@@ -970,7 +977,85 @@
         "refs": []
       }
     ],
-    "selectionNote": "Ten suggested stocks for further research, ranked by business quality, evidence and unresolved risks. Voltamp Transformers and Data Patterns replace Ather Energy and Dhoot Transmission in this edition; KPIT is retained as a more conditional recovery case. Companies held by small-cap funds are not automatically small-cap companies under the latest market-cap classification.",
+    "selectionNote": "Ten dated company dossiers to investigate further. The order is retained from the earlier research edition; it has not been re-ranked using current prices. Portfolio evidence is recomputed from the saved archive.",
     "mediaNote": "YouTube and X were searched for research leads. Usable interview evidence came from published management interviews and issuer presentation libraries; inaccessible videos and unverified posts were excluded. Full videos were not independently watched. These are attributed perspectives, not a social-sentiment census or a measured customer-satisfaction survey."
+  },
+  "newsletter": {
+    "edition": "23 OCTOBER 2026",
+    "editorNote": "Dear reader,\n\nA wider research universe changes the questions we should ask. September now has 33 comparable fund portfolios, making the older two-fund reading obsolete. The useful signal is not simply whether a company appears in more portfolios. It is whether the same managers keep adding, whether other managers disagree, and whether the company’s operating progress supports the capital being committed.\n\nOur emphasis this month is evidence over enthusiasm. We separate current holdings from historical exits, share-count changes from allocation percentages, and reported developments from our interpretation. The ten company dossiers remain a research reading list, with their original dates and opposing cases visible.",
+    "stories": [
+      {
+        "title": "The wider picture: liquidity is supportive, but it is not a company thesis",
+        "label": "INDUSTRY CONTEXT",
+        "paragraphs": [
+          "AMFI’s official September report records ₹38,306.55 crore of net inflows into open-ended equity schemes. Small-cap schemes received ₹9,038.57 crore and mid-cap schemes ₹7,834.84 crore. These are industry category flows, not purchases of any particular stock and not flows into only the funds tracked here.",
+          "Our interpretation: positive category flows can provide managers with deployment capacity. They do not establish attractive valuations or lasting demand for an individual business. Test a company’s earnings and cash generation separately, and avoid treating recent category enthusiasm as a margin of safety."
+        ],
+        "refs": [
+          13
+        ]
+      },
+      {
+        "title": "Consensus has limits: read accumulation alongside disagreement",
+        "label": "PORTFOLIO LETTER",
+        "paragraphs": [
+          "In the September archive, Multi Commodity Exchange appears in 23 current fund portfolios: ten funds increased or initiated share positions and three reduced or exited. INOX India has four additions and one reduction, with seven current holders. Voltamp has three additions, no classified reduction and ten current holders. Unchanged positions account for the remaining holders; additions plus reductions are not a holder count.",
+          "These observations support a research priority, not a conclusion about fair value. A broad shareholder base can offer corroboration, but it can also mean several funds own the same underlying risk. At MCX, investigate the durability of trading activity and operating leverage. At INOX and Voltamp, connect capacity and order execution to working capital, margins and incremental returns.",
+          "The archive’s August comparison covers only 20 funds. September’s broader sample must not be presented as evidence that conviction accelerated across the whole industry. For persistence, compare the same manager in adjacent months; use the linked company dossiers to inspect that evidence."
+        ],
+        "refs": []
+      },
+      {
+        "title": "Ather and Indo-MIM: two examples of why the detail matters",
+        "label": "READING THE SIGNAL",
+        "paragraphs": [
+          "Ather’s aggregate shares fell from 1,86,77,773 to 1,68,13,108, a reduction of 18,64,665 shares. Two funds increased holdings, four reduced and ten were unchanged; 16 funds still held shares at month-end. Falling allocation percentages across those funds do not prove every manager sold. Allocation also changes with share prices and the size of the fund’s net assets.",
+          "Indo-MIM’s total increased from 48,29,827 to 54,44,688 shares, or 6,14,861 more. Five funds added or initiated and four reduced or exited. There are eight current holders and two exited positions in the comparison; a combined view can therefore show more contributing fund records than the current-holdings search.",
+          "Our interpretation: mixed activity deserves a balanced company assessment. For Ather, focus research on unit economics, cash consumption and the path to sustainable margins. For Indo-MIM, test customer concentration, execution and cash conversion. These are research questions rather than newly verified operating conclusions."
+        ],
+        "refs": []
+      },
+      {
+        "title": "Kalpataru: another order announcement, with execution still the test",
+        "label": "COMPANY DISPATCH · 13 OCT",
+        "paragraphs": [
+          "Kalpataru Projects’ official news index lists ₹2,225 crore of new order wins on 13 October 2026. The earlier dossier predates this update. We verified the headline and date on the issuer’s release index; the linked document could not be retrieved, so no assumptions are made here about project mix, margin, customer terms or completion dates.",
+          "Our interpretation: the announcement supports the demand pipeline but is not revenue already earned. The more useful next evidence is conversion into execution, acceptable working capital and operating cash flow. Check whether stronger billing translates into collections and whether growth requires disproportionate balance-sheet funding.",
+          "In the dossier, read the original operating discussion alongside this dated update. Do not add this headline to earlier order announcements without checking whether they refer to distinct contracts and whether any cancellations or scope changes have occurred."
+        ],
+        "refs": [
+          2
+        ]
+      },
+      {
+        "title": "The business-quality test behind the ten dossiers",
+        "label": "EDITOR’S RESEARCH AGENDA",
+        "paragraphs": [
+          "Our company coverage spans workflow services, grid equipment, hospitals, pharmaceuticals, engineering projects, cryogenic equipment, financial distribution, specialty chemicals, defence electronics and automotive software. The common question is whether a difficult-to-replicate capability translates into retained earnings and cash. Exposure to a popular theme is not sufficient.",
+          "For eClerx, compare AI productivity with realized margins and client pricing. For Narayana, examine new-capacity utilisation and returns after investment. For IPCA, distinguish operational improvement from integration costs. For Prudent, separate recurring distribution economics from market-linked asset appreciation. For Vinati and Data Patterns, connect growth plans to actual utilisation, delivery and cash collection. KPIT remains conditional on commercial recovery rather than thematic enthusiasm.",
+          "These are the questions carried forward from the dated company analyses, not assertions that fresh quarterly outcomes have already been checked. No new live-price comparison was completed for this issue. The reading order should therefore help organise research, rather than imply a current buy recommendation."
+        ],
+        "refs": []
+      }
+    ],
+    "watchlist": [
+      {
+        "title": "Next earnings releases",
+        "text": "Compare revenue quality, operating margins, receivables and operating cash flow with the expectations in each company dossier. Separate management guidance from achieved results."
+      },
+      {
+        "title": "Capacity and execution",
+        "text": "Track commissioning, utilisation, customer qualification and collections at equipment and project businesses. An announced facility or order is a milestone, not evidence of earned returns."
+      },
+      {
+        "title": "October portfolios",
+        "text": "When October month-end disclosures become available, compare them against September using the same fund set. A missing disclosure remains unknown; it must not become an exit."
+      },
+      {
+        "title": "Valuation before an investment decision",
+        "text": "Reconcile the current quote, diluted shares, debt and latest financial period before calculating multiples. This edition contains no price targets or newly verified valuation screen."
+      }
+    ],
+    "closing": "The best use of this issue is to choose what to investigate next. Start with the portfolio evidence, challenge it with the company’s economics, and use the dated sources to decide what remains unanswered."
   }
 }
