@@ -66,6 +66,13 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  assert.equal(unico.companies.find(c=>c.ticker==='PCJEWELLER').stakePercent,3.13);assert.equal(ebisu.companies.find(c=>c.ticker==='ELITECON').stakePercent,4.71);
  assert(unico.companies.find(c=>c.ticker==='SERVICE').ownershipDate.startsWith('31 Mar 2026'));assert(ebisu.companies.find(c=>c.name.startsWith('NTC')).ownershipDate.startsWith('30 Jun 2026'));
  assert([...ebisu.events,...unico.events].every(e=>e.kind==='snapshot'));
+ const newIds=['synnex-technology','fidelity-low-priced-stock','fidelity-international-small-cap','government-pension-fund-global','massachusetts-institute-of-technology','rbc-emerging-markets-dividend','vanguard-emerging-markets-stock-index'];
+ for(const id of newIds){const d=datasets.find(d=>d.id===id);assert(d);assert(d.companies.every(c=>c.ownershipDate.startsWith('30 Sep 2026')));assert(d.companies.some(c=>c.ticker==='REDINGTON'));}
+ assert.equal(datasets.find(d=>d.id==='synnex-technology').companies[0].stakePercent,24.12);
+ assert(datasets.find(d=>d.id==='synnex-technology').companies[0].relationship.startsWith('Strategic corporate shareholder'));
+ assert.equal(datasets.find(d=>d.id==='fidelity-low-priced-stock').companies[0].stakePercent,2.65);
+ assert.equal(datasets.find(d=>d.id==='fidelity-international-small-cap').companies[0].stakePercent,2.05);
+ assert.equal(datasets.find(d=>d.id==='rbc-emerging-markets-dividend').companies.find(c=>c.ticker==='REDINGTON').stakePercent,1.22,'Fund weight must not be used as company ownership');
  const aggregate=logic.aggregateForeignResearch(datasets);logic.validateForeignResearch(aggregate);
  assert(logic.selectForeignCompanies(aggregate,{...base,query:'MoEngage'}).some(c=>c.investorName==='Goldman Sachs'));
  assert.equal(aggregate.companies.length,datasets.reduce((sum,d)=>sum+d.companies.length,0));
@@ -79,11 +86,11 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  const cookie=auth.sessionCookie+'='+await auth.createSession();
  Module._load=function(id,...args){return id==='next/headers'?{headers:async()=>new Headers({cookie})}:originalLoad.call(this,id,...args);};
  const page=await require('../app/foreign-investors/page.tsx').default();
- assert.equal(page.props.datasets.length,16);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments','Goldman Sachs','Government of Singapore','Amansa Holdings Private Limited'])assert(renderToStaticMarkup(page).includes(name));
+ assert.equal(page.props.datasets.length,23);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments','Goldman Sachs','Government of Singapore','Amansa Holdings Private Limited'])assert(renderToStaticMarkup(page).includes(name));
  const blackrock=datasets.find(item=>item.id==='blackrock');assert.equal(blackrock.companies.length,11);assert(blackrock.companies.every(item=>item.stakePercent===null));assert(blackrock.companies.some(item=>item.id==='ather-energy'));assert.equal(blackrock.events[0].date,'2026-08-31');
  Module._load=originalLoad;
  assert(html.includes('Foreign investor portfolios'));assert(html.includes('holdings table'));assert(html.includes('foreign-sidebar'));assert(!html.includes('foreign-investor-overview'));assert(!html.includes('foreign-company-grid')); // Sidebar navigation with table coverage by default.
  assert(html.indexOf('Aadhar Housing Finance')<html.indexOf('The Federal Bank'));
  const invalid=structuredClone(data);invalid.events[0].sourceIds=['missing'];assert.throws(()=>logic.validateForeignResearch(invalid));
- console.log('Foreign investors verified: sixteen registered profiles; Ebisu and Unico included; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
+ console.log('Foreign investors verified: twenty-three registered profiles; all seven new named investors included; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
