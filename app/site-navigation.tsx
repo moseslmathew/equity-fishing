@@ -1,11 +1,14 @@
 "use client";
 import {useEffect,useState} from "react";
 import {createPortal} from "react-dom";
-import {Menu,BarChart3,Users,Layers3,Globe2,Sprout,ArrowRight,Check,X} from "lucide-react";
+import {Menu,BarChart3,Users,Layers3,Globe2,Sprout,PanelLeftClose,PanelLeftOpen,X} from "lucide-react";
 import {Dialog,DialogClose,DialogContent,DialogTitle,DialogDescription} from "../components/ui/dialog";
 export type WorkspaceSection="funds"|"investors"|"foreign"|"sectors"|"venture";
 export default function SiteNavigation({section,onNavigate}:{section:WorkspaceSection;onNavigate?:(section:"funds"|"investors")=>void}){
  const [open,setOpen]=useState(false);
+ const [collapsed,setCollapsed]=useState(false);
+ useEffect(()=>{try{setCollapsed(localStorage.getItem("workspace-nav-collapsed")==="true");}catch{}},[]);
+ const toggleCollapsed=()=>{const next=!collapsed;setCollapsed(next);try{localStorage.setItem("workspace-nav-collapsed",String(next));}catch{}};
  const [pending,setPending]=useState<{id:WorkspaceSection;label:string}|null>(null);
  useEffect(()=>{
   const restore=()=>setPending(null);
@@ -23,8 +26,8 @@ export default function SiteNavigation({section,onNavigate}:{section:WorkspaceSe
   });});
   return()=>{cancelAnimationFrame(frame);cancelAnimationFrame(nextFrame);};
  },[pending,onNavigate]);
- return <><button className="quiet-button menu-button" aria-label="Open navigation" aria-expanded={open} onClick={()=>setOpen(true)}><Menu size={21}/></button><Dialog open={open} onOpenChange={setOpen}><DialogContent className="site-menu" showCloseButton={false}>
-  <header className="workspace-menu-header"><span className="workspace-menu-eyebrow">YOUR RESEARCH WORKSPACE</span><DialogTitle>Explore</DialogTitle><DialogDescription>Where would you like to go?</DialogDescription><DialogClose className="workspace-menu-close" aria-label="Close navigation"><X size={19}/></DialogClose></header>
-  <nav aria-label="Main navigation">{([{id:"funds",label:"Mutual funds",description:"Equity holdings, portfolio changes & research",icon:BarChart3},{id:"investors",label:"Ace investors",description:"Explore leading investors’ portfolios",icon:Users},{id:"foreign",label:"Foreign investors",description:"Indian exposure, disclosed holdings & activity",icon:Globe2},{id:"venture",label:"Venture capital focused equity",description:"Indian-listed companies backed before IPO",icon:Sprout},{id:"sectors",label:"Sector funds",description:"Energy, Auto & FMCG",icon:Layers3}] as const).map(item=><button key={item.id} className={section===item.id?"active":""} aria-current={section===item.id?"page":undefined} onClick={()=>{setOpen(false);if(item.id!==section)setPending({id:item.id,label:item.label});}}><span className="workspace-menu-icon"><item.icon size={22}/></span><span className="workspace-menu-copy"><strong>{item.label}</strong><span>{item.description}</span></span><span className="workspace-menu-direction" aria-hidden="true">{section===item.id?<Check size={18}/>:<ArrowRight size={18}/>}</span></button>)}</nav>
+ const navigation=(compact=false)=><nav aria-label="Main navigation">{([{id:"funds",label:"Mutual funds",description:"Holdings & portfolio changes",icon:BarChart3},{id:"investors",label:"Ace investors",description:"Leading investor portfolios",icon:Users},{id:"foreign",label:"Foreign investors",description:"Indian holdings & activity",icon:Globe2},{id:"venture",label:"Venture capital",description:"Indian-listed pre-IPO investments",icon:Sprout},{id:"sectors",label:"Sector funds",description:"Energy, auto & FMCG",icon:Layers3}] as const).map(item=><button key={item.id} title={compact?item.label:undefined} aria-label={item.label} className={section===item.id?"active":""} aria-current={section===item.id?"page":undefined} onClick={()=>{setOpen(false);if(item.id!==section)setPending({id:item.id,label:item.label});}}><item.icon size={20}/><span className="workspace-nav-copy"><strong>{item.label}</strong><small>{item.description}</small></span></button>)}</nav>;
+ return <><aside className="workspace-sidebar" data-collapsed={collapsed}><div className="workspace-sidebar-heading"><span>RESEARCH</span><button onClick={toggleCollapsed} aria-label={collapsed?"Expand navigation":"Collapse navigation"} aria-expanded={!collapsed} title={collapsed?"Expand navigation":"Collapse navigation"}>{collapsed?<PanelLeftOpen size={19}/>:<PanelLeftClose size={19}/>}</button></div>{navigation(collapsed)}<div className="workspace-sidebar-footer">Smallcap Observatory</div></aside><button className="quiet-button menu-button workspace-mobile-menu" aria-label="Open navigation" aria-expanded={open} onClick={()=>setOpen(true)}><Menu size={21}/></button><Dialog open={open} onOpenChange={setOpen}><DialogContent className="workspace-mobile-drawer" showCloseButton={false}>
+  <header className="workspace-drawer-heading"><DialogTitle>Research workspace</DialogTitle><DialogDescription className="sr-only">Choose a research section</DialogDescription><DialogClose aria-label="Close navigation"><X size={20}/></DialogClose></header>{navigation()}
  </DialogContent></Dialog>{pending&&createPortal(<div className="navigation-loading-screen" role="status" aria-live="polite"><span className="loading-spinner" aria-hidden="true"/><h1>Loading {pending.label}…</h1><p>Opening your research workspace</p></div>,document.body)}</>;
 }
