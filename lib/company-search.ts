@@ -8,7 +8,7 @@ import type {ForeignResearch} from "./foreign-investors";
 export type SearchEntry={id:string;owner:string;value:number|null;measure:"allocation"|"equity"|"research";date:string;status:string;source?:string;note?:string};
 export type SearchGroup={id:string;label:string;href:string;entries:SearchEntry[]};
 export type CompanySearchResult={id:string;name:string;symbol:string|null;aliases:string[];groups:SearchGroup[]};
-export type SearchInput={portfolio?:Parameters<typeof allCompanyHoldings>[0];ace?:AceCombinedResult;foreign?:ForeignResearch[];venture?:VentureResearch;research?:{asOf:string;stocks:{name:string;symbol:string;verdict:string}[]}};
+export type SearchInput={portfolio?:Parameters<typeof allCompanyHoldings>[0];ace?:AceCombinedResult;foreign?:ForeignResearch[];venture?:VentureResearch;research?:{asOf:string;stocks:{name:string;symbol:string;verdict:string;sources?:{checkedOn:string}[]}[]}};
 export const searchSections={funds:{label:"Mutual funds",href:"/"},ace:{label:"Ace investors",href:"/#investors"},foreign:{label:"Foreign investors",href:"/foreign-investors"},venture:{label:"Venture capital",href:"/venture-capital"},research:{label:"AI Insights",href:"/"}};
 export function searchCompanies(input:SearchInput,query:string,limit=12){
  const companies=new Map<string,CompanySearchResult>();
@@ -34,9 +34,9 @@ export function searchCompanies(input:SearchInput,query:string,limit=12){
   add(h.name,"funds",{id:comparison.fundId,owner:fund.name,value:0,measure:"allocation",date:comparison.currentDate,status:"Exited position",source:comparison.sources[0]?.url},null,h.key);
  }
  for(const c of input.ace?.companies??[])for(const o of c.owners)add(c.name,"ace",{id:o.investorId,owner:o.investorName,value:o.stake,measure:"equity",date:o.date,status:o.status==="review"?"Needs review":"Disclosed stake",source:o.sources[0]?.url,note:o.holder});
- for(const d of input.foreign??[])for(const c of d.companies)add(c.name,"foreign",{id:d.id+":"+c.id,owner:d.name,value:c.stakePercent,measure:"equity",date:c.ownershipDate,status:d.sources[c.sourceIds[0]]?.kind==="reporting"?"Reported stake":c.stance,source:d.sources[c.sourceIds[0]]?.url,note:c.ownership},c.ticker);
+ for(const d of input.foreign??[])for(const c of d.companies)add(c.name,"foreign",{id:d.id+":"+c.id,owner:d.name,value:c.stakePercent,measure:"equity",date:c.ownershipDate,status:d.sources[c.sourceIds[0]]?.kind==="reporting"?(c.stakePercent===null?"Reported record":"Reported stake"):c.stance,source:d.sources[c.sourceIds[0]]?.url,note:c.ownership},c.ticker);
  for(const f of input.venture?.firms??[])for(const c of f.companies){const status=ventureStatus(c);if(!c.holdings.length)add(c.name,"venture",{id:f.id+":"+c.id,owner:f.shortName,value:null,measure:"equity",date:input.venture!.reviewedAt,status:"Pre-IPO backing; stake unconfirmed",source:c.preIpoSource.url},c.ticker);else for(const [i,h]of c.holdings.entries())add(c.name,"venture",{id:f.id+":"+c.id+":"+i,owner:f.shortName,value:h.percent,measure:"equity",date:h.asOf,status:status==="exited"?"Reported exit":status==="historical"?"Historical snapshot":h.evidence,source:h.source.url,note:h.entity},c.ticker);}
- for(const s of input.research?.stocks??[])add(s.name,"research",{id:s.symbol,owner:"Company dossier",value:null,measure:"research",date:input.research!.asOf,status:"Dated research",note:s.verdict},s.symbol);
+ for(const s of input.research?.stocks??[])add(s.name,"research",{id:s.symbol,owner:"Company dossier",value:null,measure:"research",date:s.sources?.map(source=>source.checkedOn).filter(Boolean).sort().at(-1)??input.research!.asOf,status:"Dated research",note:s.verdict},s.symbol);
  const compact=companyKey(query);
  const tokens=(value:string)=>value.normalize("NFKD").replace(/\p{M}/gu,"").toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean);
  const terms=tokens(query);

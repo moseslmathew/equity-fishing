@@ -7,7 +7,7 @@ const runtime=require('./database-test-runtime.cjs').setup({get:async()=>null,li
  assert.equal((await GET(request('a'))).status,200);assert.equal((await (await GET(request('a'))).json()).total,0);
  assert.equal((await GET(request('x'.repeat(101)))).status,400);
  const ather=await (await GET(request('ather'))).json();assert.equal(ather.unavailable.length,0);assert.equal(ather.total,1);
- const company=ather.companies[0];assert.equal(company.symbol,'ATHERENERG');assert(company.groups.some(g=>g.id==='funds'));assert(company.groups.some(g=>g.id==='foreign'));
+ const company=ather.companies[0];assert(company.groups.find(g=>g.id==='foreign').entries.every(e=>e.value!==null||e.status!=='Reported stake'),'Transaction records are not labelled ownership stakes');assert.equal(company.symbol,'ATHERENERG');assert(company.groups.some(g=>g.id==='funds'));assert(company.groups.some(g=>g.id==='foreign'));
  for(const group of company.groups)assert.equal(new Set(group.entries.map(e=>e.id)).size,group.entries.length);
  const iso=await (await GET(request('ICICIBANK'))).json();assert(iso.companies.some(c=>c.symbol==='ICICIBANK'));
  const indo=await (await GET(request('indo mim'))).json();assert.equal(indo.total,1);const mf=indo.companies[0].groups.find(g=>g.id==='funds');assert.equal(mf.entries.filter(e=>e.status==='Exited position').length,2);assert.equal(mf.entries.filter(e=>e.status==='Saved holding').length,8);
