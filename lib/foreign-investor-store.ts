@@ -9,10 +9,13 @@ import cppSeed from "../data/foreign-investor-cpp-investments.json";
 import goldmanSeed from "../data/foreign-investor-goldman-sachs.json";
 import governmentSeed from "../data/foreign-investor-government-of-singapore.json";
 import amansaSeed from "../data/foreign-investor-amansa-holdings.json";
+import monsoonSeed from "../data/foreign-investor-adia-monsoon.json";
+import caladiumSeed from "../data/foreign-investor-caladium-investment.json";
+import smallcapWorldSeed from "../data/foreign-investor-smallcap-world-fund.json";
 import {database,documentStatement,ensureDatabase} from "./database-store";
 import {validateForeignResearch,type ForeignResearch} from "./foreign-investors";
-export const foreignInvestorIds=["blackstone","temasek","gic","blackrock","kkr","brookfield","adia","cpp-investments","goldman-sachs","government-of-singapore","amansa-holdings"] as const;
-const seeds:Record<string,ForeignResearch>={blackstone:seed as ForeignResearch,temasek:temasekSeed as ForeignResearch,gic:gicSeed as ForeignResearch,blackrock:blackrockSeed as ForeignResearch,kkr:kkrSeed as ForeignResearch,brookfield:brookfieldSeed as ForeignResearch,adia:adiaSeed as ForeignResearch,"cpp-investments":cppSeed as ForeignResearch,"goldman-sachs":goldmanSeed as ForeignResearch,"government-of-singapore":governmentSeed as ForeignResearch,"amansa-holdings":amansaSeed as ForeignResearch};
+export const foreignInvestorIds=["blackstone","temasek","gic","blackrock","kkr","brookfield","adia","cpp-investments","goldman-sachs","government-of-singapore","amansa-holdings","adia-monsoon","caladium-investment","smallcap-world-fund"] as const;
+const seeds:Record<string,ForeignResearch>={blackstone:seed as ForeignResearch,temasek:temasekSeed as ForeignResearch,gic:gicSeed as ForeignResearch,blackrock:blackrockSeed as ForeignResearch,kkr:kkrSeed as ForeignResearch,brookfield:brookfieldSeed as ForeignResearch,adia:adiaSeed as ForeignResearch,"cpp-investments":cppSeed as ForeignResearch,"goldman-sachs":goldmanSeed as ForeignResearch,"government-of-singapore":governmentSeed as ForeignResearch,"amansa-holdings":amansaSeed as ForeignResearch,"adia-monsoon":monsoonSeed as ForeignResearch,"caladium-investment":caladiumSeed as ForeignResearch,"smallcap-world-fund":smallcapWorldSeed as ForeignResearch};
 export async function readForeignResearch(id="blackstone"){
  const value=seeds[id]&&validateForeignResearch(seeds[id]);
  if(!value)return null;

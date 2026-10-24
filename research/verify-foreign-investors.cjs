@@ -56,6 +56,10 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  assert(!amansa.companies.some(c=>c.ticker==='SWIGGY'||c.ticker==='AEQUS'),'Other Amansa vehicles must not be attributed to this holder');
  assert([...government.companies,...amansa.companies].every(c=>c.ownershipDate.includes('original filing not retrieved')));
  assert([...government.events,...amansa.events].every(e=>e.kind==='snapshot'),'A holding snapshot does not establish trading direction');
+ const monsoon=datasets.find(d=>d.id==='adia-monsoon'),caladium=datasets.find(d=>d.id==='caladium-investment'),world=datasets.find(d=>d.id==='smallcap-world-fund');
+ assert.equal(monsoon.companies.length,8);assert(monsoon.companies.every(c=>c.relationship.includes(' - Monsoon')));assert(!monsoon.companies.some(c=>c.ticker==='CAMS'),'ADIA Way must not become Monsoon');
+ assert.equal(caladium.companies.find(c=>c.ticker==='ATHERENERG').stakePercent,3.23);assert(caladium.companies.find(c=>c.ticker==='ABFRL').ownershipDate.startsWith('30 Jun 2026'));assert(caladium.companies.find(c=>c.ticker==='BANDHANBNK').ownershipDate.startsWith('20 Mar 2026'));assert(caladium.events.find(e=>e.id==='ather-sale').detail.includes('3.24%'));
+ assert.equal(world.companies.length,11);assert.equal(world.companies.find(c=>c.ticker==='APLAPOLLO').stakePercent,4.24);assert(world.companies.find(c=>c.ticker==='SHAILY').ownership.startsWith('Approximately 7.8%'));
  const aggregate=logic.aggregateForeignResearch(datasets);logic.validateForeignResearch(aggregate);
  assert(logic.selectForeignCompanies(aggregate,{...base,query:'MoEngage'}).some(c=>c.investorName==='Goldman Sachs'));
  assert.equal(aggregate.companies.length,datasets.reduce((sum,d)=>sum+d.companies.length,0));
@@ -69,11 +73,11 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  const cookie=auth.sessionCookie+'='+await auth.createSession();
  Module._load=function(id,...args){return id==='next/headers'?{headers:async()=>new Headers({cookie})}:originalLoad.call(this,id,...args);};
  const page=await require('../app/foreign-investors/page.tsx').default();
- assert.equal(page.props.datasets.length,11);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments','Goldman Sachs','Government of Singapore','Amansa Holdings Private Limited'])assert(renderToStaticMarkup(page).includes(name));
+ assert.equal(page.props.datasets.length,14);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments','Goldman Sachs','Government of Singapore','Amansa Holdings Private Limited'])assert(renderToStaticMarkup(page).includes(name));
  const blackrock=datasets.find(item=>item.id==='blackrock');assert.equal(blackrock.companies.length,11);assert(blackrock.companies.every(item=>item.stakePercent===null));assert(blackrock.companies.some(item=>item.id==='ather-energy'));assert.equal(blackrock.events[0].date,'2026-08-31');
  Module._load=originalLoad;
  assert(html.includes('Foreign investor portfolios'));assert(html.includes('holdings table'));assert(html.includes('foreign-sidebar'));assert(!html.includes('foreign-investor-overview'));assert(!html.includes('foreign-company-grid')); // Sidebar navigation with table coverage by default.
  assert(html.indexOf('Aadhar Housing Finance')<html.indexOf('The Federal Bank'));
  const invalid=structuredClone(data);invalid.events[0].sourceIds=['missing'];assert.throws(()=>logic.validateForeignResearch(invalid));
- console.log('Foreign investors verified: eleven registered investors; Government of Singapore and Amansa included; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
+ console.log('Foreign investors verified: fourteen registered profiles; Monsoon, Caladium and Smallcap World included; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
