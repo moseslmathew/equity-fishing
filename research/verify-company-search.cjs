@@ -1,0 +1,26 @@
+const assert=require('node:assert/strict');
+const runtime=require('./database-test-runtime.cjs').setup({get:async()=>null,list:async()=>({objects:[],truncated:false})});
+(async()=>{
+ const {GET}=require('../app/api/company-search/route.ts');
+ const request=q=>new Request('https://test/api/company-search?q='+encodeURIComponent(q),{headers:{'x-fund-update-key':runtime.env.UPDATE_KEY}});
+ assert.equal((await GET(new Request('https://test/api/company-search?q=ather'))).status,401);
+ assert.equal((await GET(request('a'))).status,200);assert.equal((await (await GET(request('a'))).json()).total,0);
+ assert.equal((await GET(request('x'.repeat(101)))).status,400);
+ const ather=await (await GET(request('ather'))).json();assert.equal(ather.unavailable.length,0);assert.equal(ather.total,1);
+ const company=ather.companies[0];assert.equal(company.symbol,'ATHERENERG');assert(company.groups.some(g=>g.id==='funds'));assert(company.groups.some(g=>g.id==='foreign'));
+ for(const group of company.groups)assert.equal(new Set(group.entries.map(e=>e.id)).size,group.entries.length);
+ const iso=await (await GET(request('ICICIBANK'))).json();assert(iso.companies.some(c=>c.symbol==='ICICIBANK'));
+ const indo=await (await GET(request('indo mim'))).json();assert.equal(indo.total,1);const mf=indo.companies[0].groups.find(g=>g.id==='funds');assert.equal(mf.entries.filter(e=>e.status==='Exited position').length,2);assert.equal(mf.entries.filter(e=>e.status==='Saved holding').length,8);
+ const ixigo=await (await GET(request('ixigo'))).json();assert.equal(ixigo.total,1);assert(ixigo.companies[0].groups.some(g=>g.id==='venture'));
+ const gs=await (await GET(request('MoEngage'))).json();assert(gs.companies[0].groups.find(g=>g.id==='foreign').entries.some(e=>e.owner==='Goldman Sachs'&&e.value===null));
+ const {searchCompanies}=require('../lib/company-search.ts');
+ const research={asOf:'2026-10-24',stocks:[{name:'Example Chemicals Limited',symbol:'not-listed',verdict:'A'},{name:'Example Chemicals Services Limited',symbol:'not-listed-2',verdict:'B'}]};
+ assert.equal(searchCompanies({research},'Example Chemicals').total,2,'Partial-name similarity must never merge different companies');
+ const none=await (await GET(request('no-such-company-xyz'))).json();assert.equal(none.total,0);
+ // Saved research and historical VC observations retain their own dates.
+ const eclerx=await (await GET(request('eclerx'))).json();assert(eclerx.companies.some(c=>c.groups.some(g=>g.id==='research')));
+ const store=require('../lib/foreign-investor-store.ts'),original=store.readForeignResearch;
+ store.readForeignResearch=async()=>{throw new Error('Unavailable source');};
+ const partial=await(await GET(request('ather'))).json();assert(partial.unavailable.includes('Foreign investors'));assert(partial.companies.some(c=>c.groups.some(g=>g.id==='funds')));store.readForeignResearch=original;
+ console.log('Global search passed: auth, query bounds, all sources, exact identity and ticker grouping, Indo-MIM current/exited distinction, no duplicated holders, unknown stakes, research and empty results.');
+})().catch(e=>{console.error(e);process.exitCode=1;});
