@@ -13,6 +13,7 @@ const runtime=require('./database-test-runtime.cjs').setup({get:async()=>null,li
  const indo=await (await GET(request('indo mim'))).json();assert.equal(indo.total,1);const mf=indo.companies[0].groups.find(g=>g.id==='funds');assert.equal(mf.entries.filter(e=>e.status==='Exited position').length,2);assert.equal(mf.entries.filter(e=>e.status==='Saved holding').length,8);
  const ixigo=await (await GET(request('ixigo'))).json();assert.equal(ixigo.total,1);assert(ixigo.companies[0].groups.some(g=>g.id==='venture'));
  const gs=await (await GET(request('MoEngage'))).json();assert(gs.companies[0].groups.find(g=>g.id==='foreign').entries.some(e=>e.owner==='Goldman Sachs'&&e.value===null));
+ const sedemac=await (await GET(request('SEDEMAC'))).json();assert.equal(sedemac.total,1);const fii=sedemac.companies[0].groups.find(g=>g.id==='foreign');assert(fii.entries.some(e=>e.owner==='Government of Singapore'));assert(fii.entries.some(e=>e.owner==='Amansa Holdings Private Limited'));
  const {searchCompanies}=require('../lib/company-search.ts');
  const research={asOf:'2026-10-24',stocks:[{name:'Example Chemicals Limited',symbol:'not-listed',verdict:'A'},{name:'Example Chemicals Services Limited',symbol:'not-listed-2',verdict:'B'}]};
  assert.equal(searchCompanies({research},'Example Chemicals').total,2,'Partial-name similarity must never merge different companies');

@@ -46,6 +46,16 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  assert(gs.companies.find(c=>c.id==='medi-assist').ownershipDate.startsWith('30 Jun 2026'));
  assert.equal(logic.selectForeignCompanies(gs,{...base,query:'Pricol'}).length,1);
  assert.equal(logic.selectForeignCompanies(gs,{...base,listing:'private'}).length,2);
+ const government=datasets.find(d=>d.id==='government-of-singapore'),amansa=datasets.find(d=>d.id==='amansa-holdings');
+ assert.equal(government.companies.length,33);assert.equal(amansa.companies.length,24);
+ assert.equal(government.companies.find(c=>c.ticker==='SEDEMAC').stakePercent,2.32);
+ assert.equal(amansa.companies.find(c=>c.ticker==='SEDEMAC').stakePercent,1.05);
+ assert.equal(amansa.companies.find(c=>c.ticker==='ESCORTS').stakePercent,null,'Conflicting percentages must remain unresolved');
+ assert(amansa.companies.find(c=>c.ticker==='KIRLPNU').ownershipDate.startsWith('30 Jun 2026'));
+ assert(amansa.companies.every(c=>c.relationship==='Named shareholder: Amansa Holdings Private Limited'));
+ assert(!amansa.companies.some(c=>c.ticker==='SWIGGY'||c.ticker==='AEQUS'),'Other Amansa vehicles must not be attributed to this holder');
+ assert([...government.companies,...amansa.companies].every(c=>c.ownershipDate.includes('original filing not retrieved')));
+ assert([...government.events,...amansa.events].every(e=>e.kind==='snapshot'),'A holding snapshot does not establish trading direction');
  const aggregate=logic.aggregateForeignResearch(datasets);logic.validateForeignResearch(aggregate);
  assert(logic.selectForeignCompanies(aggregate,{...base,query:'MoEngage'}).some(c=>c.investorName==='Goldman Sachs'));
  assert.equal(aggregate.companies.length,datasets.reduce((sum,d)=>sum+d.companies.length,0));
@@ -59,11 +69,11 @@ require.extensions['.tsx']=(m,f)=>m._compile(ts.transpile(fs.readFileSync(f,'utf
  const cookie=auth.sessionCookie+'='+await auth.createSession();
  Module._load=function(id,...args){return id==='next/headers'?{headers:async()=>new Headers({cookie})}:originalLoad.call(this,id,...args);};
  const page=await require('../app/foreign-investors/page.tsx').default();
- assert.equal(page.props.datasets.length,9);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments','Goldman Sachs'])assert(renderToStaticMarkup(page).includes(name));
+ assert.equal(page.props.datasets.length,11);assert(renderToStaticMarkup(page).includes('BlackRock'));for(const name of ['KKR','Brookfield','ADIA','CPP Investments','Goldman Sachs','Government of Singapore','Amansa Holdings Private Limited'])assert(renderToStaticMarkup(page).includes(name));
  const blackrock=datasets.find(item=>item.id==='blackrock');assert.equal(blackrock.companies.length,11);assert(blackrock.companies.every(item=>item.stakePercent===null));assert(blackrock.companies.some(item=>item.id==='ather-energy'));assert.equal(blackrock.events[0].date,'2026-08-31');
  Module._load=originalLoad;
  assert(html.includes('Foreign investor portfolios'));assert(html.includes('holdings table'));assert(html.includes('foreign-sidebar'));assert(!html.includes('foreign-investor-overview'));assert(!html.includes('foreign-company-grid')); // Sidebar navigation with table coverage by default.
  assert(html.indexOf('Aadhar Housing Finance')<html.indexOf('The Federal Bank'));
  const invalid=structuredClone(data);invalid.events[0].sourceIds=['missing'];assert.throws(()=>logic.validateForeignResearch(invalid));
- console.log('Foreign investors verified: nine registered investors; Goldman Sachs included; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
+ console.log('Foreign investors verified: eleven registered investors; Government of Singapore and Amansa included; source integrity; filters and aggregation; ownership safeguards; authenticated APIs; D1 persistence and newer-record protection; page rendering.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
