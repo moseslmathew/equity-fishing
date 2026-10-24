@@ -17,6 +17,7 @@ const runtime=require('./database-test-runtime.cjs').setup({get:async()=>null,li
  const atherForeign=ather.companies[0].groups.find(g=>g.id==='foreign');assert(atherForeign.entries.some(e=>e.owner==='Caladium Investment Pte Ltd'&&e.value===3.23));
  const paras=await(await GET(request('PARAS'))).json();assert(paras.companies.some(c=>c.groups.some(g=>g.id==='foreign'&&g.entries.some(e=>e.owner==='Abu Dhabi Investment Authority – Monsoon'))));
  const apollo=await(await GET(request('APLAPOLLO'))).json();assert(apollo.companies.some(c=>c.groups.some(g=>g.id==='foreign'&&g.entries.some(e=>e.owner==='Smallcap World Fund, Inc'&&e.value===4.24))));
+ const mic=await(await GET(request('MICEL'))).json();assert.equal(mic.total,1);const micForeign=mic.companies[0].groups.find(g=>g.id==='foreign');assert(micForeign.entries.some(e=>e.owner==='Ebisu Global Opportunities Fund Limited'&&e.value===8.65));assert(micForeign.entries.some(e=>e.owner==='Unico Global Opportunities Fund Limited'&&e.value===8.10));
  const {searchCompanies}=require('../lib/company-search.ts');
  const research={asOf:'2026-10-24',stocks:[{name:'Example Chemicals Limited',symbol:'not-listed',verdict:'A'},{name:'Example Chemicals Services Limited',symbol:'not-listed-2',verdict:'B'}]};
  assert.equal(searchCompanies({research},'Example Chemicals').total,2,'Partial-name similarity must never merge different companies');
