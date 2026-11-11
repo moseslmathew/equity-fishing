@@ -6,6 +6,6 @@ export default function ResearchOverview({report}:{report:ResearchReport}){
  return <section className="research-editorial" aria-label="Comprehensive mutual fund research" data-report-section="comprehensive">
  {report.portfolioChanged&&<p className="research-coverage-warning" role="status">Portfolio records have changed since this report. Live evidence below is current to the saved archive; the narrative needs a new research review.</p>}
  {report.newsletter?<ResearchNewsletter report={report}/>:<IntelligenceOverview report={report.intelligence} sources={report.marketSources} summary={report.summary} coverageNote={report.coverageNote}/>}
- <IntelligenceMethod method={report.method} limitations={report.limitations} mediaNote={report.intelligence.mediaNote} modelName={report.modelName} modelDisclosure={report.modelDisclosure} sources={report.marketSources}/>
+ <IntelligenceMethod method={report.method} limitations={report.limitations} mediaNote="Evidence links lead to the saved portfolio sources. Source dates and coverage vary." modelName={report.modelName} modelDisclosure={report.modelDisclosure} sources={report.newsletterSources} modelLabel="Analysis engine"/>
  </section>;
 }
