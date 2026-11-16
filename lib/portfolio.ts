@@ -7,7 +7,7 @@ export type Portfolio = { version: number; checkedAt: string; updatedAt: string;
 export const ids = fundCatalog.map(f=>f.id);
 export function validatePortfolio(value: unknown): asserts value is Portfolio {
   const p = value as Portfolio;
-  if (!p || p.version !== 1 || !Array.isArray(p.funds) || p.funds.length !== ids.length || !Number.isFinite(Date.parse(p.checkedAt)) || typeof p.summary !== "string" || p.summary.length > 2000) throw new Error("Invalid snapshot.");
+  if (!p || p.version !== 1 || !Array.isArray(p.funds) || p.funds.length === 0 || p.funds.length > ids.length || !Number.isFinite(Date.parse(p.checkedAt)) || typeof p.summary !== "string" || p.summary.length > 2000) throw new Error("Invalid snapshot.");
   if (!p.schedule || typeof p.schedule.enabled !== "boolean" || p.schedule.time !== "08:00" || p.schedule.timezone !== "Asia/Kolkata") throw new Error("Invalid schedule.");
   const seen = new Set<string>();
   for (const f of p.funds) {
