@@ -1,6 +1,7 @@
 import {env} from "cloudflare:workers";
 import performanceExpansion from "../data/performance-fund-expansion.json";
 import octoberRecheck from "../data/october-recheck.json";
+import growwExpansion from "../data/groww-expansion.json";
 import whiteoakExpansion from "../data/whiteoak-expansion.json";
 import expansion from "../data/fund-expansion-2026-10.json";
 import seed from "../data/seed.json";
@@ -39,6 +40,7 @@ async function initializeDatabase(){
  await importPerformanceExpansion(db);
  await importOctoberRecheck(db);
  await importWhiteoakExpansion(db);
+ await importGrowwExpansion(db);
 }
 async function importOctober(db:D1Database){
  const marker="import:october-2026:"+october.checkedAt;
@@ -137,4 +139,15 @@ async function importWhiteoakExpansion(db:D1Database){
  const current=parse<Portfolio>(await db.prepare("SELECT payload FROM app_documents WHERE key=?").bind("portfolio:current").first<{payload:string}>());
  if(current){const all=[...current.funds];for(const f of funds)if(!all.some(old=>old.id===f.id))all.push(f);const checkedAt=[current.checkedAt,whiteoakExpansion.checkedAt].sort().at(-1)!;await db.batch([documentStatement(db,"portfolio:current",{...current,funds:all,checkedAt},checkedAt)]);}
  await db.batch([documentStatement(db,marker,{funds:funds.length,audit:whiteoakExpansion.audit},whiteoakExpansion.checkedAt)]);
+}
+
+async function importGrowwExpansion(db:D1Database){
+ const marker="import:groww-expansion:"+growwExpansion.checkedAt;
+ if(await db.prepare("SELECT key FROM app_documents WHERE key=?").bind(marker).first())return;
+ const funds=growwExpansion.funds as Fund[],comparisons=growwExpansion.comparisons as FullComparison[];
+ for(const c of comparisons)validateFullComparison(c);
+ await batches(db,[...funds.map(f=>fundStatement(db,f)),...comparisons.map(c=>comparisonStatement(db,c))]);
+ const current=parse<Portfolio>(await db.prepare("SELECT payload FROM app_documents WHERE key=?").bind("portfolio:current").first<{payload:string}>());
+ if(current){const all=[...current.funds];for(const f of funds)if(!all.some(old=>old.id===f.id))all.push(f);const checkedAt=[current.checkedAt,growwExpansion.checkedAt].sort().at(-1)!;await db.batch([documentStatement(db,"portfolio:current",{...current,funds:all,checkedAt},checkedAt)]);}
+ await db.batch([documentStatement(db,marker,{funds:funds.length,audit:growwExpansion.audit},growwExpansion.checkedAt)]);
 }
