@@ -11,3 +11,23 @@
 [data-slot=tooltip-content].mf-holder-tooltip{width:max-content;max-width:min(300px,calc(100vw - 32px));padding:4px 12px;background:#fff;color:#43344f;border:1px solid #e8e0ee;border-radius:8px;box-shadow:0 4px 16px #35244314;z-index:70;text-wrap:normal;animation:none}.mf-holder-tooltip ul{margin:0;padding:0;list-style:none;max-height:min(260px,45vh);overflow-y:auto}.mf-holder-tooltip li{padding:7px 0;font-size:12px;font-weight:500;line-height:1.45;white-space:normal;overflow-wrap:anywhere}.mf-holder-tooltip li+li{border-top:1px solid #f0ebf4}.mf-holder-tooltip>svg{display:none}
 .mf-holder-tooltip svg{display:none}
 .mf-allocation-basis{margin:0 0 12px;color:#796983;font-size:11px;line-height:1.6}.mf-allocation-basis strong{font-weight:600;color:#604b70}.mf-column-basis{display:block;margin-top:3px;font-size:9px;font-weight:500;color:#8a7798}
+
+.mf-workspace .mf-coverage .mf-combined-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+}
+.mf-combined-heading .mf-coverage-name {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+.mf-combined-heading .mf-coverage-name p { margin: 0; }
+.mf-combined-heading .mf-combined-selected { justify-content: flex-start; }
+.mf-combined-heading .mf-selected-fund {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.mf-combined-heading .mf-selected-fund button { flex-shrink: 0; }
