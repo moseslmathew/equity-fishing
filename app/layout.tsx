@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./workspace-navigation.css";
+import "./observatory.css";
 
 export const metadata: Metadata = {
   title: "Smallcap Observatory | Mutual fund holdings",
-  description: "Compare small-cap and selected Helios equity funds, their top 60 holdings, full portfolio changes and dated sources.",
+  description: "Explore monthly mutual fund holdings, changes in share counts and foreign investor ownership.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

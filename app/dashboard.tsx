@@ -1,9 +1,9 @@
 "use client";
 import {useEffect,useMemo,useState} from "react";
-import {RotateCw,ChevronDown,ArrowRight,ChartNoAxesCombined,Layers3,Files} from "lucide-react";
+import {RotateCw,ChevronDown,CalendarDays,ChartNoAxesCombined,Layers3,Files} from "lucide-react";
 import "./dashboard-section-cards.css";
 import type {MonthlyPortfolio} from "../lib/monthly";
-import {schemeNames,fundUniverseDescription} from "../lib/fund-catalog";
+import {schemeNames} from "../lib/fund-catalog";
 import FundBrowser from "./fund-browser";
 import SharedHoldings from "./shared-holdings";
 import {sharedCompanyHoldings} from "../lib/fund-search";
@@ -18,7 +18,7 @@ export default function Dashboard(){
   const [data,setData]=useState<MonthlyPortfolio|null>(null),[error,setError]=useState(""),[loading,setLoading]=useState(true),[requestedMonth,setRequestedMonth]=useState("latest");
 
   const [fundSearch,setFundSearch]=useState("");
-  const [activePanel,setActivePanel]=useState<"combined"|"funds"|"shared"|null>(null);
+  const [activePanel,setActivePanel]=useState<"combined"|"funds"|"shared"|null>("combined");
   const panelToggle=(panel:"combined"|"funds"|"shared",open:boolean)=>setActivePanel(current=>open?panel:current===panel?null:current);
   const load=async(month=data?.requestedMonth??"latest")=>{
     setRequestedMonth(month);setLoading(true);setError("");
@@ -29,15 +29,35 @@ export default function Dashboard(){
   if(!data||!shared)return <main className="state"><h1>Equity funds</h1>{loading?<p className="loading-status" role="status"><span className="loading-spinner" aria-hidden="true"/>Loading your funds…</p>:<><p role="alert">{error}</p><button className="button" onClick={()=>void load()}>Try again</button></>}</main>;
   const months=[...new Set([data.calendarMonth,previousMonth(data.calendarMonth),...data.availableMonths])].sort().reverse();
   return <div className="dashboard"><WorkspaceHeader section="funds"/><main className="fund-main"><>
-    <div className="heading overview-heading"><div className="overview-copy"><h1>Equity funds</h1><p>{fundUniverseDescription}</p></div><div className="fund-actionbar"><label className="month-control"><span>Reporting month</span><span className="month-select-shell"><select aria-label="Reporting month" value={requestedMonth} disabled={loading} onChange={e=>void load(e.target.value)}>{months.map(m=><option key={m} value={m}>{monthLabel(m)}</option>)}</select><ChevronDown size={18} aria-hidden="true"/></span></label><AgentResearch/><button className="reload-button" aria-label="Refresh fund holdings" title="Refresh fund holdings" disabled={loading} onClick={()=>void load()}><RotateCw size={18} className={loading?"refresh-spinning":undefined} aria-hidden="true"/><span>Refresh</span></button></div></div>
+    <header className="research-masthead">
+      <div className="orbit-etch" aria-hidden="true" />
+      <div className="masthead-copy">
+        <h1>Mutual fund research</h1>
+        <p>{data.missingFunds.length ? "Monthly equity portfolios" : data.funds.length+" funds with reported holdings"}</p>
+      </div>
+      <div className="masthead-actions">
+        <label className="edition-select"><CalendarDays size={16} aria-hidden="true"/>
+          <select aria-label="Reporting month" value={requestedMonth} disabled={loading} onChange={e=>void load(e.target.value)}>
+            {months.map(m=><option key={m} value={m}>{monthLabel(m)}</option>)}
+          </select><ChevronDown size={14} aria-hidden="true"/>
+        </label>
+        <AgentResearch/>
+        <button className="edition-refresh" aria-label="Refresh fund holdings" title="Refresh fund holdings" disabled={loading} onClick={()=>void load()}><RotateCw size={16} aria-hidden="true"/></button>
+      </div>
+    </header>
     <div className="results-region" aria-busy={loading}>{loading&&<div className="results-loader" role="status"><span className="loading-spinner" aria-hidden="true"/><span>Loading {monthLabel(requestedMonth)} holdings…</span></div>}<div className={loading?"results-content is-loading":"results-content"}>
     {error&&<p className="error-notice" role="alert">{error} Showing the last loaded comparison.</p>}
     {data.missingFunds.length>0&&<details className="fund-coverage" key={data.requestedMonth}><summary><span className="fund-coverage-status"><span className="fund-coverage-dot" aria-hidden="true"/><strong>{data.funds.length}<span> / {data.funds.length+data.missingFunds.length}</span></strong><span>funds available</span></span><span className="fund-coverage-pending">{data.missingFunds.length} pending<ChevronDown size={15} aria-hidden="true"/></span></summary><div className="fund-coverage-details"><p>Awaiting verified {monthLabel(data.requestedMonth)} holdings</p><ul>{data.missingFunds.map(id=><li key={id}>{schemeNames[id]??id}</li>)}</ul><small>Choose an earlier reporting month to view their saved holdings.</small></div></details>}
-    <nav className="portfolio-section-cards" aria-label="Portfolio views">{([
-      {id:"combined",title:"Month-on-month holding changes",description:"Track changes in shares held across funds.",metric:new Set(data.fullComparisons.map(c=>c.fundId)).size+" funds compared",Icon:ChartNoAxesCombined},
-      {id:"funds",title:"Mutual fund holdings",description:"Explore fund allocations or combine portfolios.",metric:data.funds.length+" funds available",Icon:Layers3},
-      {id:"shared",title:"FII changes",description:"Compare quarterly foreign ownership in shared companies.",metric:shared.companies.length+" shared companies",Icon:Files}
-    ] as const).map(({id,title,description,metric,Icon})=><button type="button" key={id} className={"portfolio-view-card "+(activePanel===id?"is-active":"")} aria-expanded={activePanel===id} aria-controls={"portfolio-panel-"+id} onClick={()=>setActivePanel(current=>current===id?null:id)}><span className="portfolio-view-icon"><Icon size={21} aria-hidden="true"/></span><strong>{title}</strong><span className="portfolio-view-description">{description}</span><span className="portfolio-view-footer"><span>{metric}</span><ArrowRight size={16} aria-hidden="true"/></span></button>)}</nav>
+    <nav className="research-views" aria-label="Portfolio views">
+      {([
+        {id:"combined",title:"Month-on-month holding changes",description:"Changes in share counts",Icon:ChartNoAxesCombined},
+        {id:"funds",title:"Mutual fund holdings",description:"Company weights by fund",Icon:Layers3},
+        {id:"shared",title:"FII changes",description:"Foreign ownership by quarter",Icon:Files}
+      ] as const).map(({id,title,description,Icon})=>
+        <button key={id} type="button" aria-expanded={activePanel===id} aria-controls={"portfolio-panel-"+id} onClick={()=>setActivePanel(id)}>
+          <Icon size={20} aria-hidden="true"/><span><strong>{title}</strong><small>{description}</small></span>
+        </button>)}
+    </nav>
     <div className="portfolio-panels">
     <CombinedAnalysis key={data.requestedMonth} comparisons={data.fullComparisons??[]} month={data.requestedMonth} open={activePanel==="combined"} onOpenChange={open=>panelToggle("combined",open)}/>
 
