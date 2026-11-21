@@ -2,6 +2,7 @@ import {readCurrentPortfolio,savePortfolio} from "../../../lib/database-store";
 import { env } from "cloudflare:workers";
 import performanceExpansion from "../../../data/performance-fund-expansion.json";
 import growwExpansion from "../../../data/groww-expansion.json";
+import shortlistExpansion from "../../../data/shortlist-expansion.json";
 import whiteoakExpansion from "../../../data/whiteoak-expansion.json";
 import expansion from "../../../data/fund-expansion-2026-10.json";
 import seed from "../../../data/seed.json";
@@ -15,7 +16,7 @@ const key = "portfolio/current.json";
 const headers = { "Cache-Control": "no-store" };
 // Add newly selected schemes without replacing any existing saved fund history.
 function expandedSnapshot(current:Portfolio):Portfolio {
-  const baseline={...seed,funds:[...seed.funds,...expansion.funds.filter(f=>f.portfolioDate==="2026-09-30"),...performanceExpansion.funds,...whiteoakExpansion.funds,...growwExpansion.funds]} as Portfolio,added=baseline.funds.some(base=>!current.funds.some(f=>f.id===base.id));
+  const baseline={...seed,funds:[...seed.funds,...expansion.funds.filter(f=>f.portfolioDate==="2026-09-30"),...performanceExpansion.funds,...whiteoakExpansion.funds,...growwExpansion.funds,...shortlistExpansion.funds]} as Portfolio,added=baseline.funds.some(base=>!current.funds.some(f=>f.id===base.id));
   return {...current,
     checkedAt:added?[current.checkedAt,...baseline.funds.filter(base=>!current.funds.some(f=>f.id===base.id)).map(f=>f.lastCheckedAt)].sort().at(-1)!:current.checkedAt,
     summary:added?baseline.summary:current.summary,
