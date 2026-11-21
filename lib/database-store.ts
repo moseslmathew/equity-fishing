@@ -3,6 +3,7 @@ import performanceExpansion from "../data/performance-fund-expansion.json";
 import octoberRecheck from "../data/october-recheck.json";
 import growwExpansion from "../data/groww-expansion.json";
 import shortlistExpansion from "../data/shortlist-expansion.json";
+import requestedFunds from "../data/requested-funds.json";
 import whiteoakExpansion from "../data/whiteoak-expansion.json";
 import expansion from "../data/fund-expansion-2026-10.json";
 import seed from "../data/seed.json";
@@ -43,6 +44,7 @@ async function initializeDatabase(){
  await importWhiteoakExpansion(db);
  await importAdditionalFunds(db, "groww-expansion", growwExpansion);
  await importAdditionalFunds(db, "shortlist-expansion", shortlistExpansion);
+ await importAdditionalFunds(db, "requested-funds", requestedFunds);
 }
 async function importOctober(db:D1Database){
  const marker="import:october-2026:"+october.checkedAt;
