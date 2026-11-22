@@ -18,9 +18,15 @@
 .price-chart-stats {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;background:#f7f4fa;padding:12px;border-radius:10px}
 .price-chart-stats dt {color:#655a73;font-size:10px;text-transform:uppercase;letter-spacing:.06em}
 .price-chart-stats dd {margin:4px 0 0;font-size:13px;font-weight:650;font-variant-numeric:tabular-nums}
-.price-chart-tooltip {background:white;border:1px solid #e5dcef;border-radius:10px;padding:10px;box-shadow:0 5px 20px #23142a14}
-.price-chart-tooltip .price-chart-stats {margin-top:6px}
-@media(max-width:600px){.price-chart-tooltip {max-width:245px}}
+.price-chart-range-summary {display:flex;align-items:center;flex-wrap:wrap;gap:7px 14px}
+.price-chart-period-change strong {margin-inline-start:4px;padding:3px 6px;border-radius:5px;font-variant-numeric:tabular-nums}
+.price-chart-period-change strong[data-direction="up"] {background:#e9f6ef;color:#12634d}
+.price-chart-period-change strong[data-direction="down"] {background:#fdecef;color:#a62b42}
+.price-chart-tooltip {background:white;border:1px solid #e5dcef;border-radius:7px;padding:6px 8px;box-shadow:0 3px 12px #23142a14;font-size:11px;line-height:1.35}
+.price-chart-tooltip time {display:block;font-weight:700;margin-bottom:4px}
+.price-chart-tooltip dl {display:grid;grid-template-columns:auto auto;gap:1px 7px;margin:0}
+.price-chart-tooltip dt {color:#655a73}
+.price-chart-tooltip dd {margin:0;text-align:right;font-weight:650;font-variant-numeric:tabular-nums}
 .price-chart-extreme {pointer-events:none}
 .price-chart-extreme text {font-size:12px;font-weight:700;fill:#211b30;paint-order:stroke;stroke:white;stroke-width:3px;stroke-linejoin:round}
 .price-chart-toolbar [role="group"] {flex-wrap:wrap}

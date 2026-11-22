@@ -10,6 +10,7 @@ import "./price-chart.css";
 const ranges = {"5D":1,"1M":1,"3M":3,"6M":6,"1Y":12,"3Y":36,"5Y":60,"All":60} as const;
 type Range = keyof typeof ranges;
 const price = new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR"});
+const changeFormat = new Intl.NumberFormat("en-IN",{style:"percent",signDisplay:"exceptZero",minimumFractionDigits:2,maximumFractionDigits:2});
 const shares = new Intl.NumberFormat("en-IN");
 const shortDate = new Intl.DateTimeFormat("en-IN",{day:"numeric",month:"short",timeZone:"UTC"});
 const yearDate = new Intl.DateTimeFormat("en-IN",{month:"short",year:"2-digit",timeZone:"UTC"});
@@ -71,7 +72,9 @@ function History({symbol,series}:{symbol:string;series:string}) {
     }
   }
   const days=range==="5D"?saved?.slice(-5):range==="All"||!cutoff?saved:saved?.filter(day=>at(day.date)>=cutoff);
+  const first=days?.[0];
   const latest=days?.at(-1);
+  const periodChange=first&&latest&&first.date!==latest.date?latest.close/first.close-1:null;
   const highDay=days?.length?days.reduce((highest,day)=>day.high>=highest.high?day:highest):undefined;
   const lowDay=days?.length?days.reduce((lowest,day)=>day.low<=lowest.low?day:lowest):undefined;
   const high=highDay?.high??0;
@@ -92,7 +95,14 @@ function History({symbol,series}:{symbol:string;series:string}) {
   return <>
     <div className="price-chart-toolbar"><div role="group" aria-label="Price history range">
       {(Object.keys(ranges) as Range[]).map(key=><button key={key} aria-pressed={key===range} onClick={()=>{if(key!==range){setError("");setRange(key);}}}>{key}</button>)}
-    </div>{latest&&<p>{range==="1Y"?"52-week high":"High"} <strong>{price.format(high)}</strong> <span>{range==="1Y"?"52-week low":"Low"} <strong>{price.format(low)}</strong></span></p>}</div>
+    </div>{latest&&<div className="price-chart-range-summary">
+      <p className="price-chart-period-change">
+        Change <strong data-direction={periodChange===null||periodChange===0?"flat":periodChange>0?"up":"down"}
+          title={first&&periodChange!==null?`Close to close · ${fullDate.format(at(first.date))} to ${fullDate.format(at(latest.date))}`:undefined}>
+          {periodChange===null?"—":changeFormat.format(periodChange)}
+        </strong>
+      </p>
+      <p>{range==="1Y"?"52-week high":"High"} <strong>{price.format(high)}</strong> <span>{range==="1Y"?"52-week low":"Low"} <strong>{price.format(low)}</strong></span></p></div>}</div>
     {!latest?<div className="price-chart-state" role="status">{saved?"No trading sessions available for this range.":error||"Loading NSE price history…"}{error&&<button onClick={()=>{setError("");setRetry(value=>value+1);}}>Try again</button>}</div>:<>
       <div className="price-chart-plot">
         <ResponsiveContainer width="100%" height="100%">
@@ -105,7 +115,11 @@ function History({symbol,series}:{symbol:string;series:string}) {
             <ReferenceLine yAxisId="price" y={low-padding/2} stroke="#eee7f4"/>
             <Tooltip content={({active,payload})=>{
               const day=payload?.[0]?.payload as TradingDay|undefined;
-              return active&&day?<div className="price-chart-tooltip"><strong>{fullDate.format(at(day.date))}</strong><SessionStats day={day}/></div>:null;
+              return active&&day&&day.close!=null?<div className="price-chart-tooltip">
+                <time dateTime={day.date}>{fullDate.format(at(day.date))}</time>
+                <dl><dt>Close</dt><dd>{price.format(day.close)}</dd>
+                  <dt>Volume</dt><dd>{shares.format(day.volume)}</dd></dl>
+              </div>:null;
             }}/>
             <Area yAxisId="price" dataKey="close" stroke="#098766" strokeWidth={2.4} fill="url(#price-history-fill)" baseValue={low-padding/2} dot={days?.length===1} activeDot={{r:4}} isAnimationActive={false}/>
             <Bar yAxisId="volume" dataKey="volume" maxBarSize={18} radius={[2,2,0,0]} isAnimationActive={false}>
