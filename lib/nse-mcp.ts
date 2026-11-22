@@ -27,12 +27,13 @@ export async function readNseRpc(response:Response,id:number):Promise<RecordValu
   }finally{await reader.cancel().catch(()=>{});}
 }
 
-export function unwrapNseResult(value:unknown){
+export function unwrapNseResult(value:unknown,historySymbol?:unknown){
   const result=object(value);if(result.isError===true)throw new Error("NSE could not return data for this request.");
   const structured=result.structuredContent;
   const content=Array.isArray(result.content)?result.content:[];
   const text=content.map(object).filter(part=>part.type==="text"&&typeof part.text==="string").map(part=>part.text).join("\n");
   const payload=object(structured??(text?JSON.parse(text):null));
+  if(typeof historySymbol==="string" && payload.error==="Symbol not found: "+historySymbol) return {symbol:historySymbol,data:[]};
   if(payload.error||payload.isError===true)throw new Error("NSE reports that this data is unavailable.");
   return payload;
 }
@@ -52,7 +53,7 @@ export async function callNse(service:Service,name:string,args:RecordValue,fetch
     const notification=await post({jsonrpc:"2.0",method:"notifications/initialized"});await notification.body?.cancel();if(!notification.ok)throw new Error("NSE connection could not be confirmed.");
     const result=await readNseRpc(await post({jsonrpc:"2.0",id:2,method:"tools/call",params:{name,arguments:args}}),2);
     if(result.error)throw new Error("NSE could not complete the data request.");
-    return unwrapNseResult(result.result);
+    return unwrapNseResult(result.result,name==="get_stock_history"?args.symbol:undefined);
   }finally{
     clearTimeout(timer);
     if(session)try{const closed=await fetcher(nseSources[service],{method:"DELETE",headers:headers(),signal:AbortSignal.timeout(1000),redirect:"manual"});await closed.body?.cancel();}catch{/* Cleanup is best effort; no retry of the data request. */}

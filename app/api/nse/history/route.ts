@@ -10,12 +10,13 @@ export async function GET(request: Request) {
   const symbol = params.get("symbol") ?? "";
   const series = params.get("series") ?? "EQ";
   const months = Number(params.get("months") ?? "1");
+  const offset = Number(params.get("offset") ?? "0");
   const headers = {"Cache-Control":"private, no-store"};
-  if (!nseSecurity(symbol) || ![1,3,6,12].includes(months) || !["EQ","BE","BZ","SM","ST"].includes(series)) {
+  if (!nseSecurity(symbol) || ![1,3,6,12].includes(months) || ![0,11,22,33,44,55].includes(offset) || !["EQ","BE","BZ","SM","ST"].includes(series)) {
     return Response.json({error:"Invalid NSE symbol, series or range."},{status:400,headers});
   }
   try {
-    return Response.json({days:await nsePriceHistory(symbol,series,months)},{headers});
+    return Response.json({days:await nsePriceHistory(symbol,series,months,offset)},{headers});
   } catch {
     return Response.json({error:"NSE price history is temporarily unavailable."},{status:503,headers});
   }

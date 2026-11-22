@@ -12,9 +12,16 @@ export type TradingDay = {
 const isoDay = /^\d{4}-\d{2}-\d{2}$/;
 const equitySeries = ["EQ", "BE", "BZ", "SM", "ST"];
 
-export async function nsePriceHistory(symbol: string, series: string, months: number) {
+export async function nsePriceHistory(symbol: string, series: string, months: number, offset = 0) {
   const days = new Map<string, TradingDay>();
-  let endDate = "today";
+  const today = new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
+  const end = new Date(today+"T00:00:00Z");
+  const dayOfMonth = end.getUTCDate();
+  end.setUTCDate(1);
+  end.setUTCMonth(end.getUTCMonth()-offset);
+  const lastDay = new Date(Date.UTC(end.getUTCFullYear(),end.getUTCMonth()+1,0)).getUTCDate();
+  end.setUTCDate(Math.min(dayOfMonth,lastDay));
+  let endDate = offset ? end.toISOString().slice(0,10) : "today";
   for (let remaining = months; remaining > 0; remaining -= 3) {
     const result = await callNse("history", "get_stock_history", {
       symbol, months: Math.min(remaining, 3), endDate,
