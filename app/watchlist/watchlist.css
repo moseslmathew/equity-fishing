@@ -8,3 +8,23 @@
 .wl th:first-child,.wl td:nth-child(5),.wl th:nth-child(5){text-align:left}.wl thead th{background:#f7f6f9;color:var(--obs-muted);font-size:12px}.wl tbody th{font-weight:600}.wl tbody a:hover{text-decoration:underline}
 .wl small{display:block;color:var(--obs-muted);font-size:11px;font-weight:400;margin-top:4px}.wl-up{color:#17684d}.wl-down{color:#a23345}
 .wl-matches{border-top:1px solid var(--obs-line);max-height:310px;overflow:auto}.wl-matches button{display:flex;align-items:center;justify-content:space-between;width:100%;padding:11px 20px;text-align:left}.wl-matches button:hover{background:#f6f3f8}.wl-matches p{padding:16px}.wl-empty{text-align:center;border-top:1px solid var(--obs-line);padding:48px 12px}.wl-empty svg{margin:auto;color:#806e93}.wl-empty h2{font-size:20px;margin:10px 0 5px}.wl-empty p{color:var(--obs-muted)}
+
+.wl-scroll {position:relative;border:1px solid #e3dcea;border-radius:12px;margin:0 18px 18px}
+.wl table {min-width:700px}
+.wl thead th {background:#f4f1f8;border-top:0;color:#655773}
+.wl thead button {display:inline-flex;align-items:center;gap:6px;font-weight:650;color:inherit}
+.wl th[aria-sort=ascending],.wl th[aria-sort=descending] {color:#463356}
+.wl tbody td,.wl tbody th {padding-block:18px}
+.wl tbody tr:hover {background:#fbfafc}
+.wl tbody th:first-child {white-space:normal;min-width:155px}
+.wl-company,.wl-price {font-size:15px;font-weight:650}
+.wl .wl-move {display:inline-flex;align-items:center;gap:5px;padding:3px 8px;border-radius:6px;font-weight:650}
+.wl-move.up {background:#e7f5eb;color:#17683e}
+.wl-move.down {background:#fcecee;color:#aa3242}
+.wl-move.flat {background:#f1eff3;color:#635c69}
+.wl-volume {color:#655f70}
+.wl-actions {display:flex;justify-content:flex-end;gap:2px}
+.wl-actions a,.wl-actions button {display:grid;place-items:center;width:32px;height:32px;border-radius:6px;color:#756782}
+.wl-actions :is(a,button):hover {background:#f0eaf5;color:#48335b}
+.wl .wl-actions button:hover {color:#aa3242;background:#fcecee}
+@media(max-width:700px){.wl-scroll{margin:0 8px 10px}.wl td,.wl th{padding-inline:12px}.wl-tools{padding:14px}}
