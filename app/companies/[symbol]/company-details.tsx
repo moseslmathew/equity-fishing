@@ -2,6 +2,7 @@
 import GlobalCompanySearch from "../../global-company-search";
 import {useCallback,useEffect,useRef,useState} from "react";
 import {ArrowLeft,ArrowUpRight,RefreshCw,TrendingUp} from "lucide-react";
+import PriceChart from "./price-chart";
 import VolumeAnalysis from "./volume-analysis";
 import type {NseSnapshot} from "../../../lib/nse-mcp";
 const amount=(n:number|null|undefined)=>n==null?"Unavailable":"₹"+n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});
@@ -34,7 +35,7 @@ export default function CompanyDetails({security}:{security:{symbol:string;name:
  const today=new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
  return <div className="company-page"><header className="site-header"><a className="company-brand" href="/">Smallcap <span>OBSERVATORY</span></a><GlobalCompanySearch/><a className="company-back" href="/"><ArrowLeft size={15}/>Dashboard</a></header><main className="company-main">
  <a className="company-back company-back-top" href="/"><ArrowLeft size={15}/>Back to funds</a>
- <div className="company-title-row"><div><p className="company-eyebrow">NSE · {security.symbol}{q?" · "+q.series:""}</p><h1>{security.name}</h1><p className="company-isin">ISIN {security.isin}</p></div><div className="company-actions"><button disabled={loading} onClick={()=>{void load();setVolumeRefresh(n=>n+1);}}><RefreshCw size={15} className={loading?"company-spinning":""}/>{loading?"Loading":"Refresh"}</button><a href={"https://www.nseindia.com/get-quotes/equity?symbol="+encodeURIComponent(security.symbol)} target="_blank" rel="noopener noreferrer">View on NSE<ArrowUpRight size={15}/><span className="sr-only"> (new tab)</span></a></div></div>
+ <div className="company-title-row"><div><p className="company-eyebrow">NSE · {security.symbol}{q?" · "+q.series:""}</p><h1>{security.name}</h1><p className="company-isin">ISIN {security.isin}</p></div><div className="company-actions"><PriceChart symbol={security.symbol} name={security.name} series={q?.series??"EQ"}/><button disabled={loading} onClick={()=>{void load();setVolumeRefresh(n=>n+1);}}><RefreshCw size={15} className={loading?"company-spinning":""}/>{loading?"Loading":"Refresh"}</button><a href={"https://www.nseindia.com/get-quotes/equity?symbol="+encodeURIComponent(security.symbol)} target="_blank" rel="noopener noreferrer">View on NSE<ArrowUpRight size={15}/><span className="sr-only"> (new tab)</span></a></div></div>
  {error&&<div className="company-notice" role="alert">{error}<button onClick={()=>void load()}>Try again</button></div>}
  <div aria-busy={loading} className={loading?"company-content is-loading":"company-content"}>
  {loading&&!snapshot&&<div className="company-loading" role="status"><RefreshCw size={20} className="company-spinning"/>Fetching market data from NSE…</div>}

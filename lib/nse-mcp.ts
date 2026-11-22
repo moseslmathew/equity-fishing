@@ -38,7 +38,7 @@ export function unwrapNseResult(value:unknown){
 }
 
 export async function callNse(service:Service,name:string,args:RecordValue,fetcher:typeof fetch=(input,init)=>globalThis.fetch(input,init)){
-  const allowed=service==="live"?["cm_get_stock_quote"]:["search_symbols","get_bulk_quote"];
+  const allowed=service==="live"?["cm_get_stock_quote"]:["search_symbols","get_bulk_quote","get_stock_history"];
   if(!allowed.includes(name))throw new Error("Unsupported NSE data request.");
   // This budget covers initialization, notification and the quote call together.
   // NSE can take over 14 seconds for that sequence even when all steps succeed.
