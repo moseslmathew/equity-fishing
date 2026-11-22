@@ -21,3 +21,5 @@
 .price-chart-tooltip {background:white;border:1px solid #e5dcef;border-radius:10px;padding:10px;box-shadow:0 5px 20px #23142a14}
 .price-chart-tooltip .price-chart-stats {margin-top:6px}
 @media(max-width:600px){.price-chart-stats,.price-chart-tooltip .price-chart-stats {grid-template-columns:repeat(3,minmax(0,1fr))}.price-chart-tooltip {max-width:245px}}
+.price-chart-extreme {pointer-events:none}
+.price-chart-extreme text {font-size:12px;font-weight:700;fill:#211b30;paint-order:stroke;stroke:white;stroke-width:3px;stroke-linejoin:round}

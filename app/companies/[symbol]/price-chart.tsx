@@ -2,7 +2,7 @@
 
 import {useEffect,useState} from "react";
 import {ChartNoAxesCombined} from "lucide-react";
-import {Area,Bar,CartesianGrid,Cell,ComposedChart,ReferenceLine,ResponsiveContainer,Tooltip,XAxis,YAxis} from "recharts";
+import {Area,Bar,CartesianGrid,Cell,ComposedChart,ReferenceDot,ReferenceLine,ResponsiveContainer,Tooltip,XAxis,YAxis} from "recharts";
 import {Dialog,DialogContent,DialogDescription,DialogHeader,DialogTitle,DialogTrigger} from "../../../components/ui/dialog";
 import type {TradingDay} from "../../../lib/nse-price-history";
 import "./price-chart.css";
@@ -53,10 +53,15 @@ function History({symbol,series}:{symbol:string;series:string}) {
     return ()=>controller.abort();
   },[months,retry,saved,series,symbol]);
 
-  const days=range==="5D"?saved?.slice(-5):saved;
+  const lastSession=saved?.at(-1);
+  const cutoff=lastSession?at(lastSession.date):null;
+  if(cutoff)cutoff.setUTCDate(cutoff.getUTCDate()-52*7);
+  const days=range==="5D"?saved?.slice(-5):range==="1Y"&&cutoff?saved?.filter(day=>at(day.date)>=cutoff):saved;
   const latest=days?.at(-1);
-  const high=days?.length?Math.max(...days.map(day=>day.high)):0;
-  const low=days?.length?Math.min(...days.map(day=>day.low)):0;
+  const highDay=days?.length?days.reduce((highest,day)=>day.high>=highest.high?day:highest):undefined;
+  const lowDay=days?.length?days.reduce((lowest,day)=>day.low<=lowest.low?day:lowest):undefined;
+  const high=highDay?.high??0;
+  const low=lowDay?.low??0;
   const padding=Math.max((high-low)*0.08,high*0.005);
   const chartBottom=low-padding-Math.max(high-low,padding)*0.42;
   const volumeMax=days?.length?Math.max(1,...days.map(day=>day.volume)):1;
@@ -64,11 +69,11 @@ function History({symbol,series}:{symbol:string;series:string}) {
   return <>
     <div className="price-chart-toolbar"><div role="group" aria-label="Price history range">
       {(Object.keys(ranges) as Range[]).map(key=><button key={key} aria-pressed={key===range} onClick={()=>{if(key!==range){setError("");setRange(key);}}}>{key}</button>)}
-    </div>{latest&&<p>High <strong>{price.format(high)}</strong> <span>Low <strong>{price.format(low)}</strong></span></p>}</div>
+    </div>{latest&&<p>{range==="1Y"?"52-week high":"High"} <strong>{price.format(high)}</strong> <span>{range==="1Y"?"52-week low":"Low"} <strong>{price.format(low)}</strong></span></p>}</div>
     {!latest?<div className="price-chart-state" role="status">{saved?"No trading sessions available for this range.":error||"Loading NSE price history…"}{error&&<button onClick={()=>{setError("");setRetry(value=>value+1);}}>Try again</button>}</div>:<>
       <div className="price-chart-plot">
         <ResponsiveContainer width="100%" height="100%">
-          <ComposedChart data={days} margin={{top:12,right:4,left:4,bottom:0}}>
+          <ComposedChart data={days} margin={{top:26,right:4,left:12,bottom:16}}>
             <defs><linearGradient id="price-history-fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stopColor="#17a77e" stopOpacity={0.26}/><stop offset="100%" stopColor="#17a77e" stopOpacity={0}/></linearGradient></defs>
             <CartesianGrid vertical={false} strokeDasharray="4 5" stroke="#e8e1f1"/>
             <XAxis dataKey="date" axisLine={false} tickLine={false} minTickGap={34} tickFormatter={date=>shortDate.format(at(date))}/>
@@ -83,6 +88,20 @@ function History({symbol,series}:{symbol:string;series:string}) {
             <Bar yAxisId="volume" dataKey="volume" maxBarSize={18} radius={[2,2,0,0]} isAnimationActive={false}>
               {days?.map((day,index)=><Cell key={day.date} fill={day.close>=(days[index-1]?.close??day.open)?"#80cdb4":"#eaa09f"}/>)}
             </Bar>
+            {highDay&&lowDay&&high>low&&([
+              {kind:"high",day:highDay,value:high,color:"#098766",offset:-11},
+              {kind:"low",day:lowDay,value:low,color:"#d63848",offset:20},
+            ] as const).map(({kind,day,value,color,offset})=>{
+              const position=days!.indexOf(day)/Math.max(1,days!.length-1);
+              const anchor=position<=0.25?"start":position>=0.75?"end":"middle";
+              return <ReferenceDot key={kind}
+              x={day.date} y={value} yAxisId="price" r={5} fill={color} stroke="white" strokeWidth={2}
+              shape={({cx,cy})=><g className="price-chart-extreme" role="img"
+                aria-label={(range==="1Y"?"52-week ":"")+kind+" "+price.format(value)+" on "+fullDate.format(at(day.date))}>
+                <circle cx={cx} cy={cy} r={5} fill={color} stroke="white" strokeWidth={2}/>
+                <text x={cx} y={(cy??0)+offset} textAnchor={anchor}>{price.format(value)}</text>
+              </g>}
+            />;})}
           </ComposedChart>
         </ResponsiveContainer>
       </div>
